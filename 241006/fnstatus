@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Funktioners statuskod
+
+minfunktion() {
+    if test "$1" = "bra"; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+if minfunktion bra; then
+    echo "Det gick bra!"
+else
+    echo "Det gick INTE bra!"
+fi

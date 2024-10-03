@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Command substitution
+
+# Fler än ett kommando kan finnas inom en command substitution
+
+X="$(grep o bilmarken.txt | tr 'd' 'Y')"
+
+echo "bilmärken med o i namnet: $X"
+
+# tr byter ut radmatningstecken mot mellanslag
+Y="$(grep o bilmarken.txt | tr $'\n' ' ')"
+
+echo "bilmärken med o i namnet: $Y"

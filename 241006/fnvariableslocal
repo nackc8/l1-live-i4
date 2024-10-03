@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Funktioner och lokala variabler
+
+greet() {
+    local namn="$1"
+    echo "Hej $namn"
+}
+
+bye() {
+    local namn
+    namn="$1"
+    echo "Hejdå $namn"
+}
+
+echo "namn0: $namn"
+namn="Gunnar"
+echo "namn1: $namn"
+greet Ove
+echo "namn2: $namn"
+bye Ulla
+echo "namn3: $namn"

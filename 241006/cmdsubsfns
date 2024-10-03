@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# Command substitution med funktioner.
+
+# Funktion som "returnerar" en modifierad sträng.
+ingautropstecken() {
+    local text="$1"
+
+    if [ -z "$text" ]; then
+        echo "Ingen tom sträng!" >&2
+        return 1
+    fi
+
+    echo "$text" | tr -d '!'
+}
+
+resultat1="$(ingautropstecken "Köp!!!")"
+echo "Modifierat värde 1: $resultat1"
+resultat2="$(ingautropstecken "")"
+echo "Modifierat värde 2: $resultat2"
+resultat3="$(ingautropstecken "" 2>&1)"
+echo "Modifierat värde 3: $resultat3"

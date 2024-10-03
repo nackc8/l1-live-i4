@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Komplicerade brace expansions
+
+# Nestlade expansioner
+
+# Fungerar inte: echo {a..d,2,,hej,hopp}
+
+# Nedan fungerar eftersom serien a..d är ensam i en nästlad brace expansion.
+echo {{a..d},2,hej,hopp}
+
+# Binära tal i en byte
+echo {0,1}{0,1}{0,1}{0,1}{0,1}{0,1}{0,1}{0,1}
