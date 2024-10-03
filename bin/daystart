@@ -1,0 +1,17 @@
+#!/bin/bash
+
+datepart="$(date +"%y%m%d")"
+
+git stash
+
+git fetch
+
+if ! git checkout "$datepart" 2>/dev/null; then
+	cat <<-eom | tr -d $'\n' | fold -s -w 80
+		Dagens branch verkar inte skapad och pushad ännu. Testa igen
+		om en stund!
+	eom
+fi
+echo
+
+git stash pop

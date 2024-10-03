@@ -1,0 +1,47 @@
+#!/bin/bash
+
+[ -e /tmp/.autocommit ] && exit
+
+datepart="$(date +"%y%m%d")"
+
+echo -n "autocommit: "
+
+tick=5
+
+while true; do
+    [[ $(git branch --show-current) == "$datepart" ]] && break
+    [[ "$1" != "--wait-branch" ]] && exit
+    echo -n "w"
+    sleep $tick
+done
+
+touch /tmp/.autocommit
+trap "rm /tmp/.autocommit" EXIT
+
+minWaitSec=30
+maxWaitSec=120
+
+while true; do
+    echo -n "."
+    lastCommitSeconds="$(date +%s)"
+    minElapsedSeconds="$lastCommitSeconds"
+    while read -r f; do
+        lastModificationSeconds="$(date -r "$f" +%s)"
+        currentSeconds="$(date +%s)"
+        ((elapsedSeconds = currentSeconds - lastModificationSeconds))
+        ((minElapsedSeconds = minElapsedSeconds > elapsedSeconds ? elapsedSeconds : minElapsedSeconds))
+    done < <(git status --porcelain | cut -c4-)
+
+    if [[ -n "$(git status --porcelain)" ]]; then
+        currentSeconds="$(date +%s)"
+        ((secondsSinceCommit = currentSeconds - lastCommitSeconds))
+        if ((secondsSinceCommit > maxWaitSec || minElapsedSeconds > minWaitSec)); then
+            echo
+            git add .
+            git commit -m "autocommit $currentSeconds"
+            git push
+            echo -n "autocommit: "
+        fi
+    fi
+    sleep $tick
+done
