@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Funktioner och normala (globala) variabler
+
+greet() {
+    namn="$1"
+    echo "Hej $namn"
+}
+
+bye() {
+    namn="$1"
+    echo "Hejdå $namn"
+}
+
+echo "namn1: $namn"
+greet Ove
+echo "namn2: $namn"
+bye Ulla
+echo "namn3: $namn"

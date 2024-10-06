@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# Brace expansions för sekvenser och serier
+
+# Sekvens och serie-expansioner med siffror i två och tre delar
+
+echo 'Noll till tjugo:' {0..20}
+
+echo 'Med lika breda ord:' {00..20}
+
+echo 'Var femte från noll till tvåhundra med lika breda ord:' {00..200..5}
+
+echo 'Tjugo till noll:' {20..0}
+
+echo 'Var femte från tvåhundra till noll med lika breda ord:' {200..00..-5}
+
+# Användning av teckenintervall med bokstäver i två och tre delar
+echo 'a till z: ' {a..z}
+
+echo 'Varannan bokstav inom a till z: ' {a..z..2}
+
+echo 'z till a: ' {z..a}
+
+echo 'Varannan bokstav inom z till a: ' {z..a..-2}
+
+# Skapar mappar för varje vecka i ett år
+mkdir vecka{1..52}
+
+# Mappar för tio år med undermappar för månader
+mkdir -p {2024..2034}/{jan,feb,mar,apr,maj,jun,jul,aug,sep,okt,nov,dev}

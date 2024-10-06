@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Brace expansions för att kopiera filer med kortare kommandorader
+
+# Kortare och mer lättläst syntax för kopiering av filer
+
+cp /etc/{fstab,fstab.bak}
+
+# Ännu kortare syntax för kopieringen till en bak(up)-fil
+
+cp /etc/fstab{,.bak}

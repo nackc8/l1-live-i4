@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Enkel brace expansion med komma
+
+echo {a,b,c}
+
+echo 'Hej '{Mohammed,Siri,My,Gunnar}'!'
+
+echo {Erik,Jan,Johan,Karl,Lar,Nil,Ol,Per}sson
+
+echo let{ting,hargic,tuces}
+
+echo ma{,ma}
+
+echo {ma,}x
+
+echo {,ma}x

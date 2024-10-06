@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Funktioner och argument
+
+minfunktion() {
+    echo "Antal argument: $#"
+
+    for arg; do
+        echo "arg: $arg"
+    done
+}
