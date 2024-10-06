@@ -98,7 +98,7 @@ lession="lektion${lession_number}"
 mkdir -p "$datepart/recordings"
 mkdir -p "$class"
 
-[ ! -e "$class/$lession" ] && ln -s "$PWD/$datepart" "$class/$lession"
+[ ! -e "$class/$lession" ] && ln -rs "$datepart" "$class/$lession"
 
 cd "$datepart" || true
 
