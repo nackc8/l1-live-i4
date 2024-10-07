@@ -139,4 +139,29 @@ Script started on 2024-10-07 11:00:03+02:00 [TERM="xterm-256color" TTY="/dev/pts
 [7m Manual page bash(1) line 2016 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     of range expressions, where [1m[a-d][0m is  equivalent  to  [1m[abcd][0m,[m
 [7m Manual page bash(1) line 2017 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     set  value  of  the [1mLC_ALL[0m shell variable to [1mC[0m, or enable the[m
 [7m Manual page bash(1) line 2018 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     [1mglobasciiranges[0m shell option.  A [1m-[0m may be matched by  includ‐[m
-[7m Manual page bash(1) line 2019 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[
+[7m Manual page bash(1) line 2019 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     ing it as the first or last character in the set.  A [1m][0m may be[m
+[7m Manual page bash(1) line 2020 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     matched by including it as the first character in the set.[m
+[7m Manual page bash(1) line 2021 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                     [1mglobstar[0m shell option is enabled, and [1m*[0m is used in a pathname[m
+[21;1H[K[7m Manual page bash(1) line 2020 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [1m*[0m      Matches  any  string,  including  the  null string.  When the[m
+[21;1H[K[7m Manual page bash(1) line 2019 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[21;1H[K[7m Manual page bash(1) line 2018 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The special pattern characters have the following meanings:[m
+[21;1H[K[7m Manual page bash(1) line 2017 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[21;1H[K[7m Manual page bash(1) line 2016 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     of range expressions, where [1m[a-d][0m is  equivalent  to  [1m[abcd][0m,[m
+[7m Manual page bash(1) line 2017 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     set  value  of  the [1mLC_ALL[0m shell variable to [1mC[0m, or enable the[m
+[7m Manual page bash(1) line 2018 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     [1mglobasciiranges[0m shell option.  A [1m-[0m may be matched by  includ‐[m
+[7m Manual page bash(1) line 2019 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     ing it as the first or last character in the set.  A [1m][0m may be[m
+[7m Manual page bash(1) line 2020 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     matched by including it as the first character in the set.[m
+[7m Manual page bash(1) line 2021 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page bash(1) line 2022 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     Within [1m[[0m and [1m][0m, [4mcharacter[24m [4mclasses[24m can be specified using  the[m
+[7m Manual page bash(1) line 2023 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                     syntax [1m[:[0m[4mclass[24m[1m:][0m, where [4mclass[24m is one of the following classes[m
+[7m Manual page bash(1) line 2024 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007[0m [90m241007[36m [33m1m10s[0m 
+[35m❯[0m ls
+[?2004lglobcharset	  globwildcard	test   test3
+globquestionmark  recordings	test2  testscript
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [0m
+[35m❯[0m exit
+[?2004lexit
+
+Script done on 2024-10-07 11:01:26+02:00 [COMMAND_EXIT_CODE="0"]
