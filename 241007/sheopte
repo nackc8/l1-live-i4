@@ -16,3 +16,5 @@ if false; then
 fi
 false # här avbryts skriptet
 echo "rad2"
+
+# Vid anrop: bash -x ./sheopte
