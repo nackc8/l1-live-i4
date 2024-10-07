@@ -11,3 +11,8 @@ rm tempfil
 # Med process substitution
 
 cat <(seq 1 10)
+
+mkdir kat{a,b}
+touch kat{a,b}/{1..10}
+rm kata/{5,8,9}
+rm katb/{1..3}
