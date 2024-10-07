@@ -2,6 +2,14 @@
 
 # Arithmetic loop
 
+# start: x = 10
+# villkor: x < 30
+# efter varje loop: x = x + 3
+
+for ((x = 10; x < 30; x = x + 3)); do
+    echo "x: $x"
+done
+
 for ((x = 10; x < 30; x++)); do
     echo "x: $x"
 done
