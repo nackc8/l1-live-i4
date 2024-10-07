@@ -1,0 +1,137 @@
+Script started on 2024-10-07 10:14:18+02:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="68" LINES="10"]
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m who[Kile tur[K[Krue; do sleep 5l [K[K; git pull; done ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[36m [0m
+[31m❯[0m toi[Kuch {}a}l}f}a},}b}e}t}a},}g}a}m}m}a}[C{1..5}[1P..5}a..5}[C[C[C[1P}z}[C
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfal  alfaw  betah  betas   gammad  gammao  gammaz
+alfab  alfam  alfax  betai  betat   gammae  gammap  globwildcard
+alfac  alfan  alfay  betaj  betau   gammaf  gammaq  recordings
+alfad  alfao  alfaz  betak  betav   gammag  gammar  testscript
+alfae  alfap  betaa  betal  betaw   gammah  gammas
+alfaf  alfaq  betab  betam  betax   gammai  gammat
+alfag  alfar  betac  betan  betay   gammaj  gammau
+alfah  alfas  betad  betao  betaz   gammak  gammav
+alfai  alfat  betae  betap  gammaa  gammal  gammaw
+alfaj  alfau  betaf  betaq  gammab  gammam  gammax
+alfak  alfav  betag  betar  gammac  gamman  gammay
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m rm [K[K[Ktouch {alfa,beta,gamma}{a..z}[C[Cexit[K[C[Ctouch {alfa,beta,gamma}{a..z}[C[C[C[C[C[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}r {alfa,beta,gamma}{a..z}m {alfa,beta,gamma}{a..z}d {alfa,beta,gamma}{a..z}i {alfa,beta,gamma}{a..z}r {alfa,beta,gamma}{a..z}[H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rmdir {alfa,beta,gamma}{a..z}[C[C[C[C[C[C[C
+[?2004lrmdir: failed to remove 'alfaa': Not a directory
+rmdir: failed to remove 'alfab': Not a directory
+rmdir: failed to remove 'alfac': Not a directory
+rmdir: failed to remove 'alfad': Not a directory
+rmdir: failed to remove 'alfae': Not a directory
+rmdir: failed to remove 'alfaf': Not a directory
+rmdir: failed to remove 'alfag': Not a directory
+rmdir: failed to remove 'alfah': Not a directory
+rmdir: failed to remove 'alfai': Not a directory
+rmdir: failed to remove 'alfaj': Not a directory
+rmdir: failed to remove 'alfak': Not a directory
+rmdir: failed to remove 'alfal': Not a directory
+rmdir: failed to remove 'alfam': Not a directory
+rmdir: failed to remove 'alfan': Not a directory
+rmdir: failed to remove 'alfao': Not a directory
+rmdir: failed to remove 'alfap': Not a directory
+rmdir: failed to remove 'alfaq': Not a directory
+rmdir: failed to remove 'alfar': Not a directory
+rmdir: failed to remove 'alfas': Not a directory
+rmdir: failed to remove 'alfat': Not a directory
+rmdir: failed to remove 'alfau': Not a directory
+rmdir: failed to remove 'alfav': Not a directory
+rmdir: failed to remove 'alfaw': Not a directory
+rmdir: failed to remove 'alfax': Not a directory
+rmdir: failed to remove 'alfay': Not a directory
+rmdir: failed to remove 'alfaz': Not a directory
+rmdir: failed to remove 'betaa': Not a directory
+rmdir: failed to remove 'betab': Not a directory
+rmdir: failed to remove 'betac': Not a directory
+rmdir: failed to remove 'betad': Not a directory
+rmdir: failed to remove 'betae': Not a directory
+rmdir: failed to remove 'betaf': Not a directory
+rmdir: failed to remove 'betag': Not a directory
+rmdir: failed to remove 'betah': Not a directory
+rmdir: failed to remove 'betai': Not a directory
+rmdir: failed to remove 'betaj': Not a directory
+rmdir: failed to remove 'betak': Not a directory
+rmdir: failed to remove 'betal': Not a directory
+rmdir: failed to remove 'betam': Not a directory
+rmdir: failed to remove 'betan': Not a directory
+rmdir: failed to remove 'betao': Not a directory
+rmdir: failed to remove 'betap': Not a directory
+rmdir: failed to remove 'betaq': Not a directory
+rmdir: failed to remove 'betar': Not a directory
+rmdir: failed to remove 'betas': Not a directory
+rmdir: failed to remove 'betat': Not a directory
+rmdir: failed to remove 'betau': Not a directory
+rmdir: failed to remove 'betav': Not a directory
+rmdir: failed to remove 'betaw': Not a directory
+rmdir: failed to remove 'betax': Not a directory
+rmdir: failed to remove 'betay': Not a directory
+rmdir: failed to remove 'betaz': Not a directory
+rmdir: failed to remove 'gammaa': Not a directory
+rmdir: failed to remove 'gammab': Not a directory
+rmdir: failed to remove 'gammac': Not a directory
+rmdir: failed to remove 'gammad': Not a directory
+rmdir: failed to remove 'gammae': Not a directory
+rmdir: failed to remove 'gammaf': Not a directory
+rmdir: failed to remove 'gammag': Not a directory
+rmdir: failed to remove 'gammah': Not a directory
+rmdir: failed to remove 'gammai': Not a directory
+rmdir: failed to remove 'gammaj': Not a directory
+rmdir: failed to remove 'gammak': Not a directory
+rmdir: failed to remove 'gammal': Not a directory
+rmdir: failed to remove 'gammam': Not a directory
+rmdir: failed to remove 'gamman': Not a directory
+rmdir: failed to remove 'gammao': Not a directory
+rmdir: failed to remove 'gammap': Not a directory
+rmdir: failed to remove 'gammaq': Not a directory
+rmdir: failed to remove 'gammar': Not a directory
+rmdir: failed to remove 'gammas': Not a directory
+rmdir: failed to remove 'gammat': Not a directory
+rmdir: failed to remove 'gammau': Not a directory
+rmdir: failed to remove 'gammav': Not a directory
+rmdir: failed to remove 'gammaw': Not a directory
+rmdir: failed to remove 'gammax': Not a directory
+rmdir: failed to remove 'gammay': Not a directory
+rmdir: failed to remove 'gammaz': Not a directory
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[31m❯[0m rmdir {alfa,beta,gamma}{a..z}[C[C[C[C[C[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[31m❯[0m rm {alfa,beta,gamma}{a..z}[C[C[C[C
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004lglobwildcard  recordings  testscript
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m mkdir ignred[K[K[K[K[K[Kig[K[Ktest
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m cd test/
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m (reverse-i-search)`': t': cd tes[7mt[27m/o': [7mto[27much {alfa,beta,gamma}{a..z}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@u': [7mtou[27m[1@c': [7mtouc[27m[1@h': [7mtouch[27m[25P[35m❯[0m touch[C[C
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfaj  alfas  betab  betak  betat   gammac  gammal  gammau
+alfab  alfak  alfat  betac  betal  betau   gammad  gammam  gammav
+alfac  alfal  alfau  betad  betam  betav   gammae  gamman  gammaw
+alfad  alfam  alfav  betae  betan  beta
