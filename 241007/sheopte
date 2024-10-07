@@ -12,6 +12,7 @@ set -e
 echo "rad1"
 false || echo "Lite fel"
 if false; then
-    echo "Lite mer fel"
+    echo "Kommer aldrig in här"
 fi
+false # här avbryts skriptet
 echo "rad2"
