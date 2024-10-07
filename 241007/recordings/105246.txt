@@ -1,0 +1,73 @@
+Script started on 2024-10-07 10:52:46+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="68" LINES="12"]
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004lglobcharset	  globwildcard	test   testscript
+globquestionmark  recordings	test2
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ./globcharset 
+[?2004ltouch: cannot touch 'test3/1a': No such file or directory
+touch: cannot touch 'test3/1b': No such file or directory
+touch: cannot touch 'test3/1c': No such file or directory
+touch: cannot touch 'test3/1d': No such file or directory
+touch: cannot touch 'test3/1e': No such file or directory
+touch: cannot touch 'test3/1f': No such file or directory
+touch: cannot touch 'test3/2a': No such file or directory
+touch: cannot touch 'test3/2b': No such file or directory
+touch: cannot touch 'test3/2c': No such file or directory
+touch: cannot touch 'test3/2d': No such file or directory
+touch: cannot touch 'test3/2e': No such file or directory
+touch: cannot touch 'test3/2f': No such file or directory
+touch: cannot touch 'test3/3a': No such file or directory
+touch: cannot touch 'test3/3b': No such file or directory
+touch: cannot touch 'test3/3c': No such file or directory
+touch: cannot touch 'test3/3d': No such file or directory
+touch: cannot touch 'test3/3e': No such file or directory
+touch: cannot touch 'test3/3f': No such file or directory
+touch: cannot touch 'test3/4a': No such file or directory
+touch: cannot touch 'test3/4b': No such file or directory
+touch: cannot touch 'test3/4c': No such file or directory
+touch: cannot touch 'test3/4d': No such file or directory
+touch: cannot touch 'test3/4e': No such file or directory
+touch: cannot touch 'test3/4f': No such file or directory
+touch: cannot touch 'test3/5a': No such file or directory
+touch: cannot touch 'test3/5b': No such file or directory
+touch: cannot touch 'test3/5c': No such file or directory
+touch: cannot touch 'test3/5d': No such file or directory
+touch: cannot touch 'test3/5e': No such file or directory
+touch: cannot touch 'test3/5f': No such file or directory
+touch: cannot touch 'test3/6a': No such file or directory
+touch: cannot touch 'test3/6b': No such file or directory
+touch: cannot touch 'test3/6c': No such file or directory
+touch: cannot touch 'test3/6d': No such file or directory
+touch: cannot touch 'test3/6e': No such file or directory
+touch: cannot touch 'test3/6f': No such file or directory
+touch: cannot touch 'test3/7a': No such file or directory
+touch: cannot touch 'test3/7b': No such file or directory
+touch: cannot touch 'test3/7c': No such file or directory
+touch: cannot touch 'test3/7d': No such file or directory
+touch: cannot touch 'test3/7e': No such file or directory
+touch: cannot touch 'test3/7f': No such file or directory
+touch: cannot touch 'test3/8a': No such file or directory
+touch: cannot touch 'test3/8b': No such file or directory
+touch: cannot touch 'test3/8c': No such file or directory
+touch: cannot touch 'test3/8d': No such file or directory
+touch: cannot touch 'test3/8e': No such file or directory
+touch: cannot touch 'test3/8f': No such file or directory
+touch: cannot touch 'test3/9a': No such file or directory
+touch: cannot touch 'test3/9b': No such file or directory
+touch: cannot touch 'test3/9c': No such file or directory
+touch: cannot touch 'test3/9d': No such file or directory
+touch: cannot touch 'test3/9e': No such file or directory
+touch: cannot touch 'test3/9f': No such file or directory
+touch: cannot touch 'test3/10a': No such file or directory
+touch: cannot touch 'test3/10b': No such file or directory
+touch: cannot touch 'test3/10c': No such file or directory
+touch: cannot touch 'test3/10d': No such file or directory
+touch: cannot touch 'test3/10e': No such file or directory
+touch: cannot touch 'test3/1

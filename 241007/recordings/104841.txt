@@ -1,0 +1,23 @@
+Script started on 2024-10-07 10:48:41+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="68" LINES="12"]
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m exit[C[Cunset rm[C[Cls /tmp/skrot/[C[C[C[C[C[Krm ?c[C[Cmkdir /tmp/skrot[C[Crm ?c[K  ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [0m
+[31m❯[0m exit[Kexit[C[C[Krm *xy>[K_[K?.txt[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [0m
+[31m❯[0m exit[C[Cunset rm[C[C[4Pexit[C[C[K[H[2J
+[34ml1-live/241007[0m [90m241007[36m [0m
+[31m❯[0m ls[K[Kecxitunset rm[C[Cls /tmp/skrot/[C[C[6Punset rm[C[C[4Pexit[2Pc[K[Kecho *
+[?2004lglobcharset globquestionmark globwildcard recordings test test2 testscript
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [0m
+[35m❯[0m echo */*[C
+[?2004l/bin /boot /dev /etc /home /initrd.img /initrd.img.old /lib /lib64 /lost+found /media /mnt /opt /proc /root /run /sbin /shared /srv /swapfile /sys /tmp /usr /var /vmlinuz /vmlinuz.old
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [0m
+[35m❯[0m [?2004l
+exit
+
+Script done on 2024-10-07 10:52:43+02:00 [COMMAND_EXIT_CODE="0"]
