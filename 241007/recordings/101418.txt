@@ -246,4 +246,77 @@ removed 'gammaz'
 alfac  alfaf  alfai  alfal  alfaq  alfat  alfaw  alfaz
 alfad  alfag  alfaj  alfan  alfar  alfau  alfax
 [?2004h
-[34ml1-live/241007/test[0m
+[34ml1-live/241007/test[0m [90m241007[36m [0m
+[35m❯[0m rm -v -- gamma**gamma*[C[C[C[C[C[C[K[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K*fa*[1P*[1P*l*f*[C[Cy
+[?2004lremoved 'alfay'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m man m[Krm
+[?2004l[?1049h[22;0;0t[?1h=RM(1)                       User Commands                       RM(1)[m
+[m
+[1mNAME[0m[m
+       rm - remove files or directories[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mrm[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       This  manual page documents the GNU version of [1mrm[0m.  [1mrm[0m removes[m
+       each specified file.  By default, it does not remove  directo‐[m
+       ries.[m
+[m
+       If the [4m-I[24m or [4m--interactive=once[24m option is given, and there are[m
+       more than three files or the [4m-r[24m, [4m-R[24m, or [4m--recursive[24m are given,[m
+[7m Manual page rm(1) line 1 (press h for help or q to quit)[27m[K[K       then  [1mrm[0m  prompts the user for whether to proceed with the en‐[m
+       tire operation.  If the response is not affirmative,  the  en‐[m
+       tire command is aborted.[m
+[m
+       Otherwise, if a file is unwritable, standard input is a termi‐[m
+       nal, and the [4m-f[24m or [4m--force[24m option is not given, or the  [4m-i[24m  or[m
+       [4m--interactive=always[24m  option is given, [1mrm[0m prompts the user for[m
+       whether to remove the file.  If the response is  not  affirma‐[m
+       tive, the file is skipped.[m
+[m
+[1mOPTIONS[0m[m
+       Remove (unlink) the FILE(s).[m
+[m
+       [1m-f[0m, [1m--force[0m[m
+              ignore nonexistent files and arguments, never prompt[m
+[7m Manual page rm(1) line 16 (press h for help or q to quit)[27m[K[K[m
+       [1m-i[0m     prompt before every removal[m
+[m
+       [1m-I[0m     prompt  once  before removing more than three files, or[m
+              when removing  recursively;  less  intrusive  than  [1m-i[0m,[m
+              while still giving protection against most mistakes[m
+[m
+       [1m--interactive[0m[=[4mWHEN[24m][m
+              prompt  according  to WHEN: never, once ([1m-I[0m), or always[m
+              ([1m-i[0m); without WHEN, prompt always[m
+[m
+       [1m--one-file-system[0m[m
+              when removing a hierarchy recursively, skip any  direc‐[m
+              tory  that  is  on a file system different from that of[m
+              the corresponding command line argument[m
+[7m Manual page rm(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ignore nonexistent files and arguments, never prompt[m
+[16;1H[K[7m Manual page rm(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-f[0m, [1m--force[0m[m
+[16;1H[K[7m Manual page rm(1) line 29 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007/test[0m [90m241007[36m [33m11s[0m 
+[35m❯[0m touch ''='[1P'-'i'[C
+[?2004ltouch: invalid option -- 'i'
+Try 'touch --help' for more information.
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[36m [0m
+[31m❯[0m touch '-i'-'-i'-'-i' '-i'
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfae  alfah  alfak  alfap  alfas  alfav  alfaz
+alfac  alfaf  alfai  alfal  alfaq  alfat  alfaw  -i
+alfad  alfag  alfaj  alfan  alfar  alfau  alfax
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm *[K[7malfaa[27malfaa [7malfac[27malfac  [7malfad[27malfad [K[K[K[K[K[K[K[K[K[K[K[K[K
