@@ -2,4 +2,4 @@
 
 # Process substitution
 
-cat <(seq 1 10)
+echo <(seq 1 10)
