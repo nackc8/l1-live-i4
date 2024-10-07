@@ -18,3 +18,5 @@ echo "$b / $a = $((b / a))"
 echo "$b * $a = $((b * a))"
 
 # Knepiga operatorer
+
+echo "$a-- = $((a--))"
