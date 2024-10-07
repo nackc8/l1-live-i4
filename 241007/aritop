@@ -10,3 +10,5 @@ c="-50"
 echo "$a + $b = $((a + b))"
 # Operator: -
 echo "$a - $b = $((a - b))"
+# Operator: /  (Ex 1)
+echo "$a / $b = $((a / b))"
