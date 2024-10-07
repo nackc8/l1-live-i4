@@ -1,0 +1,253 @@
+Script started on 2024-10-07 13:26:26+02:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="81" LINES="5"]
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m mkdir flyttfil[K[K[Kafilexempel
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m cd flyttafilexempel/
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m toc[Kuch fil
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m mkdir katalog
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m mv fil katalog/  # -[K( [K[K/ Slash är r[Kbra a[Kför att tydliggöra att det är en[K[Kin i en katalog
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m touch fil2
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m mv fil2 katalog/[K # UIt[K[Ktan slash funkar också, men man riskerar att skriva över en fil  om "katalog" är en f[Kexisterande fil
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m touch intekatalog
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m toio[K[Kuch fil3
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m mv fil3 intekatalog [K-[K/ # Slash ger säkerhet
+[?2004lmv: cannot stat 'intekatalog/': Not a directory
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​​[36m [0m
+[31m❯[0m mv fil3 intekatalog/ # Slash ger säkerhet[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K # Ooops! Vi skrev över målet eftersom det var en fil
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m touch fil4
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m tpui[K[K[Kocuh ann[K[K[K[K[K[K[Kuich[K[K[Kch annan e[K[Kexisterandefil
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m echo ää[K[K''D'a't'a'[C > anan[K[Knanexisterandefil 
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m echo ''A'n'n'a't'[C >fil4
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m mv fil4 annanexisterandefil 
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m cat annanexisterandefil # skrev ;ver[K[K[K[Köver! Opop[K[Ko[K[Koops_[K?
+[?2004lAnnat
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m man mv
+[?2004l[?1049h[22;0;0t[?1h=MV(1)                              User Commands                             MV(1)[m
+[m
+[1mNAME[0m[m
+       mv - move (rename) files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mmv[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+       [1mmv[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+       [1mmv[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m--backup[0m[=[4mCONTROL[24m][m
+              make a backup of each existing destination file[m
+[m
+       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
+[m
+[7m Manual page mv(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--force[0m[m
+[7m Manual page mv(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not prompt before overwriting[m
+[7m Manual page mv(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mv(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i[0m, [1m--interactive[0m[m
+[7m Manual page mv(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              prompt before overwrite[m
+[7m Manual page mv(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mv(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[0m, [1m--no-clobber[0m[m
+[7m Manual page mv(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              do not overwrite an existing file[m
+[7m Manual page mv(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mv(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If  you  specify  more than one of [1m-i[0m, [1m-f[0m, [1m-n[0m, only the final one takes ef‐[m
+[7m Manual page mv(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       fect.[m
+[7m Manual page mv(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mv(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--strip-trailing-slashes[0m[m
+[7m Manual page mv(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              remove any trailing slashes from each SOURCE argument[m
+[7m Manual page mv(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page mv(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m[m
+[7m Manual page mv(1) line 17 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [33m22s[0m 
+[35m❯[0m man mv[C[C[Ktouch fil5
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m (reverse-i-search)`': d': cat annanexisteran[7md[27mefil # skrev över! Ooops?a': echo 'Var femte från tvåhundra till noll med lika bre[7mda[27m ord:' {200..00..-5}[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct': sudo apt up[7mdat[27me[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [0m
+[31m❯[0m ,mv[K[K[Knano fil5
+[?2004l[?2004h[?1049h[22;0;0t[1;21r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[19;36H(B[0;7m[ Reading... ](B[m[19;35H(B[0;7m[ Read 0 lines ](B[m[H(B[0;7m  GNU nano 7.2                             fil5                                      [1;84H(B[m[20d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[20;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[21d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12l[?25h[?25l[1;49H(B[0;7m*[84G(B[m[?12l[?25h[2dH[?25l[?12l[?25he[?25l[?12l[?25hj[?25l[?12l[?25hs[?25l[?12l[?25hj[?25l[?12l[?25hs[?25l[?12l[?25hj[?25l[?12l[?25hs[?25l[?12l[?25hj[?25l[?12l[?25hs[?25l[?12l[?25hj[?25l[?12l[?25hs[?25l[?12l[?25hj[?25l[19d(B[0;7mSave modified buffer?                                                                [20;1H Y(B[m Yes[K[21d(B[0;7m N(B[m No  [15G  (B[0;7m^C(B[m Cancel[K[19;23H[?12l[?25h[?25l[20d(B[0;7m^G(B[m Help[20;22H(B[0;7mM-D(B[m DOS Format[43G(B[0;7mM-A(B[m Append[20;64H(B[0;7mM-B(B[m Backup File[21d(B[0;7m^C(B[m Cancel[17G     (B[0;7mM-M(B[m Mac Format[43G(B[0;7mM-P(B[m Prepend[21;64H(B[0;7m^T(B[m Browse[19d(B[0;7mFile Name to Write: fil5(B[m[?12l[?25h[?25l[19;35H[1K (B[0;7m[ Writing... ](B[m[K[1;49H(B[0;7m [84G(B[m[19;35H(B[0;7m[ Wrote 1 line ](B[m[J[21d[?12l[?25h[21;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [33m2s[0m 
+[35m❯[0m mv +n [K[K[K-n fil5 annanexisterandefil 
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m cat annanexisterandefil 
+[?2004lAnnat
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m cat fil5 
+[?2004lHejsjsjsjsjsj
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m ⇡[0m
+[35m❯[0m man mv
+[?2004l[?1049h[22;0;0t[?1h=MV(1)                              User Commands                             MV(1)[m
+[m
+[1mNAME[0m[m
+       mv - move (rename) files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mmv[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+       [1mmv[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+       [1mmv[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m--backup[0m[=[4mCONTROL[24m][m
+              make a backup of each existing destination file[m
+[m
+       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
+[m
+[7m Manual page mv(1) line 1 (press h for help or q to quit)[27m[K[K       [1m-f[0m, [1m--force[0m[m
+              do not prompt before overwriting[m
+[m
+       [1m-i[0m, [1m--interactive[0m[m
+              prompt before overwrite[m
+[m
+       [1m-n[0m, [1m--no-clobber[0m[m
+              do not overwrite an existing file[m
+[m
+       If  you  specify  more than one of [1m-i[0m, [1m-f[0m, [1m-n[0m, only the final one takes ef‐[m
+       fect.[m
+[m
+       [1m--strip-trailing-slashes[0m[m
+              remove any trailing slashes from each SOURCE argument[m
+[m
+       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m[m
+              override the usual backup suffix[m
+[m
+       [1m-t[0m, [1m--target-directory[0m=[4mDIRECTORY[24m[m
+              move all SOURCE arguments into DIRECTORY[m
+[7m Manual page mv(1) line 21 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [33m10s[0m 
+[35m❯[0m man mv[C[Ccat fil5 [15@annanexisterandefil[C[C[C[7@mv -n fil5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@-[1@v
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m mv -v -n fil5 annanexisterandefil [C[C[Kmv -v -n fil5 annanexisterandefil [C[C[Can mv[K
+[?2004l[?1049h[22;0;0t[?1h=MV(1)                              User Commands                             MV(1)[m
+[m
+[1mNAME[0m[m
+       mv - move (rename) files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mmv[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+       [1mmv[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+       [1mmv[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m--backup[0m[=[4mCONTROL[24m][m
+              make a backup of each existing destination file[m
+[m
+       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
+[m
+[7m Manual page mv(1) line 1 (press h for help or q to quit)[27m[K[K       [1m-f[0m, [1m--force[0m[m
+              do not prompt before overwriting[m
+[m
+       [1m-i[0m, [1m--interactive[0m[m
+              prompt before overwrite[m
+[m
+       [1m-n[0m, [1m--no-clobber[0m[m
+              do not overwrite an existing file[m
+[m
+       If  you  specify  more than one of [1m-i[0m, [1m-f[0m, [1m-n[0m, only the final one takes ef‐[m
+       fect.[m
+[m
+       [1m--strip-trailing-slashes[0m[m
+              remove any trailing slashes from each SOURCE argument[m
+[m
+       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m[m
+              override the usual backup suffix[m
+[m
+       [1m-t[0m, [1m--target-directory[0m=[4mDIRECTORY[24m[m
+              move all SOURCE arguments into DIRECTORY[m
+[7m Manual page mv(1) line 21 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [33m2s[0m 
+[35m❯[0m man mv[C[C[Cv -v -n fil5 annanexisterandefil [C[1P[1@u[1@i[1P[1P[1@i
+[?2004lmv: overwrite 'annanexisterandefil'? n
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m alias mumma=mv -i'[1@'[C[C[C[C[C[C
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m mumma fil5 annanexisterandefil 
+[?2004lmv: overwrite 'annanexisterandefil'? ^C
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [33m3s[0m 
+[31m❯[0m mumma fil5 annanexisterandefil [C[C[12Palias mumma='mv -i'[C[Cmumma fil5 annanexisterandefil [C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[31m❯[0m alias mv=''m'v' '-'i'[C '-'v'[C
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m mv fil5 annanexisterandefil 
+[?2004lmv: overwrite 'annanexisterandefil'? ^C
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [33m2s[0m 
+[31m❯[0m [H[2J
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [33m2s[0m 
+[31m❯[0m alais[K[K[Kias
+[?2004lalias mumma='mv -i'
+alias mv='mv -i -v'
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m unalias mumma 
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m unalias mumma [C[C[9Palias[C[Cunalias mumma [C[C[9Palias
+[?2004lalias mv='mv -i -v'
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m mumma
+[?2004lbash: mumma: command not found
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[31m❯[0m [?2004l
+exit
+
+Script done on 2024-10-07 13:36:12+02:00 [COMMAND_EXIT_CODE="127"]

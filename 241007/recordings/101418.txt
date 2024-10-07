@@ -1,0 +1,414 @@
+Script started on 2024-10-07 10:14:18+02:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="68" LINES="10"]
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m who[Kile tur[K[Krue; do sleep 5l [K[K; git pull; done ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[36m [0m
+[31m❯[0m toi[Kuch {}a}l}f}a},}b}e}t}a},}g}a}m}m}a}[C{1..5}[1P..5}a..5}[C[C[C[1P}z}[C
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfal  alfaw  betah  betas   gammad  gammao  gammaz
+alfab  alfam  alfax  betai  betat   gammae  gammap  globwildcard
+alfac  alfan  alfay  betaj  betau   gammaf  gammaq  recordings
+alfad  alfao  alfaz  betak  betav   gammag  gammar  testscript
+alfae  alfap  betaa  betal  betaw   gammah  gammas
+alfaf  alfaq  betab  betam  betax   gammai  gammat
+alfag  alfar  betac  betan  betay   gammaj  gammau
+alfah  alfas  betad  betao  betaz   gammak  gammav
+alfai  alfat  betae  betap  gammaa  gammal  gammaw
+alfaj  alfau  betaf  betaq  gammab  gammam  gammax
+alfak  alfav  betag  betar  gammac  gamman  gammay
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m rm [K[K[Ktouch {alfa,beta,gamma}{a..z}[C[Cexit[K[C[Ctouch {alfa,beta,gamma}{a..z}[C[C[C[C[C[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}r {alfa,beta,gamma}{a..z}m {alfa,beta,gamma}{a..z}d {alfa,beta,gamma}{a..z}i {alfa,beta,gamma}{a..z}r {alfa,beta,gamma}{a..z}[H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rmdir {alfa,beta,gamma}{a..z}[C[C[C[C[C[C[C
+[?2004lrmdir: failed to remove 'alfaa': Not a directory
+rmdir: failed to remove 'alfab': Not a directory
+rmdir: failed to remove 'alfac': Not a directory
+rmdir: failed to remove 'alfad': Not a directory
+rmdir: failed to remove 'alfae': Not a directory
+rmdir: failed to remove 'alfaf': Not a directory
+rmdir: failed to remove 'alfag': Not a directory
+rmdir: failed to remove 'alfah': Not a directory
+rmdir: failed to remove 'alfai': Not a directory
+rmdir: failed to remove 'alfaj': Not a directory
+rmdir: failed to remove 'alfak': Not a directory
+rmdir: failed to remove 'alfal': Not a directory
+rmdir: failed to remove 'alfam': Not a directory
+rmdir: failed to remove 'alfan': Not a directory
+rmdir: failed to remove 'alfao': Not a directory
+rmdir: failed to remove 'alfap': Not a directory
+rmdir: failed to remove 'alfaq': Not a directory
+rmdir: failed to remove 'alfar': Not a directory
+rmdir: failed to remove 'alfas': Not a directory
+rmdir: failed to remove 'alfat': Not a directory
+rmdir: failed to remove 'alfau': Not a directory
+rmdir: failed to remove 'alfav': Not a directory
+rmdir: failed to remove 'alfaw': Not a directory
+rmdir: failed to remove 'alfax': Not a directory
+rmdir: failed to remove 'alfay': Not a directory
+rmdir: failed to remove 'alfaz': Not a directory
+rmdir: failed to remove 'betaa': Not a directory
+rmdir: failed to remove 'betab': Not a directory
+rmdir: failed to remove 'betac': Not a directory
+rmdir: failed to remove 'betad': Not a directory
+rmdir: failed to remove 'betae': Not a directory
+rmdir: failed to remove 'betaf': Not a directory
+rmdir: failed to remove 'betag': Not a directory
+rmdir: failed to remove 'betah': Not a directory
+rmdir: failed to remove 'betai': Not a directory
+rmdir: failed to remove 'betaj': Not a directory
+rmdir: failed to remove 'betak': Not a directory
+rmdir: failed to remove 'betal': Not a directory
+rmdir: failed to remove 'betam': Not a directory
+rmdir: failed to remove 'betan': Not a directory
+rmdir: failed to remove 'betao': Not a directory
+rmdir: failed to remove 'betap': Not a directory
+rmdir: failed to remove 'betaq': Not a directory
+rmdir: failed to remove 'betar': Not a directory
+rmdir: failed to remove 'betas': Not a directory
+rmdir: failed to remove 'betat': Not a directory
+rmdir: failed to remove 'betau': Not a directory
+rmdir: failed to remove 'betav': Not a directory
+rmdir: failed to remove 'betaw': Not a directory
+rmdir: failed to remove 'betax': Not a directory
+rmdir: failed to remove 'betay': Not a directory
+rmdir: failed to remove 'betaz': Not a directory
+rmdir: failed to remove 'gammaa': Not a directory
+rmdir: failed to remove 'gammab': Not a directory
+rmdir: failed to remove 'gammac': Not a directory
+rmdir: failed to remove 'gammad': Not a directory
+rmdir: failed to remove 'gammae': Not a directory
+rmdir: failed to remove 'gammaf': Not a directory
+rmdir: failed to remove 'gammag': Not a directory
+rmdir: failed to remove 'gammah': Not a directory
+rmdir: failed to remove 'gammai': Not a directory
+rmdir: failed to remove 'gammaj': Not a directory
+rmdir: failed to remove 'gammak': Not a directory
+rmdir: failed to remove 'gammal': Not a directory
+rmdir: failed to remove 'gammam': Not a directory
+rmdir: failed to remove 'gamman': Not a directory
+rmdir: failed to remove 'gammao': Not a directory
+rmdir: failed to remove 'gammap': Not a directory
+rmdir: failed to remove 'gammaq': Not a directory
+rmdir: failed to remove 'gammar': Not a directory
+rmdir: failed to remove 'gammas': Not a directory
+rmdir: failed to remove 'gammat': Not a directory
+rmdir: failed to remove 'gammau': Not a directory
+rmdir: failed to remove 'gammav': Not a directory
+rmdir: failed to remove 'gammaw': Not a directory
+rmdir: failed to remove 'gammax': Not a directory
+rmdir: failed to remove 'gammay': Not a directory
+rmdir: failed to remove 'gammaz': Not a directory
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[31m❯[0m rmdir {alfa,beta,gamma}{a..z}[C[C[C[C[C[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[1P {alfa,beta,gamma}{a..z}[H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[31m❯[0m rm {alfa,beta,gamma}{a..z}[C[C[C[C
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004lglobwildcard  recordings  testscript
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m mkdir ignred[K[K[K[K[K[Kig[K[Ktest
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m cd test/
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m (reverse-i-search)`': t': cd tes[7mt[27m/o': [7mto[27much {alfa,beta,gamma}{a..z}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@u': [7mtou[27m[1@c': [7mtouc[27m[1@h': [7mtouch[27m[25P[35m❯[0m touch[C[C
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfaj  alfas  betab  betak  betat   gammac  gammal  gammau
+alfab  alfak  alfat  betac  betal  betau   gammad  gammam  gammav
+alfac  alfal  alfau  betad  betam  betav   gammae  gamman  gammaw
+alfad  alfam  alfav  betae  betan  betaw   gammaf  gammao  gammax
+alfae  alfan  alfaw  betaf  betao  betax   gammag  gammap  gammay
+alfaf  alfao  alfax  betag  betap  betay   gammah  gammaq  gammaz
+alfag  alfap  alfay  betah  betaq  betaz   gammai  gammar
+alfah  alfaq  alfaz  betai  betar  gammaa  gammaj  gammas
+alfai  alfar  betaa  betaj  betas  gammab  gammak  gammat
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m rm -- *o*
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfaj  alfat  betac  betal  betav   gammae  gamman  gammax
+alfab  alfak  alfau  betad  betam  betaw   gammaf  gammap  gammay
+alfac  alfal  alfav  betae  betan  betax   gammag  gammaq  gammaz
+alfad  alfam  alfaw  betaf  betap  betay   gammah  gammar
+alfae  alfan  alfax  betag  betaq  betaz   gammai  gammas
+alfaf  alfap  alfay  betah  betar  gammaa  gammaj  gammat
+alfag  alfaq  alfaz  betai  betas  gammab  gammak  gammau
+alfah  alfar  betaa  betaj  betat  gammac  gammal  gammav
+alfai  alfas  betab  betak  betau  gammad  gammam  gammaw
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m rm -- *o*[1P*b*[C[1@ [1@-[1@v[C[C[C[C[C[C[C
+[?2004lremoved 'alfab'
+removed 'betaa'
+removed 'betab'
+removed 'betac'
+removed 'betad'
+removed 'betae'
+removed 'betaf'
+removed 'betag'
+removed 'betah'
+removed 'betai'
+removed 'betaj'
+removed 'betak'
+removed 'betal'
+removed 'betam'
+removed 'betan'
+removed 'betap'
+removed 'betaq'
+removed 'betar'
+removed 'betas'
+removed 'betat'
+removed 'betau'
+removed 'betav'
+removed 'betaw'
+removed 'betax'
+removed 'betay'
+removed 'betaz'
+removed 'gammab'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfah  alfan  alfau  gammaa  gammah  gamman  gammau
+alfac  alfai  alfap  alfav  gammac  gammai  gammap  gammav
+alfad  alfaj  alfaq  alfaw  gammad  gammaj  gammaq  gammaw
+alfae  alfak  alfar  alfax  gammae  gammak  gammar  gammax
+alfaf  alfal  alfas  alfay  gammaf  gammal  gammas  gammay
+alfag  alfam  alfat  alfaz  gammag  gammam  gammat  gammaz
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[36m [0m
+[35m❯[0m touch jagslutarmedo
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m touch jagslutarmedo[C[C[7Prm -v -- *b*[1P*o*[C[C[C[C
+[?2004lremoved 'jagslutarmedo'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m ⇡[0m
+[35m❯[0m rm -v -- *o*[K[K[Ka*[C[C[Krm -v -- a*[C[C[C[C[C[C[C[C[Cx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfam
+[?2004lremoved 'alfam'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm -v -- a*fam[C[C[1Pfamlfam[1Pfam*fam[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[36m [0m
+[31m❯[0m rm -v -- a*fam[K[K[K[K[Kgamma*
+[?2004lremoved 'gammaa'
+removed 'gammac'
+removed 'gammad'
+removed 'gammae'
+removed 'gammaf'
+removed 'gammag'
+removed 'gammah'
+removed 'gammai'
+removed 'gammaj'
+removed 'gammak'
+removed 'gammal'
+removed 'gammam'
+removed 'gamman'
+removed 'gammap'
+removed 'gammaq'
+removed 'gammar'
+removed 'gammas'
+removed 'gammat'
+removed 'gammau'
+removed 'gammav'
+removed 'gammaw'
+removed 'gammax'
+removed 'gammay'
+removed 'gammaz'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfae  alfah  alfak  alfap  alfas  alfav  alfay
+alfac  alfaf  alfai  alfal  alfaq  alfat  alfaw  alfaz
+alfad  alfag  alfaj  alfan  alfar  alfau  alfax
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[36m [0m
+[35m❯[0m rm -v -- gamma**gamma*[C[C[C[C[C[C[K[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K*fa*[1P*[1P*l*f*[C[Cy
+[?2004lremoved 'alfay'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m man m[Krm
+[?2004l[?1049h[22;0;0t[?1h=RM(1)                       User Commands                       RM(1)[m
+[m
+[1mNAME[0m[m
+       rm - remove files or directories[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mrm[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       This  manual page documents the GNU version of [1mrm[0m.  [1mrm[0m removes[m
+       each specified file.  By default, it does not remove  directo‐[m
+       ries.[m
+[m
+       If the [4m-I[24m or [4m--interactive=once[24m option is given, and there are[m
+       more than three files or the [4m-r[24m, [4m-R[24m, or [4m--recursive[24m are given,[m
+[7m Manual page rm(1) line 1 (press h for help or q to quit)[27m[K[K       then  [1mrm[0m  prompts the user for whether to proceed with the en‐[m
+       tire operation.  If the response is not affirmative,  the  en‐[m
+       tire command is aborted.[m
+[m
+       Otherwise, if a file is unwritable, standard input is a termi‐[m
+       nal, and the [4m-f[24m or [4m--force[24m option is not given, or the  [4m-i[24m  or[m
+       [4m--interactive=always[24m  option is given, [1mrm[0m prompts the user for[m
+       whether to remove the file.  If the response is  not  affirma‐[m
+       tive, the file is skipped.[m
+[m
+[1mOPTIONS[0m[m
+       Remove (unlink) the FILE(s).[m
+[m
+       [1m-f[0m, [1m--force[0m[m
+              ignore nonexistent files and arguments, never prompt[m
+[7m Manual page rm(1) line 16 (press h for help or q to quit)[27m[K[K[m
+       [1m-i[0m     prompt before every removal[m
+[m
+       [1m-I[0m     prompt  once  before removing more than three files, or[m
+              when removing  recursively;  less  intrusive  than  [1m-i[0m,[m
+              while still giving protection against most mistakes[m
+[m
+       [1m--interactive[0m[=[4mWHEN[24m][m
+              prompt  according  to WHEN: never, once ([1m-I[0m), or always[m
+              ([1m-i[0m); without WHEN, prompt always[m
+[m
+       [1m--one-file-system[0m[m
+              when removing a hierarchy recursively, skip any  direc‐[m
+              tory  that  is  on a file system different from that of[m
+              the corresponding command line argument[m
+[7m Manual page rm(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ignore nonexistent files and arguments, never prompt[m
+[16;1H[K[7m Manual page rm(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-f[0m, [1m--force[0m[m
+[16;1H[K[7m Manual page rm(1) line 29 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007/test[0m [90m241007[36m [33m11s[0m 
+[35m❯[0m touch ''='[1P'-'i'[C
+[?2004ltouch: invalid option -- 'i'
+Try 'touch --help' for more information.
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[36m [0m
+[31m❯[0m touch '-i'-'-i'-'-i' '-i'
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfae  alfah  alfak  alfap  alfas  alfav  alfaz
+alfac  alfaf  alfai  alfal  alfaq  alfat  alfaw  -i
+alfad  alfag  alfaj  alfan  alfar  alfau  alfax
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm *[K[7malfaa[27malfaa [7malfac[27malfac  [7malfad[27malfad [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7m-i[27m-i^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[31m❯[0m man rm
+[?2004l[?1049h[22;0;0t[?1h=RM(1)                       User Commands                       RM(1)[m
+[m
+[1mNAME[0m[m
+       rm - remove files or directories[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mrm[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       This  manual page documents the GNU version of [1mrm[0m.  [1mrm[0m removes[m
+       each specified file.  By default, it does not remove  directo‐[m
+       ries.[m
+[m
+       If the [4m-I[24m or [4m--interactive=once[24m option is given, and there are[m
+       more than three files or the [4m-r[24m, [4m-R[24m, or [4m--recursive[24m are given,[m
+[7m Manual page rm(1) line 1 (press h for help or q to quit)[27m[K[K       then  [1mrm[0m  prompts the user for whether to proceed with the en‐[m
+       tire operation.  If the response is not affirmative,  the  en‐[m
+       tire command is aborted.[m
+[m
+       Otherwise, if a file is unwritable, standard input is a termi‐[m
+       nal, and the [4m-f[24m or [4m--force[24m option is not given, or the  [4m-i[24m  or[m
+       [4m--interactive=always[24m  option is given, [1mrm[0m prompts the user for[m
+       whether to remove the file.  If the response is  not  affirma‐[m
+       tive, the file is skipped.[m
+[m
+[1mOPTIONS[0m[m
+       Remove (unlink) the FILE(s).[m
+[m
+       [1m-f[0m, [1m--force[0m[m
+              ignore nonexistent files and arguments, never prompt[m
+[7m Manual page rm(1) line 16 (press h for help or q to quit)[27m[K[K[m
+       [1m-i[0m     prompt before every removal[m
+[m
+       [1m-I[0m     prompt  once  before removing more than three files, or[m
+              when removing  recursively;  less  intrusive  than  [1m-i[0m,[m
+              while still giving protection against most mistakes[m
+[m
+       [1m--interactive[0m[=[4mWHEN[24m][m
+              prompt  according  to WHEN: never, once ([1m-I[0m), or always[m
+              ([1m-i[0m); without WHEN, prompt always[m
+[m
+       [1m--one-file-system[0m[m
+              when removing a hierarchy recursively, skip any  direc‐[m
+              tory  that  is  on a file system different from that of[m
+              the corresponding command line argument[m
+[7m Manual page rm(1) line 31 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [33m8s[0m 
+[35m❯[0m rm *[H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [33m8s[0m 
+[35m❯[0m rm *
+[?2004lrm: remove regular empty file 'alfaa'? ^C
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [33m7s[0m 
+[31m❯[0m ls
+[?2004lalfaa  alfae  alfah  alfak  alfap  alfas  alfav  alfaz
+alfac  alfaf  alfai  alfal  alfaq  alfat  alfaw  -i
+alfad  alfag  alfaj  alfan  alfar  alfau  alfax
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm *[C *- *- *[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@-[1@v[C[C[C[C[C
+[?2004lremoved 'alfaa'
+removed 'alfac'
+removed 'alfad'
+removed 'alfae'
+removed 'alfaf'
+removed 'alfag'
+removed 'alfah'
+removed 'alfai'
+removed 'alfaj'
+removed 'alfak'
+removed 'alfal'
+removed 'alfan'
+removed 'alfap'
+removed 'alfaq'
+removed 'alfar'
+removed 'alfas'
+removed 'alfat'
+removed 'alfau'
+removed 'alfav'
+removed 'alfaw'
+removed 'alfax'
+removed 'alfaz'
+removed '-i'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [?2004l
+exit
+
+Script done on 2024-10-07 10:32:26+02:00 [COMMAND_EXIT_CODE="0"]

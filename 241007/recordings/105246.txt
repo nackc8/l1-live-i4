@@ -1,0 +1,266 @@
+Script started on 2024-10-07 10:52:46+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="68" LINES="12"]
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004lglobcharset	  globwildcard	test   testscript
+globquestionmark  recordings	test2
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ./globcharset 
+[?2004ltouch: cannot touch 'test3/1a': No such file or directory
+touch: cannot touch 'test3/1b': No such file or directory
+touch: cannot touch 'test3/1c': No such file or directory
+touch: cannot touch 'test3/1d': No such file or directory
+touch: cannot touch 'test3/1e': No such file or directory
+touch: cannot touch 'test3/1f': No such file or directory
+touch: cannot touch 'test3/2a': No such file or directory
+touch: cannot touch 'test3/2b': No such file or directory
+touch: cannot touch 'test3/2c': No such file or directory
+touch: cannot touch 'test3/2d': No such file or directory
+touch: cannot touch 'test3/2e': No such file or directory
+touch: cannot touch 'test3/2f': No such file or directory
+touch: cannot touch 'test3/3a': No such file or directory
+touch: cannot touch 'test3/3b': No such file or directory
+touch: cannot touch 'test3/3c': No such file or directory
+touch: cannot touch 'test3/3d': No such file or directory
+touch: cannot touch 'test3/3e': No such file or directory
+touch: cannot touch 'test3/3f': No such file or directory
+touch: cannot touch 'test3/4a': No such file or directory
+touch: cannot touch 'test3/4b': No such file or directory
+touch: cannot touch 'test3/4c': No such file or directory
+touch: cannot touch 'test3/4d': No such file or directory
+touch: cannot touch 'test3/4e': No such file or directory
+touch: cannot touch 'test3/4f': No such file or directory
+touch: cannot touch 'test3/5a': No such file or directory
+touch: cannot touch 'test3/5b': No such file or directory
+touch: cannot touch 'test3/5c': No such file or directory
+touch: cannot touch 'test3/5d': No such file or directory
+touch: cannot touch 'test3/5e': No such file or directory
+touch: cannot touch 'test3/5f': No such file or directory
+touch: cannot touch 'test3/6a': No such file or directory
+touch: cannot touch 'test3/6b': No such file or directory
+touch: cannot touch 'test3/6c': No such file or directory
+touch: cannot touch 'test3/6d': No such file or directory
+touch: cannot touch 'test3/6e': No such file or directory
+touch: cannot touch 'test3/6f': No such file or directory
+touch: cannot touch 'test3/7a': No such file or directory
+touch: cannot touch 'test3/7b': No such file or directory
+touch: cannot touch 'test3/7c': No such file or directory
+touch: cannot touch 'test3/7d': No such file or directory
+touch: cannot touch 'test3/7e': No such file or directory
+touch: cannot touch 'test3/7f': No such file or directory
+touch: cannot touch 'test3/8a': No such file or directory
+touch: cannot touch 'test3/8b': No such file or directory
+touch: cannot touch 'test3/8c': No such file or directory
+touch: cannot touch 'test3/8d': No such file or directory
+touch: cannot touch 'test3/8e': No such file or directory
+touch: cannot touch 'test3/8f': No such file or directory
+touch: cannot touch 'test3/9a': No such file or directory
+touch: cannot touch 'test3/9b': No such file or directory
+touch: cannot touch 'test3/9c': No such file or directory
+touch: cannot touch 'test3/9d': No such file or directory
+touch: cannot touch 'test3/9e': No such file or directory
+touch: cannot touch 'test3/9f': No such file or directory
+touch: cannot touch 'test3/10a': No such file or directory
+touch: cannot touch 'test3/10b': No such file or directory
+touch: cannot touch 'test3/10c': No such file or directory
+touch: cannot touch 'test3/10d': No such file or directory
+touch: cannot touch 'test3/10e': No such file or directory
+touch: cannot touch 'test3/10f': No such file or directory
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[31m❯[0m ./globcharset [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[31m❯[0m ./globcharset 
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m cd test3/
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004l10a  10e  1c  2a  2e  3c  4a  4e  5c  6a  6e  7c  8a  8e  9c
+10b  10f  1d  2b  2f  3d  4b  4f  5d  6b  6f  7d  8b  8f  9d
+10c  1a   1e  2c  3a  3e  4c  5a  5e  6c  7a  7e  8c  9a  9e
+10d  1b   1f  2d  3b  3f  4d  5b  5f  6d  7b  7f  8d  9b  9f
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m cd test3/[C[C./globcharset 
+[?2004lbash: ./globcharset: No such file or directory
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[31m❯[0m ./globcharset [C[1@.[C[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[31m❯[0m cd ..
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ./glob[K[K[Kglo[K[K[Klobcj[Kharset 
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m cd test43[K[K3/
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004l10a  10E  1C  2A  2f  3d  4b  4F  5D  6B  6G  7e  8c  9a  9E
+10A  10f  1d  2b  2F  3D  4B  4G  5e  6c  7a  7E  8C  9A  9f
+10b  10F  1D  2B  2G  3e  4c  5a  5E  6C  7A  7f  8d  9b  9F
+10B  10G  1e  2c  3a  3E  4C  5A  5f  6d  7b  7F  8D  9B  9G
+10c  1a   1E  2C  3A  3f  4d  5b  5F  6D  7B  7G  8e  9c
+10C  1A   1f  2d  3b  3F  4D  5B  5G  6e  7c  8a  8E  9C
+10d  1b   1F  2D  3B  3G  4e  5c  6a  6E  7C  8A  8f  9d
+10D  1B   1G  2e  3c  4a  4E  5C  6A  6f  7d  8b  8F  9D
+10e  1c   2a  2E  3C  4A  4f  5d  6b  6F  7D  8B  8G  9e
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m rm 1*?[K[]a]b][C[C[C[C[C[C[C 1*[ab][C[C[C[C[C- 1*[ab]v 1*[ab][C 1*[ab]- 1*[ab]- 1*[ab][H[2J
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m rm -v -- 1*[ab]
+[?2004lremoved '10a'
+removed '10b'
+removed '1a'
+removed '1b'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m touch 10ab
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m touch 10ab[C[Crm -v -- 1*[ab][C[C[C[C[C[C[C[C
+[?2004lremoved '10ab'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm -v -- 1*[ab][C[C[C[C[C[C[1P[ab]
+[?2004lrm: cannot remove '1[ab]': No such file or directory
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[36m [0m
+[31m❯[0m touch 1a 1 1b 1ab
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m touch 1a 1 1b 1ab[C[C[3Prm -v -- 1[ab]
+[?2004lremoved '1a'
+removed '1b'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm -v -- 1[ab][ab][C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lremoved '1ab'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm -v -- 1[ab][ab][K[K[K[K[C[1P].].]z][C[C[C[C[C[C[C[C[C[C
+[?2004lrm: cannot remove '1[a..z]': No such file or directory
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[31m❯[0m touch 1a
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m touch 1a[C[Crm -v -- 1[a..z]
+[?2004lremoved '1a'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm -v -- 1[a..z][C[C[Ktouch 1b
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m touch 1b[C[Crm -v -- 1[a..z][C[C[C[C[C[C
+[?2004lrm: cannot remove '1[a..z]': No such file or directory
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m rm -v -- 1[a..z][1Pz][1Pz]/z][1Pz]-z][K[31m❯[0m rm -v -- 1[a-z][K[31m❯[0m rm -v -- 1[a-z][K[31m❯[0m rm -v -- 1[a-z][K[31m❯[0m rm -v -- 1[a-z][K[31m❯[0m rm -v -- 1[a-z][K[31m❯[0m rm -v -- 1[a-z][K[31m❯[0m rm -v -- 1[a-z][K[31m❯[0m rm -v -- 1[a-z][K[31m❯[0m rm -v -- 1[a-z][K[31m❯[0m rm -v -- 1[a-z][C[C
+[?2004lremoved '1b'
+removed '1c'
+removed '1d'
+removed '1e'
+removed '1f'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[31m❯[0m [H[2J
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[31m❯[0m ls
+[?2004l1    10e  1C  2b  2E  3B  3f  4c  4F  5C  5G  6d  7a  7D  8A  8e  9b  9E
+10A  10E  1D  2B  2f  3c  3F  4C  4G  5d  6a  6D  7A  7e  8b  8E  9B  9f
+10B  10f  1E  2c  2F  3C  3G  4d  5a  5D  6A  6e  7b  7E  8B  8f  9c  9F
+10c  10F  1F  2C  2G  3d  4a  4D  5A  5e  6b  6E  7B  7f  8c  8F  9C  9G
+10C  10G  1G  2d  3a  3D  4A  4e  5b  5E  6B  6f  7c  7F  8C  8G  9d
+10d  1A   2a  2D  3A  3e  4b  4E  5B  5f  6c  6F  7C  7G  8d  9a  9D
+10D  1B   2A  2e  3b  3E  4B  4f  5c  5F  6C  6G  7d  8a  8D  9A  9e
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m rou[K[K[Ktouch b
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m touch b[C[Crm -v -- 1[a-z][1P][1P]..z][C[C[8Ptouch 1b[C[Crm -v -- 1[a..z]][K[1P[a]1[a][C[C[C[1P]A][C
+[?2004lremoved '1A'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m rm -v -- 1[A][1P[A]
+[?2004lrm: cannot remove '[A]': No such file or directory
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[31m❯[0m rm -v -- [A][1P]*][C
+[?2004lrm: cannot remove '[*]': No such file or directory
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[31m❯[0m touch *[K[K[K[K[K[K[K;s
+[?2004lbash: syntax error near unexpected token `;'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[36m [0m
+[31m❯[0m ls
+[?2004l1    10e  1D  2B  2f  3c  3F  4C  4G  5d  6a  6D  7A  7e  8b  8E  9B  9f
+10A  10E  1E  2c  2F  3C  3G  4d  5a  5D  6A  6e  7b  7E  8B  8f  9c  9F
+10B  10f  1F  2C  2G  3d  4a  4D  5A  5e  6b  6E  7B  7f  8c  8F  9C  9G
+10c  10F  1G  2d  3a  3D  4A  4e  5b  5E  6B  6f  7c  7F  8C  8G  9d  b
+10C  10G  2a  2D  3A  3e  4b  4E  5B  5f  6c  6F  7C  7G  8d  9a  9D
+10d  1B   2A  2e  3b  3E  4B  4f  5c  5F  6C  6G  7d  8a  8D  9A  9e
+10D  1C   2b  2E  3B  3f  4c  4F  5C  5G  6d  7a  7D  8A  8e  9b  9E
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[36m [0m
+[35m❯[0m ;srm -v -- [*][C[C;s[K[Ktouch *"*[C"
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004l'*'    10e   1E   2C   3a   3e	 4B   4F   5d   6A   6E   7c   7G   8D	 9b   9f
+ 1     10E   1F   2d   3A   3E	 4c   4G   5D   6b   6f   7C   8a   8e	 9B   9F
+ 10A   10f   1G   2D   3b   3f	 4C   5a   5e   6B   6F   7d   8A   8E	 9c   9G
+ 10B   10F   2a   2e   3B   3F	 4d   5A   5E   6c   6G   7D   8b   8f	 9C   b
+ 10c   10G   2A   2E   3c   3G	 4D   5b   5f   6C   7a   7e   8B   8F	 9d
+ 10C   1B    2b   2f   3C   4a	 4e   5B   5F   6d   7A   7E   8c   8G	 9D
+ 10d   1C    2B   2F   3d   4A	 4E   5c   5G   6D   7b   7f   8C   9a	 9e
+ 10D   1D    2c   2G   3D   4b	 4f   5C   6a   6e   7B   7F   8d   9A	 9E
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m touch "*"[C[C;s[Krm -v -- [*][H[2J
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m rm -v -- [*][C[C[C[C[C"[*][C[C[C"[C[C;s[Krm -v -- "[*]"[C[C[C[K[1P[*]
+[?2004lremoved '*'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m ⇡[0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m ⇡[0m
+[35m❯[0m mv &[K*.txt /tmp/   ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[36m [0m
+[31m❯[0m git pull[K[K[K[K[K[K[K[Kdhihd[K[K[K[K[Kls
+[?2004l1    10e  1D  2B  2f  3c  3F  4C  4G  5d  6a  6D  7A  7e  8b  8E  9B  9f
+10A  10E  1E  2c  2F  3C  3G  4d  5a  5D  6A  6e  7b  7E  8B  8f  9c  9F
+10B  10f  1F  2C  2G  3d  4a  4D  5A  5e  6b  6E  7B  7f  8c  8F  9C  9G
+10c  10F  1G  2d  3a  3D  4A  4e  5b  5E  6B  6f  7c  7F  8C  8G  9d  b
+10C  10G  2a  2D  3A  3e  4b  4E  5B  5f  6c  6F  7C  7G  8d  9a  9D
+10d  1B   2A  2e  3b  3E  4B  4f  5c  5F  6C  6G  7d  8a  8D  9A  9e
+10D  1C   2b  2E  3B  3f  4c  4F  5C  5G  6d  7a  7D  8A  8e  9b  9E
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[36m [0m
+[35m❯[0m rm -v -- [*][C[C[3Ptouch "*"[C[Crm -v -- [*][C[C[K
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[36m [0m
+[35m❯[0m exit
+[?2004lexit
+
+Script done on 2024-10-07 11:13:18+02:00 [COMMAND_EXIT_CODE="0"]

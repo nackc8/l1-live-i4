@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Shell options
+
+# Använd set-kommandot
+
+# e avbryter hela skriptet om något kommando misslyckas, utan att
+# det hanteras
+
+set -e
+
+echo "rad1"
+false || echo "Lite fel"
+if false; then
+    echo "Kommer aldrig in här"
+fi
+false # här avbryts skriptet
+echo "rad2"
+
+# Vid anrop: bash -x ./sheopte
