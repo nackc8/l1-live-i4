@@ -20,3 +20,4 @@ echo "$b * $a = $((b * a))"
 # Knepiga operatorer
 
 echo "$a-- = $((a--))"
+echo "Raden efter --:  a = $a"
