@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Brace expansions för att kopiera filer med kortare kommandorader
+
+# Skapa lite testfiler
+touch fil{1..10}.{txt,png}
+mkdir pics
+
+# -- indikerar att det inte kommer fler flaggor till mv, utan bara
+# filer. Vi skriver in det för att inte en fil vid namn -n ska tolkas
+# som flaggan för "do not overwrite an existing file"
+mv -- *.png pics/
