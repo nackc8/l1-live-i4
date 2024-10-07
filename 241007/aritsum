@@ -1,3 +1,6 @@
 #!/bin/bash
 
 # Arithmetic expansion
+
+tal1="123"
+tal2="210"
