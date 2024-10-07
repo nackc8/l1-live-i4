@@ -6,3 +6,5 @@ mkdir -p test3
 touch test3/{1..10}{{a..f},{A..G}}
 
 rm -v -- 1*[ab]
+
+rm -v -- 1[a..z]
