@@ -4,3 +4,21 @@
 
 # 3322 är host port i er port forward
 ssh -p 3322 kent@localhost
+
+ssh-keygen -t ed25519 # Enter standardnamn
+
+ssh-keygen -t ed25519 # Angav annat namn pga krock
+
+# Kopiera den publika nyckeln till servern
+ssh-copy-id -p 3322 -i ~/.ssh/id_ed25519_ubse.pub kent@localhost
+
+# Ssh config
+code ~/.ssh/config
+
+# Host ub
+# 	HostName localhost
+# 	Port 3322
+# 	User kent
+# 	IdentityFile /home/kent/.ssh/id_ed25519_ubse.pub
+
+# man 5 ssh_config
