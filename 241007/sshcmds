@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# SSH
+
+# 3322 är host port i er port forward
+ssh -p 3322 kent@localhost
