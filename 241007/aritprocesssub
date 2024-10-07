@@ -1,3 +1,5 @@
 #!/bin/bash
 
 # Process substitution
+
+cat <(seq 1 10)
