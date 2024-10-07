@@ -8,3 +8,5 @@ c="-50"
 
 # Operator: +
 echo "$a + $b = $((a + b))"
+# Operator: -
+echo "$a - $b = $((a - b))"
