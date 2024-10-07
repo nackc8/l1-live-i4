@@ -1,0 +1,11 @@
+Script started on 2024-10-07 09:38:34+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="55" LINES="13"]
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m echo "Hejsan!" 
+[?2004lHejsan!
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m exit
+[?2004lexit
+
+Script done on 2024-10-07 09:38:45+02:00 [COMMAND_EXIT_CODE="0"]
