@@ -11,4 +11,7 @@ set -e
 
 echo "rad1"
 false || echo "Lite fel"
+if false; then
+    echo "Lite mer fel"
+fi
 echo "rad2"
