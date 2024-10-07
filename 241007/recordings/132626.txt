@@ -165,4 +165,89 @@ Script started on 2024-10-07 13:26:26+02:00 [TERM="xterm-256color" TTY="/dev/pts
 [35m❯[0m man mv[C[Ccat fil5 [15@annanexisterandefil[C[C[C[7@mv -n fil5[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@-[1@v
 [?2004l[?2004h
 [34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
-[35m❯[0m mv -v -n fil5 a
+[35m❯[0m mv -v -n fil5 annanexisterandefil [C[C[Kmv -v -n fil5 annanexisterandefil [C[C[Can mv[K
+[?2004l[?1049h[22;0;0t[?1h=MV(1)                              User Commands                             MV(1)[m
+[m
+[1mNAME[0m[m
+       mv - move (rename) files[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mmv[0m [[4mOPTION[24m]... [[4m-T[24m] [4mSOURCE[24m [4mDEST[24m[m
+       [1mmv[0m [[4mOPTION[24m]... [4mSOURCE[24m... [4mDIRECTORY[24m[m
+       [1mmv[0m [[4mOPTION[24m]... [4m-t[24m [4mDIRECTORY[24m [4mSOURCE[24m...[m
+[m
+[1mDESCRIPTION[0m[m
+       Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.[m
+[m
+       Mandatory arguments to long options are mandatory for short options too.[m
+[m
+       [1m--backup[0m[=[4mCONTROL[24m][m
+              make a backup of each existing destination file[m
+[m
+       [1m-b[0m     like [1m--backup[0m but does not accept an argument[m
+[m
+[7m Manual page mv(1) line 1 (press h for help or q to quit)[27m[K[K       [1m-f[0m, [1m--force[0m[m
+              do not prompt before overwriting[m
+[m
+       [1m-i[0m, [1m--interactive[0m[m
+              prompt before overwrite[m
+[m
+       [1m-n[0m, [1m--no-clobber[0m[m
+              do not overwrite an existing file[m
+[m
+       If  you  specify  more than one of [1m-i[0m, [1m-f[0m, [1m-n[0m, only the final one takes ef‐[m
+       fect.[m
+[m
+       [1m--strip-trailing-slashes[0m[m
+              remove any trailing slashes from each SOURCE argument[m
+[m
+       [1m-S[0m, [1m--suffix[0m=[4mSUFFIX[24m[m
+              override the usual backup suffix[m
+[m
+       [1m-t[0m, [1m--target-directory[0m=[4mDIRECTORY[24m[m
+              move all SOURCE arguments into DIRECTORY[m
+[7m Manual page mv(1) line 21 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [33m2s[0m 
+[35m❯[0m man mv[C[C[Cv -v -n fil5 annanexisterandefil [C[1P[1@u[1@i[1P[1P[1@i
+[?2004lmv: overwrite 'annanexisterandefil'? n
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[38;5;218m*​[36m [33m7s[0m 
+[35m❯[0m alias mumma=mv -i'[1@'[C[C[C[C[C[C
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m mumma fil5 annanexisterandefil 
+[?2004lmv: overwrite 'annanexisterandefil'? ^C
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [33m3s[0m 
+[31m❯[0m mumma fil5 annanexisterandefil [C[C[12Palias mumma='mv -i'[C[Cmumma fil5 annanexisterandefil [C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[31m❯[0m alias mv=''m'v' '-'i'[C '-'v'[C
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m mv fil5 annanexisterandefil 
+[?2004lmv: overwrite 'annanexisterandefil'? ^C
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [33m2s[0m 
+[31m❯[0m [H[2J
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [33m2s[0m 
+[31m❯[0m alais[K[K[Kias
+[?2004lalias mumma='mv -i'
+alias mv='mv -i -v'
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m unalias mumma 
+[?2004l[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m unalias mumma [C[C[9Palias[C[Cunalias mumma [C[C[9Palias
+[?2004lalias mv='mv -i -v'
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[35m❯[0m mumma
+[?2004lbash: mumma: command not found
+[?2004h
+[34ml1-live/241007/flyttafilexempel[0m [90m241007[36m [0m
+[31m❯[0m [?2004l
+exit
+
+Script done on 2024-10-07 13:36:12+02:00 [COMMAND_EXIT_CODE="127"]
