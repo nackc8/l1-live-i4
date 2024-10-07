@@ -5,4 +5,5 @@
 tal1="123"
 tal2="210"
 
-summa="$(seq 1 10)"
+# Arithmetic evaluation, inga $ behövs för variabeler
+summa="$((tal1 + tal2))"
