@@ -8,3 +8,6 @@
 # det hanteras
 
 set -e
+
+echo "rad1"
+echo "rad2"
