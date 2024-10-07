@@ -9,6 +9,6 @@
 
 set -e
 
-echo "rad1"
+echo "rad1" >/tmp/out
 false
-echo "rad2"
+echo "rad2" >>/tmp/out
