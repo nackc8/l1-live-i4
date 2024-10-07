@@ -21,3 +21,6 @@ echo "$b * $a = $((b * a))"
 
 echo "$a-- = $((a--))"
 echo "Raden efter --:  a = $a"
+
+echo "$a++ = $((a++))"
+echo "Raden efter ++:  a = $a"
