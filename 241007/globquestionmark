@@ -1,3 +1,6 @@
 #!/bin/bash
 
-# Globbing med frågetecken
+# Globbing med frågetecken (ETT valfritt tecken)
+
+mkdir -p test2
+touch test2/{1..10}{a..f}
