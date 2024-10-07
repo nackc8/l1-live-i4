@@ -2,4 +2,12 @@
 
 # Process substitution
 
-echo <(seq 1 10)
+# Utan process subs:
+
+seq 1 10 >tempfil
+cat tempfil
+rm tempfil
+
+# Med process substitution
+
+cat <(seq 1 10)
