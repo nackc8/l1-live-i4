@@ -4,9 +4,10 @@
 
 # Använd set-kommandot
 
-# x hjälper till att visa mer vad som händer
+# e avbryter hela skriptet om något kommando misslyckas, utan att
+# det hanteras
 
-set -x
+set -e
 
 for namn in ove britta ulla; do
     echo "namn: $namn"
