@@ -16,3 +16,5 @@ mkdir kat{a,b}
 touch kat{a,b}/{1..10}
 rm kata/{5,8,9}
 rm katb/{1..3}
+
+diff <(ls kata | sort -n) <(ls katb | sort -n)
