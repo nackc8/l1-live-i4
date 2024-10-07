@@ -7,4 +7,4 @@ b="9990"
 c="-50"
 
 # Operator: +
-echo "$a + $b = "
+echo "$a + $b = $((a + b))"
