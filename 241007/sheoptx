@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Shell options
+
+# Använd set-kommandot
+
+# x hjälper till att visa mer vad som händer
+
+set -x
+
+for namn in ove britta ulla; do
+    echo "namn: $namn"
+done
