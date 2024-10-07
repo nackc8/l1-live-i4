@@ -1415,4 +1415,152 @@ x: 4
        [1mfor[0m (( [4mexpr1[24m ; [4mexpr2[24m ; [4mexpr3[24m )) ; [1mdo[0m [4mlist[24m ; [1mdone[0m[m
               First, the arithmetic expression [4mexpr1[24m is evaluated according to the[m
               rules  described  below under [1mARITHMETIC[0m [1mEVALUATION[0m.  The arithmetic[m
-              expression [4m
+              expression [4mexpr2[24m is then evaluated repeatedly until it evaluates  to[m
+              zero.   Each  time [4mexpr2[24m evaluates to a non-zero value, [4mlist[24m is exe‐[m
+              cuted and the arithmetic expression [4mexpr3[24m is evaluated.  If any  ex‐[m
+              pression is omitted, it behaves as if it evaluates to 1.  The return[m
+[7m Manual page bash(1) line 424 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [33m1m4s[0m 
+[35m❯[0m ./aritloop [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [33m1m4s[0m 
+[35m❯[0m ./aritloop 
+[?2004lx: 10
+x: 11
+x: 12
+x: 13
+x: 14
+x: 15
+x: 16
+x: 17
+x: 18
+x: 19
+x: 20
+x: 21
+x: 22
+x: 23
+x: 24
+x: 25
+x: 26
+x: 27
+x: 28
+x: 29
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./aritloop [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ./aritloop 
+[?2004lx: 10
+x: 12
+x: 14
+x: 16
+x: 18
+x: 20
+x: 22
+x: 24
+x: 26
+x: 28
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ./aritloop [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ./aritloop 
+[?2004lx: 10
+x: 13
+x: 16
+x: 19
+x: 22
+x: 25
+x: 28
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ,.[K[K./aritprocesssub 
+[?2004l1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./aritprocesssub [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ./aritprocesssub 
+[?2004l/dev/fd/63
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ;[Kls /dev/fd/63
+[?2004lls: cannot access '/dev/fd/63': No such file or directory
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[31m❯[0m ls /dev/fd/63[C[C./aritprocesssub 
+[?2004l1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ./aritprocesssub [C[C[K./aritprocesssub [C[C[4Pls /dev/fd/63[C[C./aritprocesssub 
+[?2004l1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004laritloop  aritprocesssub  globcharset	    globwildcard  katb	      test   test3
+aritop	  aritsum	  globquestionmark  kata	  recordings  test2
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls kata/
+[?2004l1  10  2  3  4	6  7
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls kata/[K[Kb/
+[?2004l10  4  5  6  7	8  9
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls kata | sort[C[C[C[C[C[C[C[C[
