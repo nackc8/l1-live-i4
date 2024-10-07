@@ -7,8 +7,8 @@
 # e avbryter hela skriptet om något kommando misslyckas, utan att
 # det hanteras
 
-set -ex
+set -e
 
-echo "rad1" >/tmp/out
-false
-echo "rad2" >>/tmp/out
+echo "rad1"
+false || echo "Lite fel"
+echo "rad2"
