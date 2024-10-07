@@ -1,0 +1,80 @@
+Script started on 2024-10-07 10:32:36+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="68" LINES="8"]
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ./globquestionmark [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ./globquestionmark 
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [7mtouch test2{1..10}{a..f}[27m
+[A[C[Ctouch test2{1..10}{a..f}
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P test2{1..10}{a..f}[1P test2{1..10}{a..f}[1P test2{1..10}{a..f}[1P test2{1..10}{a..f}[1P test2{1..10}{a..f}r test2{1..10}{a..f}m test2{1..10}{a..f}
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [7mtouch test2/{1..10}{a..f}[27m
+[A[C[Ctouch test2/{1..10}{a..f}
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004lglobquestionmark  globwildcard	recordings  test  test2  testscript
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m cd test2/[H[2J
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m cd test2/ls
+[?2004lbash: cd: test2/ls: No such file or directory
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[31m❯[0m cd test2/ls[K[K
+[?2004l[?2004h
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m   [K[K[H[2J
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004l10a  10e  1c  2a  2e  3c  4a  4e  5c  6a  6e  7c  8a  8e  9c
+10b  10f  1d  2b  2f  3d  4b  4f  5d  6b  6f  7d  8b  8f  9d
+10c  1a   1e  2c  3a  3e  4c  5a  5e  6c  7a  7e  8c  9a  9e
+10d  1b   1f  2d  3b  3f  4d  5b  5f  6d  7b  7f  8d  9b  9f
+[?2004h
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m rm -v -- ?[K?e[C[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/test2[0m [90m241007[36m [0m
+[31m❯[0m touch e
+[?2004l[?2004h
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004l10a  10e  1c  2a  2e  3c  4a  4e  5c  6a  6e  7c  8a  8e  9c  e
+10b  10f  1d  2b  2f  3d  4b  4f  5d  6b  6f  7d  8b  8f  9d
+10c  1a   1e  2c  3a  3e  4c  5a  5e  6c  7a  7e  8c  9a  9e
+10d  1b   1f  2d  3b  3f  4d  5b  5f  6d  7b  7f  8d  9b  9f
+[?2004h
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m touch e[C[Ccd test2/ls[C[Ctouch test2/{1..10}{a..f}[C[C[14Pcd test2/ls[K[C[C[2Ptouch e[C[C[Krm -r[Kv -- ?e[C[C
+[?2004lremoved '1e'
+removed '2e'
+removed '3e'
+removed '4e'
+removed '5e'
+removed '6e'
+removed '7e'
+removed '8e'
+removed '9e'
+[?2004h
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm -v -- ?e[1Pe*e[1Pe[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/test2[0m [90m241007[36m [0m
+[31m❯[0m rm -v -- ?e[C[C[4Ptouch e[C[Ccd test2/ls[K[C[C[2Ptouch e[C[Crm -v -- ?e[C?e[C[C[C[C[C[C
+[?2004lremoved '10e'
+[?2004h
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm -v -- ??e[C[C[1Pe[1Pe[C[K1ab[C[C[1Pab?ab[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lrm: cannot remove '?ab': No such file or directory
+[?2004h
+[34ml1-live/241007/test2[0m [90m241007
