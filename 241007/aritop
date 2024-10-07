@@ -14,3 +14,5 @@ echo "$a - $b = $((a - b))"
 echo "$a / $b = $((a / b))"
 # Operator: /  (Ex 2)
 echo "$b / $a = $((b / a))"
+# Operator: *
+echo "$b * $a = $((b * a))"
