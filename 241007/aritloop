@@ -1,12 +1,7 @@
 #!/bin/bash
 
-# Arithmetic expansion
+# Arithmetic loop
 
-tal1="123"
-tal2="210"
-
-# Arithmetic evaluation, inga $ behövs för variabeler
-# Dubbla parenteser behövs.
-summa="$((tal1 + tal2))"
-
-echo "Tal 1 $tal1 + Tal 2 $tal2 = Summan $summa"
+for x in 0 1 2 3 4; do
+    echo "x: $x"
+done
