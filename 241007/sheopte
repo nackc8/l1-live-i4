@@ -7,7 +7,7 @@
 # e avbryter hela skriptet om något kommando misslyckas, utan att
 # det hanteras
 
-set -e
+set -ex
 
 echo "rad1" >/tmp/out
 false
