@@ -1,0 +1,212 @@
+Script started on 2024-10-07 14:45:08+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="81" LINES="11"]
+[?2004h
+[34ml1-live/241007[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ssh+[K-g[Kkeygen [C[C[C[C[C[C[C[C[C[C[C[K ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [0m
+[31m❯[0m ssh-keygen [H[2J
+[34ml1-live/241007[0m [90m241007[36m [0m
+[31m❯[0m ssh-keygen 
+[?2004lGenerating public/private rsa key pair.
+Enter file in which to save the key (/home/kent/.ssh/id_rsa): ^C
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [33m15s[0m 
+[31m❯[0m ssh-keygen -t[K[K[K[C[CMssh-keygen[C[C[CAssh-keygen[C[C[C[CNssh-keygen[C[C[C[C[C ssh-keygen[C[C[C[C[C[C[1Pssh-keygen[C[C[C[C[C[1Pssh-keygen[C[C[C[C[1Pssh-keygen[C[C[C[1Pssh-keygen[C[Cmssh-keygen[C[C[Cassh-keygen[C[C[C[Cnssh-keygen[C[C[C[C[C ssh-keygen[C[C[C[C[C[C[H[2J
+[34ml1-live/241007[0m [90m241007[36m [33m15s[0m 
+[31m❯[0m man ssh-keygen[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[?1h=SSH-KEYGEN(1)              BSD General Commands Manual              SSH-KEYGEN(1)[m
+[m
+[1mNAME[0m[m
+     [1mssh-keygen[0m — OpenSSH authentication key utility[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mssh-keygen[0m [[1m-q[0m] [[1m-a[0m [4mrounds[24m] [[1m-b[0m [4mbits[24m] [[1m-C[0m [4mcomment[24m] [[1m-f[0m [4moutput_keyfile[24m][m
+                [[1m-m[0m [4mformat[24m] [[1m-N[0m [4mnew_passphrase[24m] [[1m-O[0m [4moption[24m][m
+                [[1m-t[0m [1mdsa[0m | [1mecdsa[0m | [1mecdsa-sk[0m | [1med25519[0m | [1med25519-sk[0m | [1mrsa[0m][m
+                [[1m-w[0m [4mprovider[24m] [[1m-Z[0m [4mcipher[24m][m
+     [1mssh-keygen[0m [1m-p[0m [[1m-a[0m [4mrounds[24m] [[1m-f[0m [4mkeyfile[24m] [[1m-m[0m [4mformat[24m] [[1m-N[0m [4mnew_passphrase[24m][m
+                [[1m-P[0m [4mold_passphrase[24m] [[1m-Z[0m [4mcipher[24m][m
+     [1mssh-keygen[0m [1m-i[0m [[1m-f[0m [4minput_keyfile[24m] [[1m-m[0m [4mkey_format[24m][m
+[7m Manual page ssh-keygen(1) line 1 (press h for help or q to quit)[27m[K[K     [1mssh-keygen[0m [1m-e[0m [[1m-f[0m [4minput_keyfile[24m] [[1m-m[0m [4mkey_format[24m][m
+     [1mssh-keygen[0m [1m-y[0m [[1m-f[0m [4minput_keyfile[24m][m
+     [1mssh-keygen[0m [1m-c[0m [[1m-a[0m [4mrounds[24m] [[1m-C[0m [4mcomment[24m] [[1m-f[0m [4mkeyfile[24m] [[1m-P[0m [4mpassphrase[24m][m
+     [1mssh-keygen[0m [1m-l[0m [[1m-v[0m] [[1m-E[0m [4mfingerprint_hash[24m] [[1m-f[0m [4minput_keyfile[24m][m
+     [1mssh-keygen[0m [1m-B[0m [[1m-f[0m [4minput_keyfile[24m][m
+     [1mssh-keygen[0m [1m-D[0m [4mpkcs11[24m[m
+     [1mssh-keygen[0m [1m-F[0m [4mhostname[24m [[1m-lv[0m] [[1m-f[0m [4mknown_hosts_file[24m][m
+     [1mssh-keygen[0m [1m-H[0m [[1m-f[0m [4mknown_hosts_file[24m][m
+     [1mssh-keygen[0m [1m-K[0m [[1m-a[0m [4mrounds[24m] [[1m-w[0m [4mprovider[24m][m
+     [1mssh-keygen[0m [1m-R[0m [4mhostname[24m [[1m-f[0m [4mknown_hosts_file[24m][m
+     [1mssh-keygen[0m [1m-r[0m [4mhostname[24m [[1m-g[0m] [[1m-f[0m [4minput_keyfile[24m][m
+     [1mssh-keygen[0m [1m-M[0m [1mgenerate[0m [[1m-O[0m [4moption[24m] [4moutput_file[24m[m
+     [1mssh-keygen[0m [1m-M[0m [1mscreen[0m [[1m-f[0m [4minput_file[24m] [[1m-O[0m [4moption[24m] [4moutput_file[24m[m
+[7m Manual page ssh-keygen(1) line 14 (press h for help or q to quit)[27m[K[K     [1mssh-keygen[0m [1m-I[0m [4mcertificate_identity[24m [1m-s[0m [4mca_key[24m [[1m-hU[0m] [[1m-D[0m [4mpkcs11_provider[24m][m
+                [[1m-n[0m [4mprincipals[24m] [[1m-O[0m [4moption[24m] [[1m-V[0m [4mvalidity_interval[24m][m
+                [[1m-z[0m [4mserial_number[24m] [4mfile[24m [4m...[24m[m
+     [1mssh-keygen[0m [1m-L[0m [[1m-f[0m [4minput_keyfile[24m][m
+     [1mssh-keygen[0m [1m-A[0m [[1m-a[0m [4mrounds[24m] [[1m-f[0m [4mprefix_path[24m][m
+     [1mssh-keygen[0m [1m-k[0m [1m-f[0m [4mkrl_file[24m [[1m-u[0m] [[1m-s[0m [4mca_public[24m] [[1m-z[0m [4mversion_number[24m] [4mfile[24m [4m...[24m[m
+     [1mssh-keygen[0m [1m-Q[0m [[1m-l[0m] [1m-f[0m [4mkrl_file[24m [4mfile[24m [4m...[24m[m
+     [1mssh-keygen[0m [1m-Y[0m [1mfind-principals[0m [[1m-O[0m [4moption[24m] [1m-s[0m [4msignature_file[24m [1m-f[0m[m
+                [4mallowed_signers_file[24m[m
+     [1mssh-keygen[0m [1m-Y[0m [1mmatch-principals[0m [1m-I[0m [4msigner_identity[24m [1m-f[0m [4mallowed_signers_file[24m[m
+     [1mssh-keygen[0m [1m-Y[0m [1mcheck-novalidate[0m [[1m-O[0m [4moption[24m] [1m-n[0m [4mnamespace[24m [1m-s[0m [4msignature_file[24m[m
+     [1mssh-keygen[0m [1m-Y[0m [1msign[0m [[1m-O[0m [4moption[24m] [1m-f[0m [4mkey_file[24m [1m-n[0m [4mnamespace[24m [4mfile[24m [4m...[24m[m
+     [1mssh-keygen[0m [1m-Y[0m [1mverify[0m [[1m-O[0m [4moption[24m] [1m-f[0m [4mallowed_signers_file[24m [1m-I[0m [4msigner_identity[24m[m
+[7m Manual page ssh-keygen(1) line 27 (press h for help or q to quit)[27m[K[K                [1m-n[0m [4mnamespace[24m [1m-s[0m [4msignature_file[24m [[1m-r[0m [4mrevocation_file[24m][m
+[m
+[1mDESCRIPTION[0m[m
+     [1mssh-keygen[0m generates, manages and converts authentication keys for ssh(1).[m
+     [1mssh-keygen[0m can create keys for use by SSH protocol version 2.[m
+[m
+     The type of key to be generated is specified with the [1m-t[0m option.  If invoked[m
+     without any arguments, [1mssh-keygen[0m will generate an RSA key.[m
+[m
+     [1mssh-keygen[0m is also used to generate groups for use in Diffie-Hellman group[m
+     exchange (DH-GEX).  See the [4mMODULI[24m [4mGENERATION[24m section for details.[m
+[m
+     Finally, [1mssh-keygen[0m can be used to generate and update Key Revocation Lists,[m
+[7m Manual page ssh-keygen(1) line 40 (press h for help or q to quit)[27m[K[K     and to test whether given keys have been revoked by one.  See the [4mKEY[24m[m
+     [4mREVOCATION[24m [4mLISTS[24m section for details.[m
+[m
+     Normally each user wishing to use SSH with public key authentication runs[m
+     this once to create the authentication key in [4m~/.ssh/id_dsa[24m,[m
+     [4m~/.ssh/id_ecdsa[24m, [4m~/.ssh/id_ecdsa_sk[24m, [4m~/.ssh/id_ed25519[24m, [4m~/.ssh/id_ed25519_sk[24m[m
+     or [4m~/.ssh/id_rsa[24m.  Additionally, the system administrator may use this to[m
+     generate host keys.[m
+[m
+     Normally this program generates the key and asks for a file in which to[m
+     store the private key.  The public key is stored in a file with the same[m
+     name but “.pub” appended.  The program also asks for a passphrase.  The[m
+     passphrase may be empty to indicate no passphrase (host keys must have an[m
+[7m Manual page ssh-keygen(1) line 53 (press h for help or q to quit)[27m[K[K     empty passphrase), or it may be a string of arbitrary length.  A passphrase[m
+     is similar to a password, except it can be a phrase with a series of words,[m
+     punctuation, numbers, whitespace, or any string of characters you want.[m
+     Good passphrases are 10-30 characters long, are not simple sentences or oth‐[m
+     erwise easily guessable (English prose has only 1-2 bits of entropy per[m
+     character, and provides very bad passphrases), and contain a mix of upper[m
+     and lowercase letters, numbers, and non-alphanumeric characters.  The[m
+     passphrase can be changed later by using the [1m-p[0m option.[m
+[m
+     There is no way to recover a lost passphrase.  If the passphrase is lost or[m
+     forgotten, a new key must be generated and the corresponding public key[m
+     copied to other machines.[m
+[m
+[7m Manual page ssh-keygen(1) line 66 (press h for help or q to quit)[27m[K[K     [1mssh-keygen[0m will by default write keys in an OpenSSH-specific format.  This[m
+     format is preferred as it offers better protection for keys at rest as well[m
+     as allowing storage of key comments within the private key file itself.  The[m
+     key comment may be useful to help identify the key.  The comment is initial‐[m
+     ized to “user@host” when the key is created, but can be changed using the [1m-c[0m[m
+     option.[m
+[m
+     It is still possible for [1mssh-keygen[0m to write the previously-used PEM format[m
+     private keys using the [1m-m[0m flag.  This may be used when generating new keys,[m
+     and existing new-format keys may be converted using this option in conjunc‐[m
+     tion with the [1m-p[0m (change passphrase) flag.[m
+[m
+     After a key is generated, [1mssh-keygen[0m will ask where the keys should be[m
+[7m Manual page ssh-keygen(1) line 79 (press h for help or q to quit)[27m[K[K     placed to be activated.[m
+[m
+     The options are as follows:[m
+[m
+     [1m-A[0m      Generate host keys of all default key types (rsa, ecdsa, and[m
+             ed25519) if they do not already exist.  The host keys are generated[m
+             with the default key file path, an empty passphrase, default bits[m
+             for the key type, and default comment.  If [1m-f[0m has also been speci‐[m
+             fied, its argument is used as a prefix to the default path for the[m
+             resulting host key files.  This is used by system administration[m
+             scripts to generate new host keys.[m
+[m
+     [1m-a[0m [4mrounds[24m[m
+[7m Manual page ssh-keygen(1) line 92 (press h for help or q to quit)[27m[K[K             When saving a private key, this option specifies the number of KDF[m
+             (key derivation function, currently bcrypt_pbkdf(3)) rounds used.[m
+             Higher numbers result in slower passphrase verification and in‐[m
+             creased resistance to brute-force password cracking (should the keys[m
+             be stolen).  The default is 16 rounds.[m
+[m
+     [1m-B[0m      Show the bubblebabble digest of specified private or public key[m
+             file.[m
+[m
+     [1m-b[0m [4mbits[24m[m
+             Specifies the number of bits in the key to create.  For RSA keys,[m
+             the minimum size is 1024 bits and the default is 3072 bits.  Gener‐[m
+             ally, 3072 bits is considered sufficient.  DSA keys must be exactly[m
+[7m Manual page ssh-keygen(1) line 105 (press h for help or q to quit)[27m[K[K             1024 bits as specified by FIPS 186-2.  For ECDSA keys, the [1m-b[0m flag[m
+             determines the key length by selecting from one of three elliptic[m
+             curve sizes: 256, 384 or 521 bits.  Attempting to use bit lengths[m
+             other than these three values for ECDSA keys will fail.  ECDSA-SK,[m
+             Ed25519 and Ed25519-SK keys have a fixed length and the [1m-b[0m flag will[m
+             be ignored.[m
+[m
+     [1m-C[0m [4mcomment[24m[m
+             Provides a new comment.[m
+[m
+     [1m-c[0m      Requests changing the comment in the private and public key files.[m
+             The program will prompt for the file containing the private keys,[m
+             for the passphrase if the key has one, and for the new comment.[m
+[7m Manual page ssh-keygen(1) line 118 (press h for help or q to quit)[27m[K[K[m
+     [1m-D[0m [4mpkcs11[24m[m
+             Download the public keys provided by the PKCS#11 shared library[m
+             [4mpkcs11[24m.  When used in combination with [1m-s[0m, this option indicates[m
+             that a CA key resides in a PKCS#11 token (see the [4mCERTIFICATES[24m sec‐[m
+             tion for details).[m
+[m
+     [1m-E[0m [4mfingerprint_hash[24m[m
+             Specifies the hash algorithm used when displaying key fingerprints.[m
+             Valid options are: “md5” and “sha256”.  The default is “sha256”.[m
+[m
+     [1m-e[0m      This option will read a private or public OpenSSH key file and print[m
+             to stdout a public key in one of the formats specified by the [1m-m[0m op‐[m
+[7m Manual page ssh-keygen(1) line 131 (press h for help or q to quit)[27m[K[K             tion.  The default export format is “RFC4716”.  This option allows[m
+             exporting OpenSSH keys for use by other programs, including several[m
+             commercial SSH implementations.[m
+[m
+     [1m-F[0m [4mhostname[24m | [4m[hostname]:port[24m[m
+             Search for the specified [4mhostname[24m (with optional port number) in a[m
+             [4mknown_hosts[24m file, listing any occurrences found.  This option is[m
+             useful to find hashed host names or addresses and may also be used[m
+             in conjunction with the [1m-H[0m option to print found keys in a hashed[m
+             format.[m
+[m
+     [1m-f[0m [4mfilename[24m[m
+             Specifies the filename of the key file.[m
+[7m Manual page ssh-keygen(1) line 144 (press h for help or q to quit)[27m[K[K[m
+     [1m-g[0m      Use generic DNS format when printing fingerprint resource records[m
+             using the [1m-r[0m command.[m
+[m
+     [1m-H[0m      Hash a [4mknown_hosts[24m file.  This replaces all hostnames and addresses[m
+             with hashed representations within the specified file; the original[m
+             content is moved to a file with a .old suffix.  These hashes may be[m
+             used normally by [1mssh[0m and [1msshd[0m, but they do not reveal identifying[m
+             information should the file's contents be disclosed.  This option[m
+             will not modify existing hashed hostnames and is therefore safe to[m
+             use on files that mix hashed and non-hashed names.[m
+[m
+     [1m-h[0m      When signing a key, create a host certificate instead of a user cer‐[m
+[7m Manual page ssh-keygen(1) line 157 (press h for help or q to quit)[27m[K[K             tificate.  See the [4mCERTIFICATES[24m section for details.[m
+[m
+     [1m-I[0m [4mcertificate_identity[24m[m
+             Specify the key identity when signing a public key.  See the[m
+             [4mCERTIFICATES[24m section for details.[m
+[m
+     [1m-i[0m      This option will read an unencrypted private (or public) key file in[m
+             the format specified by the [1m-m[0m option and print an OpenSSH compati‐[m
+             ble private (or public) key to stdout.  This option allows importing[m
+             keys from other software, including several commercial SSH implemen‐[m
+             tations.  The default import format is “RFC4716”.[m
+[m
+     [1m-K[0m      Download resident keys from a FIDO authenticator.  Public and pri‐[m
+[7m Manual page ssh-keygen(1) line 170 (press h for help or q to quit)[27m[K[K             vate key files will be written to the current directory for each[m
+             downloaded key.  If multiple FIDO authenticators are attached, keys[m
+             will be downloaded from the first touched authenticator.  See the[m
+             [4mFIDO[24m [4mAUTHENTICATOR[24m section for more information.[m
+[m
+     [1m-k[0m      Generate a KRL file.  In this mode, [1mssh-keygen[0m will generate a KRL[m
+             file at the location specified via the [1m-f[0m flag that revokes every[m
+             key or certificate presented on the command line.  Keys/certificates[m
+             to be revoked may be specified by public key file or using the for‐[m
+             mat described in the [4mKEY[24m [4mREVOCATION[24m [4mLISTS[24m section.[m
+[m
+     [1m-L[0m      Prints the contents of one or more certificates.[m
+[m
+[7m Manual page ssh-keygen(1) line 183 (press h for help or q to quit)[27m[K[K     [1m-l[0m      Show fingerprint of specified public
