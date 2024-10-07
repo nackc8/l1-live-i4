@@ -436,4 +436,39 @@ RM(1)                      User Commands                     RM(1)[m
 [19;1H[K[7m Manual page rm(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       user for whether to remove the file.  If  the  response  is[m
 [19;1H[K[7m Manual page rm(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4m-i[24m  or [4m--interactive=always[24m option is given, [1mrm[0m prompts the[m
 [19;1H[K[7m Manual page rm(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       terminal, and the [4m-f[24m or [4m--force[24m option is not given, or the[m
-[19;1H[K[7m Manual page rm(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[
+[19;1H[K[7m Manual page rm(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Otherwise,  if  a  file  is unwritable, standard input is a[m
+[19;1H[K[7m Manual page rm(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page rm(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the entire command is aborted.[m
+[19;1H[K[7m Manual page rm(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the entire operation.  If the response is not  affirmative,[m
+[19;1H[K[7m Manual page rm(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       given, then [1mrm[0m prompts the user for whether to proceed with[m
+[19;1H[K[7m Manual page rm(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       are more than three files or the [4m-r[24m, [4m-R[24m, or [4m--recursive[24m are[m
+[19;1H[K[7m Manual page rm(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       If  the [4m-I[24m or [4m--interactive=once[24m option is given, and there[m
+[19;1H[K[7m Manual page rm(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page rm(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       directories.[m
+[19;1H[K[7m Manual page rm(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       moves each specified file.  By default, it does not  remove[m
+[19;1H[K[7m Manual page rm(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       This  manual  page documents the GNU version of [1mrm[0m.  [1mrm[0m re‐[m
+[19;1H[K[7m Manual page rm(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[19;1H[K[7m Manual page rm(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page rm(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mrm[0m [[4mOPTION[24m]... [[4mFILE[24m]...[m
+[19;1H[K[7m Manual page rm(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[19;1H[K[7m Manual page rm(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page rm(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       rm - remove files or directories[m
+[19;1H[K[7m Manual page rm(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNAME[0m[m
+[19;1H[K[7m Manual page rm(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[19;1H[K[7m Manual page rm(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HMRM(1)                      User Commands                     RM(1)[m
+[19;1H[K[7m Manual page rm(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​[36m [33m26s[0m 
+[35m❯[0m man rm[C[Crm -v -- *?b[1P *?b[1P *?b[1P*?b[1P *?b[1P *?b[1P*?b[1P *?b[1P *?b[C[C[H[2J
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​[36m [33m26s[0m 
+[35m❯[0m  *?b[C[Ce *?bc *?bh *?bo *?b
+[?2004l*?b
+[?2004h
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004l10a  10f  1d  2c  3a  3f  4d  5c  6a  6f  7d  8c  9a  9f
+10c  1a   1f  2d  3c  4a  4f  5d  6c  7a  7f  8d  9c  e
+10d  1c   2a  2f  3d  4c  5a  5f  6d  7c  8a  8f  9d
+[?2004h
+[34ml1-live/241007/test2[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m echo *?b[C[C[C[1P?b[C[C[C[Kf
+[?2004l1f 2f 3f
