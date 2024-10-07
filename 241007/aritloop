@@ -2,6 +2,6 @@
 
 # Arithmetic loop
 
-for $((x=10 ; x < 30 ; x++ )); do
+for ((x = 10; x < 30; x++)); do
     echo "x: $x"
 done
