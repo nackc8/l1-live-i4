@@ -58,4 +58,30 @@ Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
 
    https://ubuntu.com/engage/secure-kubernetes-at-the-edge
 
-Expanded Security Maintenance for Applications is not en
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Mon Oct  7 12:37:09 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [?2004l
+logout
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [33m4m26s[0m 
+[35m❯[0m [H[2J
+[34ml1-live/241007[0m [90m241007[36m [33m4m26s[0m 
+[35m❯[0m ls
+[?2004laritloop	aritsum		  globquestionmark  katb	sheoptx  test2
+aritop		flyttafilexempel  globwildcard	    recordings	sshcmds  test3
+aritprocesssub	globcharset	  kata		    sheopte	test
+[?2004h
+[34ml1-live/241007[0m [90m241007[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [?2004l
+exit
+
+Script done on 2024-10-07 14:45:04+02:00 [COMMAND_EXIT_CODE="0"]
