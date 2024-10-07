@@ -8,7 +8,3 @@
 # det hanteras
 
 set -e
-
-for namn in ove britta ulla; do
-    echo "namn: $namn"
-done
