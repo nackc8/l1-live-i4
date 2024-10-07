@@ -226,4 +226,41 @@ removed '1f'
 [?2004l[?2004h
 [34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m [0m
 [35m❯[0m ls
-[?2004l'*'    10e   1E   2C   3a   3e	 4
+[?2004l'*'    10e   1E   2C   3a   3e	 4B   4F   5d   6A   6E   7c   7G   8D	 9b   9f
+ 1     10E   1F   2d   3A   3E	 4c   4G   5D   6b   6f   7C   8a   8e	 9B   9F
+ 10A   10f   1G   2D   3b   3f	 4C   5a   5e   6B   6F   7d   8A   8E	 9c   9G
+ 10B   10F   2a   2e   3B   3F	 4d   5A   5E   6c   6G   7D   8b   8f	 9C   b
+ 10c   10G   2A   2E   3c   3G	 4D   5b   5f   6C   7a   7e   8B   8F	 9d
+ 10C   1B    2b   2f   3C   4a	 4e   5B   5F   6d   7A   7E   8c   8G	 9D
+ 10d   1C    2B   2F   3d   4A	 4E   5c   5G   6D   7b   7f   8C   9a	 9e
+ 10D   1D    2c   2G   3D   4b	 4f   5C   6a   6e   7B   7F   8d   9A	 9E
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m touch "*"[C[C;s[Krm -v -- [*][H[2J
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m rm -v -- [*][C[C[C[C[C"[*][C[C[C"[C[C;s[Krm -v -- "[*]"[C[C[C[K[1P[*]
+[?2004lremoved '*'
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m ⇡[0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test3[0m [90m241007[38;5;218m*​[36m ⇡[0m
+[35m❯[0m mv &[K*.txt /tmp/   ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[36m [0m
+[31m❯[0m git pull[K[K[K[K[K[K[K[Kdhihd[K[K[K[K[Kls
+[?2004l1    10e  1D  2B  2f  3c  3F  4C  4G  5d  6a  6D  7A  7e  8b  8E  9B  9f
+10A  10E  1E  2c  2F  3C  3G  4d  5a  5D  6A  6e  7b  7E  8B  8f  9c  9F
+10B  10f  1F  2C  2G  3d  4a  4D  5A  5e  6b  6E  7B  7f  8c  8F  9C  9G
+10c  10F  1G  2d  3a  3D  4A  4e  5b  5E  6B  6f  7c  7F  8C  8G  9d  b
+10C  10G  2a  2D  3A  3e  4b  4E  5B  5f  6c  6F  7C  7G  8d  9a  9D
+10d  1B   2A  2e  3b  3E  4B  4f  5c  5F  6C  6G  7d  8a  8D  9A  9e
+10D  1C   2b  2E  3B  3f  4c  4F  5C  5G  6d  7a  7D  8A  8e  9b  9E
+[?2004h
+[34ml1-live/241007/test3[0m [90m241007[36m [0m
+[35m❯[0m rm -v -- [*][C[C[3Ptouch "*"[C[Crm -v -- [*][C[C[K
+[?2004l[?2004h
+[34ml1-live/241007/test3[0m [90m241007[36m [0m
+[35m❯[0m exit
+[?2004lexit
+
+Script done on 2024-10-07 11:13:18+02:00 [COMMAND_EXIT_CODE="0"]
