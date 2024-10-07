@@ -134,4 +134,116 @@ rmdir: failed to remove 'gammaz': Not a directory
 [?2004lalfaa  alfaj  alfas  betab  betak  betat   gammac  gammal  gammau
 alfab  alfak  alfat  betac  betal  betau   gammad  gammam  gammav
 alfac  alfal  alfau  betad  betam  betav   gammae  gamman  gammaw
-alfad  alfam  alfav  betae  betan  beta
+alfad  alfam  alfav  betae  betan  betaw   gammaf  gammao  gammax
+alfae  alfan  alfaw  betaf  betao  betax   gammag  gammap  gammay
+alfaf  alfao  alfax  betag  betap  betay   gammah  gammaq  gammaz
+alfag  alfap  alfay  betah  betaq  betaz   gammai  gammar
+alfah  alfaq  alfaz  betai  betar  gammaa  gammaj  gammas
+alfai  alfar  betaa  betaj  betas  gammab  gammak  gammat
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m rm -- *o*
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfaj  alfat  betac  betal  betav   gammae  gamman  gammax
+alfab  alfak  alfau  betad  betam  betaw   gammaf  gammap  gammay
+alfac  alfal  alfav  betae  betan  betax   gammag  gammaq  gammaz
+alfad  alfam  alfaw  betaf  betap  betay   gammah  gammar
+alfae  alfan  alfax  betag  betaq  betaz   gammai  gammas
+alfaf  alfap  alfay  betah  betar  gammaa  gammaj  gammat
+alfag  alfaq  alfaz  betai  betas  gammab  gammak  gammau
+alfah  alfar  betaa  betaj  betat  gammac  gammal  gammav
+alfai  alfas  betab  betak  betau  gammad  gammam  gammaw
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​​[36m [0m
+[35m❯[0m rm -- *o*[1P*b*[C[1@ [1@-[1@v[C[C[C[C[C[C[C
+[?2004lremoved 'alfab'
+removed 'betaa'
+removed 'betab'
+removed 'betac'
+removed 'betad'
+removed 'betae'
+removed 'betaf'
+removed 'betag'
+removed 'betah'
+removed 'betai'
+removed 'betaj'
+removed 'betak'
+removed 'betal'
+removed 'betam'
+removed 'betan'
+removed 'betap'
+removed 'betaq'
+removed 'betar'
+removed 'betas'
+removed 'betat'
+removed 'betau'
+removed 'betav'
+removed 'betaw'
+removed 'betax'
+removed 'betay'
+removed 'betaz'
+removed 'gammab'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfah  alfan  alfau  gammaa  gammah  gamman  gammau
+alfac  alfai  alfap  alfav  gammac  gammai  gammap  gammav
+alfad  alfaj  alfaq  alfaw  gammad  gammaj  gammaq  gammaw
+alfae  alfak  alfar  alfax  gammae  gammak  gammar  gammax
+alfaf  alfal  alfas  alfay  gammaf  gammal  gammas  gammay
+alfag  alfam  alfat  alfaz  gammag  gammam  gammat  gammaz
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[36m [0m
+[35m❯[0m touch jagslutarmedo
+[?2004l[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​​[36m [0m
+[35m❯[0m touch jagslutarmedo[C[C[7Prm -v -- *b*[1P*o*[C[C[C[C
+[?2004lremoved 'jagslutarmedo'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m ⇡[0m
+[35m❯[0m rm -v -- *o*[K[K[Ka*[C[C[Krm -v -- a*[C[C[C[C[C[C[C[C[Cx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kfam
+[?2004lremoved 'alfam'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m rm -v -- a*fam[C[C[1Pfamlfam[1Pfam*fam[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[36m [0m
+[31m❯[0m rm -v -- a*fam[K[K[K[K[Kgamma*
+[?2004lremoved 'gammaa'
+removed 'gammac'
+removed 'gammad'
+removed 'gammae'
+removed 'gammaf'
+removed 'gammag'
+removed 'gammah'
+removed 'gammai'
+removed 'gammaj'
+removed 'gammak'
+removed 'gammal'
+removed 'gammam'
+removed 'gamman'
+removed 'gammap'
+removed 'gammaq'
+removed 'gammar'
+removed 'gammas'
+removed 'gammat'
+removed 'gammau'
+removed 'gammav'
+removed 'gammaw'
+removed 'gammax'
+removed 'gammay'
+removed 'gammaz'
+[?2004h
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241007/test[0m [90m241007[38;5;218m*​[36m [0m
+[35m❯[0m ls
+[?2004lalfaa  alfae  alfah  alfak  alfap  alfas  alfav  alfay
+alfac  alfaf  alfai  alfal  alfaq  alfat  alfaw  alfaz
+alfad  alfag  alfaj  alfan  alfar  alfau  alfax
+[?2004h
+[34ml1-live/241007/test[0m
