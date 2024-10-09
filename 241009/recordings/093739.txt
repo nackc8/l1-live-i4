@@ -1082,4 +1082,95 @@ Last login: Wed Oct  9 09:03:17 2024 from 10.0.2.2
 sshd_config          sshd_config.d/       
 sshd_config.bak      sshd_config.hardend  
 ]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo cp /etc/ssh/sshd_config{.hardend,}
-[?2004l[sudo] 
+[?2004l[sudo] password for kent: 
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo systemctl restart ssh
+[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [?2004l
+logout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m28s[0m 
+[35m❯[0m ssh ubse-copy-id -i /home/kent/.ssh/id_ed25519_ubse -p 3322 localhost[C[C[C[C[C ubse[K[C[C[Kssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 09:03:12 AM UTC 2024
+
+  System load:  0.08               Processes:               114
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 8%                 IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 09:03:29 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m2s[0m 
+[35m❯[0m ssh ubse-copy-id -i /home/kent/.ssh/id_ed25519_ubse -p 3322 localhost[C[C[30Pls /home/kent/.ssh/id_ed25519_ubse[C[Cssh-copy-id -i /home/kent/.ssh/id_ed25519_ubse -p 3322 localhost[C[C[C[C[C ubse[K[C[C[Kssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 09:04:15 AM UTC 2024
+
+  System load:  0.09               Processes:               115
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 8%                 IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 09:04:06 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls
+[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cd /etcv/s[K[K[K/sshd/[K[K/sshd_config.d/
+[?2004l[?2004h]0;kent@ubse: /etc/ssh/sshd_config.d[01;32mkent@ubse[00m:[01;34m/etc/ssh/sshd_config.d[00m$ ls
+[?2004l[?2004h]0;kent@ubse: /etc/ssh/sshd_config.d[01;32mkent@ubse[00m:[01;34m/etc/ssh/sshd_config.d[00m$ cd ..
+[?2004l[?2004h]0;kent@ubse: /etc/ssh[01;32mkent@ubse[00m:[01;34m/etc/ssh[00m$ sshd -T
+[?2004lsshd: no hostkeys available -- exiting.
+[?2004h]0;kent@ubse: /etc/ssh[01;32mkent@ubse[00m:[01;34m/etc/ssh[00m$ [H[2J]0;kent@ubse: /etc/ssh[01;32mkent@ubse[00m:[01;34m/etc/ssh[00m$ less sshd_config
+[?2004l[?1049h[22;0;0t[?1h=
+# This is the sshd server system-wide configuration file.  See
+# sshd_config(5) for more information.
+
+# This sshd was compiled with PATH=/usr/local/sbin:/usr/local/bin:/usr /sbin:/usr/bin:/sbin:/bin:/usr/games
+
+# The strategy used for options in the default sshd_config shipped wit [7msshd_config[27m[K[Kh
+# OpenSSH is to specify options with their default value where
+# possible, but leave them commented.  Uncommented options override th e
+# default value.
+
+Include /etc/ssh/sshd_config.d/*.conf
+
+:[K[KPort 2024
+#Port 22
+#AddressFamily any
+#ListenAddress 0.0.0.0
+#ListenAddress ::
+
+#HostKey /etc/ssh/ssh_host_rsa_key
+#HostKey /etc/ssh/ssh_host_ecdsa_key
+:[K[K [KESCESC[KOO[KAA[K[HM
+[9;1H[K:
