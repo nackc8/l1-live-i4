@@ -880,4 +880,109 @@ Permission denied, please try again.
 
 [?2004h
 [34m~[0m [33m3s[0m 
-[31m❯[0m ssh -p 22 -i /home/kent/.ssh/id_ed25519_ubse.pub localhost[C[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P lo
+[31m❯[0m ssh -p 22 -i /home/kent/.ssh/id_ed25519_ubse.pub localhost[C[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1P localhost[1Plocalhost[1P localhost[1P localhost[1Plocalhost
+[?2004lWarning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+
+[?2004h
+[34m~[0m [33m30s[0m 
+[31m❯[0m ssh -p 22 localhost
+[?2004lWarning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+kent@localhost's password: 
+^C
+[?2004h
+[34m~[0m [33m4s[0m 
+[31m❯[0m ssh -p 22 localhost[H[2J
+[34m~[0m [33m4s[0m 
+[31m❯[0m ssh -p 22 localhost
+[?2004lWarning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+
+[?2004h
+[34m~[0m [33m11s[0m 
+[31m❯[0m ssh localhost
+[?2004lWarning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+
+[?2004h
+[34m~[0m [33m5s[0m 
+[31m❯[0m ssh localhost[H[2J
+[34m~[0m [33m5s[0m 
+[31m❯[0m ssh localhost
+[?2004lWarning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+
+[?2004h
+[34m~[0m [33m6s[0m 
+[31m❯[0m ssh localhost[K[K[K[K[K[K[K[K[Kubse
+[?2004lkent@localhost's password: 
+Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 08:58:31 AM UTC 2024
+
+  System load:  0.16               Processes:               130
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 9%                 IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 08:57:32 2024 from 127.0.0.1
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m8s[0m 
+[35m❯[0m ssh ubse
+[?2004lkent@localhost's password: 
+Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 08:58:31 AM UTC 2024
+
+  System load:  0.16               Processes:               130
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 9%                 IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 08:58:32 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m3s[0m 
+[35m❯[0m ssh ubselocalhost[C[C[C[C[C[C[5Pubsel[K[H[2J
+
