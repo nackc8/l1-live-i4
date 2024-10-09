@@ -8,3 +8,4 @@ ssh ubse ls /
 
 # kör cat /etc/hostname på servern
 ssh ubse cat /etc/hostname
+for srv in ubse; do echo "$srv:" && ssh "$srv" cat /etc/hostname; done
