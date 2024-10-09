@@ -1,0 +1,41 @@
+Script started on 2024-10-09 09:12:59+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="105" LINES="20"]
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ssh ub
+[?2004lssh: Could not resolve hostname ub: Name or service not known
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m cat  [Kl[K-p [K[K[Kl[K-p 3322[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m cat -p 3322 localhost[C[C[C[1P[1P[1P[1@s[1@s[1@h[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lWarning: Permanently added '[localhost]:3322' (ED25519) to the list of known hosts.
+kent@localhost's password: 
+Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 07:13:47 AM UTC 2024
+
+  System load:  0.08               Processes:               117
+  Usage of /:   14.9% of 29.36GB   Users logged in:         1
+  Memory usage: 11%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Mon Oct  7 13:43:39 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls .ssh
+[?2004lauthorized_keys  known_hosts  [0m[00;90mknown_hosts.old[0m
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh localhost[K[K[K[K[K[K[K[K[K[K[K[K[Kcat kno[K[K[K[K[K[K[Kcat .ssh/.kn[K[K[Kknown_hosts
+[?2004l|1|5uoOH5gOrckA5BsDbICrTuNslfA=|MUhOonLUTUgALkHhpbYpDUSyWCQ= ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJXChHAdpS2gf3ToPcWmKIk35+/4tcyNKcdKtJFDJdLR
+|1|YFGXxepg1NuwvUdbBKpULqLikcU=|0lpZ6ewJLLLYF4yYNbTMJ4sGMrw= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9l3UiLWIx8WfzXC6XMqYMjlTPMQxVPEinHzxlK8BB81VR36iczp7lSV1NaV4Ic0H7A7awl6brIgELkvKJ+LygWzY2XPYCzRY261wClbWiVmDnmVY7mGpamqpkh7wN1FhUX4+KMw4R4q84vH0rCLpSaDCYiuIDgzluAiofLW6JZEy+k4SfEljOi0H+uT0w/DHSwQKeh7YnznDmIW35ZUJpB3kneGuA1kfKxu/FtVEhA5lUCiEv02T/9nXwps8pu0OiJPQqPdt+HmjnZOI4uuqjvGV/BuO+nH9Na3Uwe/ZXTHRpy9z9DOEy6EFfTogSrODHBMZjEaeDjrAQ3Nfzs1WD7GbjuQKeh3SBryn+K3tjgB
