@@ -2049,4 +2049,482 @@ Last login: Wed Oct  9 10:54:40 2024 from 10.0.2.2
 Connection to localhost closed.
 [?2004h
 [34m~[0m [33m5s[0m 
-[35m❯[0m [K[35m❯[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m ssh ubse-i /home/kent/.ssh/id_ed25519_ubse -p 3322 localhost[C[C[C[C[C[Cubse[K[H[2J
+[34m~[0m [33m5s[0m 
+[35m❯[0m ssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 11:32:34 AM UTC 2024
+
+  System load:  0.0                Processes:               114
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 9%                 IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 11:26:20 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [7mssh-keygen -lf [27m[C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -lf /etc/ssh/
+moduli                    ssh_host_ecdsa_key
+ssh_config                ssh_host_ecdsa_key.pub
+ssh_config.d/             ssh_host_ed25519_key
+sshd_config               ssh_host_ed25519_key.pub
+sshd_config.bak           ssh_host_rsa_key
+sshd_config.d/            ssh_host_rsa_key.pub
+sshd_config.hardend       ssh_import_id
+]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-keygen -lf /etc/ssh/
+moduli                    ssh_host_ecdsa_key
+ssh_config                ssh_host_ecdsa_key.pub
+ssh_config.d/             ssh_host_ed25519_key
+sshd_config               ssh_host_ed25519_key.pub
+sshd_config.bak           ssh_host_rsa_key
+sshd_config.d/            ssh_host_rsa_key.pub
+sshd_config.hardend       ssh_import_id
+]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-keygen -lf /etc/ssh/[H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-keygen -lf /etc/ssh/ssh
+ssh_config                ssh_host_ecdsa_key.pub
+ssh_config.d/             ssh_host_ed25519_key
+sshd_config               ssh_host_ed25519_key.pub
+sshd_config.bak           ssh_host_rsa_key
+sshd_config.d/            ssh_host_rsa_key.pub
+sshd_config.hardend       ssh_import_id
+ssh_host_ecdsa_key        
+]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-keygen -lf /etc/ssh/ssh+[K_host_ed25519_key.pub [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l256 SHA256:jziFwe1oRAsMyRkdfX2U2TWD/XMBXTyMAjOJcVNpjT0 root@ubse (ED25519)
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ man ssh-keygen 
+[?2004l[?1049h[22;0;0t[?1h=[4mSSH-KEYGEN[24m(1)               General Commands Manual              [4mSSH-KEYGEN[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-keygen — OpenSSH authentication key utility[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-keygen  [22m[[1m-q[22m] [[1m-a [4m[22mrounds[24m] [[1m-b [4m[22mbits[24m] [[1m-C [4m[22mcomment[24m] [[1m-f [4m[22moutput_keyfile[24m][m
+                  [[1m-m    [4m[22mformat[24m]    [[1m-N    [4m[22mnew_passphrase[24m]     [[1m-O     [4m[22moption[24m][m
+                  [[1m-t  dsa  [22m|  [1mecdsa  [22m| [1mecdsa-sk [22m| [1med25519 [22m| [1med25519-sk [22m| [1mrsa[22m][m
+                  [[1m-w [4m[22mprovider[24m] [[1m-Z [4m[22mcipher[24m][m
+       [1mssh-keygen -p [22m[[1m-a [4m[22mrounds[24m] [[1m-f [4m[22mkeyfile[24m] [[1m-m [4m[22mformat[24m] [[1m-N  [4m[22mnew_passphrase[24m][m
+                  [[1m-P [4m[22mold_passphrase[24m] [[1m-Z [4m[22mcipher[24m][m
+[7m Manual page ssh-keygen(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -i [22m[[1m-f [4m[22minput_keyfile[24m] [[1m-m [4m[22mkey_format[24m][m
+[7m Manual page ssh-keygen(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -e [22m[[1m-f [4m[22minput_keyfile[24m] [[1m-m [4m[22mkey_format[24m][m
+[7m Manual page ssh-keygen(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -y [22m[[1m-f [4m[22minput_keyfile[24m][m
+[7m Manual page ssh-keygen(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -c [22m[[1m-a [4m[22mrounds[24m] [[1m-C [4m[22mcomment[24m] [[1m-f [4m[22mkeyfile[24m] [[1m-P [4m[22mpassphrase[24m][m
+[7m Manual page ssh-keygen(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -l [22m[[1m-v[22m] [[1m-E [4m[22mfingerprint_hash[24m] [[1m-f [4m[22minput_keyfile[24m][m
+[7m Manual page ssh-keygen(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -B [22m[[1m-f [4m[22minput_keyfile[24m][m
+[7m Manual page ssh-keygen(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -D [4m[22mpkcs11[0m[m
+[7m Manual page ssh-keygen(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -F [4m[22mhostname[24m [[1m-lv[22m] [[1m-f [4m[22mknown_hosts_file[24m][m
+[7m Manual page ssh-keygen(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -H [22m[[1m-f [4m[22mknown_hosts_file[24m][m
+[7m Manual page ssh-keygen(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -K [22m[[1m-a [4m[22mrounds[24m] [[1m-w [4m[22mprovider[24m][m
+[7m Manual page ssh-keygen(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -R [4m[22mhostname[24m [[1m-f [4m[22mknown_hosts_file[24m][m
+[7m Manual page ssh-keygen(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -r [4m[22mhostname[24m [[1m-g[22m] [[1m-f [4m[22minput_keyfile[24m][m
+[7m Manual page ssh-keygen(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -M generate [22m[[1m-O [4m[22moption[24m] [4moutput_file[0m[m
+[7m Manual page ssh-keygen(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -M screen [22m[[1m-f [4m[22minput_file[24m] [[1m-O [4m[22moption[24m] [4moutput_file[0m[m
+[7m Manual page ssh-keygen(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -I [4m[22mcertificate_identity[24m [1m-s [4m[22mca_key[24m [[1m-hU[22m] [[1m-D [4m[22mpkcs11_provider[24m][m
+[7m Manual page ssh-keygen(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                  [[1m-n   [4m[22mprincipals[24m]   [[1m-O   [4m[22moption[24m]   [[1m-V   [4m[22mvalidity_interval[24m][m
+[7m Manual page ssh-keygen(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                  [[1m-z [4m[22mserial_number[24m] [4mfile[24m [4m...[0m[m
+[7m Manual page ssh-keygen(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -L [22m[[1m-f [4m[22minput_keyfile[24m][m
+[7m Manual page ssh-keygen(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -A [22m[[1m-a [4m[22mrounds[24m] [[1m-f [4m[22mprefix_path[24m][m
+[7m Manual page ssh-keygen(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -k -f  [4m[22mkrl_file[24m  [[1m-u[22m]  [[1m-s  [4m[22mca_public[24m]  [[1m-z  [4m[22mversion_number[24m][m
+[7m Manual page ssh-keygen(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                  [4mfile[24m [4m...[0m[m
+[7m Manual page ssh-keygen(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -Q [22m[[1m-l[22m] [1m-f [4m[22mkrl_file[24m [4mfile[24m [4m...[0m[m
+[7m Manual page ssh-keygen(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen   -Y   find-principals  [22m[[1m-O  [4m[22moption[24m]  [1m-s  [4m[22msignature_file[24m  [1m-f[0m[m
+[7m Manual page ssh-keygen(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                  [4mallowed_signers_file[0m[m
+[7m Manual page ssh-keygen(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen    -Y     match-principals     -I     [4m[22msigner_identity[24m     [1m-f[0m[m
+[7m Manual page ssh-keygen(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                  [4mallowed_signers_file[0m[m
+[7m Manual page ssh-keygen(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen   -Y   check-novalidate   [22m[[1m-O   [4m[22moption[24m]   [1m-n   [4m[22mnamespace[24m  [1m-s[0m[m
+[7m Manual page ssh-keygen(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                  [4msignature_file[0m[m
+[7m Manual page ssh-keygen(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen -Y sign [22m[[1m-O [4m[22moption[24m] [1m-f [4m[22mkey_file[24m [1m-n [4m[22mnamespace[24m [4mfile[24m [4m...[0m[m
+[7m Manual page ssh-keygen(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen  -Y  verify   [22m[[1m-O   [4m[22moption[24m]   [1m-f   [4m[22mallowed_signers_file[24m   [1m-I[0m[m
+[7m Manual page ssh-keygen(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                  [4msigner_identity[24m     [1m-n     [4m[22mnamespace[24m    [1m-s    [4m[22msignature_file[0m[m
+[7m Manual page ssh-keygen(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                  [[1m-r [4m[22mrevocation_file[24m][m
+[7m Manual page ssh-keygen(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDESCRIPTION[0m[m
+[7m Manual page ssh-keygen(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen [22mgenerates, manages  and  converts  authentication  keys  for[m
+[7m Manual page ssh-keygen(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mssh[24m(1).  [1mssh-keygen [22mcan create keys for use by SSH protocol version 2.[m
+[7m Manual page ssh-keygen(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  type  of  key to be generated is specified with the [1m-t [22moption.  If[m
+[7m Manual page ssh-keygen(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       invoked without any arguments, [1mssh-keygen [22mwill generate an Ed25519 key.[m
+[7m Manual page ssh-keygen(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen [22mis also used to generate groups for  use  in  Diffie-Hellman[m
+[7m Manual page ssh-keygen(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       group  exchange  (DH-GEX).  See the “MODULI GENERATION” section for de‐[m
+[7m Manual page ssh-keygen(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mssh-keygen  -Y  verify   [22m[[1m-O   [4m[22moption[24m]   [1m-f   [4m[22mallowed_signers_file[24m   [1m-I[0m[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mssh-keygen -Y sign [22m[[1m-O [4m[22moption[24m] [1m-f [4m[22mkey_file[24m [1m-n [4m[22mnamespace[24m [4mfile[24m [4m...[0m[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                  [4msignature_file[0m[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mssh-keygen   -Y   check-novalidate   [22m[[1m-O   [4m[22moption[24m]   [1m-n   [4m[22mnamespace[24m  [1m-s[0m[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                  [4mallowed_signers_file[0m[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mssh-keygen    -Y     match-principals     -I     [4m[22msigner_identity[24m     [1m-f[0m[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM                  [4mallowed_signers_file[0m[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mssh-keygen   -Y   find-principals  [22m[[1m-O  [4m[22moption[24m]  [1m-s  [4m[22msignature_file[24m  [1m-f[0m[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen [22mgenerates, manages  and  converts  authentication  keys  for[m
+[7m Manual page ssh-keygen(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mssh[24m(1).  [1mssh-keygen [22mcan create keys for use by SSH protocol version 2.[m
+[7m Manual page ssh-keygen(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  type  of  key to be generated is specified with the [1m-t [22moption.  If[m
+[7m Manual page ssh-keygen(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       invoked without any arguments, [1mssh-keygen [22mwill generate an Ed25519 key.[m
+[7m Manual page ssh-keygen(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen [22mis also used to generate groups for  use  in  Diffie-Hellman[m
+[7m Manual page ssh-keygen(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       group  exchange  (DH-GEX).  See the “MODULI GENERATION” section for de‐[m
+[7m Manual page ssh-keygen(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tails.[m
+[7m Manual page ssh-keygen(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Finally, [1mssh-keygen [22mcan be used to generate and update  Key  Revocation[m
+[7m Manual page ssh-keygen(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Lists,  and  to  test whether given keys have been revoked by one.  See[m
+[7m Manual page ssh-keygen(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the “KEY REVOCATION LISTS” section for details.[m
+[7m Manual page ssh-keygen(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Normally each user wishing to use SSH with  public  key  authentication[m
+[7m Manual page ssh-keygen(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       runs  this  once  to  create  the  authentication key in [4m~/.ssh/id_dsa[24m,[m
+[7m Manual page ssh-keygen(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m~/.ssh/id_ecdsa[24m,         [4m~/.ssh/id_ecdsa_sk[24m,         [4m~/.ssh/id_ed25519[24m,[m
+[7m Manual page ssh-keygen(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m~/.ssh/id_ed25519_sk[24m or [4m~/.ssh/id_rsa[24m.  Additionally, the system admin‐[m
+[7m Manual page ssh-keygen(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       istrator may use this to generate host keys.[m
+[7m Manual page ssh-keygen(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Normally this program generates the key and asks for a file in which to[m
+[7m Manual page ssh-keygen(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       store  the  private  key.   The public key is stored in a file with the[m
+[7m Manual page ssh-keygen(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       same name but “.pub” appended.  The program also asks for a passphrase.[m
+[7m Manual page ssh-keygen(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The passphrase may be empty to indicate no passphrase (host  keys  must[m
+[7m Manual page ssh-keygen(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       have  an  empty passphrase), or it may be a string of arbitrary length.[m
+[7m Manual page ssh-keygen(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A passphrase is similar to a password, except it can be a phrase with a[m
+[7m Manual page ssh-keygen(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       series of words, punctuation, numbers, whitespace,  or  any  string  of[m
+[7m Manual page ssh-keygen(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       characters  you  want.  Good passphrases are 10-30 characters long, are[m
+[7m Manual page ssh-keygen(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       not simple sentences or otherwise easily guessable (English  prose  has[m
+[7m Manual page ssh-keygen(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       only  1-2  bits  of  entropy  per  character,  and  provides  very  bad[m
+[7m Manual page ssh-keygen(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       passphrases), and contain a mix of upper and  lowercase  letters,  num‐[m
+[7m Manual page ssh-keygen(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       bers,  and  non-alphanumeric characters.  The passphrase can be changed[m
+[7m Manual page ssh-keygen(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       later by using the [1m-p [22moption.[m
+[7m Manual page ssh-keygen(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       There is no way to recover a lost passphrase.   If  the  passphrase  is[m
+[7m Manual page ssh-keygen(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       lost  or  forgotten,  a new key must be generated and the corresponding[m
+[7m Manual page ssh-keygen(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       public key copied to other machines.[m
+[7m Manual page ssh-keygen(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mssh-keygen [22mwill by default write keys in  an  OpenSSH-specific  format.[m
+[7m Manual page ssh-keygen(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       This  format  is  preferred  as it offers better protection for keys at[m
+[7m Manual page ssh-keygen(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       rest as well as allowing storage of key comments within the private key[m
+[7m Manual page ssh-keygen(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       file itself.  The key comment may be useful to help identify  the  key.[m
+[7m Manual page ssh-keygen(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The  comment is initialized to “user@host” when the key is created, but[m
+[7m Manual page ssh-keygen(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       can be changed using the [1m-c [22moption.[m
+[7m Manual page ssh-keygen(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       It is still possible for [1mssh-keygen [22mto write  the  previously-used  PEM[m
+[7m Manual page ssh-keygen(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       format  private keys using the [1m-m [22mflag.  This may be used when generat‐[m
+[7m Manual page ssh-keygen(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ing new keys, and existing new-format keys may be converted using  this[m
+[7m Manual page ssh-keygen(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       option in conjunction with the [1m-p [22m(change passphrase) flag.[m
+[7m Manual page ssh-keygen(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       After  a key is generated, [1mssh-keygen [22mwill ask where the keys should be[m
+[7m Manual page ssh-keygen(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       placed to be activated.[m
+[7m Manual page ssh-keygen(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options are as follows:[m
+[7m Manual page ssh-keygen(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-A      [22mGenerate host keys of all default key types  (rsa,  ecdsa,  and[m
+[7m Manual page ssh-keygen(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               ed25519)  if they do not already exist.  The host keys are gen‐[m
+[7m Manual page ssh-keygen(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               erated with the default key file path, an empty passphrase, de‐[m
+[7m Manual page ssh-keygen(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               fault bits for the key type, and default comment.   If  [1m-f  [22mhas[m
+[7m Manual page ssh-keygen(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               also  been  specified,  its argument is used as a prefix to the[m
+[7m Manual page ssh-keygen(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               default path for the resulting host key files.  This is used by[m
+[7m Manual page ssh-keygen(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               system administration scripts to generate new host keys.[m
+[7m Manual page ssh-keygen(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a [4m[22mrounds[0m[m
+[7m Manual page ssh-keygen(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               When saving a private key, this option specifies the number  of[m
+[7m Manual page ssh-keygen(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               KDF (key derivation function, currently [4mbcrypt_pbkdf[24m(3)) rounds[m
+[7m Manual page ssh-keygen(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               used.   Higher numbers result in slower passphrase verification[m
+[7m Manual page ssh-keygen(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               and  increased  resistance  to  brute-force  password  cracking[m
+[7m Manual page ssh-keygen(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               (should the keys be stolen).  The default is 16 rounds.[m
+[7m Manual page ssh-keygen(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-B      [22mShow the bubblebabble digest of specified private or public key[m
+[7m Manual page ssh-keygen(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               file.[m
+[7m Manual page ssh-keygen(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b [4m[22mbits[0m[m
+[7m Manual page ssh-keygen(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Specifies  the  number  of  bits in the key to create.  For RSA[m
+[7m Manual page ssh-keygen(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               keys, the minimum size is 1024 bits and  the  default  is  3072[m
+[7m Manual page ssh-keygen(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               bits.  Generally, 3072 bits is considered sufficient.  DSA keys[m
+[7m Manual page ssh-keygen(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               must  be  exactly  1024  bits  as specified by FIPS 186-2.  For[m
+[7m Manual page ssh-keygen(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               ECDSA keys, the [1m-b [22mflag determines the key length by  selecting[m
+[7m Manual page ssh-keygen(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               from  one  of three elliptic curve sizes: 256, 384 or 521 bits.[m
+[7m Manual page ssh-keygen(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Attempting to use bit lengths other than these three values for[m
+[7m Manual page ssh-keygen(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               ECDSA keys will fail.  ECDSA-SK, Ed25519  and  Ed25519-SK  keys[m
+[7m Manual page ssh-keygen(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               have a fixed length and the [1m-b [22mflag will be ignored.[m
+[7m Manual page ssh-keygen(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-C [4m[22mcomment[0m[m
+[7m Manual page ssh-keygen(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Provides a new comment.[m
+[7m Manual page ssh-keygen(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c      [22mRequests  changing  the  comment  in the private and public key[m
+[7m Manual page ssh-keygen(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               files.  The program will prompt for  the  file  containing  the[m
+[7m Manual page ssh-keygen(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               private  keys,  for  the passphrase if the key has one, and for[m
+[7m Manual page ssh-keygen(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               the new comment.[m
+[7m Manual page ssh-keygen(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-D [4m[22mpkcs11[0m[m
+[7m Manual page ssh-keygen(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Download the public keys provided by the PKCS#11 shared library[m
+[7m Manual page ssh-keygen(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [4mpkcs11[24m.  When used in combination with [1m-s[22m,  this  option  indi‐[m
+[7m Manual page ssh-keygen(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               cates  that  a  CA  key  resides  in  a  PKCS#11 token (see the[m
+[7m Manual page ssh-keygen(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               “CERTIFICATES” section for details).[m
+[7m Manual page ssh-keygen(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-E [4m[22mfingerprint_hash[0m[m
+[7m Manual page ssh-keygen(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Specifies the hash algorithm used when displaying  key  finger‐[m
+[7m Manual page ssh-keygen(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               prints.  Valid options are: “md5” and “sha256”.  The default is[m
+[7m Manual page ssh-keygen(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               “sha256”.[m
+[7m Manual page ssh-keygen(1) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-e      [22mThis  option will read a private or public OpenSSH key file and[m
+[7m Manual page ssh-keygen(1) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               print to stdout a public key in one of the formats specified by[m
+[7m Manual page ssh-keygen(1) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               the [1m-m [22moption.  The default export format is  “RFC4716”.   This[m
+[7m Manual page ssh-keygen(1) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               option allows exporting OpenSSH keys for use by other programs,[m
+[7m Manual page ssh-keygen(1) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               including several commercial SSH implementations.[m
+[7m Manual page ssh-keygen(1) line 143 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 144 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-F [4m[22mhostname[24m | [4m[hostname]:port[0m[m
+[7m Manual page ssh-keygen(1) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Search  for  the specified [4mhostname[24m (with optional port number)[m
+[7m Manual page ssh-keygen(1) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               in a [4mknown_hosts[24m file, listing any occurrences found.  This op‐[m
+[7m Manual page ssh-keygen(1) line 147 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               tion is useful to find hashed host names or addresses  and  may[m
+[7m Manual page ssh-keygen(1) line 148 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               also  be  used in conjunction with the [1m-H [22moption to print found[m
+[7m Manual page ssh-keygen(1) line 149 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               keys in a hashed format.[m
+[7m Manual page ssh-keygen(1) line 150 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 151 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f [4m[22mfilename[0m[m
+[7m Manual page ssh-keygen(1) line 152 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Specifies the filename of the key file.[m
+[7m Manual page ssh-keygen(1) line 153 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 154 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g      [22mUse generic  DNS  format  when  printing  fingerprint  resource[m
+[7m Manual page ssh-keygen(1) line 155 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               records using the [1m-r [22mcommand.[m
+[7m Manual page ssh-keygen(1) line 156 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 157 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-H      [22mHash  a  [4mknown_hosts[24m file.  This replaces all hostnames and ad‐[m
+[7m Manual page ssh-keygen(1) line 158 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               dresses with hashed representations within the specified  file;[m
+[7m Manual page ssh-keygen(1) line 159 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               the  original  content  is  moved to a file with a .old suffix.[m
+[7m Manual page ssh-keygen(1) line 160 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               These hashes may be used normally by [1mssh [22mand [1msshd[22m, but they  do[m
+[7m Manual page ssh-keygen(1) line 161 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               not  reveal  identifying information should the file's contents[m
+[7m Manual page ssh-keygen(1) line 162 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               be disclosed.  This option  will  not  modify  existing  hashed[m
+[7m Manual page ssh-keygen(1) line 163 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               hostnames and is therefore safe to use on files that mix hashed[m
+[7m Manual page ssh-keygen(1) line 164 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               and non-hashed names.[m
+[7m Manual page ssh-keygen(1) line 165 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 166 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h      [22mWhen signing a key, create a host certificate instead of a user[m
+[7m Manual page ssh-keygen(1) line 167 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               certificate.  See the “CERTIFICATES” section for details.[m
+[7m Manual page ssh-keygen(1) line 168 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 169 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-I [4m[22mcertificate_identity[0m[m
+[7m Manual page ssh-keygen(1) line 170 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Specify  the  key  identity when signing a public key.  See the[m
+[7m Manual page ssh-keygen(1) line 171 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               “CERTIFICATES” section for details.[m
+[7m Manual page ssh-keygen(1) line 172 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 173 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-i      [22mThis option will read an unencrypted private  (or  public)  key[m
+[7m Manual page ssh-keygen(1) line 174 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               file  in  the  format  specified  by the [1m-m [22moption and print an[m
+[7m Manual page ssh-keygen(1) line 175 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               OpenSSH compatible private (or public) key to stdout.  This op‐[m
+[7m Manual page ssh-keygen(1) line 176 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               tion allows importing keys from other software, including  sev‐[m
+[7m Manual page ssh-keygen(1) line 177 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               eral commercial SSH implementations.  The default import format[m
+[7m Manual page ssh-keygen(1) line 178 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               is “RFC4716”.[m
+[7m Manual page ssh-keygen(1) line 179 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 180 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-K      [22mDownload  resident  keys from a FIDO authenticator.  Public and[m
+[7m Manual page ssh-keygen(1) line 181 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               private key files will be written to the current directory  for[m
+[7m Manual page ssh-keygen(1) line 182 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               each  downloaded  key.  If multiple FIDO authenticators are at‐[m
+[7m Manual page ssh-keygen(1) line 183 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               tached, keys will be downloaded from the first touched  authen‐[m
+[7m Manual page ssh-keygen(1) line 184 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               ticator.   See the “FIDO AUTHENTICATOR” section for more infor‐[m
+[7m Manual page ssh-keygen(1) line 185 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               mation.[m
+[7m Manual page ssh-keygen(1) line 186 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 187 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-k      [22mGenerate a KRL file.  In this mode, [1mssh-keygen [22mwill generate  a[m
+[7m Manual page ssh-keygen(1) line 188 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               KRL file at the location specified via the [1m-f [22mflag that revokes[m
+[7m Manual page ssh-keygen(1) line 189 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               every  key  or  certificate  presented  on  the  command  line.[m
+[7m Manual page ssh-keygen(1) line 190 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Keys/certificates to be revoked may be specified by public  key[m
+[7m Manual page ssh-keygen(1) line 191 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               file  or  using  the  format  described  in the “KEY REVOCATION[m
+[7m Manual page ssh-keygen(1) line 192 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               LISTS” section.[m
+[7m Manual page ssh-keygen(1) line 193 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 194 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-L      [22mPrints the contents of one or more certificates.[m
+[7m Manual page ssh-keygen(1) line 195 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 196 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l      [22mShow fingerprint of specified public key file.  For RSA and DSA[m
+[7m Manual page ssh-keygen(1) line 197 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               keys [1mssh-keygen [22mtries to find the matching public key file  and[m
+[7m Manual page ssh-keygen(1) line 198 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               prints  its  fingerprint.   If combined with [1m-v[22m, a visual ASCII[m
+[7m Manual page ssh-keygen(1) line 199 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               art representation of the key is supplied with the fingerprint.[m
+[7m Manual page ssh-keygen(1) line 200 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-keygen(1) line 201 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-M generate[0m[m
+[7m Manual page ssh-keygen(1) line 202 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Generate candidate Diffie-Hellman Group Exchange (DH-GEX) para‐[m
+[7m Manual page ssh-keygen(1) line 203 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               meters       for       eventual        use        by        the[m
+[7m Manual page ssh-keygen(1) line 204 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               ‘diffie-hellman-group-exchange-*’  key  exchange  methods.  The[m
+[7m Manual page ssh-keygen(1) line 205 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               numbers generated by this operation must  be  further  screened[m
+[7m Manual page ssh-keygen(1) line 206 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 205 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM               LISTS” section.[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 204 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM               file  or  using  the  format  described  in the “KEY REVOCATION[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 203 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM               Keys/certificates to be revoked may be specified by public  key[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 202 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM               every  key  or  certificate  presented  on  the  command  line.[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 201 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM               KRL file at the location specified via the [1m-f [22mflag that revokes[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 200 (press h for help or q to quit)[27m[K[K/[K--[Kff[K[1;1H               KRL file at the location specified via the [1m-f [22mflag that revokes[m
+[2;1H               every  key  or  certificate  presented  on  the  command  line.[m
+[3;1H               Keys/certificates to be revoked may be specified by public  key[m
+[4;1H               file  or  using  the  format  described  in the “KEY REVOCATION[m
+[5;1H               LISTS” section.[m
+[6;1H[m
+[7;1H       [1m-L      [22mPrints the contents of one or more certificates.[m
+[8;1H[m
+[9;1H       [1m-l      [22mShow fingerprint of specified public key file.  For RSA and DSA[m
+[10;1H               keys [1mssh-keygen [22mtries to find the matching public key file  and[m
+[11;1H               prints  its  fingerprint.   If combined with [1m-v[22m, a visual ASCII[m
+[12;1H               art representation of the key is supplied with the fingerprint.[m
+[13;1H[1;1H               KRL file at the location specified via the [1m[7m-f[27m[1m [22mflag that revokes[m
+[2;1H               every  key  or  certificate  presented  on  the  command  line.[m
+[3;1H               Keys/certificates to be revoked may be specified by public  key[m
+[4;1H               file  or  using  the  format  described  in the “KEY REVOCATION[m
+[5;1H               LISTS” section.[m
+[6;1H[m
+[7;1H       [1m-L      [22mPrints the contents of one or more certificates.[m
+[8;1H[m
+[9;1H       [1m-l      [22mShow fingerprint of specified public key file.  For RSA and DSA[m
+[10;1H               keys [1mssh-keygen [22mtries to find the matching public key file  and[m
+[11;1H               prints  its  fingerprint.   If combined with [1m-v[22m, a visual ASCII[m
+[12;1H               art representation of the key is supplied with the fingerprint.[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 200 (press h for help or q to quit)[27m[K[K/[K...skipping...
+               file  provided  using  the  [1m[7m-f[27m[1m [22mflag.  The format of the allowed[m
+               signers file is documented in the “ALLOWED SIGNERS” section be‐[m
+               low.  If one or more matching principals are  found,  they  are[m
+               returned on standard output.[m
+[m
+       [1m-Y match-principals[0m[m
+               Find  principal  matching the principal name provided using the[m
+               [1m-I [22mflag in the authorized signers file specified using  the  [1m[7m-f[27m[m
+               flag.   If  one or more matching principals are found, they are[m
+               returned on standard output.[m
+[m
+       [1m-Y check-novalidate[0m[m
+[7m Manual page ssh-keygen(1) line 414 (press h for help or q to quit)[27m[K[K/[K               Checks that a signature generated using [1mssh-keygen -Y sign  [22mhas[m
+               a valid structure.  This does not validate if a signature comes[m
+               from   an   authorized   signer.   When  testing  a  signature,[m
+               [1mssh-keygen [22maccepts a message on standard input and a  signature[m
+               namespace using [1m-n[22m.  A file containing the corresponding signa‐[m
+               ture must also be supplied using the [1m-s [22mflag.  Successful test‐[m
+               ing  of  the  signature  is signalled by [1mssh-keygen [22mreturning a[m
+[7m Manual page ssh-keygen(1) line 421 (press h for help or q to quit)[27m[K[K/[K...skipping...
+               The key used for signing is specified using the [1m[7m-f[27m[1m  [22moption  and[m
+               may  refer  to  either  a private key, or a public key with the[m
+               private half available via [4mssh-agent[24m(1).  An additional  signa‐[m
+               ture namespace, used to prevent signature confusion across dif‐[m
+               ferent domains of use (e.g. file signing vs email signing) must[m
+               be provided via the [1m-n [22mflag.  Namespaces are arbitrary strings,[m
+               and  may  include:  “file”  for file signing, “email” for email[m
+               signing.  For custom uses, it is recommended to use names  fol‐[m
+               lowing  a NAMESPACE@YOUR.DOMAIN pattern to generate unambiguous[m
+               namespaces.[m
+[m
+       [1m-Y verify[0m[m
+[7m Manual page ssh-keygen(1) line 444 (press h for help or q to quit)[27m[K[K/[K...skipping...
+               via  the  [1m[7m-f[27m[1m  [22mflag.   The format of the allowed signers file is[m
+               documented in the “ALLOWED SIGNERS” section below.  A file con‐[m
+               taining revoked keys can be passed using the [1m-r [22mflag.  The  re‐[m
+               vocation  file  may  be  a KRL or a one-per-line list of public[m
+               keys.  Successful verification by an authorized signer is  sig‐[m
+               nalled by [1mssh-keygen [22mreturning a zero exit status.[m
+[m
+       [1m-y      [22mThis  option  will read a private OpenSSH format file and print[m
+               an OpenSSH public key to stdout.[m
+[m
+       [1m-Z [4m[22mcipher[0m[m
+               Specifies the cipher to use  for  encryption  when  writing  an[m
+[7m Manual page ssh-keygen(1) line 462 (press h for help or q to quit)[27m[K[K/[K               OpenSSH[7m-f[27mormat private key file.  The list of available ciphers[m
+               may  be  obtained  using  "ssh  -Q  cipher".   The  default  is[m
+               “aes256-ctr”.[m
+[m
+       [1m-z [4m[22mserial_number[0m[m
+               Specifies a serial number to be embedded in the certificate  to[m
+               distinguish  this certificate from others from the same CA.  If[m
+               the [4mserial_number[24m is prefixed with a ‘+’  character,  then  the[m
+               serial  number  will be incremented for each certificate signed[m
+               on a single command-line.  The default serial number is zero.[m
+[m
+               When generating a KRL, the [1m-z [22mflag is used  to  specify  a  KRL[m
+[7m Manual page ssh-keygen(1) line 474 (press h for help or q to quit)[27m[K[K/[K...skipping...
+       file specified using the [1m[7m-f[27m[1m [22moption).  For example:[m
+[m
+             [1m# ssh-keygen -M screen [7m-f[27m[1m moduli-2048.candidates moduli-2048[0m[m
+[m
+       By default, each candidate will be subjected to  100  primality  tests.[m
+       This may be overridden using the [1m-O prime-tests [22moption.  The DH genera‐[m
+       tor  value  will be chosen automatically for the prime under considera‐[m
+       tion.  If a specific generator is desired, it may  be  requested  using[m
+       the [1m-O generator [22moption.  Valid generator values are 2, 3, and 5.[m
+[m
+       Screened  DH  groups may be installed in [4m/etc/ssh/moduli[24m.  It is impor‐[m
+       tant that this file contains moduli of a range of bit lengths.[m
+[7m Manual page ssh-keygen(1) line 508 (press h for help or q to quit)[27m[K[K/[K[m
+       A number of options are available for moduli generation  and  screening[m
+[7m Manual page ssh-keygen(1) line 510 (press h for help or q to quit)[27m[K[K/[K...skipping...
+       [1mno-agent[7m-f[27m[1morwarding[0m[m
+               Disable [4mssh-agent[24m(1) forwarding (permitted by default).[m
+[m
+       [1mno-port[7m-f[27m[1morwarding[0m[m
+               Disable port forwarding (permitted by default).[m
+[m
+       [1mno-pty  [22mDisable PTY allocation (permitted by default).[m
+[m
+       [1mno-user-rc[0m[m
+               Disable  execution  of  [4m~/.ssh/rc[24m  by [4msshd[24m(8) (permitted by de‐[m
+               fault).[m
+[m
+[7m Manual page ssh-keygen(1) line 626 (press h for help or q to quit)[27m[K[K/[K       [1mno-x11[7m-f[27m[1morwarding[0m[m
+               Disable X11 forwarding (permitted by default).[m
+[m
+[7m Manual page ssh-keygen(1) line 629 (press h for help or q to quit)[27m[K[K/[K       [1mpermit-agent[7m-f[27m[1morwarding[0m[m
+               Allows [4mssh-agent[24m(1) forwarding.[m
+[m
+       [1mpermit-port[7m-f[27m[1morwarding[0m[m
+               Allows port forwarding.[m
+[m
+       [1mpermit-pty[0m[m
+               Allows PTY allocation.[m
+[m
+[7m Manual page ssh-keygen(1) line 638 (press h for help or q to quit)[27m[K[K/[K       [1mpermit-user-rc[0m[m
+               Allows execution of [4m~/.ssh/rc[24m by [4msshd[24m(8).[m
+[m
+[7m Manual page ssh-keygen(1) line 641 (press h for help or q to quit)[27m[K[K[H[2J[HM                  [[1m-P [4m[22mold_passphrase[24m] [[1m-Z [4m[22mcipher[24m][m
+[HM       [1mssh-keygen -p [22m[[1m-a [4m[22mrounds[24m] [[1m[7m-f[27m[1m [4m[22mkeyfile[24m] [[1m-m [4m[22mformat[24m] [[1m-N  [4m[22mnew_passphrase[24m][m
+[HM                  [[1m-w [4m[22mprovider[24m] [[1m-Z [4m[22mcipher[24m][m
+[HM                  [[1m-t  dsa  [22m|  [1mecdsa  [22m| [1mecdsa-sk [22m| [1med25519 [22m| [1med25519-sk [22m| [1mrsa[22m][m
+[HM                  [[1m-m    [4m[22mformat[24m]    [[1m-N    [4m[22mnew_passphrase[24m]     [[1m-O     [4m[22moption[24m][m
+[HM       [1mssh-keygen  [22m[[1m-q[22m] [[1m-a [4m[22mrounds[24m] [[1m-b [4m[22mbits[24m] [[1m-C [4m[22mcomment[24m] [[1m[7m-f[27m[1m [4m[22moutput_keyfile[24m][m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM       ssh-keygen — OpenSSH authentication key utility[m
+[HM[1mNAME[0m[m
+[HM[m
+[HM[4mSSH-KEYGEN[24m(1)               General Commands Manual              [4mSSH-KEYGEN[24m(1)[m
+[13;1H[K[7m Manual page ssh-keygen(1) line 1 (press h for help or q to quit)[27m[K[K/[K--[Kff[K[1;1H[4mSSH-KEYGEN[24m(1)               General Commands Manual              [4mSSH-KEYGEN[24m(1)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       ssh-keygen — OpenSSH authentication key utility[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H       [1mssh-keygen  [22m[[1m-q[22m] [[1m-a [4m[22mrounds[24m] [[1m-b [4m[22mbits[24m] [[1m-C [4m[22mcomment[24m] [[1m-f [4m[22moutput_keyfile[24m][m
+[8;1H                  [[1m-m    [4m[22mformat[24m]    [[1m-N    [4m[22mnew_passphrase[24m]     [[1m-O     [4m[22moption[24m][m
+[9;1H                  [[1m-t  dsa  [22m|  [1mecdsa  [22m| [1mecdsa-sk [22m| [1med25519 [22m| [1med25519-sk [22m| [1mrsa[22m][m
+[10;1H                  [[1m-w [4m[22mprovider[24m] [[1m-Z [4m[22mcipher[24m][m
+[11;1H       [1mssh-keygen -p [22m[[1m-a [4m[22mrounds[24m] [[1m-f [4m[22mkeyfile[24m] [[1m-m [4m[22mformat[24m] [[1m-N  [4m[22mnew_passphrase[24m][m
+[12;1H                  [[1m-P [4m[22mold_passphrase[24m] [[1m-Z [4m[22mcipher[24m][m
+[13;1H[1;1H[4mSSH-KEYGEN[24m(1)               General Commands Manual              [4mSSH-KEYGEN[24m(1)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       ssh-keygen — OpenSSH authentication key utility[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H       [1mssh-keygen  [22m[[1m-q[22m] [[1m-a [4m[22mrounds[24m] [[1m-b [4m[22mbits[24m] [[1m-C [4m[22mcomment[24m] [[1m[7m-f[27m[1m [4m[22moutput_keyfile[24m][m
+[8;1H                  [[1m-m    [4m[22mformat[24m]    [[1m-N    [4m[22mnew_passphrase[24m]     [[1m-O     [4m[22moption[24m][m
+[9;1H                  [[1m-t  dsa  [22m|  [1mecdsa  [22m| [1mecdsa-sk [22m| [1med25519 [22m| [1med25519-sk [22m| [1mrsa[22m][m
+[10;1H                  [[1m-w [4m[22mprovider[24m] [[1m-Z [4m[22mcipher[24m][m
+[11;1H       [1mssh-keygen -p [22m[[1m-a [4m[22mrounds[24m] [[1m[7m-f[27m[1m [4m[22mkeyfile[24m] [[1m-m [4m[22mformat[24m] [[1m-N  [4m[22mnew_passphrase[24m][m
+[12;1H                  [[1m-P [4m[22mold_passphrase[24m] [[1m-Z [4m[22mcipher[24m][m
+[13;1H       [1mssh-keygen -i [22m[[1m[7m-f[27m[1m [4m[22minput_keyfile[24m] [[1m-m [4m[22mkey_format[24m][m
+       [1mssh-keygen -e [22m[[1m[7m-f[27m[1m [4m[22minput_keyfile[24m] [[1m-m [4m[22mkey_format[24m][m
+       [1mssh-keygen -y [22m[[1m[7m-f[27m[1m [4m[22minput_keyfile[24m][m
+       [1mssh-keygen -c [22m[[1m-a [4m[22mrounds[24m] [[1m-C [4m[22mcomment[24m] [[1m[7m-f[27m[1m [4m[22mkeyfile[24m] [[1m-P [4m[22mpassphrase[24m][m
+       [1mssh-keygen -l [22m[[1m-v[22m] [[1m-E [4m[22mfingerprint_hash[24m] [[1m[7m-f[27m[1m [4m[22minput_keyfile[24m][m
+       [1mssh-keygen -B [22m[[1m[7m-f[27m[1m [4m[22minput_keyfile[24m][m
+[7m Manual page ssh-keygen(1) line 7 (press h for help or q to quit)[27m[K[K/[K       [1mssh-keygen -D [4m[22mpkcs11[0m[m
+       [1mssh-keygen [7m-F[27m[1m [4m[22mhostname[24m [[1m-lv[22m] [[1m[7m-f[27m[1m [4m[22mknown_hosts_file[24m][m
+       [1mssh-keygen -H [22m[[1m[7m-f[27m[1m [4m[22mknown_hosts_file[24m][m
+       [1mssh-keygen -K [22m[[1m-a [4m[22mrounds[24m] [[1m-w [4m[22mprovider[24m][m
+[7m Manual page ssh-keygen(1) line 11 (press h for help or q to quit)[27m[K[K/[K       [1mssh-keygen -R [4m[22mhostname[24m [[1m[7m-f[27m[1m [4m[22mknown_hosts_file[24m][m
+       [1mssh-keygen -r [4m[22mhostname[24m [[1m-g[22m] [[1m[7m-f[27m[1m [4m[22minput_keyfile[24m][m
+[7m Manual page ssh-keygen(1) line 13 (press h for help or q to quit)[27m[K[K/[K       [1mssh-keygen -M generate [22m[[1m-O [4m[22moption[24m] [4moutput_file[0m[m
+[7m Manual page ssh-keygen(1) line 14 (press h for help or q to quit)[27m[K[K/[K       [1mssh-keygen -M screen [22m[[1m[7m-f[27m[1m [4m[22minput_file[24m] [[1m-O [4m[22moption[24m] [4moutput_file[0m[m
+[7m Manual page ssh-keygen(1) line 15 (press h for help or q to quit)[27m[K[K/[K       [1mssh-keygen -I [4m[22mcertificate_identity[24m [1m-s [4m[22mca_key[24m [[1m-hU[22m] [[1m-D [4m[22mpkcs11_provider[24m][m
+[7m Manual page ssh-keygen(1) line 16 (press h for help or q to quit)[27m[K[K/[K                  [[1m-n   [4m[22mprincipals[24m]   [[1m-O   [4m[22moption[24m]   [[1m-V   [4m[22mvalidity_interval[24m][m
+[7m Manual page ssh-keygen(1) line 17 (press h for help or q to quit)[27m[K[K/[K                  [[1m-z [4m[22mserial_number[24m] [4mfile[24m [4m...[0m[m
+[7m Manual page ssh-keygen(1) line 18 (press h for help or q to quit)[27m[K[K/[K       [1mssh-keygen -L [22m[[1m[7m-f[27m[1m [4m[22minput_keyfile[24m][m
+       [1mssh-keygen -A [22m[[1m-a [4m[22mrounds[24m] [[1m[7m-f[27m[1m [4m[22mprefix_path[24m][m
+[7m Manual page ssh-keygen(1) line 20 (press h for help or q to quit)[27m[K[K/[K       [1mssh-keygen -k [7m-f[27m[1m  [4m[22mkrl_file[24m  [[1m-u[22m]  [[1m-s  [4m[22mca_public[24m]  [[1m-z  [4m[22mversion_number[24m][m
+[7m Manual page ssh-keygen(1) line 21 (press h for help or q to qui
