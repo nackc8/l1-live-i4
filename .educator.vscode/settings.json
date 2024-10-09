@@ -28,14 +28,13 @@
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
   "json.format.enable": false,
-  "workbench.preferredHighContrastColorTheme": "Default High Contrast Light",
   "editor.fontLigatures": false,
-  "editor.fontSize": 20,
+  "editor.fontSize": 22,
   "editor.fontFamily": "'IBM Plex Mono', 'Droid Sans Mono', 'monospace', monospace",
-  "debug.console.fontSize": 16,
+  "debug.console.fontSize": 18,
   "scm.inputFontFamily": "editor",
-  "scm.inputFontSize": 24,
-  "terminal.integrated.fontSize": 18,
+  "scm.inputFontSize": 26,
+  "terminal.integrated.fontSize": 20,
   "terminal.integrated.fontWeight": "600",
   "editor.fontWeight": "600",
   "window.zoomPerWindow": false,
@@ -54,12 +53,16 @@
     "editorError.border": "#ffffff00",
     "editorError.background": "#ffccccaa",
     "editorError.foreground": "#ffcccc00",
-    "selection.background": "#000"
+    "sideBar.foreground": "#000",
+    "list.activeSelectionBackground": "#000",
+    "list.activeSelectionForeground": "#fff",
+    "list.inactiveSelectionBackground": "#000",
+    "list.inactiveSelectionForeground": "#fff"
   },
   "workbench.editor.showIcons": false,
   "explorer.decorations.colors": false,
   "editor.colorDecorators": false,
-  "workbench.iconTheme": "vs-minimal",
+  "workbench.iconTheme": null,
   "breadcrumbs.enabled": false,
   "editor.cursorSurroundingLines": 3,
   "screencastMode.keyboardOptions": {
@@ -75,5 +78,9 @@
       "args": ["--init-file", "./.vscode/.bashrc"],
       "path": "bash"
     }
-  }
+  },
+  "workbench.colorTheme": "Default High Contrast Light",
+  "terminal.integrated.minimumContrastRatio": 7,
+  "workbench.statusBar.visible": false,
+  "workbench.activityBar.location": "hidden"
 }
