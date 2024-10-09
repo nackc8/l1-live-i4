@@ -254,4 +254,50 @@ Script started on 2024-10-09 09:54:52+02:00 [TERM="xterm-256color" TTY="/dev/pts
 [35m❯[0m cat /etc/[K[K[K[K[K~/.ssh/knowN[Kn_hostsN[K[H[2J
 [34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[33m33s[0m 
 [35m❯[0m cat ~/.ssh/known_hosts
-[?2004l|1|THftUPhOkhpGu07bbnNrU9HJirU=|dTU2PkiJ9bcEoNbAzgCHtOUHHs0= ssh-e
+[?2004l|1|THftUPhOkhpGu07bbnNrU9HJirU=|dTU2PkiJ9bcEoNbAzgCHtOUHHs0= ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJXChHAdpS2gf3ToPcWmKIk35+/4tcyNKcdKtJFDJdLR
+|1|zortIwAPQnZBVS1bCQWOirgzgKI=|7Njsjjr/XvLUqTcuJQCWEVkAvWE= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9l3UiLWIx8WfzXC6XMqYMjlTPMQxVPEinHzxlK8BB81VR36iczp7lSV1NaV4Ic0H7A7awl6brIgELkvKJ+LygWzY2XPYCzRY261wClbWiVmDnmVY7mGpamqpkh7wN1FhUX4+KMw4R4q84vH0rCLpSaDCYiuIDgzluAiofLW6JZEy+k4SfEljOi0H+uT0w/DHSwQKeh7YnznDmIW35ZUJpB3kneGuA1kfKxu/FtVEhA5lUCiEv02T/9nXwps8pu0OiJPQqPdt+HmjnZOI4uuqjvGV/BuO+nH9Na3Uwe/ZXTHRpy9z9DOEy6EFfTogSrODHBMZjEaeDjrAQ3Nfzs1WD7GbjuQKeh3SBryn+K3tjgBdRl+KoIFp519y0jaZPHIKIbmb4mXET5QISDRMbuh0Lhohfl2IqBOWc3LZj9QEiUx5uT/zhT+PnzVODx1OEc83IbhEAMfZ5YjWhkYMoTd39HGz9nnJd/502uY5SCM18OLwMNm6s4t3Pk9tB2rQPGls=
+|1|A2lz7IIzqW3k6rUlBQtf1TbT4cE=|WvbU5UEIWGyDL+MOIz+qW5brFcQ= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ27dZGIDJPmZM/kkPPxKYL5Y7DK3UiT3ebUDHmYqLbfEEqZorZLhAR2V0CSUzcUhswQGJWpj7UtHdLspos3DNM=
+|1|vpJnOKY/Y8IFdZqqgfA2gLr7cIc=|EnIxhoKP0ZXTMIVAFnGwLzLEmks= ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
+|1|QLhgm8xLt1+maWpTyZhS2nGT2y0=|Cte2kibSRLNMfZUrX0bBW5Yg8Lo= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj7ndNxQowgcQnjshcLrqPEiiphnt+VTTvDP6mHBL9j1aNUkY4Ue1gvwnGLVlOhGeYrnZaMgRK6+PKCUXaDbC7qtbW8gIkhL7aGCsOr/C56SJMy/BCZfxd1nWzAOxSDPgVsmerOBYfNqltV9/hWCqBywINIR+5dIg6JTJ72pcEpEjcYgXkE2YEFXV1JHnsKgbLWNlhScqb2UmyRkQyytRLtL+38TGxkxCflmO+5Z8CSSNY7GidjMIZ7Q4zMjA2n1nGrlTDkzwDCsw+wqFPGQA179cnfGWOWRVruj16z6XyvxvjJwbz0wQZ75XK5tKSb7FNyeIEs4TT4jk+S4dhPeAUC5y+bDYirYgM4GC7uEnztnZyaVWQ7B381AK4Qdrwt51ZqExKbQpTUNn+EjqoTwvqNj4kqx5QUCI0ThS/YkOxJCXmPUWZbhjpCg56i+2aB6CmK2JGhn57K5mj0MNdBXA4/WnwH6XoPWJzK5Nyu2zB3nAZp+S5hpQs+p1vN1/wsjk=
+|1|opILewwORbGfEZpDdVavrycc5P8=|2pTpt+jQ14pRA+26jxuUies4/Mo= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQEezOmxkZMy7opKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6v0mKV0U2w0WZ2YB/++Tpockg=
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m (reverse-i-search)`': s': cat ~/.ssh/known_host[7ms[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs': cat ~/.[7mss[27mh/known_hostsh': cat ~/.[7mssh[27m/known_hosts[16P ': [7mssh [27mxu': [7mssh u[27mbseb': [7mssh ub[27mses': [7mssh ubs[27mee': [7mssh ubse[27m[28P[35m❯[0m ssh ubse[C[C
+[?2004lThe authenticity of host '[localhost]:3322 ([127.0.0.1]:3322)' can't be established.
+ED25519 key fingerprint is SHA256:jziFwe1oRAsMyRkdfX2U2TWD/XMBXTyMAjOJcVNpjT0.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[localhost]:3322' (ED25519) to the list of known hosts.
+Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 11:38:22 AM UTC 2024
+
+  System load:  0.0                Processes:               116
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 9%                 IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 11:32:34 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub
+[?2004l256 SHA256:jziFwe1oRAsMyRkdf
