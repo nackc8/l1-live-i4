@@ -1649,4 +1649,323 @@ Password:
 [Socket]
 ListenStream=
 ListenStream=2024
-[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /run/systemd/generator/ssh.socket.d/addresses.conf [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /run/systemd/generator/ssh.socket.d/addresses.conf [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [7msystemctl restart ssh.socket[27m[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl restart ssh.socket[H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ systemctl restart ssh.socket
+[?2004l[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ====
+[0mAuthentication is required to restart 'ssh.socket'.
+Authenticating as: Test Testsson (kent)
+Password: 
+[1;31m==== AUTHENTICATION COMPLETE ====
+[0m[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls[K[Kls[K[Kd[Kexit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m15m5s[0m 
+[35m❯[0m ssh ubse[H[2J
+[34m~[0m [33m15m5s[0m 
+[35m❯[0m ssh ubse[K[35m❯[0m ssh ubse[K[35m❯[0m ssh ubse[K[35m❯[0m ssh ubse[K[35m❯[0m ssh ubse[K[35m❯[0m ssh ubse[K[35m❯[0m ssh ubse[K[35m❯[0m ssh ubse[K[35m❯[0m ssh ubse[K[35m❯[0m ssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 10:52:58 AM UTC 2024
+
+  System load:  0.01               Processes:               116
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 10:35:46 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh [K[K[K[Kexit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m1m37s[0m 
+[35m❯[0m ssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 10:54:40 AM UTC 2024
+
+  System load:  0.0                Processes:               117
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 10:52:58 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-agent .[K[K[K[K[K[K[K[K[K[K[Kman ssh-agent
+[?2004l[?1049h[22;0;0t[?1h=[4mSSH-AGENT[24m(1)        General Commands Manual      [4mSSH-AGENT[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-agent — OpenSSH authentication agent[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-agent   [22m[[1m-c   [22m|   [1m-s[22m]   [[1m-Dd[22m]   [[1m-a  [4m[22mbind_address[24m][m
+                 [[1m-E    [4m[22mfingerprint_hash[24m]     [[1m-O     [4m[22moption[24m][m
+[7mnual page ssh-agent(1) line 1 (press h for help or q to quit)[27m[K[H[2J[H[H[2J[H[4mSSH-AGENT[24m(1)        General Commands Manual      [4mSSH-AGENT[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-agent — OpenSSH authentication agent[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-agent   [22m[[1m-c   [22m|   [1m-s[22m]   [[1m-Dd[22m]   [[1m-a  [4m[22mbind_address[24m][m
+                 [[1m-E    [4m[22mfingerprint_hash[24m]     [[1m-O     [4m[22moption[24m][m
+[7m Manual page ssh-agent(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mSSH-AGENT[24m(1)        General Commands Manual      [4mSSH-AGENT[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-agent — OpenSSH authentication agent[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-agent   [22m[[1m-c   [22m|   [1m-s[22m]   [[1m-Dd[22m]   [[1m-a  [4m[22mbind_address[24m][m
+                 [[1m-E    [4m[22mfingerprint_hash[24m]     [[1m-O     [4m[22moption[24m][m
+                 [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+[7m Manual page ssh-agent(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mSSH-AGENT[24m(1)        General Commands Manual      [4mSSH-AGENT[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-agent — OpenSSH authentication agent[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-agent   [22m[[1m-c   [22m|   [1m-s[22m]   [[1m-Dd[22m]   [[1m-a  [4m[22mbind_address[24m][m
+                 [[1m-E    [4m[22mfingerprint_hash[24m]     [[1m-O     [4m[22moption[24m][m
+                 [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+       [1mssh-agent   [22m[[1m-a  [4m[22mbind_address[24m]  [[1m-E  [4m[22mfingerprint_hash[24m][m
+[7m Manual page ssh-agent(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mSSH-AGENT[24m(1)        General Commands Manual      [4mSSH-AGENT[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-agent — OpenSSH authentication agent[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-agent   [22m[[1m-c   [22m|   [1m-s[22m]   [[1m-Dd[22m]   [[1m-a  [4m[22mbind_address[24m][m
+                 [[1m-E    [4m[22mfingerprint_hash[24m]     [[1m-O     [4m[22moption[24m][m
+                 [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+       [1mssh-agent   [22m[[1m-a  [4m[22mbind_address[24m]  [[1m-E  [4m[22mfingerprint_hash[24m][m
+                 [[1m-O [4m[22moption[24m] [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+[7m Manual page ssh-agent(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mSSH-AGENT[24m(1)        General Commands Manual      [4mSSH-AGENT[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-agent — OpenSSH authentication agent[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-agent   [22m[[1m-c   [22m|   [1m-s[22m]   [[1m-Dd[22m]   [[1m-a  [4m[22mbind_address[24m][m
+                 [[1m-E    [4m[22mfingerprint_hash[24m]     [[1m-O     [4m[22moption[24m][m
+                 [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+       [1mssh-agent   [22m[[1m-a  [4m[22mbind_address[24m]  [[1m-E  [4m[22mfingerprint_hash[24m][m
+                 [[1m-O [4m[22moption[24m] [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+                 [4mcommand[24m [[4marg[24m [4m...[24m][m
+[7m Manual page ssh-agent(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mSSH-AGENT[24m(1)        General Commands Manual      [4mSSH-AGENT[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-agent — OpenSSH authentication agent[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-agent   [22m[[1m-c   [22m|   [1m-s[22m]   [[1m-Dd[22m]   [[1m-a  [4m[22mbind_address[24m][m
+                 [[1m-E    [4m[22mfingerprint_hash[24m]     [[1m-O     [4m[22moption[24m][m
+                 [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+       [1mssh-agent   [22m[[1m-a  [4m[22mbind_address[24m]  [[1m-E  [4m[22mfingerprint_hash[24m][m
+                 [[1m-O [4m[22moption[24m] [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+                 [4mcommand[24m [[4marg[24m [4m...[24m][m
+       [1mssh-agent [22m[[1m-c [22m| [1m-s[22m] [1m-k[0m[m
+[7m Manual page ssh-agent(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mSSH-AGENT[24m(1)        General Commands Manual      [4mSSH-AGENT[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-agent — OpenSSH authentication agent[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-agent   [22m[[1m-c   [22m|   [1m-s[22m]   [[1m-Dd[22m]   [[1m-a  [4m[22mbind_address[24m][m
+                 [[1m-E    [4m[22mfingerprint_hash[24m]     [[1m-O     [4m[22moption[24m][m
+                 [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+       [1mssh-agent   [22m[[1m-a  [4m[22mbind_address[24m]  [[1m-E  [4m[22mfingerprint_hash[24m][m
+                 [[1m-O [4m[22moption[24m] [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+                 [4mcommand[24m [[4marg[24m [4m...[24m][m
+       [1mssh-agent [22m[[1m-c [22m| [1m-s[22m] [1m-k[0m[m
+[m
+[7m Manual page ssh-agent(1) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mSSH-AGENT[24m(1)        General Commands Manual      [4mSSH-AGENT[24m(1)[m
+[m
+[1mNAME[0m[m
+       ssh-agent — OpenSSH authentication agent[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mssh-agent   [22m[[1m-c   [22m|   [1m-s[22m]   [[1m-Dd[22m]   [[1m-a  [4m[22mbind_address[24m][m
+                 [[1m-E    [4m[22mfingerprint_hash[24m]     [[1m-O     [4m[22moption[24m][m
+                 [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+       [1mssh-agent   [22m[[1m-a  [4m[22mbind_address[24m]  [[1m-E  [4m[22mfingerprint_hash[24m][m
+                 [[1m-O [4m[22moption[24m] [[1m-P [4m[22mallowed_providers[24m] [[1m-t [4m[22mlife[24m][m
+                 [4mcommand[24m [[4marg[24m [4m...[24m][m
+       [1mssh-agent [22m[[1m-c [22m| [1m-s[22m] [1m-k[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       [1mssh-agent [22mis a program to hold private keys  used  for[m
+       public key authentication.  Through use of environment[m
+[7m Manual page ssh-agent(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       variables  the  agent can be located and automatically[m
+[7m Manual page ssh-agent(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       used for authentication when logging in to  other  ma‐[m
+[7m Manual page ssh-agent(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       chines using [4mssh[24m(1).[m
+[7m Manual page ssh-agent(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-agent(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options are as follows:[m
+[7m Manual page ssh-agent(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-agent(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a [4m[22mbind_address[0m[m
+[7m Manual page ssh-agent(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               Bind  the  agent  to  the  Unix-domain  socket[m
+[7m Manual page ssh-agent(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [4mbind_address[24m.       The       default       is[m
+[7m Manual page ssh-agent(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [4m$TMPDIR/ssh-XXXXXXXXXX/agent.<ppid>[24m.[m
+[7m Manual page ssh-agent(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh-agent(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c      [22mGenerate  C-shell commands on stdout.  This is[m
+[7m Manual page ssh-agent(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               the default if SHELL looks  like  it's  a  csh[m
+[7m Manual page ssh-agent(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               style of shell.[m
+[7m Manual page ssh-agent(1) line 15 (press h for help or q to quit)[27m[K[K[7mCannot edit standard input  (press RETURN)[27m[18;1H[K[K[7m Manual page ssh-agent(1) line 15 (press h for help or q to quit)[27m[K[K[m
+       [1m-D      [22mForeground  mode.   When this option is speci‐[m
+               fied, [1mssh-agent [22mwill not fork.[m
+[m
+       [1m-d      [22mDebug mode.  When this  option  is  specified,[m
+               [1mssh-agent  [22mwill  not fork and will write debug[m
+               information to standard error.[m
+[m
+       [1m-E [4m[22mfingerprint_hash[0m[m
+               Specifies the hash algorithm  used  when  dis‐[m
+               playing  key fingerprints.  Valid options are:[m
+               “md5” and “sha256”.  The default is “sha256”.[m
+[m
+       [1m-k      [22mKill  the  current   agent   (given   by   the[m
+               SSH_AGENT_PID environment variable).[m
+[m
+       [1m-O [4m[22moption[0m[m
+[7m Manual page ssh-agent(1) line 32 (press h for help or q to quit)[27m[K[K               Specify  an  option  when  starting [1mssh-agent[22m.[m
+               Currently   two   options    are    supported:[m
+               [1mallow-remote-pkcs11 [22mand [1mno-restrict-websafe[22m.[m
+[m
+               The  [1mallow-remote-pkcs11 [22moption allows clients[m
+               of a forwarded [1mssh-agent [22mto  load  PKCS#11  or[m
+               FIDO  provider libraries.  By default only lo‐[m
+               cal clients may perform this operation.   Note[m
+               that  signalling  that  an [1mssh-agent [22mclient is[m
+               remote is performed  by  [4mssh[24m(1),  and  use  of[m
+               other  tools  to  forward  access to the agent[m
+               socket may circumvent this restriction.[m
+[m
+               The   [1mno-restrict-websafe   [22moption   instructs[m
+               [1mssh-agent [22mto permit signatures using FIDO keys[m
+               that might be web authentication requests.  By[m
+               default,  [1mssh-agent [22mrefuses signature requests[m
+[7m Manual page ssh-agent(1) line 49 (press h for help or q to quit)[27m[K[K               for FIDO keys where the key application string[m
+               does not start with “ssh:” and when  the  data[m
+               to  be  signed  does not appear to be a [4mssh[24m(1)[m
+               user authentication request or a [4mssh-keygen[24m(1)[m
+               signature.   The  default  behaviour  prevents[m
+               forwarded  access  to a FIDO key from also im‐[m
+               plicitly forwarding the ability  to  authenti‐[m
+               cate to websites.[m
+[m
+       [1m-P [4m[22mallowed_providers[0m[m
+               Specify a pattern-list of acceptable paths for[m
+               PKCS#11  provider  and FIDO authenticator mid‐[m
+               dleware shared libraries that may be used with[m
+               the [1m-S [22mor [1m-s [22moptions to [4mssh-add[24m(1).  Libraries[m
+               that do not match the pattern list will be re‐[m
+               fused.  See PATTERNS in  [4mssh_config[24m(5)  for  a[m
+               description  of  pattern-list syntax.  The de‐[m
+[7m Manual page ssh-agent(1) line 66 (press h for help or q to quit)[27m[K[K               fault list is “usr/lib*/*,/usr/local/lib*/*”.[m
+[m
+       [1m-s      [22mGenerate  Bourne  shell  commands  on  stdout.[m
+               This  is  the  default  if SHELL does not look[m
+               like it's a csh style of shell.[m
+[m
+       [1m-t [4m[22mlife[0m[m
+               Set a default value for the  maximum  lifetime[m
+               of  identities  added to the agent.  The life‐[m
+               time may be specified in seconds or in a  time[m
+               format  specified  in [4msshd_config[24m(5).  A life‐[m
+               time specified for an identity with [4mssh-add[24m(1)[m
+               overrides this value.  Without this option the[m
+               default maximum lifetime is forever.[m
+[m
+       [4mcommand[24m [[4marg[24m [4m...[24m][m
+               If  a  command  (and  optional  arguments)  is[m
+[7m Manual page ssh-agent(1) line 83 (press h for help or q to quit)[27m[K[K               given, this is executed as a subprocess of the[m
+               agent.  The agent exits automatically when the[m
+               command given on the command line terminates.[m
+[m
+       There  are  two main ways to get an agent set up.  The[m
+       first is at the start of an X session, where all other[m
+       windows or programs are started  as  children  of  the[m
+       [1mssh-agent  [22mprogram.   The agent starts a command under[m
+       which its environment variables are exported, for  ex‐[m
+       ample [1mssh-agent xterm &[22m.  When the command terminates,[m
+       so does the agent.[m
+[m
+       The  second  method is used for a login session.  When[m
+       [1mssh-agent [22mis started, it prints the shell commands re‐[m
+       quired to set its environment variables, which in turn[m
+       can be evaluated in the  calling  shell,  for  example[m
+       [1meval `ssh-agent -s`[22m.[m
+[7m Manual page ssh-agent(1) line 100 (press h for help or q to quit)[27m[K[K[m
+       In both cases, [4mssh[24m(1) looks at these environment vari‐[m
+       ables  and  uses them to establish a connection to the[m
+       agent.[m
+[m
+       The agent initially does not have  any  private  keys.[m
+       Keys  are  added  using  [4mssh-add[24m(1)  or by [4mssh[24m(1) when[m
+       [1mAddKeysToAgent  [22mis  set  in  [4mssh_config[24m(5).   Multiple[m
+       identities may be stored in [1mssh-agent [22mconcurrently and[m
+       [4mssh[24m(1)   will   automatically  use  them  if  present.[m
+       [4mssh-add[24m(1) is also used to remove keys from  [1mssh-agent[0m[m
+       and to query the keys that are held in one.[m
+[m
+       Connections to [1mssh-agent [22mmay be forwarded from further[m
+       remote  hosts  using  the [1m-A [22moption to [4mssh[24m(1) (but see[m
+       the caveats documented therein), avoiding the need for[m
+       authentication data to be stored  on  other  machines.[m
+[7m Manual page ssh-agent(1) line 117 (press h for help or q to quit)[27m[K[K       Authentication  passphrases  and private keys never go[m
+       over the network: the connection to the agent is  for‐[m
+       warded  over  SSH remote connections and the result is[m
+       returned to the requester, allowing the user access to[m
+       their identities anywhere in the network in  a  secure[m
+       fashion.[m
+[m
+[1mENVIRONMENT[0m[m
+       SSH_AGENT_PID  When  [1mssh-agent  [22mstarts,  it stores the[m
+                      name of the agent's process ID (PID) in[m
+                      this variable.[m
+[m
+       SSH_AUTH_SOCK  When [1mssh-agent  [22mstarts,  it  creates  a[m
+                      Unix-domain socket and stores its path‐[m
+                      name  in this variable.  It is accessi‐[m
+                      ble only to the current  user,  but  is[m
+                      easily  abused  by  root or another in‐[m
+[7m Manual page ssh-agent(1) line 134 (press h for help or q to quit
