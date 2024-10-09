@@ -2527,4 +2527,63 @@ ssh_host_ecdsa_key
 [7m Manual page ssh-keygen(1) line 18 (press h for help or q to quit)[27m[K[K/[K       [1mssh-keygen -L [22m[[1m[7m-f[27m[1m [4m[22minput_keyfile[24m][m
        [1mssh-keygen -A [22m[[1m-a [4m[22mrounds[24m] [[1m[7m-f[27m[1m [4m[22mprefix_path[24m][m
 [7m Manual page ssh-keygen(1) line 20 (press h for help or q to quit)[27m[K[K/[K       [1mssh-keygen -k [7m-f[27m[1m  [4m[22mkrl_file[24m  [[1m-u[22m]  [[1m-s  [4m[22mca_public[24m]  [[1m-z  [4m[22mversion_number[24m][m
-[7m Manual page ssh-keygen(1) line 21 (press h for help or q to qui
+[7m Manual page ssh-keygen(1) line 21 (press h for help or q to quit)[27m[K[K/[K                  [4mfile[24m [4m...[0m[m
+       [1mssh-keygen -Q [22m[[1m-l[22m] [1m[7m-f[27m[1m [4m[22mkrl_file[24m [4mfile[24m [4m...[0m[m
+[7m Manual page ssh-keygen(1) line 23 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ man ssh-keygen [C[C[C[C[C[C[C[C[C[C[C[C[Cssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l256 SHA256:jziFwe1oRAsMyRkdfX2U2TWD/XMBXTyMAjOJcVNpjT0 root@ubse (ED25519)
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [?2004l
+logout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m5m3s[0m 
+[35m❯[0m RM[K[Krm .ssh/known_hosts
+[?2004l[?2004h
+[34m~[0m 
+[35m❯[0m rm .ssh/known_hosts[C[C[11Pssh ubse
+[?2004lThe authenticity of host '[localhost]:3322 ([127.0.0.1]:3322)' can't be established.
+ED25519 key fingerprint is SHA256:jziFwe1oRAsMyRkdfX2U2TWD/XMBXTyMAjOJcVNpjT0.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? ^C
+[?2004h
+[34m~[0m [33m2m18s[0m 
+[31m❯[0m 
+[?2004l[?2004h
+[34m~[0m 
+[31m❯[0m 
+[?2004l[?2004h
+[34m~[0m 
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [H[2J
+[34m~[0m 
+[31m❯[0m ssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 11:53:54 AM UTC 2024
+
+  System load:  0.2                Processes:               115
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 11:52:57 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls
+[?2004lscp_kopiera_filer
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ mkdir minkatalog
+[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ mkdir minkatalog[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C minkatalog- minkatalogp minkatalog[C[C[
