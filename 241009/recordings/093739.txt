@@ -1173,4 +1173,68 @@ Include /etc/ssh/sshd_config.d/*.conf
 #HostKey /etc/ssh/ssh_host_rsa_key
 #HostKey /etc/ssh/ssh_host_ecdsa_key
 :[K[K [KESCESC[KOO[KAA[K[HM
-[9;1H[K:
+[9;1H[K:[K[K [KESCESC[KOO[KAA[K[HMInclude /etc/ssh/sshd_config.d/*.conf
+[9;1H[K:[K[K[?1l>[?1049l[23;0;0t[?2004h]0;kent@ubse: /etc/ssh[01;32mkent@ubse[00m:[01;34m/etc/ssh[00m$ ssh -p 2024 localhost
+[?2004lssh: connect to host localhost port 2024: Connection refused
+[?2004h]0;kent@ubse: /etc/ssh[01;32mkent@ubse[00m:[01;34m/etc/ssh[00m$ ssh-copy-id[K[K[K[K[K[K[K[K[K[K[Kcd
+[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls
+[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ .[Kls [K[K[Kls /.ssh[K[K[K[K[K.ssh
+[?2004lauthorized_keys  known_hosts  [0m[00;90mknown_hosts.old[0m
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat .ssh/authorized_keys 
+[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDdAQR3Eey3TFkvv4EMy9x58E3Di92La3Is5RatqpSMt kent@klad
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [?2004l
+logout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m2m10s[0m 
+[35m❯[0m (reverse-i-search)`': s': ssh ub[7ms[27mes': [7mss[27mh ubse[1@h': [7mssh[27mc': man 5 [7msshc[27monfigo': man 5 [7msshco[27mnfig[1P': man 5 [7msshc[27monfig[1P': man 5 [7mssh[27mconfig-': [7mssh-[27mcopy-id -p 3322 -i ~/.ssh/id_ed25519_ubse.pub kent@localhost[A[C[C[C[C[C[Cc': [7mssh-c[27mopy-id -p 3322 -i ~/.ssh/id_ed25519_ubs[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co': [7mssh-co[27mpy-id -p 3322 -i ~/.ssh/id_ed25519_ub[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P[35m❯[0m ssh-copy-id -p 3322 -i ~/.ssh/id_ed25519_ubse.pub kent@localhost
+[K[A[C[C[C[H[2J
+[34m~[0m [33m2m10s[0m 
+[35m❯[0m ssh-copy-id -p 3322 -i ~/.ssh/id_ed25519_ubse.pub kent@localhost[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C[?2004l[?2004h[?2004l
+[?2004h
+[34m~[0m 
+[31m❯[0m [H[2J
+[34m~[0m 
+[31m❯[0m ls .ssh
+[?2004lconfig				id_ed25519_ubse
+id_ed25519			id_ed25519_ubse.pub
+id_ed25519_github_personal	known_hosts
+id_ed25519_github_personal.pub	known_hosts.old
+id_ed25519.pub
+[?2004h
+[34m~[0m 
+[35m❯[0m rm id[K[K[7mid_ed25519_ubse[27m[C[C[C[C[Cid_ed25519_ubse*[K[35m❯[0m rm id_ed25519_ubse*[K[35m❯[0m rm id_ed25519_ubse*[K[35m❯[0m rm id_ed25519_ubse*[K[35m❯[0m rm id_ed25519_ubse*[K[35m❯[0m rm id_ed25519_ubse*[K[35m❯[0m rm id_ed25519_ubse*^C[?2004l[?2004h[?2004l
+[?2004h
+[34m~[0m 
+[31m❯[0m [H[2J
+[34m~[0m 
+[31m❯[0m ls
+[?2004l bin	     Dropbox    pres		 typescript
+ bokforing   l1-live    present		 Videos
+ Desktop     Music      Public		'VirtualBox VMs'
+ Documents   nano       shared_desktop
+ Downloads   Pictures   Templates
+[?2004h
+[34m~[0m 
+[35m❯[0m ls .ssh
+[?2004lconfig				id_ed25519_ubse
+id_ed25519			id_ed25519_ubse.pub
+id_ed25519_github_personal	known_hosts
+id_ed25519_github_personal.pub	known_hosts.old
+id_ed25519.pub
+[?2004h
+[34m~[0m 
+[35m❯[0m ssh id+[K_ed[K[K[K[K[K-i /home/kent/.ssh/id_ed25519
+id_ed25519                  id_ed25519_ubse
+id_ed25519_github_personal  
+
+[34m~[0m 
+[35m❯[0m ssh -i /home/kent/.ssh/id_ed25519_
+id_ed25519_github_personal  id_ed25519_ubse
+
+[34m~[0m 
+[35m❯[0m ssh -i /home/kent/.ssh/id_ed25519_ubse ub[K[K-p 3322 localhos t
+[?2004lkex_exchange_identification: read: Connection reset by peer
+Connection reset by 127.0.0.1 port 3322
+[?2004h
+[34m~
