@@ -2,7 +2,7 @@ Host ubse
 HostName localhost
 User kent
 Port 3322
-IdentitfyFile /
+IdentityFile /home/kent/.ssh/id_ed25519_ubse.pub
 
 Host localhost
 HostName localhost
