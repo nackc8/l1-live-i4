@@ -1,0 +1,252 @@
+Script started on 2024-10-09 09:54:52+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="66" LINES="12"]
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[0m
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[0m
+[35m❯[0m man 5 sshd_config
+[?2004l[?1049h[22;0;0t[?1h=SSHD_CONFIG(5)       BSD File Formats Manual      SSHD_CONFIG(5)[m
+[m
+[1mNAME[0m[m
+     [1msshd_config[0m — OpenSSH daemon configuration file[m
+[m
+[1mDESCRIPTION[0m[m
+     sshd(8) reads configuration data from [4m/etc/ssh/sshd_config[24m[m
+     (or the file specified with [1m-f[0m on the command line).  The[m
+     file contains keyword-argument pairs, one per line.  For[m
+     each keyword, the first obtained value will be used.  Lines[m
+     starting with ‘#’ and empty lines are interpreted as com‐[m
+[7manual page sshd_config(5) line 1 (press h for help or q to quit)[27m[K[K     ments.  Arguments may optionally be enclosed in double[m
+     quotes (") in order to represent arguments containing spa‐[m
+     ces.[m
+[m
+     Note that the Debian [1mopenssh-server[0m package sets several[m
+     options as standard in [4m/etc/ssh/sshd_config[24m which are not[m
+     the default in sshd(8):[m
+[m
+           [1m•[0m   [1mInclude[0m [1m/etc/ssh/sshd_config.d/*.conf[0m[m
+           [1m•[0m   [1mKbdInteractiveAuthentication[0m no[m
+           [1m•[0m   [1mX11Forwarding[0m yes[m
+[7mnual page sshd_config(5) line 12 (press h for help or q to quit)[27m[K[K           [1m•[0m   [1mPrintMotd[0m no[m
+           [1m•[0m   [1mAcceptEnv[0m LANG LC_*[m
+           [1m•[0m   [1mSubsystem[0m sftp /usr/lib/openssh/sftp-server[m
+           [1m•[0m   [1mUsePAM[0m yes[m
+[m
+     [4m/etc/ssh/sshd_config.d/*.conf[24m files are included at the[m
+     start of the configuration file, so options set there will[m
+     override those in [4m/etc/ssh/sshd_config.[24m[m
+[m
+     The possible keywords and their meanings are as follows[m
+     (note that keywords are case-insensitive and arguments are[m
+[7mnual page sshd_config(5) line 23 (press h for help or q to quit)[27m[K[K     case-sensitive):[m
+[m
+     [1mAcceptEnv[0m[m
+             Specifies what environment variables sent by the[m
+             client will be copied into the session's[m
+             environ(7).  See [1mSendEnv[0m and [1mSetEnv[0m in[m
+             ssh_config(5) for how to configure the client.  The[m
+             TERM environment variable is always accepted when‐[m
+             ever the client requests a pseudo-terminal as it is[m
+             required by the protocol.  Variables are specified[m
+             by name, which may contain the wildcard characters[m
+[7mnual page sshd_config(5) line 34 (press h for help or q to quit)[27m[K[K             ‘*’ and ‘?’.  Multiple environment variables may be[m
+             separated by whitespace or spread across multiple[m
+             [1mAcceptEnv[0m directives.  Be warned that some environ‐[m
+             ment variables could be used to bypass restricted[m
+             user environments.  For this reason, care should be[m
+             taken in the use of this directive.  The default is[m
+             not to accept any environment variables.[m
+[m
+     [1mAddressFamily[0m[m
+             Specifies which address family should be used by[m
+             sshd(8).  Valid arguments are [1many[0m (the default),[m
+[7mnual page sshd_config(5) line 45 (press h for help or q to quit)[27m[K[K             [1minet[0m (use IPv4 only), or [1minet6[0m (use IPv6 only).[m
+[m
+     [1mAllowAgentForwarding[0m[m
+             Specifies whether ssh-agent(1) forwarding is per‐[m
+             mitted.  The default is [1myes[0m.  Note that disabling[m
+             agent forwarding does not improve security unless[m
+             users are also denied shell access, as they can al‐[m
+             ways install their own forwarders.[m
+[m
+     [1mAllowGroups[0m[m
+             This keyword can be followed by a list of group[m
+[7mnual page sshd_config(5) line 56 (press h for help or q to quit)[27m[K[K             name patterns, separated by spaces.  If specified,[m
+             login is allowed only for users whose primary group[m
+             or supplementary group list matches one of the pat‐[m
+             terns.  Only group names are valid; a numerical[m
+             group ID is not recognized.  By default, login is[m
+             allowed for all groups.  The allow/deny groups di‐[m
+             rectives are processed in the following order:[m
+             [1mDenyGroups[0m, [1mAllowGroups[0m.[m
+[m
+             See PATTERNS in ssh_config(5) for more information[m
+             on patterns.[m
+[7mnual page sshd_config(5) line 67 (press h for help or q to quit)[27m[K[K[m
+     [1mAllowStreamLocalForwarding[0m[m
+             Specifies whether StreamLocal (Unix-domain socket)[m
+             forwarding is permitted.  The available options are[m
+             [1myes[0m (the default) or [1mall[0m to allow StreamLocal for‐[m
+             warding, [1mno[0m to prevent all StreamLocal forwarding,[m
+             [1mlocal[0m to allow local (from the perspective of[m
+             ssh(1)) forwarding only or [1mremote[0m to allow remote[m
+             forwarding only.  Note that disabling StreamLocal[m
+             forwarding does not improve security unless users[m
+             are also denied shell access, as they can always[m
+[7mnual page sshd_config(5) line 78 (press h for help or q to quit)[27m[K[K             install their own forwarders.[m
+[m
+     [1mAllowTcpForwarding[0m[m
+             Specifies whether TCP forwarding is permitted.  The[m
+             available options are [1myes[0m (the default) or [1mall[0m to[m
+             allow TCP forwarding, [1mno[0m to prevent all TCP for‐[m
+             warding, [1mlocal[0m to allow local (from the perspective[m
+             of ssh(1)) forwarding only or [1mremote[0m to allow re‐[m
+             mote forwarding only.  Note that disabling TCP for‐[m
+             warding does not improve security unless users are[m
+             also denied shell access, as they can always in‐[m
+[7mnual page sshd_config(5) line 89 (press h for help or q to quit)[27m[K[K             stall their own forwarders.[m
+[m
+     [1mAllowUsers[0m[m
+             This keyword can be followed by a list of user name[m
+             patterns, separated by spaces.  If specified, login[m
+             is allowed only for user names that match one of[m
+             the patterns.  Only user names are valid; a numeri‐[m
+             cal user ID is not recognized.  By default, login[m
+             is allowed for all users.  If the pattern takes the[m
+             form USER@HOST then USER and HOST are separately[m
+             checked, restricting logins to particular users[m
+[7mual page sshd_config(5) line 100 (press h for help or q to quit)[27m[K[K             from particular hosts.  HOST criteria may addition‐[m
+             ally contain addresses to match in CIDR ad‐[m
+             dress/masklen format.  The allow/deny users direc‐[m
+             tives are processed in the following order:[m
+             [1mDenyUsers[0m, [1mAllowUsers[0m.[m
+[m
+             See PATTERNS in ssh_config(5) for more information[m
+             on patterns.[m
+[m
+     [1mAuthenticationMethods[0m[m
+             Specifies the authentication methods that must be[m
+[7mual page sshd_config(5) line 111 (press h for help or q to quit)[27m[K[K/[KPP[Kee[Krr[Kmm[Kii[Ktt[KRR[Koo[Koo[Ktt[K[1;1H             from particular hosts.  HOST criteria may addition‐[m
+[2;1H             ally contain addresses to match in CIDR ad‐[m
+[3;1H             dress/masklen format.  The allow/deny users direc‐[m
+[4;1H             tives are processed in the following order:[m
+[5;1H             [1mDenyUsers[0m, [1mAllowUsers[0m.[m
+[6;1H[m
+[7;1H             See PATTERNS in ssh_config(5) for more information[m
+[8;1H             on patterns.[m
+[9;1H[m
+[10;1H     [1mAuthenticationMethods[0m[m
+[11;1H             Specifies the authentication methods that must be[m
+[12;1H[1;1H             from particular hosts.  HOST criteria may addition‐[m
+[2;1H             ally contain addresses to match in CIDR ad‐[m
+[3;1H             dress/masklen format.  The allow/deny users direc‐[m
+[4;1H             tives are processed in the following order:[m
+[5;1H             [1mDenyUsers[0m, [1mAllowUsers[0m.[m
+[6;1H[m
+[7;1H             See PATTERNS in ssh_config(5) for more information[m
+[8;1H             on patterns.[m
+[9;1H[m
+[10;1H     [1mAuthenticationMethods[0m[m
+[11;1H             Specifies the authentication methods that must be[m
+[12;1H...skipping...
+             [1m[7mPermitRoot[27m[0m[1mLogin[0m, [1mPermitTTY[0m, [1mPermitTunnel[0m,[m
+             [1mPermitUserRC[0m, [1mPubkeyAcceptedAlgorithms[0m,[m
+             [1mPubkeyAuthentication[0m, [1mPubkeyAuthOptions[0m,[m
+             [1mRekeyLimit[0m, [1mRevokedKeys[0m, [1mSetEnv[0m,[m
+             [1mStreamLocalBindMask[0m, [1mStreamLocalBindUnlink[0m,[m
+             [1mTrustedUserCAKeys[0m, [1mUnusedConnectionTimeout[0m,[m
+             [1mX11DisplayOffset[0m, [1mX11Forwarding[0m and[m
+             [1mX11UseLocalhost[0m.[m
+[m
+     [1mMaxAuthTries[0m[m
+             Specifies the maximum number of authentication at‐[m
+[7mual page sshd_config(5) line 953 (press h for help or q to quit)[27m[K[K/[K...skipping...
+     [1m[7mPermitRoot[27m[0m[1mLogin[0m[m
+             Specifies whether root can log in using ssh(1).[m
+             The argument must be [1myes[0m, [1mprohibit-password[0m,[m
+             [1mforced-commands-only[0m, or [1mno[0m.  The default is[m
+             [1mprohibit-password[0m.[m
+[m
+             If this option is set to [1mprohibit-password[0m (or its[m
+             deprecated alias, [1mwithout-password[0m), password and[m
+             keyboard-interactive authentication are disabled[m
+             for root.[m
+[m
+[7mal page sshd_config(5) line 1057 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             If this option is set to [1mforced-commands-only[0m, root[m
+[7mal page sshd_config(5) line 1058 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             login with public key authentication will be al‐[m
+[7mal page sshd_config(5) line 1059 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             lowed, but only if the [4mcommand[24m option has been[m
+[7mal page sshd_config(5) line 1060 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             The argument must be [1myes[0m, [1mprohibit-password[0m,[m
+[12;1H[K[7mal page sshd_config(5) line 1059 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[33m1m4s[0m 
+[35m❯[0m man 5 sshd_config
+[?2004l[?1049h[22;0;0t[?1h=SSHD_CONFIG(5)       BSD File Formats Manual      SSHD_CONFIG(5)[m
+[m
+[1mNAME[0m[m
+     [1msshd_config[0m — OpenSSH daemon configuration file[m
+[m
+[1mDESCRIPTION[0m[m
+     sshd(8) reads configuration data from [4m/etc/ssh/sshd_config[24m[m
+     (or the file specified with [1m-f[0m on the command line).  The[m
+     file contains keyword-argument pairs, one per line.  For[m
+     each keyword, the first obtained value will be used.  Lines[m
+     starting with ‘#’ and empty lines are interpreted as com‐[m
+[7manual page sshd_config(5) line 1 (press h for help or q to quit)[27m[K[K/[Kpp[Kee[K[K[KPP[Kee[Krr[Kmm[Kii[Ktt[K[K[K[K[K[Kaa[Kss[Kss[Kww[Koo[Krr[Kdd[KAA[Kuu[Ktt[Khh[Kee[Knn[Ktt[Kii[Kcc[Kaa[Ktt[Kii[Koo[Knn[K[1;1HSSHD_CONFIG(5)       BSD File Formats Manual      SSHD_CONFIG(5)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H     [1msshd_config[0m — OpenSSH daemon configuration file[m
+[5;1H[m
+[6;1H[1mDESCRIPTION[0m[m
+[7;1H     sshd(8) reads configuration data from [4m/etc/ssh/sshd_config[24m[m
+[8;1H     (or the file specified with [1m-f[0m on the command line).  The[m
+[9;1H     file contains keyword-argument pairs, one per line.  For[m
+[10;1H     each keyword, the first obtained value will be used.  Lines[m
+[11;1H     starting with ‘#’ and empty lines are interpreted as com‐[m
+[12;1H[1;1HSSHD_CONFIG(5)       BSD File Formats Manual      SSHD_CONFIG(5)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H     [1msshd_config[0m — OpenSSH daemon configuration file[m
+[5;1H[m
+[6;1H[1mDESCRIPTION[0m[m
+[7;1H     sshd(8) reads configuration data from [4m/etc/ssh/sshd_config[24m[m
+[8;1H     (or the file specified with [1m-f[0m on the command line).  The[m
+[9;1H     file contains keyword-argument pairs, one per line.  For[m
+[10;1H     each keyword, the first obtained value will be used.  Lines[m
+[11;1H     starting with ‘#’ and empty lines are interpreted as com‐[m
+[12;1H...skipping...
+             for [1m[7mPasswordAuthentication[27m[0m will be validated[m
+             through the Kerberos KDC.  To use this option, the[m
+             server needs a Kerberos servtab which allows the[m
+             verification of the KDC's identity.  The default is[m
+             [1mno[0m.[m
+[m
+     [1mKerberosGetAFSToken[0m[m
+             If AFS is active and the user has a Kerberos 5 TGT,[m
+             attempt to acquire an AFS token before accessing[m
+             the user's home directory.  The default is [1mno[0m.[m
+[m
+[7mual page sshd_config(5) line 748 (press h for help or q to quit)[27m[K[K/[K...skipping...
+             [1mMaxSessions[0m, [1m[7mPasswordAuthentication[27m[0m,[m
+             [1mPermitEmptyPasswords[0m, [1mPermitListen[0m, [1mPermitOpen[0m,[m
+             [1mPermitRootLogin[0m, [1mPermitTTY[0m, [1mPermitTunnel[0m,[m
+             [1mPermitUserRC[0m, [1mPubkeyAcceptedAlgorithms[0m,[m
+             [1mPubkeyAuthentication[0m, [1mPubkeyAuthOptions[0m,[m
+             [1mRekeyLimit[0m, [1mRevokedKeys[0m, [1mSetEnv[0m,[m
+             [1mStreamLocalBindMask[0m, [1mStreamLocalBindUnlink[0m,[m
+             [1mTrustedUserCAKeys[0m, [1mUnusedConnectionTimeout[0m,[m
+             [1mX11DisplayOffset[0m, [1mX11Forwarding[0m and[m
+             [1mX11UseLocalhost[0m.[m
+[m
+[7mual page sshd_config(5) line 951 (press h for help or q to quit)[27m[K[K/[K...skipping...
+     [1m[7mPasswordAuthentication[27m[0m[m
+             Specifies whether password authentication is al‐[m
+             lowed.  The default is [1myes[0m.[m
+[m
+     [1mPermitEmptyPasswords[0m[m
+             When password authentication is allowed, it speci‐[m
+             fies whether the server allows login to accounts[m
+             with empty password strings.  The default is [1mno[0m.[m
+[m
+     [1mPermitListen[0m[m
+             Specifies the addresses/ports on which a remote TCP[m
+[7mal page sshd_config(5) line 1003 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[33m33s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [

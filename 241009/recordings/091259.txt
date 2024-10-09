@@ -192,4 +192,1882 @@ Connection to localhost closed.
 [?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
- * Management:     https
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 07:29:44 AM UTC 2024
+
+  System load:  0.0                Processes:               113
+  Usage of /:   14.9% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 07:28:40 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~/.ssh[0m [33m7s[0m 
+[35m❯[0m [H[2J
+[34m~/.ssh[0m [33m7s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ,am [K[K[K[Kman ssh
+[?2004l[?1049h[22;0;0t[?1h=SSH(1)              BSD General Commands Manual              SSH(1)[m
+[m
+[1mNAME[0m[m
+     [1mssh[0m — OpenSSH remote login client[m
+[m
+[1mSYNOPSIS[0m[m
+     [1mssh[0m [[1m-46AaCfGgKkMNnqsTtVvXxYy[0m] [[1m-B[0m [4mbind_interface[24m][m
+         [[1m-b[0m [4mbind_address[24m] [[1m-c[0m [4mcipher_spec[24m][m
+         [[1m-D[0m [[4mbind_address[24m:][4mport[24m] [[1m-E[0m [4mlog_file[24m] [[1m-e[0m [4mescape_char[24m][m
+         [[1m-F[0m [4mconfigfile[24m] [[1m-I[0m [4mpkcs11[24m] [[1m-i[0m [4midentity_file[24m][m
+         [[1m-J[0m [4mdestination[24m] [[1m-L[0m [4maddress[24m] [[1m-l[0m [4mlogin_name[24m][m
+         [[1m-m[0m [4mmac_spec[24m] [[1m-O[0m [4mctl_cmd[24m] [[1m-o[0m [4moption[24m] [[1m-p[0m [4mport[24m][m
+         [[1m-Q[0m [4mquery_option[24m] [[1m-R[0m [4maddress[24m] [[1m-S[0m [4mctl_path[24m][m
+         [[1m-W[0m [4mhost[24m:[4mport[24m] [[1m-w[0m [4mlocal_tun[24m[:[4mremote_tun[24m]] [4mdestination[24m[m
+         [[4mcommand[24m [[4margument[24m [4m...[24m]][m
+[7m Manual page ssh(1) line 1 (press h for help or q to quit)[27m[K[K[m
+[1mDESCRIPTION[0m[m
+     [1mssh[0m (SSH client) is a program for logging into a remote ma‐[m
+     chine and for executing commands on a remote machine.  It is[m
+     intended to provide secure encrypted communications between[m
+     two untrusted hosts over an insecure network.  X11 connec‐[m
+     tions, arbitrary TCP ports and UNIX-domain sockets can also be[m
+     forwarded over the secure channel.[m
+[m
+     [1mssh[0m connects and logs into the specified [4mdestination[24m, which[m
+     may be specified as either [user@]hostname or a URI of the[m
+     form ssh://[user@]hostname[:port].  The user must prove their[m
+     identity to the remote machine using one of several methods[m
+     (see below).[m
+[m
+[7m Manual page ssh(1) line 16 (press h for help or q to quit)[27m[K[K     If a [4mcommand[24m is specified, it will be executed on the remote[m
+     host instead of a login shell.  A complete command line may be[m
+     specified as [4mcommand[24m, or it may have additional arguments.  If[m
+     supplied, the arguments will be appended to the command, sepa‐[m
+     rated by spaces, before it is sent to the server to be exe‐[m
+     cuted.[m
+[m
+     The options are as follows:[m
+[m
+     [1m-4[0m      Forces [1mssh[0m to use IPv4 addresses only.[m
+[m
+     [1m-6[0m      Forces [1mssh[0m to use IPv6 addresses only.[m
+[m
+     [1m-A[0m      Enables forwarding of connections from an authentica‐[m
+             tion agent such as ssh-agent(1).  This can also be[m
+[7m Manual page ssh(1) line 31 (press h for help or q to quit)[27m[K[K             specified on a per-host basis in a configuration file.[m
+[m
+             Agent forwarding should be enabled with caution.[m
+             Users with the ability to bypass file permissions on[m
+             the remote host (for the agent's UNIX-domain socket)[m
+             can access the local agent through the forwarded con‐[m
+             nection.  An attacker cannot obtain key material from[m
+             the agent, however they can perform operations on the[m
+             keys that enable them to authenticate using the iden‐[m
+             tities loaded into the agent.  A safer alternative may[m
+             be to use a jump host (see [1m-J[0m).[m
+[m
+     [1m-a[0m      Disables forwarding of the authentication agent con‐[m
+             nection.[m
+[m
+[7m Manual page ssh(1) line 46 (press h for help or q to quit)[27m[K[K     [1m-B[0m [4mbind_interface[24m[m
+             Bind to the address of [4mbind_interface[24m before attempt‐[m
+             ing to connect to the destination host.  This is only[m
+             useful on systems with more than one address.[m
+[m
+     [1m-b[0m [4mbind_address[24m[m
+             Use [4mbind_address[24m on the local machine as the source[m
+             address of the connection.  Only useful on systems[m
+             with more than one address.[m
+[m
+     [1m-C[0m      Requests compression of all data (including stdin,[m
+             stdout, stderr, and data for forwarded X11, TCP and[m
+             UNIX-domain connections).  The compression algorithm[m
+             is the same used by gzip(1).  Compression is desirable[m
+             on modem lines and other slow connections, but will[m
+[7m Manual page ssh(1) line 61 (press h for help or q to quit)[27m[K[K             only slow down things on fast networks.  The default[m
+             value can be set on a host-by-host basis in the con‐[m
+             figuration files; see the [1mCompression[0m option in[m
+             ssh_config(5).[m
+[m
+     [1m-c[0m [4mcipher_spec[24m[m
+             Selects the cipher specification for encrypting the[m
+             session.  [4mcipher_spec[24m is a comma-separated list of ci‐[m
+             phers listed in order of preference.  See the [1mCiphers[0m[m
+             keyword in ssh_config(5) for more information.[m
+[m
+     [1m-D[0m [[4mbind_address[24m:][4mport[24m[m
+             Specifies a local “dynamic” application-level port[m
+             forwarding.  This works by allocating a socket to lis‐[m
+             ten to [4mport[24m on the local side, optionally bound to the[m
+[7m Manual page ssh(1) line 76 (press h for help or q to quit)[27m[K[K             specified [4mbind_address[24m.  Whenever a connection is made[m
+             to this port, the connection is forwarded over the se‐[m
+             cure channel, and the application protocol is then[m
+             used to determine where to connect to from the remote[m
+             machine.  Currently the SOCKS4 and SOCKS5 protocols[m
+             are supported, and [1mssh[0m will act as a SOCKS server.[m
+             Only root can forward privileged ports.  Dynamic port[m
+             forwardings can also be specified in the configuration[m
+             file.[m
+[m
+             IPv6 addresses can be specified by enclosing the ad‐[m
+             dress in square brackets.  Only the superuser can for‐[m
+             ward privileged ports.  By default, the local port is[m
+             bound in accordance with the [1mGatewayPorts[0m setting.[m
+             However, an explicit [4mbind_address[24m may be used to bind[m
+[7m Manual page ssh(1) line 91 (press h for help or q to quit)[27m[K[K             the connection to a specific address.  The[m
+             [4mbind_address[24m of “localhost” indicates that the listen‐[m
+             ing port be bound for local use only, while an empty[m
+             address or ‘*’ indicates that the port should be[m
+             available from all interfaces.[m
+[m
+     [1m-E[0m [4mlog_file[24m[m
+             Append debug logs to [4mlog_file[24m instead of standard er‐[m
+             ror.[m
+[m
+     [1m-e[0m [4mescape_char[24m[m
+             Sets the escape character for sessions with a pty (de‐[m
+             fault: ‘~’).  The escape character is only recognized[m
+             at the beginning of a line.  The escape character fol‐[m
+             lowed by a dot (‘.’) closes the connection; followed[m
+[7m Manual page ssh(1) line 106 (press h for help or q to quit)[27m[K[K             by control-Z suspends the connection; and followed by[m
+             itself sends the escape character once.  Setting the[m
+             character to “none” disables any escapes and makes the[m
+             session fully transparent.[m
+[m
+     [1m-F[0m [4mconfigfile[24m[m
+             Specifies an alternative per-user configuration file.[m
+             If a configuration file is given on the command line,[m
+             the system-wide configuration file[m
+             ([4m/etc/ssh/ssh_config[24m) will be ignored.  The default[m
+             for the per-user configuration file is [4m~/.ssh/config[24m.[m
+             If set to “none”, no configuration files will be read.[m
+[m
+     [1m-f[0m      Requests [1mssh[0m to go to background just before command[m
+             execution.  This is useful if [1mssh[0m is going to ask for[m
+[7m Manual page ssh(1) line 121 (press h for help or q to quit)[27m[K[K             passwords or passphrases, but the user wants it in the[m
+             background.  This implies [1m-n[0m.  The recommended way to[m
+             start X11 programs at a remote site is with something[m
+             like [1mssh[0m [1m-f[0m [1mhost[0m [1mxterm[0m.[m
+[m
+             If the [1mExitOnForwardFailure[0m configuration option is[m
+             set to “yes”, then a client started with [1m-f[0m will wait[m
+             for all remote port forwards to be successfully estab‐[m
+             lished before placing itself in the background.  Refer[m
+             to the description of [1mForkAfterAuthentication[0m in[m
+             ssh_config(5) for details.[m
+[m
+     [1m-G[0m      Causes [1mssh[0m to print its configuration after evaluating[m
+             [1mHost[0m and [1mMatch[0m blocks and exit.[m
+[m
+[7m Manual page ssh(1) line 136 (press h for help or q to quit)[27m[K[K     [1m-g[0m      Allows remote hosts to connect to local forwarded[m
+             ports.  If used on a multiplexed connection, then this[m
+             option must be specified on the master process.[m
+[m
+     [1m-I[0m [4mpkcs11[24m[m
+             Specify the PKCS#11 shared library [1mssh[0m should use to[m
+             communicate with a PKCS#11 token providing keys for[m
+             user authentication.[m
+[m
+     [1m-i[0m [4midentity_file[24m[m
+             Selects a file from which the identity (private key)[m
+             for public key authentication is read.  You can also[m
+             specify a public key file to use the corresponding[m
+             private key that is loaded in ssh-agent(1) when the[m
+             private key file is not present locally.  The default[m
+[7m Manual page ssh(1) line 151 (press h for help or q to quit)[27m[K[K             is [4m~/.ssh/id_rsa[24m, [4m~/.ssh/id_ecdsa[24m, [4m~/.ssh/id_ecdsa_sk[24m,[m
+             [4m~/.ssh/id_ed25519[24m, [4m~/.ssh/id_ed25519_sk[24m and[m
+             [4m~/.ssh/id_dsa[24m.  Identity files may also be specified[m
+             on a per-host basis in the configuration file.  It is[m
+             possible to have multiple [1m-i[0m options (and multiple[m
+             identities specified in configuration files).  If no[m
+             certificates have been explicitly specified by the[m
+             [1mCertificateFile[0m directive, [1mssh[0m will also try to load[m
+             certificate information from the filename obtained by[m
+             appending [4m-cert.pub[24m to identity filenames.[m
+[m
+     [1m-J[0m [4mdestination[24m[m
+             Connect to the target host by first making a [1mssh[0m con‐[m
+             nection to the jump host described by [4mdestination[24m and[m
+             then establishing a TCP forwarding to the ultimate[m
+[7m Manual page ssh(1) line 166 (press h for help or q to quit)[27m[K[K             destination from there.  Multiple jump hops may be[m
+             specified separated by comma characters.  This is a[m
+             shortcut to specify a [1mProxyJump[0m configuration direc‐[m
+             tive.  Note that configuration directives supplied on[m
+             the command-line generally apply to the destination[m
+             host and not any specified jump hosts.  Use[m
+             [4m~/.ssh/config[24m to specify configuration for jump hosts.[m
+[m
+     [1m-K[0m      Enables GSSAPI-based authentication and forwarding[m
+             (delegation) of GSSAPI credentials to the server.[m
+[m
+     [1m-k[0m      Disables forwarding (delegation) of GSSAPI credentials[m
+             to the server.[m
+[m
+     [1m-L[0m [[4mbind_address[24m:][4mport[24m:[4mhost[24m:[4mhostport[24m[m
+[7m Manual page ssh(1) line 181 (press h for help or q to quit)[27m[K[K     [1m-L[0m [[4mbind_address[24m:][4mport[24m:[4mremote_socket[24m[m
+     [1m-L[0m [4mlocal_socket[24m:[4mhost[24m:[4mhostport[24m[m
+     [1m-L[0m [4mlocal_socket[24m:[4mremote_socket[24m[m
+             Specifies that connections to the given TCP port or[m
+             Unix socket on the local (client) host are to be for‐[m
+             warded to the given host and port, or Unix socket, on[m
+             the remote side.  This works by allocating a socket to[m
+             listen to either a TCP [4mport[24m on the local side, option‐[m
+             ally bound to the specified [4mbind_address[24m, or to a Unix[m
+             socket.  Whenever a connection is made to the local[m
+             port or socket, the connection is forwarded over the[m
+             secure channel, and a connection is made to either[m
+             [4mhost[24m port [4mhostport[24m, or the Unix socket [4mremote_socket[24m,[m
+             from the remote machine.[m
+[m
+[7m Manual page ssh(1) line 196 (press h for help or q to quit)[27m[K[K             Port forwardings can also be specified in the configu‐[m
+             ration file.  Only the superuser can forward privi‐[m
+             leged ports.  IPv6 addresses can be specified by en‐[m
+             closing the address in square brackets.[m
+[m
+             By default, the local port is bound in accordance with[m
+             the [1mGatewayPorts[0m setting.  However, an explicit[m
+             [4mbind_address[24m may be used to bind the connection to a[m
+             specific address.  The [4mbind_address[24m of “localhost” in‐[m
+             dicates that the listening port be bound for local use[m
+             only, while an empty address or ‘*’ indicates that the[m
+             port should be available from all interfaces.[m
+[m
+     [1m-l[0m [4mlogin_name[24m[m
+             Specifies the user to log in as on the remote machine.[m
+[7m Manual page ssh(1) line 211 (press h for help or q to quit)[27m[K[K             This also may be specified on a per-host basis in the[m
+             configuration file.[m
+[m
+     [1m-M[0m      Places the [1mssh[0m client into “master” mode for connec‐[m
+             tion sharing.  Multiple [1m-M[0m options places [1mssh[0m into[m
+             “master” mode but with confirmation required using[m
+             ssh-askpass(1) before each operation that changes the[m
+             multiplexing state (e.g. opening a new session).  Re‐[m
+             fer to the description of [1mControlMaster[0m in[m
+             ssh_config(5) for details.[m
+[m
+     [1m-m[0m [4mmac_spec[24m[m
+             A comma-separated list of MAC (message authentication[m
+             code) algorithms, specified in order of preference.[m
+             See the [1mMACs[0m keyword in ssh_config(5) for more infor‐[m
+[7m Manual page ssh(1) line 226 (press h for help or q to quit)[27m[K[K             mation.[m
+[m
+     [1m-N[0m      Do not execute a remote command.  This is useful for[m
+             just forwarding ports.  Refer to the description of[m
+             [1mSessionType[0m in ssh_config(5) for details.[m
+[m
+     [1m-n[0m      Redirects stdin from [4m/dev/null[24m (actually, prevents[m
+             reading from stdin).  This must be used when [1mssh[0m is[m
+             run in the background.  A common trick is to use this[m
+             to run X11 programs on a remote machine.  For example,[m
+             [1mssh[0m [1m-n[0m [1mshadows.cs.hut.fi[0m [1memacs[0m [1m&[0m will start an emacs[m
+             on shadows.cs.hut.fi, and the X11 connection will be[m
+             automatically forwarded over an encrypted channel.[m
+             The [1mssh[0m program will be put in the background.  (This[m
+             does not work if [1mssh[0m needs to ask for a password or[m
+[7m Manual page ssh(1) line 241 (press h for help or q to quit)[27m[K[K             passphrase; see also the [1m-f[0m option.)  Refer to the de‐[m
+             scription of [1mStdinNull[0m in ssh_config(5) for details.[m
+[m
+     [1m-O[0m [4mctl_cmd[24m[m
+             Control an active connection multiplexing master[m
+             process.  When the [1m-O[0m option is specified, the [4mctl_cmd[24m[m
+             argument is interpreted and passed to the master[m
+             process.  Valid commands are: “check” (check that the[m
+             master process is running), “forward” (request for‐[m
+             wardings without command execution), “cancel” (cancel[m
+             forwardings), “exit” (request the master to exit), and[m
+             “stop” (request the master to stop accepting further[m
+             multiplexing requests).[m
+[m
+     [1m-o[0m [4moption[24m[m
+[7m Manual page ssh(1) line 256 (press h for help or q to quit)[27m[K[K             Can be used to give options in the format used in the[m
+             configuration file.  This is useful for specifying op‐[m
+             tions for which there is no separate command-line[m
+             flag.  For full details of the options listed below,[m
+             and their possible values, see ssh_config(5).[m
+[m
+                   AddKeysToAgent[m
+                   AddressFamily[m
+                   BatchMode[m
+                   BindAddress[m
+                   CanonicalDomains[m
+                   CanonicalizeFallbackLocal[m
+                   CanonicalizeHostname[m
+                   CanonicalizeMaxDots[m
+                   CanonicalizePermittedCNAMEs[m
+[7m Manual page ssh(1) line 271 (press h for help or q to quit)[27m[K[K                   CASignatureAlgorithms[m
+                   CertificateFile[m
+                   CheckHostIP[m
+                   Ciphers[m
+                   ClearAllForwardings[m
+                   Compression[m
+                   ConnectionAttempts[m
+                   ConnectTimeout[m
+                   ControlMaster[m
+                   ControlPath[m
+                   ControlPersist[m
+                   DynamicForward[m
+                   EnableEscapeCommandline[m
+                   EscapeChar[m
+                   ExitOnForwardFailure[m
+[7m Manual page ssh(1) line 286 (press h for help or q to quit)[27m[K[K                   FingerprintHash[m
+                   ForkAfterAuthentication[m
+                   ForwardAgent[m
+                   ForwardX11[m
+                   ForwardX11Timeout[m
+                   ForwardX11Trusted[m
+                   GatewayPorts[m
+                   GlobalKnownHostsFile[m
+                   GSSAPIAuthentication[m
+                   GSSAPIKeyExchange[m
+                   GSSAPIClientIdentity[m
+                   GSSAPIDelegateCredentials[m
+                   GSSAPIKexAlgorithms[m
+                   GSSAPIRenewalForcesRekey[m
+                   GSSAPIServerIdentity[m
+[7m Manual page ssh(1) line 301 (press h for help or q to quit)[27m[K[K                   GSSAPITrustDns[m
+                   HashKnownHosts[m
+                   Host[m
+                   HostbasedAcceptedAlgorithms[m
+                   HostbasedAuthentication[m
+                   HostKeyAlgorithms[m
+                   HostKeyAlias[m
+                   Hostname[m
+                   IdentitiesOnly[m
+                   IdentityAgent[m
+                   IdentityFile[m
+                   IPQoS[m
+                   KbdInteractiveAuthentication[m
+                   KbdInteractiveDevices[m
+                   KexAlgorithms[m
+[7m Manual page ssh(1) line 316 (press h for help or q to quit)[27m[K[K                   KnownHostsCommand[m
+                   LocalCommand[m
+                   LocalForward[m
+                   LogLevel[m
+                   MACs[m
+                   Match[m
+                   NoHostAuthenticationForLocalhost[m
+                   NumberOfPasswordPrompts[m
+                   PasswordAuthentication[m
+                   PermitLocalCommand[m
+                   PermitRemoteOpen[m
+                   PKCS11Provider[m
+                   Port[m
+                   PreferredAuthentications[m
+                   ProxyCommand[m
+[7m Manual page ssh(1) line 331 (press h for help or q to quit)[27m[K[K                   ProxyJump[m
+                   ProxyUseFdpass[m
+                   PubkeyAcceptedAlgorithms[m
+                   PubkeyAuthentication[m
+                   RekeyLimit[m
+                   RemoteCommand[m
+                   RemoteForward[m
+                   RequestTTY[m
+                   RequiredRSASize[m
+                   SendEnv[m
+                   ServerAliveInterval[m
+                   ServerAliveCountMax[m
+                   SessionType[m
+                   SetEnv[m
+                   StdinNull[m
+[7m Manual page ssh(1) line 346 (press h for help or q to quit)[27m[K[K                   StreamLocalBindMask[m
+                   StreamLocalBindUnlink[m
+                   StrictHostKeyChecking[m
+                   TCPKeepAlive[m
+                   Tunnel[m
+                   TunnelDevice[m
+                   UpdateHostKeys[m
+                   User[m
+                   UserKnownHostsFile[m
+                   VerifyHostKeyDNS[m
+                   VisualHostKey[m
+                   XAuthLocation[m
+[m
+     [1m-p[0m [4mport[24m[m
+             Port to connect to on the remote host.  This can be[m
+[7m Manual page ssh(1) line 361 (press h for help or q to quit)[27m[K[K             specified on a per-host basis in the configuration[m
+             file.[m
+[m
+     [1m-Q[0m [4mquery_option[24m[m
+             Queries for the algorithms supported by one of the[m
+             following features: [4mcipher[24m (supported symmetric ci‐[m
+             phers), [4mcipher-auth[24m (supported symmetric ciphers that[m
+             support authenticated encryption), [4mhelp[24m (supported[m
+             query terms for use with the [1m-Q[0m flag), [4mmac[24m (supported[m
+             message integrity codes), [4mkex[24m (key exchange algo‐[m
+             rithms), [4mkex-gss[24m (GSSAPI key exchange algorithms), [4mkey[24m[m
+             (key types), [4mkey-cert[24m (certificate key types),[m
+             [4mkey-plain[24m (non-certificate key types), [4mkey-sig[24m (all[m
+             key types and signature algorithms), [4mprotocol-version[24m[m
+             (supported SSH protocol versions), and [4msig[24m (supported[m
+[7m Manual page ssh(1) line 376 (press h for help or q to quit)[27m[K[K             signature algorithms).  Alternatively, any keyword[m
+             from ssh_config(5) or sshd_config(5) that takes an al‐[m
+             gorithm list may be used as an alias for the corre‐[m
+             sponding query_option.[m
+[m
+     [1m-q[0m      Quiet mode.  Causes most warning and diagnostic mes‐[m
+             sages to be suppressed.[m
+[m
+     [1m-R[0m [[4mbind_address[24m:][4mport[24m:[4mhost[24m:[4mhostport[24m[m
+     [1m-R[0m [[4mbind_address[24m:][4mport[24m:[4mlocal_socket[24m[m
+     [1m-R[0m [4mremote_socket[24m:[4mhost[24m:[4mhostport[24m[m
+     [1m-R[0m [4mremote_socket[24m:[4mlocal_socket[24m[m
+     [1m-R[0m [[4mbind_address[24m:][4mport[24m[m
+             Specifies that connections to the given TCP port or[m
+             Unix socket on the remote (server) host are to be for‐[m
+[7m Manual page ssh(1) line 391 (press h for help or q to quit)[27m[K[K             warded to the local side.[m
+[m
+             This works by allocating a socket to listen to either[m
+             a TCP [4mport[24m or to a Unix socket on the remote side.[m
+             Whenever a connection is made to this port or Unix[m
+             socket, the connection is forwarded over the secure[m
+             channel, and a connection is made from the local ma‐[m
+             chine to either an explicit destination specified by[m
+             [4mhost[24m port [4mhostport[24m, or [4mlocal_socket[24m, or, if no ex‐[m
+             plicit destination was specified, [1mssh[0m will act as a[m
+             SOCKS 4/5 proxy and forward connections to the desti‐[m
+             nations requested by the remote SOCKS client.[m
+[m
+             Port forwardings can also be specified in the configu‐[m
+             ration file.  Privileged ports can be forwarded only[m
+[7m Manual page ssh(1) line 406 (press h for help or q to quit)[27m[K[K             when logging in as root on the remote machine.  IPv6[m
+             addresses can be specified by enclosing the address in[m
+             square brackets.[m
+[m
+             By default, TCP listening sockets on the server will[m
+             be bound to the loopback interface only.  This may be[m
+             overridden by specifying a [4mbind_address[24m.  An empty[m
+             [4mbind_address[24m, or the address ‘*’, indicates that the[m
+             remote socket should listen on all interfaces.  Speci‐[m
+             fying a remote [4mbind_address[24m will only succeed if the[m
+             server's [1mGatewayPorts[0m option is enabled (see[m
+             sshd_config(5)).[m
+[m
+             If the [4mport[24m argument is ‘0’, the listen port will be[m
+             dynamically allocated on the server and reported to[m
+[7m Manual page ssh(1) line 421 (press h for help or q to quit)[27m[K[K             the client at run time.  When used together with [1m-O[0m[m
+             [1mforward[0m, the allocated port will be printed to the[m
+             standard output.[m
+[m
+     [1m-S[0m [4mctl_path[24m[m
+             Specifies the location of a control socket for connec‐[m
+             tion sharing, or the string “none” to disable connec‐[m
+             tion sharing.  Refer to the description of [1mControlPath[0m[m
+             and [1mControlMaster[0m in ssh_config(5) for details.[m
+[m
+     [1m-s[0m      May be used to request invocation of a subsystem on[m
+             the remote system.  Subsystems facilitate the use of[m
+             SSH as a secure transport for other applications (e.g.[m
+             sftp(1)).  The subsystem is specified as the remote[m
+             command.  Refer to the description of [1mSessionType[0m in[m
+[7m Manual page ssh(1) line 436 (press h for help or q to quit)[27m[K[K             ssh_config(5) for details.[m
+[m
+     [1m-T[0m      Disable pseudo-terminal allocation.[m
+[m
+     [1m-t[0m      Force pseudo-terminal allocation.  This can be used to[m
+             execute arbitrary screen-based programs on a remote[m
+             machine, which can be very useful, e.g. when imple‐[m
+             menting menu services.  Multiple [1m-t[0m options force tty[m
+             allocation, even if [1mssh[0m has no local tty.[m
+[m
+     [1m-V[0m      Display the version number and exit.[m
+[m
+     [1m-v[0m      Verbose mode.  Causes [1mssh[0m to print debugging messages[m
+             about its progress.  This is helpful in debugging con‐[m
+             nection, authentication, and configuration problems.[m
+[7m Manual page ssh(1) line 451 (press h for help or q to quit)[27m[K[K             Multiple [1m-v[0m options increase the verbosity.  The maxi‐[m
+             mum is 3.[m
+[m
+     [1m-W[0m [4mhost[24m:[4mport[24m[m
+             Requests that standard input and output on the client[m
+             be forwarded to [4mhost[24m on [4mport[24m over the secure channel.[m
+             Implies [1m-N[0m, [1m-T[0m, [1mExitOnForwardFailure[0m and[m
+             [1mClearAllForwardings[0m, though these can be overridden in[m
+             the configuration file or using [1m-o[0m command line op‐[m
+             tions.[m
+[m
+     [1m-w[0m [4mlocal_tun[24m[:[4mremote_tun[24m][m
+             Requests tunnel device forwarding with the specified[m
+             tun(4) devices between the client ([4mlocal_tun[24m) and the[m
+             server ([4mremote_tun[24m).[m
+[7m Manual page ssh(1) line 466 (press h for help or q to quit)[27m[K[K[m
+             The devices may be specified by numerical ID or the[m
+             keyword “any”, which uses the next available tunnel[m
+             device.  If [4mremote_tun[24m is not specified, it defaults[m
+             to “any”.  See also the [1mTunnel[0m and [1mTunnelDevice[0m direc‐[m
+             tives in ssh_config(5).[m
+[m
+             If the [1mTunnel[0m directive is unset, it will be set to[m
+             the default tunnel mode, which is “point-to-point”.[m
+             If a different [1mTunnel[0m forwarding mode it desired, then[m
+             it should be specified before [1m-w[0m.[m
+[m
+     [1m-X[0m      Enables X11 forwarding.  This can also be specified on[m
+             a per-host basis in a configuration file.[m
+[m
+[7m Manual page ssh(1) line 481 (press h for help or q to quit)[27m[K[K             X11 forwarding should be enabled with caution.  Users[m
+             with the ability to bypass file permissions on the re‐[m
+             mote host (for the user's X authorization database)[m
+             can access the local X11 display through the forwarded[m
+             connection.  An attacker may then be able to perform[m
+             activities such as keystroke monitoring.[m
+[m
+             For this reason, X11 forwarding is subjected to X11[m
+             SECURITY extension restrictions by default.  Refer to[m
+             the [1mssh[0m [1m-Y[0m option and the [1mForwardX11Trusted[0m directive[m
+             in ssh_config(5) for more information.[m
+[m
+             (Debian-specific: X11 forwarding is not subjected to[m
+             X11 SECURITY extension restrictions by default, be‐[m
+             cause too many programs currently crash in this mode.[m
+[7m Manual page ssh(1) line 496 (press h for help or q to quit)[27m[K[K             Set the [1mForwardX11Trusted[0m option to “no” to restore[m
+             the upstream behaviour.  This may change in future de‐[m
+             pending on client-side improvements.)[m
+[m
+     [1m-x[0m      Disables X11 forwarding.[m
+[m
+     [1m-Y[0m      Enables trusted X11 forwarding.  Trusted X11 forward‐[m
+             ings are not subjected to the X11 SECURITY extension[m
+             controls.[m
+[m
+             (Debian-specific: In the default configuration, this[m
+             option is equivalent to [1m-X[0m, since [1mForwardX11Trusted[0m[m
+             defaults to “yes” as described above.  Set the[m
+             [1mForwardX11Trusted[0m option to “no” to restore the up‐[m
+             stream behaviour.  This may change in future depending[m
+[7m Manual page ssh(1) line 511 (press h for help or q to quit)[27m[K[K             on client-side improvements.)[m
+[m
+     [1m-y[0m      Send log information using the syslog(3) system mod‐[m
+             ule.  By default this information is sent to stderr.[m
+[m
+     [1mssh[0m may additionally obtain configuration data from a per-user[m
+     configuration file and a system-wide configuration file.  The[m
+     file format and configuration options are described in[m
+     ssh_config(5).[m
+[m
+[1mAUTHENTICATION[0m[m
+     The OpenSSH SSH client supports SSH protocol 2.[m
+[m
+     The methods available for authentication are: GSSAPI-based au‐[m
+     thentication, host-based authentication, public key authenti‐[m
+[7m Manual page ssh(1) line 526 (press h for help or q to quit)[27m[K[K     cation, keyboard-interactive authentication, and password au‐[m
+     thentication.  Authentication methods are tried in the order[m
+     specified above, though [1mPreferredAuthentications[0m can be used[m
+     to change the default order.[m
+[m
+     Host-based authentication works as follows: If the machine the[m
+     user logs in from is listed in [4m/etc/hosts.equiv[24m or[m
+     [4m/etc/ssh/shosts.equiv[24m on the remote machine, the user is non-[m
+     root and the user names are the same on both sides, or if the[m
+     files [4m~/.rhosts[24m or [4m~/.shosts[24m exist in the user's home direc‐[m
+     tory on the remote machine and contain a line containing the[m
+     name of the client machine and the name of the user on that[m
+     machine, the user is considered for login.  Additionally, the[m
+     server [4mmust[24m be able to verify the client's host key (see the[m
+     description of [4m/etc/ssh/ssh_known_hosts[24m and[m
+[7m Manual page ssh(1) line 541 (press h for help or q to quit)[27m[K[K     [4m~/.ssh/known_hosts[24m, below) for login to be permitted.  This[m
+     authentication method closes security holes due to IP spoof‐[m
+     ing, DNS spoofing, and routing spoofing.  [Note to the admin‐[m
+     istrator: [4m/etc/hosts.equiv[24m, [4m~/.rhosts[24m, and the rlogin/rsh pro‐[m
+     tocol in general, are inherently insecure and should be dis‐[m
+     abled if security is desired.][m
+[m
+     Public key authentication works as follows: The scheme is[m
+     based on public-key cryptography, using cryptosystems where[m
+     encryption and decryption are done using separate keys, and it[m
+     is unfeasible to derive the decryption key from the encryption[m
+     key.  The idea is that each user creates a public/private key[m
+     pair for authentication purposes.  The server knows the public[m
+     key, and only the user knows the private key.  [1mssh[0m implements[m
+     public key authentication protocol automatically, using one of[m
+[7m Manual page ssh(1) line 556 (press h for help or q to quit)[27m[K[K     the DSA, ECDSA, Ed25519 or RSA algorithms.  The HISTORY sec‐[m
+     tion of ssl(8) (on non-OpenBSD systems, see[m
+     http://www.openbsd.org/cgi-bin/man.cgi?query=ssl&sektion=8#HISTO[m RY)[m
+     contains a brief discussion of the DSA and RSA algorithms.[m
+[m
+     The file [4m~/.ssh/authorized_keys[24m lists the public keys that are[m
+     permitted for logging in.  When the user logs in, the [1mssh[0m pro‐[m
+     gram tells the server which key pair it would like to use for[m
+     authentication.  The client proves that it has access to the[m
+     private key and the server checks that the corresponding pub‐[m
+     lic key is authorized to accept the account.[m
+[m
+     The server may inform the client of errors that prevented pub‐[m
+     lic key authentication from succeeding after authentication[m
+[7m Manual page ssh(1) line 571 (press h for help or q to quit)[27m[K[K     completes using a different method.  These may be viewed by[m
+     increasing the [1mLogLevel[0m to [1mDEBUG[0m or higher (e.g. by using the[m
+     [1m-v[0m flag).[m
+[m
+     The user creates their key pair by running ssh-keygen(1).[m
+     This stores the private key in [4m~/.ssh/id_dsa[24m (DSA),[m
+     [4m~/.ssh/id_ecdsa[24m (ECDSA), [4m~/.ssh/id_ecdsa_sk[24m (authenticator-[m
+     hosted ECDSA), [4m~/.ssh/id_ed25519[24m (Ed25519),[m
+     [4m~/.ssh/id_ed25519_sk[24m (authenticator-hosted Ed25519), or[m
+     [4m~/.ssh/id_rsa[24m (RSA) and stores the public key in[m
+     [4m~/.ssh/id_dsa.pub[24m (DSA), [4m~/.ssh/id_ecdsa.pub[24m (ECDSA),[m
+     [4m~/.ssh/id_ecdsa_sk.pub[24m (authenticator-hosted ECDSA),[m
+     [4m~/.ssh/id_ed25519.pub[24m (Ed25519), [4m~/.ssh/id_ed25519_sk.pub[24m (au‐[m
+     thenticator-hosted Ed25519), or [4m~/.ssh/id_rsa.pub[24m (RSA) in the[m
+     user's home directory.  The user should then copy the public[m
+[7m Manual page ssh(1) line 585 (press h for help or q to quit)[27m[K[K     key to [4m~/.ssh/authorized_keys[24m in their home directory on the[m
+     remote machine.  The [4mauthorized_keys[24m file corresponds to the[m
+     conventional [4m~/.rhosts[24m file, and has one key per line, though[m
+     the lines can be very long.  After this, the user can log in[m
+     without giving the password.[m
+[m
+     A variation on public key authentication is available in the[m
+     form of certificate authentication: instead of a set of pub‐[m
+     lic/private keys, signed certificates are used.  This has the[m
+     advantage that a single trusted certification authority can be[m
+     used in place of many public/private keys.  See the CERTIFI‐[m
+     CATES section of ssh-keygen(1) for more information.[m
+[m
+     The most convenient way to use public key or certificate au‐[m
+     thentication may be with an authentication agent.  See[m
+[7m Manual page ssh(1) line 600 (press h for help or q to quit)[27m[K[K     ssh-agent(1) and (optionally) the [1mAddKeysToAgent[0m directive in[m
+     ssh_config(5) for more information.[m
+[m
+     Keyboard-interactive authentication works as follows: The[m
+     server sends an arbitrary "challenge" text and prompts for a[m
+     response, possibly multiple times.  Examples of keyboard-in‐[m
+     teractive authentication include BSD Authentication (see[m
+     login.conf(5)) and PAM (some non-OpenBSD systems).[m
+[m
+     Finally, if other authentication methods fail, [1mssh[0m prompts the[m
+     user for a password.  The password is sent to the remote host[m
+     for checking; however, since all communications are encrypted,[m
+     the password cannot be seen by someone listening on the net‐[m
+     work.[m
+[m
+[7m Manual page ssh(1) line 615 (press h for help or q to quit)[27m[K[K     [1mssh[0m automatically maintains and checks a database containing[m
+     identification for all hosts it has ever been used with.  Host[m
+     keys are stored in [4m~/.ssh/known_hosts[24m in the user's home di‐[m
+     rectory.  Additionally, the file [4m/etc/ssh/ssh_known_hosts[24m is[m
+     automatically checked for known hosts.  Any new hosts are au‐[m
+     tomatically added to the user's file.  If a host's identifica‐[m
+     tion ever changes, [1mssh[0m warns about this and disables password[m
+     authentication to prevent server spoofing or man-in-the-middle[m
+     attacks, which could otherwise be used to circumvent the en‐[m
+     cryption.  The [1mStrictHostKeyChecking[0m option can be used to[m
+     control logins to machines whose host key is not known or has[m
+     changed.[m
+[m
+     When the user's identity has been accepted by the server, the[m
+     server either executes the given command in a non-interactive[m
+[7m Manual page ssh(1) line 630 (press h for help or q to quit)[27m[K[K     session or, if no command has been specified, logs into the[m
+     machine and gives the user a normal shell as an interactive[m
+     session.  All communication with the remote command or shell[m
+     will be automatically encrypted.[m
+[m
+     If an interactive session is requested, [1mssh[0m by default will[m
+     only request a pseudo-terminal (pty) for interactive sessions[m
+     when the client has one.  The flags [1m-T[0m and [1m-t[0m can be used to[m
+     override this behaviour.[m
+[m
+     If a pseudo-terminal has been allocated, the user may use the[m
+     escape characters noted below.[m
+[m
+     If no pseudo-terminal has been allocated, the session is[m
+     transparent and can be used to reliably transfer binary data.[m
+[7m Manual page ssh(1) line 645 (press h for help or q to quit)[27m[K[K     On most systems, setting the escape character to “none” will[m
+     also make the session transparent even if a tty is used.[m
+[m
+     The session terminates when the command or shell on the remote[m
+     machine exits and all X11 and TCP connections have been[m
+     closed.[m
+[m
+[1mESCAPE[0m [1mCHARACTERS[0m[m
+     When a pseudo-terminal has been requested, [1mssh[0m supports a num‐[m
+     ber of functions through the use of an escape character.[m
+[m
+     A single tilde character can be sent as [1m~~[0m or by following the[m
+     tilde by a character other than those described below.  The[m
+     escape character must always follow a newline to be inter‐[m
+     preted as special.  The escape character can be changed in[m
+[7m Manual page ssh(1) line 660 (press h for help or q to quit)[27m[K[K     configuration files using the [1mEscapeChar[0m configuration direc‐[m
+     tive or on the command line by the [1m-e[0m option.[m
+[m
+     The supported escapes (assuming the default ‘~’) are:[m
+[m
+     [1m~.[0m      Disconnect.[m
+[m
+     [1m~^Z[0m     Background [1mssh[0m.[m
+[m
+     [1m~#[0m      List forwarded connections.[m
+[m
+     [1m~&[0m      Background [1mssh[0m at logout when waiting for forwarded[m
+             connection / X11 sessions to terminate.[m
+[m
+     [1m~?[0m      Display a list of escape characters.[m
+[7m Manual page ssh(1) line 675 (press h for help or q to quit)[27m[K[K[m
+     [1m~B[0m      Send a BREAK to the remote system (only useful if the[m
+             peer supports it).[m
+[m
+     [1m~C[0m      Open command line.  Currently this allows the addition[m
+             of port forwardings using the [1m-L[0m, [1m-R[0m and [1m-D[0m options[m
+             (see above).  It also allows the cancellation of ex‐[m
+             isting port-forwardings with [1m-KL[0m[[4mbind_address[24m:][4mport[24m[m
+             for local, [1m-KR[0m[[4mbind_address[24m:][4mport[24m for remote and[m
+             [1m-KD[0m[[4mbind_address[24m:][4mport[24m for dynamic port-forwardings.[m
+             [1m![0m[4mcommand[24m allows the user to execute a local command if[m
+             the [1mPermitLocalCommand[0m option is enabled in[m
+             ssh_config(5).  Basic help is available, using the [1m-h[0m[m
+             option.[m
+[m
+[7m Manual page ssh(1) line 690 (press h for help or q to quit)[27m[K[K     [1m~R[0m      Request rekeying of the connection (only useful if the[m
+             peer supports it).[m
+[m
+     [1m~V[0m      Decrease the verbosity ([1mLogLevel[0m) when errors are be‐[m
+             ing written to stderr.[m
+[m
+     [1m~v[0m      Increase the verbosity ([1mLogLevel[0m) when errors are be‐[m
+             ing written to stderr.[m
+[m
+[1mTCP[0m [1mFORWARDING[0m[m
+     Forwarding of arbitrary TCP connections over a secure channel[m
+     can be specified either on the command line or in a configura‐[m
+     tion file.  One possible application of TCP forwarding is a[m
+     secure connection to a mail server; another is going through[m
+     firewalls.[m
+[7m Manual page ssh(1) line 705 (press h for help or q to quit)[27m[K[K[m
+     In the example below, we look at encrypting communication for[m
+     an IRC client, even though the IRC server it connects to does[m
+     not directly support encrypted communication.  This works as[m
+     follows: the user connects to the remote host using [1mssh[0m, spec‐[m
+     ifying the ports to be used to forward the connection.  After[m
+     that it is possible to start the program locally, and [1mssh[0m will[m
+     encrypt and forward the connection to the remote server.[m
+[m
+     The following example tunnels an IRC session from the client[m
+     to an IRC server at “server.example.com”, joining channel[m
+     “#users”, nickname “pinky”, using the standard IRC port, 6667:[m
+[m
+         $ ssh -f -L 6667:localhost:6667 server.example.com sleep 10[m
+         $ irc -c '#users' pinky IRC/127.0.0.1[m
+[7m Manual page ssh(1) line 720 (press h for help or q to quit)[27m[K[K[m
+     The [1m-f[0m option backgrounds [1mssh[0m and the remote command “sleep[m
+     10” is specified to allow an amount of time (10 seconds, in[m
+     the example) to start the program which is going to use the[m
+     tunnel.  If no connections are made within the time specified,[m
+     [1mssh[0m will exit.[m
+[m
+[1mX11[0m [1mFORWARDING[0m[m
+     If the [1mForwardX11[0m variable is set to “yes” (or see the de‐[m
+     scription of the [1m-X[0m, [1m-x[0m, and [1m-Y[0m options above) and the user is[m
+     using X11 (the DISPLAY environment variable is set), the con‐[m
+     nection to the X11 display is automatically forwarded to the[m
+     remote side in such a way that any X11 programs started from[m
+     the shell (or command) will go through the encrypted channel,[m
+     and the connection to the real X server will be made from the[m
+[7m Manual page ssh(1) line 735 (press h for help or q to quit)[27m[K[K     local machine.  The user should not manually set DISPLAY.[m
+     Forwarding of X11 connections can be configured on the command[m
+     line or in configuration files.[m
+[m
+     The DISPLAY value set by [1mssh[0m will point to the server machine,[m
+     but with a display number greater than zero.  This is normal,[m
+     and happens because [1mssh[0m creates a “proxy” X server on the[m
+     server machine for forwarding the connections over the en‐[m
+     crypted channel.[m
+[m
+     [1mssh[0m will also automatically set up Xauthority data on the[m
+     server machine.  For this purpose, it will generate a random[m
+     authorization cookie, store it in Xauthority on the server,[m
+     and verify that any forwarded connections carry this cookie[m
+     and replace it by the real cookie when the connection is[m
+[7m Manual page ssh(1) line 750 (press h for help or q to quit)[27m[K[K     opened.  The real authentication cookie is never sent to the[m
+     server machine (and no cookies are sent in the plain).[m
+[m
+     If the [1mForwardAgent[0m variable is set to “yes” (or see the de‐[m
+     scription of the [1m-A[0m and [1m-a[0m options above) and the user is us‐[m
+     ing an authentication agent, the connection to the agent is[m
+     automatically forwarded to the remote side.[m
+[m
+[1mVERIFYING[0m [1mHOST[0m [1mKEYS[0m[m
+     When connecting to a server for the first time, a fingerprint[m
+     of the server's public key is presented to the user (unless[m
+     the option [1mStrictHostKeyChecking[0m has been disabled).  Finger‐[m
+     prints can be determined using ssh-keygen(1):[m
+[m
+           $ ssh-keygen -l -f /etc/ssh/ssh_host_rsa_key[m
+[7m Manual page ssh(1) line 765 (press h for help or q to quit)[27m[K[K[m
+     If the fingerprint is already known, it can be matched and the[m
+     key can be accepted or rejected.  If only legacy (MD5) finger‐[m
+     prints for the server are available, the ssh-keygen(1) [1m-E[0m op‐[m
+     tion may be used to downgrade the fingerprint algorithm to[m
+     match.[m
+[m
+     Because of the difficulty of comparing host keys just by look‐[m
+     ing at fingerprint strings, there is also support to compare[m
+     host keys visually, using [4mrandom[24m [4mart[24m.  By setting the[m
+     [1mVisualHostKey[0m option to “yes”, a small ASCII graphic gets dis‐[m
+     played on every login to a server, no matter if the session[m
+     itself is interactive or not.  By learning the pattern a known[m
+     server produces, a user can easily find out that the host key[m
+     has changed when a completely different pattern is displayed.[m
+[7m Manual page ssh(1) line 780 (press h for help or q to quit)[27m[K[K     Because these patterns are not unambiguous however, a pattern[m
+     that looks similar to the pattern remembered only gives a good[m
+     probability that the host key is the same, not guaranteed[m
+     proof.[m
+[m
+     To get a listing of the fingerprints along with their random[m
+     art for all known hosts, the following command line can be[m
+     used:[m
+[m
+           $ ssh-keygen -lv -f ~/.ssh/known_hosts[m
+[m
+     If the fingerprint is unknown, an alternative method of veri‐[m
+     fication is available: SSH fingerprints verified by DNS.  An[m
+     additional resource record (RR), SSHFP, is added to a zonefile[m
+     and the connecting client is able to match the fingerprint[m
+[7m Manual page ssh(1) line 795 (press h for help or q to quit)[27m[K[K     with that of the key presented.[m
+[m
+     In this example, we are connecting a client to a server,[m
+     “host.example.com”.  The SSHFP resource records should first[m
+     be added to the zonefile for host.example.com:[m
+[m
+           $ ssh-keygen -r host.example.com.[m
+[m
+     The output lines will have to be added to the zonefile.  To[m
+     check that the zone is answering fingerprint queries:[m
+[m
+           $ dig -t SSHFP host.example.com[m
+[m
+     Finally the client connects:[m
+[m
+[7m Manual page ssh(1) line 810 (press h for help or q to quit)[27m[K[K           $ ssh -o "VerifyHostKeyDNS ask" host.example.com[m
+           [...][m
+           Matching host key fingerprint found in DNS.[m
+           Are you sure you want to continue connecting (yes/no)?[m
+[m
+     See the [1mVerifyHostKeyDNS[0m option in ssh_config(5) for more in‐[m
+     formation.[m
+[m
+[1mSSH-BASED[0m [1mVIRTUAL[0m [1mPRIVATE[0m [1mNETWORKS[0m[m
+     [1mssh[0m contains support for Virtual Private Network (VPN) tun‐[m
+     nelling using the tun(4) network pseudo-device, allowing two[m
+     networks to be joined securely.  The sshd_config(5) configura‐[m
+     tion option [1mPermitTunnel[0m controls whether the server supports[m
+     this, and at what level (layer 2 or 3 traffic).[m
+[m
+[7m Manual page ssh(1) line 825 (press h for help or q to quit)[27m[K[K     The following example would connect client network[m
+     10.0.50.0/24 with remote network 10.0.99.0/24 using a point-[m
+     to-point connection from 10.1.1.1 to 10.1.1.2, provided that[m
+     the SSH server running on the gateway to the remote network,[m
+     at 192.168.1.15, allows it.[m
+[m
+     On the client:[m
+[m
+           # ssh -f -w 0:1 192.168.1.15 true[m
+           # ifconfig tun0 10.1.1.1 10.1.1.2 netmask 255.255.255.252[m
+           # route add 10.0.99.0/24 10.1.1.2[m
+[m
+     On the server:[m
+[m
+           # ifconfig tun1 10.1.1.2 10.1.1.1 netmask 255.255.255.252[m
+[7m Manual page ssh(1) line 840 (press h for help or q to quit)[27m[K[K           # route add 10.0.50.0/24 10.1.1.1[m
+[m
+     Client access may be more finely tuned via the[m
+     [4m/root/.ssh/authorized_keys[24m file (see below) and the[m
+     [1mPermitRootLogin[0m server option.  The following entry would per‐[m
+     mit connections on tun(4) device 1 from user “jane” and on tun[m
+     device 2 from user “john”, if [1mPermitRootLogin[0m is set to[m
+     “forced-commands-only”:[m
+[m
+       tunnel="1",command="sh /etc/netstart tun1" ssh-rsa ... jane[m
+       tunnel="2",command="sh /etc/netstart tun2" ssh-rsa ... john[m
+[m
+     Since an SSH-based setup entails a fair amount of overhead, it[m
+     may be more suited to temporary setups, such as for wireless[m
+     VPNs.  More permanent VPNs are better provided by tools such[m
+[7m Manual page ssh(1) line 855 (press h for help or q to quit)[27m[K[K     as ipsecctl(8) and isakmpd(8).[m
+[m
+[1mENVIRONMENT[0m[m
+     [1mssh[0m will normally set the following environment variables:[m
+[m
+     DISPLAY               The DISPLAY variable indicates the loca‐[m
+                           tion of the X11 server.  It is automati‐[m
+                           cally set by [1mssh[0m to point to a value of[m
+                           the form “hostname:n”, where “hostname”[m
+                           indicates the host where the shell runs,[m
+                           and ‘n’ is an integer ≥ 1.  [1mssh[0m uses[m
+                           this special value to forward X11 con‐[m
+                           nections over the secure channel.  The[m
+                           user should normally not set DISPLAY ex‐[m
+                           plicitly, as that will render the X11[m
+[7m Manual page ssh(1) line 870 (press h for help or q to quit)[27m[K[K                           connection insecure (and will require[m
+                           the user to manually copy any required[m
+                           authorization cookies).[m
+[m
+     HOME                  Set to the path of the user's home di‐[m
+                           rectory.[m
+[m
+     LOGNAME               Synonym for USER; set for compatibility[m
+                           with systems that use this variable.[m
+[m
+     MAIL                  Set to the path of the user's mailbox.[m
+[m
+     PATH                  Set to the default PATH, as specified[m
+                           when compiling [1mssh[0m.[m
+[m
+[7m Manual page ssh(1) line 885 (press h for help or q to quit)[27m[K[K     SSH_ASKPASS           If [1mssh[0m needs a passphrase, it will read[m
+                           the passphrase from the current terminal[m
+                           if it was run from a terminal.  If [1mssh[0m[m
+                           does not have a terminal associated with[m
+                           it but DISPLAY and SSH_ASKPASS are set,[m
+                           it will execute the program specified by[m
+                           SSH_ASKPASS and open an X11 window to[m
+                           read the passphrase.  This is particu‐[m
+                           larly useful when calling [1mssh[0m from a[m
+                           [4m.xsession[24m or related script.  (Note that[m
+                           on some machines it may be necessary to[m
+                           redirect the input from [4m/dev/null[24m to[m
+                           make this work.)[m
+[m
+     SSH_ASKPASS_REQUIRE   Allows further control over the use of[m
+[7m Manual page ssh(1) line 900 (press h for help or q to quit)[27m[K[K                           an askpass program.  If this variable is[m
+                           set to “never” then [1mssh[0m will never at‐[m
+                           tempt to use one.  If it is set to[m
+                           “prefer”, then [1mssh[0m will prefer to use[m
+                           the askpass program instead of the TTY[m
+                           when requesting passwords.  Finally, if[m
+                           the variable is set to “force”, then the[m
+                           askpass program will be used for all[m
+                           passphrase input regardless of whether[m
+                           DISPLAY is set.[m
+[m
+     SSH_AUTH_SOCK         Identifies the path of a UNIX-domain[m
+                           socket used to communicate with the[m
+                           agent.[m
+[m
+[7m Manual page ssh(1) line 915 (press h for help or q to quit)[27m[K[K     SSH_CONNECTION        Identifies the client and server ends of[m
+                           the connection.  The variable contains[m
+                           four space-separated values: client IP[m
+                           address, client port number, server IP[m
+                           address, and server port number.[m
+[m
+     SSH_ORIGINAL_COMMAND  This variable contains the original com‐[m
+                           mand line if a forced command is exe‐[m
+                           cuted.  It can be used to extract the[m
+                           original arguments.[m
+[m
+     SSH_TTY               This is set to the name of the tty (path[m
+                           to the device) associated with the cur‐[m
+                           rent shell or command.  If the current[m
+                           session has no tty, this variable is not[m
+[7m Manual page ssh(1) line 930 (press h for help or q to quit)[27m[K[K                           set.[m
+[m
+     SSH_TUNNEL            Optionally set by sshd(8) to contain the[m
+                           interface names assigned if tunnel for‐[m
+                           warding was requested by the client.[m
+[m
+     SSH_USER_AUTH         Optionally set by sshd(8), this variable[m
+                           may contain a pathname to a file that[m
+                           lists the authentication methods suc‐[m
+                           cessfully used when the session was es‐[m
+                           tablished, including any public keys[m
+                           that were used.[m
+[m
+     TZ                    This variable is set to indicate the[m
+                           present time zone if it was set when the[m
+[7m Manual page ssh(1) line 945 (press h for help or q to quit)[27m[K[K                           daemon was started (i.e. the daemon[m
+                           passes the value on to new connections).[m
+[m
+     USER                  Set to the name of the user logging in.[m
+[m
+     Additionally, [1mssh[0m reads [4m~/.ssh/environment[24m, and adds lines of[m
+     the format “VARNAME=value” to the environment if the file ex‐[m
+     ists and users are allowed to change their environment.  For[m
+     more information, see the [1mPermitUserEnvironment[0m option in[m
+     sshd_config(5).[m
+[m
+[1mFILES[0m[m
+     ~/.rhosts[m
+             This file is used for host-based authentication (see[m
+             above).  On some machines this file may need to be[m
+[7m Manual page ssh(1) line 960 (press h for help or q to quit)[27m[K[K             world-readable if the user's home directory is on an[m
+             NFS partition, because sshd(8) reads it as root.  Ad‐[m
+             ditionally, this file must be owned by the user, and[m
+             must not have write permissions for anyone else.  The[m
+             recommended permission for most machines is read/write[m
+             for the user, and not accessible by others.[m
+[m
+     ~/.shosts[m
+             This file is used in exactly the same way as [4m.rhosts[24m,[m
+             but allows host-based authentication without permit‐[m
+             ting login with rlogin/rsh.[m
+[m
+     ~/.ssh/[m
+             This directory is the default location for all user-[m
+             specific configuration and authentication information.[m
+[7m Manual page ssh(1) line 975 (press h for help or q to quit)[27m[K[K             There is no general requirement to keep the entire[m
+             contents of this directory secret, but the recommended[m
+             permissions are read/write/execute for the user, and[m
+             not accessible by others.[m
+[m
+     ~/.ssh/authorized_keys[m
+             Lists the public keys (DSA, ECDSA, Ed25519, RSA) that[m
+             can be used for logging in as this user.  The format[m
+             of this file is described in the sshd(8) manual page.[m
+             This file is not highly sensitive, but the recommended[m
+             permissions are read/write for the user, and not ac‐[m
+             cessible by others.[m
+[m
+     ~/.ssh/config[m
+             This is the per-user configuration file.  The file[m
+[7m Manual page ssh(1) line 990 (press h for help or q to quit)[27m[K[K             format and configuration options are described in[m
+             ssh_config(5).  Because of the potential for abuse,[m
+             this file must have strict permissions: read/write for[m
+             the user, and not writable by others.  It may be[m
+             group-writable provided that the group in question[m
+             contains only the user.[m
+[m
+     ~/.ssh/environment[m
+             Contains additional definitions for environment vari‐[m
+             ables; see [4mENVIRONMENT[24m, above.[m
+[m
+     ~/.ssh/id_dsa[m
+     ~/.ssh/id_ecdsa[m
+     ~/.ssh/id_ecdsa_sk[m
+     ~/.ssh/id_ed25519[m
+[7m Manual page ssh(1) line 1005 (press h for help or q to quit)[27m[K[K     ~/.ssh/id_ed25519_sk[m
+     ~/.ssh/id_rsa[m
+             Contains the private key for authentication.  These[m
+             files contain sensitive data and should be readable by[m
+             the user but not accessible by others (read/write/exe‐[m
+             cute).  [1mssh[0m will simply ignore a private key file if[m
+             it is accessible by others.  It is possible to specify[m
+             a passphrase when generating the key which will be[m
+             used to encrypt the sensitive part of this file using[m
+             AES-128.[m
+[m
+     ~/.ssh/id_dsa.pub[m
+     ~/.ssh/id_ecdsa.pub[m
+     ~/.ssh/id_ecdsa_sk.pub[m
+     ~/.ssh/id_ed25519.pub[m
+[7m Manual page ssh(1) line 1020 (press h for help or q to quit)[27m[K[K     ~/.ssh/id_ed25519_sk.pub[m
+     ~/.ssh/id_rsa.pub[m
+             Contains the public key for authentication.  These[m
+             files are not sensitive and can (but need not) be[m
+             readable by anyone.[m
+[m
+     ~/.ssh/known_hosts[m
+             Contains a list of host keys for all hosts the user[m
+             has logged into that are not already in the systemwide[m
+             list of known host keys.  See sshd(8) for further de‐[m
+             tails of the format of this file.[m
+[m
+     ~/.ssh/rc[m
+             Commands in this file are executed by [1mssh[0m when the[m
+             user logs in, just before the user's shell (or com‐[m
+[7m Manual page ssh(1) line 1035 (press h for help or q to quit)[27m[K[K             mand) is started.  See the sshd(8) manual page for[m
+             more information.[m
+[m
+     /etc/hosts.equiv[m
+             This file is for host-based authentication (see[m
+             above).  It should only be writable by root.[m
+[m
+     /etc/ssh/shosts.equiv[m
+             This file is used in exactly the same way as[m
+             [4mhosts.equiv[24m, but allows host-based authentication[m
+             without permitting login with rlogin/rsh.[m
+[m
+     /etc/ssh/ssh_config[m
+             Systemwide configuration file.  The file format and[m
+             configuration options are described in ssh_config(5).[m
+[7m Manual page ssh(1) line 1050 (press h for help or q to quit)[27m[K[K[m
+     /etc/ssh/ssh_host_key[m
+     /etc/ssh/ssh_host_dsa_key[m
+     /etc/ssh/ssh_host_ecdsa_key[m
+     /etc/ssh/ssh_host_ed25519_key[m
+     /etc/ssh/ssh_host_rsa_key[m
+             These files contain the private parts of the host keys[m
+             and are used for host-based authentication.[m
+[m
+     /etc/ssh/ssh_known_hosts[m
+             Systemwide list of known host keys.  This file should[m
+             be prepared by the system administrator to contain the[m
+             public host keys of all machines in the organization.[m
+             It should be world-readable.  See sshd(8) for further[m
+             details of the format of this file.[m
+[7m Manual page ssh(1) line 1065 (press h for help or q to quit)[27m[K[K[m
+     /etc/ssh/sshrc[m
+             Commands in this file are executed by [1mssh[0m when the[m
+             user logs in, just before the user's shell (or com‐[m
+             mand) is started.  See the sshd(8) manual page for[m
+             more information.[m
+[m
+[1mEXIT[0m [1mSTATUS[0m[m
+     [1mssh[0m exits with the exit status of the remote command or with[m
+     255 if an error occurred.[m
+[m
+[1mSEE[0m [1mALSO[0m[m
+     scp(1), sftp(1), ssh-add(1), ssh-agent(1), ssh-argv0(1),[m
+     ssh-keygen(1), ssh-keyscan(1), tun(4), ssh_config(5),[m
+     ssh-keysign(8), sshd(8)[m
+[7m Manual page ssh(1) line 1080 (press h for help or q to quit)[27m[K[K[m
+[1mSTANDARDS[0m[m
+     S. Lehtinen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mProtocol[24m[m
+     [4mAssigned[24m [4mNumbers[24m, RFC 4250, January 2006.[m
+[m
+     T. Ylonen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mProtocol[24m[m
+     [4mArchitecture[24m, RFC 4251, January 2006.[m
+[m
+     T. Ylonen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m[m
+     [4mAuthentication[24m [4mProtocol[24m, RFC 4252, January 2006.[m
+[m
+     T. Ylonen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mTransport[24m[m
+     [4mLayer[24m [4mProtocol[24m, RFC 4253, January 2006.[m
+[m
+     T. Ylonen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mConnection[24m[m
+[7m Manual page ssh(1) line 1095 (press h for help or q to quit)[27m[K[K     [4mProtocol[24m, RFC 4254, January 2006.[m
+[m
+     J. Schlyter and W. Griffin, [4mUsing[24m [4mDNS[24m [4mto[24m [4mSecurely[24m [4mPublish[24m[m
+     [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mKey[24m [4mFingerprints[24m, RFC 4255, January 2006.[m
+[m
+     F. Cusack and M. Forssen, [4mGeneric[24m [4mMessage[24m [4mExchange[24m[m
+     [4mAuthentication[24m [4mfor[24m [4mthe[24m [4mSecure[24m [4mShell[24m [4mProtocol[24m [4m(SSH)[24m, RFC 4256,[m
+     January 2006.[m
+[m
+     J. Galbraith and P. Remaker, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mSession[24m[m
+     [4mChannel[24m [4mBreak[24m [4mExtension[24m, RFC 4335, January 2006.[m
+[m
+     M. Bellare, T. Kohno, and C. Namprempre, [4mThe[24m [4mSecure[24m [4mShell[24m[m
+     [4m(SSH)[24m [4mTransport[24m [4mLayer[24m [4mEncryption[24m [4mModes[24m, RFC 4344, January[m
+     2006.[m
+[7m Manual page ssh(1) line 1110 (press h for help or q to quit)[27m[K[K[m
+     B. Harris, [4mImproved[24m [4mArcfour[24m [4mModes[24m [4mfor[24m [4mthe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m[m
+     [4mTransport[24m [4mLayer[24m [4mProtocol[24m, RFC 4345, January 2006.[m
+[m
+     M. Friedl, N. Provos, and W. Simpson, [4mDiffie-Hellman[24m [4mGroup[24m[m
+     [4mExchange[24m [4mfor[24m [4mthe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mTransport[24m [4mLayer[24m [4mProtocol[24m,[m
+     RFC 4419, March 2006.[m
+[m
+     J. Galbraith and R. Thayer, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mPublic[24m [4mKey[24m[m
+     [4mFile[24m [4mFormat[24m, RFC 4716, November 2006.[m
+[m
+     D. Stebila and J. Green, [4mElliptic[24m [4mCurve[24m [4mAlgorithm[24m [4mIntegration[24m[m
+     [4min[24m [4mthe[24m [4mSecure[24m [4mShell[24m [4mTransport[24m [4mLayer[24m, RFC 5656, December 2009.[m
+[m
+     A. Perrig and D. Song, [4mHash[24m [4mVisualization:[24m [4ma[24m [4mNew[24m [4mTechnique[24m [4mto[24m[m
+[7m Manual page ssh(1) line 1125 (press h for help or q to quit)[27m[K[K     [4mimprove[24m [4mReal-World[24m [4mSecurity[24m, 1999, International Workshop on[m
+     Cryptographic Techniques and E-Commerce (CrypTEC '99).[m
+[m
+[1mAUTHORS[0m[m
+     OpenSSH is a derivative of the original and free ssh 1.2.12[m
+     release by Tatu Ylonen.  Aaron Campbell, Bob Beck, Markus[m
+     Friedl, Niels Provos, Theo de Raadt and Dug Song removed many[m
+     bugs, re-added newer features and created OpenSSH.  Markus[m
+     Friedl contributed the support for SSH protocol versions 1.5[m
+     and 2.0.[m
+[m
+BSD                      November 28, 2022                      BSD[m
+[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K[K[7mal page ssh(1) line 1137/1151 (END) (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     D. Stebila and J. Green, [4mElliptic[24m [4mCurve[24m [4mAlgorithm[24m [4mIntegration[24m[m
+[16;1H[K[7mual page ssh(1) line 1136/1151 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mual page ssh(1) line 1135/1151 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mFile[24m [4mFormat[24m, RFC 4716, November 2006.[m
+[16;1H[K[7mual page ssh(1) line 1134/1151 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     J. Galbraith and R. Thayer, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mPublic[24m [4mKey[24m[m
+[16;1H[K[7mual page ssh(1) line 1133/1151 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mual page ssh(1) line 1132/1151 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     RFC 4419, March 2006.[m
+[16;1H[K[7mual page ssh(1) line 1131/1151 100% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mExchange[24m [4mfor[24m [4mthe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mTransport[24m [4mLayer[24m [4mProtocol[24m,[m
+[16;1H[K[7mnual page ssh(1) line 1130/1151 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     M. Friedl, N. Provos, and W. Simpson, [4mDiffie-Hellman[24m [4mGroup[24m[m
+[16;1H[K[7mnual page ssh(1) line 1129/1151 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1128/1151 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mTransport[24m [4mLayer[24m [4mProtocol[24m, RFC 4345, January 2006.[m
+[16;1H[K[7mnual page ssh(1) line 1127/1151 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     B. Harris, [4mImproved[24m [4mArcfour[24m [4mModes[24m [4mfor[24m [4mthe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m[m
+[16;1H[K[7mnual page ssh(1) line 1126/1151 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1125/1151 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     2006.[m
+[16;1H[K[7mnual page ssh(1) line 1124/1151 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4m(SSH)[24m [4mTransport[24m [4mLayer[24m [4mEncryption[24m [4mModes[24m, RFC 4344, January[m
+[16;1H[K[7mnual page ssh(1) line 1123/1151 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     M. Bellare, T. Kohno, and C. Namprempre, [4mThe[24m [4mSecure[24m [4mShell[24m[m
+[16;1H[K[7mnual page ssh(1) line 1122/1151 99% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1121/1151 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mChannel[24m [4mBreak[24m [4mExtension[24m, RFC 4335, January 2006.[m
+[16;1H[K[7mnual page ssh(1) line 1120/1151 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     J. Galbraith and P. Remaker, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mSession[24m[m
+[16;1H[K[7mnual page ssh(1) line 1119/1151 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1118/1151 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     January 2006.[m
+[16;1H[K[7mnual page ssh(1) line 1117/1151 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mAuthentication[24m [4mfor[24m [4mthe[24m [4mSecure[24m [4mShell[24m [4mProtocol[24m [4m(SSH)[24m, RFC 4256,[m
+[16;1H[K[7mnual page ssh(1) line 1116/1151 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     F. Cusack and M. Forssen, [4mGeneric[24m [4mMessage[24m [4mExchange[24m[m
+[16;1H[K[7mnual page ssh(1) line 1115/1151 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1114/1151 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mKey[24m [4mFingerprints[24m, RFC 4255, January 2006.[m
+[16;1H[K[7mnual page ssh(1) line 1113/1151 98% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     J. Schlyter and W. Griffin, [4mUsing[24m [4mDNS[24m [4mto[24m [4mSecurely[24m [4mPublish[24m[m
+[16;1H[K[7mnual page ssh(1) line 1112/1151 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1111/1151 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mProtocol[24m, RFC 4254, January 2006.[m
+[16;1H[K[7mnual page ssh(1) line 1110/1151 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     T. Ylonen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mConnection[24m[m
+[16;1H[K[7mnual page ssh(1) line 1109/1151 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1108/1151 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mLayer[24m [4mProtocol[24m, RFC 4253, January 2006.[m
+[16;1H[K[7mnual page ssh(1) line 1107/1151 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     T. Ylonen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mTransport[24m[m
+[16;1H[K[7mnual page ssh(1) line 1106/1151 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1105/1151 97% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mAuthentication[24m [4mProtocol[24m, RFC 4252, January 2006.[m
+[16;1H[K[7mnual page ssh(1) line 1104/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     T. Ylonen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m[m
+[16;1H[K[7mnual page ssh(1) line 1103/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1102/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mArchitecture[24m, RFC 4251, January 2006.[m
+[16;1H[K[7mnual page ssh(1) line 1101/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     T. Ylonen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mProtocol[24m[m
+[16;1H[K[7mnual page ssh(1) line 1100/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1099/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [4mAssigned[24m [4mNumbers[24m, RFC 4250, January 2006.[m
+[16;1H[K[7mnual page ssh(1) line 1098/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     S. Lehtinen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mProtocol[24m[m
+[16;1H[K[7mnual page ssh(1) line 1097/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSTANDARDS[0m[m
+[16;1H[K[7mnual page ssh(1) line 1096/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1095/1151 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     ssh-keysign(8), sshd(8)[m
+[16;1H[K[7mnual page ssh(1) line 1094/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     ssh-keygen(1), ssh-keyscan(1), tun(4), ssh_config(5),[m
+[16;1H[K[7mnual page ssh(1) line 1093/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     scp(1), sftp(1), ssh-add(1), ssh-agent(1), ssh-argv0(1),[m
+[16;1H[K[7mnual page ssh(1) line 1092/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSEE[0m [1mALSO[0m[m
+[16;1H[K[7mnual page ssh(1) line 1091/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1090/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     255 if an error occurred.[m
+[16;1H[K[7mnual page ssh(1) line 1089/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     [1mssh[0m exits with the exit status of the remote command or with[m
+[16;1H[K[7mnual page ssh(1) line 1088/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mEXIT[0m [1mSTATUS[0m[m
+[16;1H[K[7mnual page ssh(1) line 1087/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1086/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             more information.[m
+[16;1H[K[7mnual page ssh(1) line 1085/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             mand) is started.  See the sshd(8) manual page for[m
+[16;1H[K[7mnual page ssh(1) line 1084/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             user logs in, just before the user's shell (or com‐[m
+[16;1H[K[7mnual page ssh(1) line 1083/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             Commands in this file are executed by [1mssh[0m when the[m
+[16;1H[K[7mnual page ssh(1) line 1082/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM     /etc/ssh/sshrc[m
+[16;1H[K[7mnual page ssh(1) line 1081/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[16;1H[K[7mnual page ssh(1) line 1080/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mnual page ssh(1) line 1081/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mSTANDARDS[0m[m
+[7mnual page ssh(1) line 1082/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     S. Lehtinen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mProtocol[24m[m
+[7mnual page ssh(1) line 1083/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [4mAssigned[24m [4mNumbers[24m, RFC 4250, January 2006.[m
+[7mnual page ssh(1) line 1084/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mnual page ssh(1) line 1085/1151 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     T. Ylonen and C. Lonvick, [4mThe[24m [4mSecure[24m [4mShell[24m [4m(SSH)[24m [4mProtocol[24m[m
+[7mnual page ssh(1) line 1086/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [4mArchitecture[24m, RFC 4251, January 2006.[m
+[7mnual page ssh(1) line 1087/1151 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mnual page ssh(1) line 1088/1151 95% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34m~/.ssh[0m [33m1m2s[0m 
+[35m❯[0m man [7mssh_config(5)[27m[C[C[C[C[C[Cssh_config(5)[K[K[K5ssh_config[C[C[C[C[C[C[C ssh_config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1049h[22;0;0t[?1h=SSH_CONFIG(5)         BSD File Formats Manual         SSH_CONFIG(5)[m
+[m
+[1mNAME[0m[m
+     [1mssh_config[0m — OpenSSH client configuration file[m
+[m
+[1mDESCRIPTION[0m[m
+     ssh(1) obtains configuration data from the following sources[m
+     in the following order:[m
+[m
+           1.   command-line options[m
+           2.   user's configuration file ([4m~/.ssh/config[24m)[m
+           3.   system-wide configuration file[m
+                ([4m/etc/ssh/ssh_config[24m)[m
+[m
+     For each parameter, the first obtained value will be used.[m
+[7m Manual page ssh_config(5) line 1 (press h for help or q to quit)[27m[K[K     The configuration files contain sections separated by [1mHost[0m[m
+     specifications, and that section is only applied for hosts[m
+     that match one of the patterns given in the specification.[m
+     The matched host name is usually the one given on the command[m
+     line (see the [1mCanonicalizeHostname[0m option for exceptions).[m
+[m
+     Since the first obtained value for each parameter is used,[m
+     more host-specific declarations should be given near the be‐[m
+     ginning of the file, and general defaults at the end.[m
+[m
+     Note that the Debian [1mopenssh-client[0m package sets several op‐[m
+     tions as standard in [4m/etc/ssh/ssh_config[24m which are not the de‐[m
+     fault in ssh(1):[m
+[m
+           [1m•[0m   [1mInclude[0m [1m/etc/ssh/ssh_config.d/*.conf[0m[m
+[7m Manual page ssh_config(5) line 16 (press h for help or q to quit)[27m[K[K           [1m•[0m   [1mSendEnv[0m LANG LC_*[m
+           [1m•[0m   [1mHashKnownHosts[0m yes[m
+           [1m•[0m   [1mGSSAPIAuthentication[0m yes[m
+[m
+     [4m/etc/ssh/ssh_config.d/*.conf[24m files are included at the start[m
+     of the system-wide configuration file, so options set there[m
+     will override those in [4m/etc/ssh/ssh_config.[24m[m
+[m
+     The file contains keyword-argument pairs, one per line.  Lines[m
+     starting with ‘#’ and empty lines are interpreted as comments.[m
+     Arguments may optionally be enclosed in double quotes (") in[m
+     order to represent arguments containing spaces.  Configuration[m
+     options may be separated by whitespace or optional whitespace[m
+     and exactly one ‘=’; the latter format is useful to avoid the[m
+     need to quote whitespace when specifying configuration options[m
+[7m Manual page ssh_config(5) line 31 (press h for help or q to quit)[27m[K[K     using the [1mssh[0m, [1mscp[0m, and [1msftp[0m [1m-o[0m option.[m
+[m
+     The possible keywords and their meanings are as follows (note[m
+     that keywords are case-insensitive and arguments are case-sen‐[m
+     sitive):[m
+[m
+     [1mHost[0m    Restricts the following declarations (up to the next[m
+             [1mHost[0m or [1mMatch[0m keyword) to be only for those hosts that[m
+             match one of the patterns given after the keyword.  If[m
+             more than one pattern is provided, they should be sep‐[m
+             arated by whitespace.  A single ‘*’ as a pattern can[m
+             be used to provide global defaults for all hosts.  The[m
+             host is usually the [4mhostname[24m argument given on the[m
+             command line (see the [1mCanonicalizeHostname[0m keyword for[m
+             exceptions).[m
+[7m Manual page ssh_config(5) line 46 (press h for help or q to quit)[27m[K[K[m
+             A pattern entry may be negated by prefixing it with an[m
+             exclamation mark (‘!’).  If a negated entry is[m
+             matched, then the [1mHost[0m entry is ignored, regardless of[m
+             whether any other patterns on the line match.  Negated[m
+             matches are therefore useful to provide exceptions for[m
+             wildcard matches.[m
+[m
+             See [4mPATTERNS[24m for more information on patterns.[m
+[m
+     [1mMatch[0m   Restricts the following declarations (up to the next[m
+             [1mHost[0m or [1mMatch[0m keyword) to be used only when the condi‐[m
+             tions following the [1mMatch[0m keyword are satisfied.[m
+             Match conditions are specified using one or more cri‐[m
+             teria or the single token [1mall[0m which always matches.[m
+[7m Manual page ssh_config(5) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             The available criteria keywords are: [1mcanonical[0m, [1mfinal[0m,[m
+[7m Manual page ssh_config(5) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             [1mexec[0m, [1mhost[0m, [1moriginalhost[0m, [1muser[0m, and [1mlocaluser[0m.  The[m
+[7m Manual page ssh_config(5) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             A pattern entry may be negated by prefixing it with an[m
+[16;1H[K[7m Manual page ssh_config(5) line 62 (press h for help or q to quit)[27m[K[K/[KII[Kdd[Kee[Knn[Ktt[Kii[Ktt[Kyy[K[1;1H             A pattern entry may be negated by prefixing it with an[m
+[2;1H             exclamation mark (‘!’).  If a negated entry is[m
+[3;1H             matched, then the [1mHost[0m entry is ignored, regardless of[m
+[4;1H             whether any other patterns on the line match.  Negated[m
+[5;1H             matches are therefore useful to provide exceptions for[m
+[6;1H             wildcard matches.[m
+[7;1H[m
+[8;1H             See [4mPATTERNS[24m for more information on patterns.[m
+[9;1H[m
+[10;1H     [1mMatch[0m   Restricts the following declarations (up to the next[m
+[11;1H             [1mHost[0m or [1mMatch[0m keyword) to be used only when the condi‐[m
+[12;1H             tions following the [1mMatch[0m keyword are satisfied.[m
+[13;1H             Match conditions are specified using one or more cri‐[m
+[14;1H             teria or the single token [1mall[0m which always matches.[m
+[15;1H             The available criteria keywords are: [1mcanonical[0m, [1mfinal[0m,[m
+[16;1H[1;1H             A pattern entry may be negated by prefixing it with an[m
+[2;1H             exclamation mark (‘!’).  If a negated entry is[m
+[3;1H             matched, then the [1mHost[0m entry is ignored, regardless of[m
+[4;1H             whether any other patterns on the line match.  Negated[m
+[5;1H             matches are therefore useful to provide exceptions for[m
+[6;1H             wildcard matches.[m
+[7;1H[m
+[8;1H             See [4mPATTERNS[24m for more information on patterns.[m
+[9;1H[m
+[10;1H     [1mMatch[0m   Restricts the following declarations (up to the next[m
+[11;1H             [1mHost[0m or [1mMatch[0m keyword) to be used only when the condi‐[m
+[12;1H             tions following the [1mMatch[0m keyword are satisfied.[m
+[13;1H             Match conditions are specified using one or more cri‐[m
+[14;1H             teria or the single token [1mall[0m which always matches.[m
+[15;1H             The available criteria keywords are: [1mcanonical[0m, [1mfinal[0m,[m
+[16;1H...skipping...
+             from an [1m[7mIdentity[27m[0m[1mFile[0m directive or [1m-i[0m flag to ssh(1),[m
+             via ssh-agent(1), or via a [1mPKCS11Provider[0m or[m
+             [1mSecurityKeyProvider[0m.[m
+[m
+             Arguments to [1mCertificateFile[0m may use the tilde syntax[m
+             to refer to a user's home directory, the tokens de‐[m
+             scribed in the [4mTOKENS[24m section and environment vari‐[m
+             ables as described in the [4mENVIRONMENT[24m [4mVARIABLES[24m sec‐[m
+             tion.[m
+[m
+             It is possible to have multiple certificate files[m
+             specified in configuration files; these certificates[m
+             will be tried in sequence.  Multiple [1mCertificateFile[0m[m
+             directives will add to the list of certificates used[m
+             for authentication.[m
+[7m Manual page ssh_config(5) line 244 (press h for help or q to quit)[27m[K[K/[K...skipping...
+     [1mGSSAPIClient[0m[1m[7mIdentity[27m[0m[m
+             If set, specifies the GSSAPI client identity that ssh[m
+             should use when connecting to the server. The default[m
+             is unset, which means that the default identity will[m
+             be used.[m
+[m
+     [1mGSSAPIDelegateCredentials[0m[m
+             Forward (delegate) credentials to the server.  The de‐[m
+             fault is [1mno[0m.[m
+[m
+     [1mGSSAPIKeyExchange[0m[m
+             Specifies whether key exchange based on GSSAPI may be[m
+             used. When using GSSAPI key exchange the server need[m
+             not have a host key.  The default is “no”.[m
+[m
+[7m Manual page ssh_config(5) line 550 (press h for help or q to quit)[27m[K[K/[K...skipping...
+     [1mGSSAPIServer[0m[1m[7mIdentity[27m[0m[m
+             If set, specifies the GSSAPI server identity that ssh[m
+             should expect when connecting to the server. The de‐[m
+             fault is unset, which means that the expected GSSAPI[m
+             server identity will be determined from the target[m
+             hostname.[m
+[m
+     [1mGSSAPITrustDns[0m[m
+             Set to “yes” to indicate that the DNS is trusted to[m
+             securely canonicalize the name of the host being con‐[m
+             nected to. If “no”, the hostname entered on the com‐[m
+             mand line will be passed untouched to the GSSAPI li‐[m
+             brary.  The default is “no”.[m
+[m
+     [1mGSSAPIKexAlgorithms[0m[m
+[7m Manual page ssh_config(5) line 581 (press h for help or q to quit)[27m[K[K/[K...skipping...
+     [1m[7mIdentity[27m[0m[1mAgent[0m[m
+             Specifies the UNIX-domain socket used to communicate[m
+             with the authentication agent.[m
+[m
+             This option overrides the SSH_AUTH_SOCK environment[m
+             variable and can be used to select a specific agent.[m
+             Setting the socket name to [1mnone[0m disables the use of an[m
+             authentication agent.  If the string "SSH_AUTH_SOCK"[m
+             is specified, the location of the socket will be read[m
+             from the SSH_AUTH_SOCK environment variable.  Other‐[m
+             wise if the specified value begins with a ‘$’ charac‐[m
+             ter, then it will be treated as an environment vari‐[m
+             able containing the location of the socket.[m
+[m
+             Arguments to [1m[7mIdentity[27m[0m[1mAgent[0m may use the tilde syntax to[m
+[7m Manual page ssh_config(5) line 723 (press h for help or q to quit)[27m[K[K/[K             refer to a user's home directory, the tokens described[m
+             in the [4mTOKENS[24m section and environment variables as de‐[m
+             scribed in the [4mENVIRONMENT[24m [4mVARIABLES[24m section.[m
+[m
+     [1m[7mIdentity[27m[0m[1mFile[0m[m
+             Specifies a file from which the user's DSA, ECDSA, au‐[m
+             thenticator-hosted ECDSA, Ed25519, authenticator-[m
+             hosted Ed25519 or RSA authentication identity is read.[m
+             You can also specify a public key file to use the cor‐[m
+             responding private key that is loaded in ssh-agent(1)[m
+             when the private key file is not present locally.  The[m
+             default is [4m~/.ssh/id_rsa[24m, [4m~/.ssh/id_ecdsa[24m,[m
+             [4m~/.ssh/id_ecdsa_sk[24m, [4m~/.ssh/id_ed25519[24m,[m
+             [4m~/.ssh/id_ed25519_sk[24m and [4m~/.ssh/id_dsa[24m.  Additionally,[m
+[7m Manual page ssh_config(5) line 737 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             any identities represented by the authentication agent[m
+[7m Manual page ssh_config(5) line 738 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             will be used for authentication unless [1mIdentitiesOnly[0m[m
+[7m Manual page ssh_config(5) line 739 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             is set.  If no certificates have been explicitly spec‐[m
+[7m Manual page ssh_config(5) line 740 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             ified by [1mCertificateFile[0m, ssh(1) will try to load cer‐[m
+[7m Manual page ssh_config(5) line 741 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             tificate information from the filename obtained by ap‐[m
+[7m Manual page ssh_config(5) line 742 (press h for help or q to quit)[27m[K[H[2J[H     [1m[7mIdentity[27m[0m[1mFile[0m[m
+             Specifies a file from which the user's DSA, ECDSA, au‐[m
+             thenticator-hosted ECDSA, Ed25519, authenticator-[m
+             hosted Ed25519 or RSA authentication identity is read.[m
+             You can also specify a public key file to use the cor‐[m
+             responding private key that is loaded in ssh-agent(1)[m
+             when the private key file is not present locally.  The[m
+             default is [4m~/.ssh/id_rsa[24m, [4m~/.ssh/id_ecdsa[24m,[m
+             [4m~/.ssh/id_ecdsa_sk[24m, [4m~/.ssh/id_ed25519[24m,[m
+             [4m~/.ssh/id_ed25519_sk[24m and [4m~/.ssh/id_dsa[24m.  Additionally,[m
+             any identities represented by the authentication agent[m
+             will be used for authentication unless [1mIdentitiesOnly[0m[m
+             is set.  If no certificates have been explicitly spec‐[m
+             ified by [1mCertificateFile[0m, ssh(1) will try to load cer‐[m
+[7m Manual page ssh_config(5) line 742 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34m~/.ssh[0m [33m50s[0m 
+[35m❯[0m ls
+[?2004lconfig				id_ed25519_ubse
+id_ed25519			id_ed25519_ubse.pub
+id_ed25519_github_personal	known_hosts
+id_ed25519_github_personal.pub	known_hosts.old
+id_ed25519.pub
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m pwd[H[2J
+[34m~/.ssh[0m 
+[35m❯[0m pwd
+[?2004l/home/kent/.ssh
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m cat config # efter '[Kandring
+[?2004lHost ubse
+	HostName localhost
+	User kent
+	Port 3322
+	IdentityFile /home/kent/.ssh/id_ed25519_ubse.pub
+
+Host localhost
+	HostName localhost
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host kdwl
+	HostName kdwl
+	Port 2332
+Host proxmox
+	User root
+
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m [H[2J
+[34m~/.ssh[0m 
+[35m❯[0m ssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 07:34:41 AM UTC 2024
+
+  System load:  0.0                Processes:               112
+  Usage of /:   14.9% of 29.36GB   Users logged in:         1
+  Memory usage: 11%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 07:29:44 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~/.ssh[0m [33m7s[0m 
+[35m❯[0m man 5 sshconfig[H[2J
+[34m~/.ssh[0m [33m7s[0m 
+[35m❯[0m man 5 sshconfig
+[?2004lNo manual entry for sshconfig in section 5
+[?2004h
+[34m~/.ssh[0m 
+[31m❯[0m man s[K5 ssh_config
+[?2004l[?1049h[22;0;0t[?1h=SSH_CONFIG(5)         BSD File Formats Manual         SSH_CONFIG(5)[m
+[m
+[1mNAME[0m[m
+     [1mssh_config[0m — OpenSSH client configuration file[m
+[m
+[1mDESCRIPTION[0m[m
+     ssh(1) obtains configuration data from the following sources[m
+     in the following order:[m
+[m
+           1.   command-line options[m
+           2.   user's configuration file ([4m~/.ssh/config[24m)[m
+[7m Manual page ssh_config(5) line 1 (press h for help or q to quit)[27m[K[K           3.   system-wide configuration file[m
+                ([4m/etc/ssh/ssh_config[24m)[m
+[m
+     For each parameter, the first obtained value will be used.[m
+     The configuration files contain sections separated by [1mHost[0m[m
+     specifications, and that section is only applied for hosts[m
+     that match one of the patterns given in the specification.[m
+     The matched host name is usually the one given on the command[m
+     line (see the [1mCanonicalizeHostname[0m option for exceptions).[m
+[m
+     Since the first obtained value for each parameter is used,[m
+[7m Manual page ssh_config(5) line 12 (press h for help or q to quit)[27m[K[K     more host-specific declarations should be given near the be‐[m
+     ginning of the file, and general defaults at the end.[m
+[m
+     Note that the Debian [1mopenssh-client[0m package sets several op‐[m
+     tions as standard in [4m/etc/ssh/ssh_config[24m which are not the de‐[m
+     fault in ssh(1):[m
+[m
+           [1m•[0m   [1mInclude[0m [1m/etc/ssh/ssh_config.d/*.conf[0m[m
+           [1m•[0m   [1mSendEnv[0m LANG LC_*[m
+           [1m•[0m   [1mHashKnownHosts[0m yes[m
+           [1m•[0m   [1mGSSAPIAuthentication[0m yes[m
+[7m Manual page ssh_config(5) line 23 (press h for help or q to quit)[27m[K[K[m
+     [4m/etc/ssh/ssh_config.d/*.conf[24m files are included at the start[m
+     of the system-wide configuration file, so options set there[m
+     will override those in [4m/etc/ssh/ssh_config.[24m[m
+[m
+     The file contains keyword-argument pairs, one per line.  Lines[m
+     starting with ‘#’ and empty lines are interpreted as comments.[m
+     Arguments may optionally be enclosed in double quotes (") in[m
+     order to represent arguments containing spaces.  Configuration[m
+     options may be separated by whitespace or optional whitespace[m
+     and exactly one ‘=’; the latter format is useful to avoid the[m
+[7m Manual page ssh_config(5) line 34 (press h for help or q to quit)[27m[K[K     need to quote whitespace when specifying configuration options[m
+     using the [1mssh[0m, [1mscp[0m, and [1msftp[0m [1m-o[0m option.[m
+[m
+     The possible keywords and their meanings are as follows (note[m
+     that keywords are case-insensitive and arguments are case-sen‐[m
+     sitive):[m
+[m
+     [1mHost[0m    Restricts the following declarations (up to the next[m
+             [1mHost[0m or [1mMatch[0m keyword) to be only for those hosts that[m
+             match one of the patterns given after the keyword.  If[m
+             more than one pattern is provided, they should be sep‐[m
+[7m Manual page ssh_config(5) line 45 (press h for help or q to quit)[27m[K[K             arated by whitespace.  A single ‘*’ as a pattern can[m
+             be used to provide global defaults for all hosts.  The[m
+             host is usually the [4mhostname[24m argument given on the[m
+             command line (see the [1mCanonicalizeHostname[0m keyword for[m
+             exceptions).[m
+[m
+             A pattern entry may be negated by prefixing it with an[m
+             exclamation mark (‘!’).  If a negated entry is[m
+             matched, then the [1mHost[0m entry is ignored, regardless of[m
+             whether any other patterns on the line match.  Negated[m
+             matches are therefore useful to provide exceptions for[m
+[7m Manual page ssh_config(5) line 56 (press h for help or q to quit)[27m[K[K             wildcard matches.[m
+[m
+             See [4mPATTERNS[24m for more information on patterns.[m
+[m
+     [1mMatch[0m   Restricts the following declarations (up to the next[m
+             [1mHost[0m or [1mMatch[0m keyword) to be used only when the condi‐[m
+             tions following the [1mMatch[0m keyword are satisfied.[m
+             Match conditions are specified using one or more cri‐[m
+             teria or the single token [1mall[0m which always matches.[m
+             The available criteria keywords are: [1mcanonical[0m, [1mfinal[0m,[m
+             [1mexec[0m, [1mhost[0m, [1moriginalhost[0m, [1muser[0m, and [1mlocaluser[0m.  The[m
+[7m Manual page ssh_config(5) line 67 (press h for help or q to quit)[27m[K[K             [1mall[0m criteria must appear alone or immediately after[m
+             [1mcanonical[0m or [1mfinal[0m.  Other criteria may be combined[m
+             arbitrarily.  All criteria but [1mall[0m, [1mcanonical[0m, and[m
+             [1mfinal[0m require an argument.  Criteria may be negated by[m
+             prepending an exclamation mark (‘!’).[m
+[m
+             The [1mcanonical[0m keyword matches only when the configura‐[m
+             tion file is being re-parsed after hostname canonical‐[m
+             ization (see the [1mCanonicalizeHostname[0m option).  This[m
+             may be useful to specify conditions that work with[m
+             canonical host names only.[m
+[7m Manual page ssh_config(5) line 78 (press h for help or q to quit)[27m[K[K[m
+             The [1mfinal[0m keyword requests that the configuration be[m
+             re-parsed (regardless of whether [1mCanonicalizeHostname[0m[m
+             is enabled), and matches only during this final pass.[m
+             If [1mCanonicalizeHostname[0m is enabled, then [1mcanonical[0m and[m
+             [1mfinal[0m match during the same pass.[m
+[m
+             The [1mexec[0m keyword executes the specified command under[m
+             the user's shell.  If the command returns a zero exit[m
+             status then the condition is considered true.  Com‐[m
+             mands containing whitespace characters must be quoted.[m
+[7m Manual page ssh_config(5) line 89 (press h for help or q to quit)[27m[K[K             Arguments to [1mexec[0m accept the tokens described in the[m
+             [4mTOKENS[24m section.[m
+[m
+             The other keywords' criteria must be single entries or[m
+             comma-separated lists and may use the wildcard and[m
+             negation operators described in the [4mPATTERNS[24m section.[m
+             The criteria for the [1mhost[0m keyword are matched against[m
+             the target hostname, after any substitution by the[m
+             [1mHostname[0m or [1mCanonicalizeHostname[0m options.  The[m
+             [1moriginalhost[0m keyword matches against the hostname as[m
+             it was specified on the command-line.  The [1muser[0m key‐[m
+[7m Manual page ssh_config(5) line 100 (press h for help or q to quit)[27m[K[K             word matches against the target username on the remote[m
+             host.  The [1mlocaluser[0m keyword matches against the name[m
+             of the local user running ssh(1) (this keyword may be[m
+             useful in system-wide [1mssh_config[0m files).[m
+[m
+     [1mAddKeysToAgent[0m[m
+             Specifies whether keys should be automatically added[m
+             to a running ssh-agent(1).  If this option is set to[m
+             [1myes[0m and a key is loaded from a file, the key and its[m
+             passphrase are added to the agent with the default[m
+             lifetime, as if by ssh-add(1).  If this option is set[m
+[7m Manual page ssh_config(5) line 111 (press h for help or q to quit)[27m[K[K             to [1mask[0m, ssh(1) will require confirmation using the[m
+             SSH_ASKPASS program before adding a key (see[m
+             ssh-add(1) for details).  If this option is set to[m
+             [1mconfirm[0m, each use of the key must be confirmed, as if[m
+             the [1m-c[0m option was specified to ssh-add(1).  If this[m
+             option is set to [1mno[0m, no keys are added to the agent.[m
+             Alternately, this option may be specified as a time[m
+             interval using the format described in the [4mTIME[24m[m
+             [4mFORMATS[24m section of sshd_config(5) to specify the key's[m
+             lifetime in ssh-agent(1), after which it will automat‐[m
+             ically be removed.  The argument must be [1mno[0m (the de‐[m
+[7m Manual page ssh_config(5) line 122 (press h for help or q to quit)[27m[K[K             fault), [1myes[0m, [1mconfirm[0m (optionally followed by a time[m
+             interval), [1mask[0m or a time interval.[m
+[m
+     [1mAddressFamily[0m[m
+             Specifies which address family to use when connecting.[m
+             Valid arguments are [1many[0m (the default), [1minet[0m (use IPv4[m
+             only), or [1minet6[0m (use IPv6 only).[m
+[m
+     [1mBatchMode[0m[m
+             If set to [1myes[0m, user interaction such as password[m
+             prompts and host key confirmation requests will be[m
+[7m Manual page ssh_config(5) line 133 (press h for help or q to quit)[27m[K[K             disabled.  In addition, the [1mServerAliveInterval[0m option[m
+             will be set to 300 seconds by default (Debian-spe‐[m
+             cific).  This option is useful in scripts and other[m
+             batch jobs where no user is present to interact with[m
+             ssh(1), and where it is desirable to detect a broken[m
+             network swiftly.  The argument must be [1myes[0m or [1mno[0m (the[m
+             default).[m
+[m
+     [1mBindAddress[0m[m
+             Use the specified address on the local machine as the[m
+             source address of the connection.  Only useful on sys‐[m
+[7m Manual page ssh_config(5) line 144 (press h for help or q to quit)[27m[K[K             tems with more than one address.[m
+[m
+     [1mBindInterface[0m[m
+             Use the address of the specified interface on the lo‐[m
+             cal machine as the source address of the connection.[m
+[m
+     [1mCanonicalDomains[0m[m
+             When [1mCanonicalizeHostname[0m is enabled, this option[m
+             specifies the list of domain suffixes in which to[m
+             search for the specified destination host.[m
+[m
+[7m Manual page ssh_config(5) line 155 (press h for help or q to quit)[27m[K[K     [1mCanonicalizeFallbackLocal[0m[m
+             Specifies whether to fail with an error when hostname[m
+             canonicalization fails.  The default, [1myes[0m, will at‐[m
+             tempt to look up the unqualified hostname using the[m
+             system resolver's search rules.  A value of [1mno[0m will[m
+             cause ssh(1) to fail instantly if [1mCanonicalizeHostname[0m[m
+             is enabled and the target hostname cannot be found in[m
+             any of the domains specified by [1mCanonicalDomains[0m.[m
+[m
+     [1mCanonicalizeHostname[0m[m
+             Controls whether explicit hostname canonicalization is[m
+[7m Manual page ssh_config(5) line 166 (press h for help or q to quit)[27m[K[K             performed.  The default, [1mno[0m, is not to perform any[m
+             name rewriting and let the system resolver handle all[m
+             hostname lookups.  If set to [1myes[0m then, for connections[m
+             that do not use a [1mProxyCommand[0m or [1mProxyJump[0m, ssh(1)[m
+             will attempt to canonicalize the hostname specified on[m
+             the command line using the [1mCanonicalDomains[0m suffixes[m
+             and [1mCanonicalizePermittedCNAMEs[0m rules.  If[m
+             [1mCanonicalizeHostname[0m is set to [1malways[0m, then canonical‐[m
+             ization is applied to proxied connections too.[m
+[m
+             If this option is enabled, then the configuration[m
+[7m Manual page ssh_config(5) line 177 (press h for help or q to quit)[27m[K[K             files are processed again using the new target name to[m
+             pick up any new configuration in matching [1mHost[0m and[m
+             [1mMatch[0m stanzas.  A value of [1mnone[0m disables the use of a[m
+             [1mProxyJump[0m host.[m
+[m
+     [1mCanonicalizeMaxDots[0m[m
+             Specifies the maximum number of dot characters in a[m
+             hostname before canonicalization is disabled.  The de‐[m
+             fault, 1, allows a single dot (i.e. hostname.subdo‐[m
+             main).[m
+[m
+[7m Manual page ssh_config(5) line 188 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1mCanonicalizePermittedCNAMEs[0m[m
+[7m Manual page ssh_config(5) line 189 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Specifies rules to determine whether CNAMEs should be[m
+[7m Manual page ssh_config(5) line 190 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             followed when canonicalizing hostnames.  The rules[m
+[7m Manual page ssh_config(5) line 191 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             consist of one or more arguments of[m
+[7m Manual page ssh_config(5) line 192 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             [4msource_domain_list[24m:[4mtarget_domain_list[24m, where[m
+[7m Manual page ssh_config(5) line 193 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             [4msource_domain_list[24m is a pattern-list of domains that[m
+[7m Manual page ssh_config(5) line 194 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             may follow CNAMEs in canonicalization, and[m
+[7m Manual page ssh_config(5) line 195 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             [4mtarget_domain_list[24m is a pattern-list of domains that[m
+[7m Manual page ssh_config(5) line 196 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             they may resolve to.[m
+[7m Manual page ssh_config(5) line 197 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh_config(5) line 198 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             For example,[m
+[7m Manual page ssh_config(5) line 199 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             "*.a.example.com:*.b.example.com,*.c.example.com" will[m
+[7m Manual page ssh_config(5) line 200 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             allow hostnames matching "*.a.example.com" to be[m
+[7m Manual page ssh_config(5) line 201 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             canonicalized to names in the "*.b.example.com" or[m
+[7m Manual page ssh_config(5) line 202 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             "*.c.example.com" domains.[m
+[7m Manual page ssh_config(5) line 203 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh_config(5) line 204 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             A single argument of "none" causes no CNAMEs to be[m
+[7m Manual page ssh_config(5) line 205 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             considered for canonicalization.  This is the default[m
+[7m Manual page ssh_config(5) line 206 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             behaviour.[m
+[7m Manual page ssh_config(5) line 207 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh_config(5) line 208 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K     [1mCASignatureAlgorithms[0m[m
+[7m Manual page ssh_config(5) line 209 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             Specifies which algorithms are allowed for signing of[m
+[7m Manual page ssh_config(5) line 210 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             certificates by certificate authorities (CAs).  The[m
+[7m Manual page ssh_config(5) line 211 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             default is:[m
+[7m Manual page ssh_config(5) line 212 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh_config(5) line 213 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ssh-ed25519,ecdsa-sha2-nistp256,[m
+[7m Manual page ssh_config(5) line 214 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,[m
+[7m Manual page ssh_config(5) line 215 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                   sk-ssh-ed25519@openssh.com,[m
+[7m Manual page ssh_config(5) line 216 (press h for help or q to quit)[27m[K[K                   sk-ecdsa-sha2-nistp256@openssh.com,[m
+                   rsa-sha2-512,rsa-sha2-256[m
+[m
+             If the specified list begins with a ‘+’ character,[m
+             then the specified algorithms will be appended to the[m
+             default set instead of replacing them.  If the speci‐[m
+             fied list begins with a ‘-’ character, then the speci‐[m
+             fied algorithms (including wildcards) will be removed[m
+             from the default set instead of replacing them.[m
+[m
+             ssh(1) will not accept host certificates signed using[m
+[7m Manual page ssh_config(5) line 227 (press h for help or q to quit)[27m[K[K             algorithms other than those specified.[m
+[m
+     [1mCertificateFile[0m[m
+             Specifies a file from which the user's certificate is[m
+             read.  A corresponding private key must be provided[m
+             separately in order to use this certificate either[m
+             from an [1mIdentityFile[0m directive or [1m-i[0m flag to ssh(1),[m
+             via ssh-agent(1), or via a [1mPKCS11Provider[0m or[m
+             [1mSecurityKeyProvider[0m.[m
+[m
+             Arguments to [1mCertificateFile[0m may use the tilde syntax[m
+[7m Manual page ssh_config(5) line 238 (press h for help or q to quit)[27m[K[K             to refer to a user's home directory, the tokens de‐[m
+             scribed in the [4mTOKENS[24m section and environment vari‐[m
+             ables as described in the [4mENVIRONMENT[24m [4mVARIABLES[24m sec‐[m
+             tion.[m
+[m
+             It is possible to have multiple certificate files[m
+             specified in configuration files; these certificates[m
+             will be tried in sequence.  Multiple [1mCertificateFile[0m[m
+             directives will add to the list of certificates used[m
+             for authentication.[m
+[m
+[7m Manual page ssh_config(5) line 249 (press h for help or q to quit)[27m[K[K     [1mCheckHostIP[0m[m
+             If set to [1myes[0m, ssh(1) will additionally check the host[m
+             IP address in the [4mknown_hosts[24m file.  This allows it to[m
+             detect if a host key changed due to DNS spoofing and[m
+             will add addresses of destination hosts to[m
+             [4m~/.ssh/known_hosts[24m in the process, regardless of the[m
+             setting of [1mStrictHostKeyChecking[0m.  If the option is[m
+             set to [1mno[0m (the default), the check will not be exe‐[m
+             cuted.[m
+[m
+     [1mCiphers[0m[m
+[7m Manual page ssh_config(5) line 260 (press h for help or q to quit)[27m[K[K             Specifies the ciphers allowed and their order of pref‐[m
+             erence.  Multiple ciphers must be comma-separated.  If[m
+             the specified list begins with a ‘+’ character, then[m
+             the specified ciphers will be appended to the default[m
+             set instead of replacing them.  If the specified list[m
+             begins with a ‘-’ character, then the specified ci‐[m
+             phers (including wildcards) will be removed from the[m
+             default set instead of replacing them.  If the speci‐[m
+             fied list begins with a ‘^’ character, then the speci‐[m
+             fied ciphers will be placed at the head of the default[m
+             set.[m
+[7m Manual page ssh_config(5) line 271 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh_config(5) line 272 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             The supported ciphers are:[m
+[7m Manual page ssh_config(5) line 273 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page ssh_config(5) line 274 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34m~/.ssh[0m [33m6s[0m 
+[35m❯[0m ssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 07:35:51 AM UTC 2024
+
+  System load:  0.0                Processes:               114
+  Usage of /:   14.9% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 07:34:41 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m ssh ubse[K[K[K[Kxl[K[H[2J
+[34m~/.ssh[0m 
+[35m❯[0m ssh x
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 07:37:15 AM UTC 2024
+
+  System load:  0.0                Processes:               115
+  Usage of /:   14.9% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 07:35:51 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~/.ssh[0m [33m2s[0m 
+[35m❯[0m [?2004l
+exit
+
+Script done on 2024-10-09 09:37:31+02:00 [COMMAND_EXIT_CODE="0"]

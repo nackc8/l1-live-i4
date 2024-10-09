@@ -2,3 +2,8 @@ Host ubse
 HostName localhost
 User kent
 Port 3322
+
+Host localhost
+HostName localhost
+StrictHostKeyChecking no
+UserKnownHostsFile /dev/null

@@ -1,0 +1,32 @@
+/etc innehåller alla konfigfiler
+sudo behövs
+sudo cp /etc/ssh/sshd_config{,.bak}
+sudoedit /etc/ssh/sshd_config # alternativ till sudo nano
+
+kent@ubse:~$ diff /etc/ssh/sshd_config{,.bak}
+14d13
+< Port 2024
+34c33
+< PermitRootLogin no
+---
+> #PermitRootLogin prohibit-password
+58c57
+< PasswordAuthentication no
+---
+> #PasswordAuthentication yes
+88,89c87,88
+< AllowAgentForwarding no
+< AllowTcpForwarding no
+---
+> #AllowAgentForwarding yes
+> #AllowTcpForwarding yes
+91c90
+< X11Forwarding no
+---
+> X11Forwarding yes
+
+# < betyder i vår ändrade version
+# > betyder i vår backupfil.
+# Vi ändrade t.ex. X11Forwarding från yes till no
+
+systemctl status ssh

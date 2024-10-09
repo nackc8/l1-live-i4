@@ -1,0 +1,95 @@
+Script started on 2024-10-09 09:17:43+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="68" LINES="19"]
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m cd
+[?2004l[?2004h
+[34m~[0m 
+[35m❯[0m [H[2J
+[34m~[0m 
+[35m❯[0m ls
+[?2004l bin	     Dropbox    pres		 typescript
+ bokforing   l1-live    present		 Videos
+ Desktop     Music      Public		'VirtualBox VMs'
+ Documents   nano       shared_desktop
+ Downloads   Pictures   Templates
+[?2004h
+[34m~[0m 
+[35m❯[0m cd .ssh
+[?2004l[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m [H[2J
+[34m~/.ssh[0m 
+[35m❯[0m ls
+[?2004lconfig				id_ed25519.pub
+id_ed25519			known_hosts
+id_ed25519_github_personal	known_hosts.old
+id_ed25519_github_personal.pub
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m cd ..
+[?2004l[?2004h
+[34m~[0m 
+[35m❯[0m mv .ssh
+.ssh/     .sshubse/ 
+
+[34m~[0m 
+[35m❯[0m mv .ssh
+.ssh/     .sshubse/ 
+
+[34m~[0m 
+[35m❯[0m mv .sshubse/
+config               id_ed25519_ubse.pub  known_hosts.old
+id_ed25519_ubse      known_hosts          
+
+[34m~[0m 
+[35m❯[0m mv .sshubse/id_ed25519_ubse* .ssh
+[?2004l[?2004h
+[34m~[0m 
+[35m❯[0m [H[2J
+[34m~[0m 
+[35m❯[0m cd .ssh
+[?2004l[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m [H[2J
+[34m~/.ssh[0m 
+[35m❯[0m ls
+[?2004lconfig				id_ed25519_ubse
+id_ed25519			id_ed25519_ubse.pub
+id_ed25519_github_personal	known_hosts
+id_ed25519_github_personal.pub	known_hosts.old
+id_ed25519.pub
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m cat id_ed25519[H[2J
+[34m~/.ssh[0m 
+[35m❯[0m cat id_ed25519
+[?2004l-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAACmFlczI1Ni1jdHIAAAAGYmNyeXB0AAAAGAAAABDhiW3io5
+8Xw7s5eUCOsUUlAAAAGAAAAAEAAAAzAAAAC3NzaC1lZDI1NTE5AAAAIDgbuMULowroLu+I
+3D+xTYHmuGZu7FAMX3AMzJ61QZQNAAAAkHhm7BZorEoeOavzuNmELAG8thlZnqDkUaCSct
+w3z2HCIKCOjJvHK7KeHTJAvB3in6C/YISCZgP3lwHB1bTttm9hJYBNJjqm0FSq1VLeBv+7
+c746PZRL0YjcLIRkvDLtcB+3DAvpLmJa9iO4woBUhQ0Dx32QENbelOFjV1hMe0ZCkTAS0H
+LWRuK6MKga2oi9UA==
+-----END OPENSSH PRIVATE KEY-----
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m [H[2J
+[34m~/.ssh[0m 
+[35m❯[0m ls
+[?2004lconfig				id_ed25519_ubse
+id_ed25519			id_ed25519_ubse.pub
+id_ed25519_github_personal	known_hosts
+id_ed25519_github_personal.pub	known_hosts.old
+id_ed25519.pub
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m cat [7mid_ed25519_ubse.pub[27m[C[C[C[C[C[Cid_ed25519_ubse.pub[H[2J
+[34m~/.ssh[0m 
+[35m❯[0m cat id_ed25519_ubse.pub
+[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDdAQR3Eey3TFkvv4EMy9x58E3Di92La3Is5RatqpSMt kent@klad
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [?2004l
+exit
+
+Script done on 2024-10-09 09:37:34+02:00 [COMMAND_EXIT_CODE="0"]
