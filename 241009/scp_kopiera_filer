@@ -10,3 +10,7 @@ scp scp_kopiera_filer ubse:/home/kent/minkatalog/hej/a/b/c/mer/
 scp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2
 
 ## Från servern till studentdatorn
+
+# Samma sak, vänd på ordningen
+
+scp ubse:minkatalog/hej/a/b/c/mer/fil2 .
