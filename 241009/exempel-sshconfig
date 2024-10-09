@@ -2,6 +2,7 @@ Host ubse
 HostName localhost
 User kent
 Port 3322
+IdentitfyFile /
 
 Host localhost
 HostName localhost
