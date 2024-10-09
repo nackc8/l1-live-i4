@@ -1,5 +1,12 @@
+## Kopiera en fil till
+
 # kopiera till anv hemkatalog
 scp scp_kopiera_filer ubse:
 
 # kopiera med absolut sokvag
 scp scp_kopiera_filer ubse:/home/kent/minkatalog/hej/a/b/c/mer/
+
+# rel sokvag fran hemkatalogen
+scp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2
+
+## Från servern till studentdatorn

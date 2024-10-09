@@ -619,4 +619,82 @@ www-data
 [?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
 
  * Documentation:  https://help.ubuntu.com
- * Management:     https
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 11:52:47 AM UTC 2024
+
+  System load:  0.08               Processes:               115
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 11:38:22 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls
+[?2004lscp_kopiera_filer
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m ssh ubse [C[C[Ccp scp_kopiera_filer ubse:[C/home/kent/[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m scp scp_kopiera_filer ubse:/home/kent/
+/home/kent/minkatalog/         /home/kent/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m scp scp_kopiera_filer ubse:/home/kent/
+/home/kent/minkatalog/         /home/kent/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m scp scp_kopiera_filer ubse:/home/kent/
+/home/kent/minkatalog/         /home/kent/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m scp scp_kopiera_filer ubse:/home/kent/minkatalog/hej/a/b/c/mer/
+[?2004lscp_kopiera_filer              0%    0     0.0KB/s   --:-- ETAscp_kopiera_filer            100%   58   182.5KB/s   00:00    
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m ssh ubse tree /j[Khome/klent[K[K[K[Kent/
+[?2004lbash: line 1: tree: command not found
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m ssh ubse tree /home/kent/
+[?2004l/home/kent/
+├── minkatalog
+│   └── hej
+│       └── a
+│           └── b
+│               └── c
+│                   └── mer
+│                       └── scp_kopiera_filer
+└── scp_kopiera_filer
+
+7 directories, 2 files
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [7mscp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2[27m
+[A[C[Cscp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2
+[?2004lscp_kopiera_filer              0%    0     0.0KB/s   --:-- ETAscp_kopiera_filer            100%  241   969.3KB/s   00:00    
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2[C[C[C[31Psh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[
