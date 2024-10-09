@@ -38,4 +38,70 @@ Last login: Mon Oct  7 13:43:39 2024 from 10.0.2.2
 [?2004lauthorized_keys  known_hosts  [0m[00;90mknown_hosts.old[0m
 [?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh localhost[K[K[K[K[K[K[K[K[K[K[K[K[Kcat kno[K[K[K[K[K[K[Kcat .ssh/.kn[K[K[Kknown_hosts
 [?2004l|1|5uoOH5gOrckA5BsDbICrTuNslfA=|MUhOonLUTUgALkHhpbYpDUSyWCQ= ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJXChHAdpS2gf3ToPcWmKIk35+/4tcyNKcdKtJFDJdLR
-|1|YFGXxepg1NuwvUdbBKpULqLikcU=|0lpZ6ewJLLLYF4yYNbTMJ4sGMrw= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9l3UiLWIx8WfzXC6XMqYMjlTPMQxVPEinHzxlK8BB81VR36iczp7lSV1NaV4Ic0H7A7awl6brIgELkvKJ+LygWzY2XPYCzRY261wClbWiVmDnmVY7mGpamqpkh7wN1FhUX4+KMw4R4q84vH0rCLpSaDCYiuIDgzluAiofLW6JZEy+k4SfEljOi0H+uT0w/DHSwQKeh7YnznDmIW35ZUJpB3kneGuA1kfKxu/FtVEhA5lUCiEv02T/9nXwps8pu0OiJPQqPdt+HmjnZOI4uuqjvGV/BuO+nH9Na3Uwe/ZXTHRpy9z9DOEy6EFfTogSrODHBMZjEaeDjrAQ3Nfzs1WD7GbjuQKeh3SBryn+K3tjgB
+|1|YFGXxepg1NuwvUdbBKpULqLikcU=|0lpZ6ewJLLLYF4yYNbTMJ4sGMrw= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9l3UiLWIx8WfzXC6XMqYMjlTPMQxVPEinHzxlK8BB81VR36iczp7lSV1NaV4Ic0H7A7awl6brIgELkvKJ+LygWzY2XPYCzRY261wClbWiVmDnmVY7mGpamqpkh7wN1FhUX4+KMw4R4q84vH0rCLpSaDCYiuIDgzluAiofLW6JZEy+k4SfEljOi0H+uT0w/DHSwQKeh7YnznDmIW35ZUJpB3kneGuA1kfKxu/FtVEhA5lUCiEv02T/9nXwps8pu0OiJPQqPdt+HmjnZOI4uuqjvGV/BuO+nH9Na3Uwe/ZXTHRpy9z9DOEy6EFfTogSrODHBMZjEaeDjrAQ3Nfzs1WD7GbjuQKeh3SBryn+K3tjgBdRl+KoIFp519y0jaZPHIKIbmb4mXET5QISDRMbuh0Lhohfl2IqBOWc3LZj9QEiUx5uT/zhT+PnzVODx1OEc83IbhEAMfZ5YjWhkYMoTd39HGz9nnJd/502uY5SCM18OLwMNm6s4t3Pk9tB2rQPGls=
+|1|S2151vR+90n4zoc/t6mqtn+QXZM=|YZIrdIsSmKvoJHaZ3UEI0rdXeI4= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ27dZGIDJPmZM/kkPPxKYL5Y7DK3UiT3ebUDHmYqLbfEEqZorZLhAR2V0CSUzcUhswQGJWpj7UtHdLspos3DNM=
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ .ssh
+[?2004lCommand '.ssh' not found, did you mean:
+  command 'kssh' from snap kssh (0.1.0)
+  command 'zssh' from deb zssh (1.5c.debian.1-9)
+  command 'cssh' from deb clusterssh (4.16-4)
+  command 'ssh' from deb openssh-client (1:9.6p1-3ubuntu13.5)
+  command 'bssh' from deb avahi-ui-utils (0.8-13ubuntu2)
+  command 'mssh' from deb mssh (2.2-5.1)
+  command 'sssh' from deb guile-ssh (0.16.4-1)
+See 'snap info <snapname>' for additional versions.
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls .ssh[H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls .ssh
+[?2004lauthorized_keys  known_hosts  [0m[00;90mknown_hosts.old[0m
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat .ssh/authorized_keys 
+[?2004lssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDdAQR3Eey3TFkvv4EMy9x58E3Di92La3Is5RatqpSMt kent@klad
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-copy-id [K[K[K[K[K[K[K[K[K[K[K[K[?2004l
+logout
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [33m8m8s[0m 
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[36m [33m8m8s[0m 
+[35m❯[0m code  [K~/.ssh/co[C[C[C[C[C[C[C/home/kent/.ssh/config 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m code /home/kent/.ssh/config [C[C[C[C[1P[1P[1P[1P[1@c[1@a[1@t
+[?2004lHost 100.73.12.100
+	HostName 100.73.12.100
+	User kent
+
+Host localhost
+	HostName localhost
+	StrictHostKeyChecking no
+	UserKnownHostsFile /dev/null
+Host kdwl
+	HostName kdwl
+	Port 2332
+Host proxmox
+	User root
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m ssh ubse
+[?2004lkent@100.73.12.100's password: 
+Linux klad 6.1.0-25-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.106-3 (2024-08-26) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+You have new mail.
+Last login: Thu Sep 26 15:39:34 2024 from ::1
+[?2004h
+[1;33mkent[0m in [1;2;32m🌐 klad[0m in [34m~[0m 
+[35m❯[0m [?2004l
+logout
+Connection to 100.73.12.100 closed.
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [33m16s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [7m/home/kent/.ssh/config[27m[C[C/home/kent/.ssh/config  ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*�
