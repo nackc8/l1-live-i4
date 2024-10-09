@@ -13,3 +13,4 @@ ssh ubse cat /etc/hostname
 for srv in ubse; do echo "$srv:" && ssh "$srv" cat /etc/hostname; done
 
 # kör skript på servern
+ssh ubse <./serverscript
