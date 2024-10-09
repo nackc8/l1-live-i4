@@ -8,4 +8,8 @@ ssh ubse ls /
 
 # kör cat /etc/hostname på servern
 ssh ubse cat /etc/hostname
+
+# loop för att få ut info om flera servrar
 for srv in ubse; do echo "$srv:" && ssh "$srv" cat /etc/hostname; done
+
+# kör skript på servern

@@ -300,4 +300,97 @@ See https://ubuntu.com/esm or run: sudo pro status
 
 Last login: Wed Oct  9 11:32:34 2024 from 10.0.2.2
 [?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub
-[?2004l256 SHA256:jziFwe1oRAsMyRkdf
+[?2004l256 SHA256:jziFwe1oRAsMyRkdfX2U2TWD/XMBXTyMAjOJcVNpjT0 root@ubse (ED25519)
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m3m26s[0m 
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m3m26s[0m 
+[35m❯[0m ssh ubse ls 
+[?2004l-[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m -^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m ssh ubse ls .[K-[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m ssh ubse ls -[K/
+[?2004lbin
+bin.usr-is-merged
+boot
+cdrom
+dev
+etc
+home
+lib
+lib64
+lib.usr-is-merged
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+sbin.usr-is-merged
+snap
+srv
+swap.img
+sys
+tmp
+usr
+var
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ssh ubse ls /[K[K[K[Kcat /etc/hostname[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ssh ubse cat /etc/hostname
+[?2004lubse
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m [7mcat /etc/hostname[27m[C[Ccat /etc/hostname
+[?2004lklad
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m [7mfor srv in ubse; do echo "$srv:" && ssh "$srv" cat /etc/hostn[27m[7ma[27m[7mme; done [27m
+[A[A[C[Cfor srv in ubse; do echo "$srv:" && ssh "$srv" cat /etc/hostname; done
+[H[2J
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m for srv in ubse; do echo "$srv:" && ssh "$srv" cat /etc/hostname; done 
+[A
+[?2004lubse:
+ubse
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [7mfor srv in ubse; do ssh "$srv" apt update; done[27m
+[A[C[Cfor srv in ubse; do ssh "$srv" apt update; done
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m for srv in ubse; do ssh "$srv" apt update; done
+[?2004l
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m cat e[K/etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uu
