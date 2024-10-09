@@ -1,8 +1,8 @@
 Host ubse
 HostName localhost
-User kent
-Port 3322
-IdentityFile /home/kent/.ssh/id_ed25519_ubse.pub
+User dittkontonamn
+Port 2024
+IdentityFile /home/dittkonto/.ssh/id_ed25519_ubse.pub
 
 Host localhost
 HostName localhost

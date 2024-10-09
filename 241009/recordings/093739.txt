@@ -301,4 +301,66 @@ TriggeredBy: [0;1;32m●[0m ssh.socket[m
       Tasks: 1 (limit: 2257)[m
      Memory: 3.1M (peak: 4.1M)[m
         CPU: 218ms[m
-[7mlines 1-11[27m[K[K[?1l>[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$
+[7mlines 1-11[27m[K[K[?1l>[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ q[K[H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ code ~/.ssh/conconfig[K[K[K[K[K[Kfig
+[?2004lCommand 'code' not found, but can be installed with:
+sudo snap install code
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [7msystemctl reload ssh[27m[C[C[C[C[C[C[C[C[C[C[C[C[Csystemctl reload ssh
+[?2004l[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ====
+[0mAuthentication is required to reload 'ssh.service'.
+Authenticating as: Test Testsson (kent)
+Password: 
+[1;31m==== AUTHENTICATION COMPLETE ====
+[0m[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls
+[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ lssystemctl reload ssh[C[C[C[C[C[C[C[C[1P ssh[1P ssh[1P ssh[1P sshs ssht ssha sshr ssht ssh[C[C[C[C[C
+[?2004l[1;31m==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ====
+[0mAuthentication is required to restart 'ssh.service'.
+Authenticating as: Test Testsson (kent)
+Password: 
+[1;31m==== AUTHENTICATION COMPLETE ====
+[0m[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ 
+[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [33m43m55s[0m 
+[35m❯[0m ssh ubse
+[?2004lno such identity: /home/dittkonto/.ssh/id_ed25519_ubse.pub: No such file or directory
+dittserverkonto@localhost: Permission denied (publickey).
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m code ~/.c[Kssh/con[C[C[C[C[C[C[C/home/kent/.ssh/config 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m code /home/kent/.ssh/config [C[Cssh ubse[K[H[2J
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m ssh ubse
+[?2004ldittserverkonto@localhost: Permission denied (publickey).
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m code ~/.ssh/con[C[C[C[C[C[C[C/home/kent/.ssh/config 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m code /home/kent/.ssh/config [C[C[Kcode /home/kent/.ssh/config [C[Cssh ubse[K[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 08:30:25 AM UTC 2024
+
+  System load:  0.0                Processes:               116
+  Usage of /:   14.9% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro st
