@@ -1,1 +1,7 @@
 #!/bin/bash
+
+# interaktivt
+#ssh ubse
+
+# kör ls / på servern
+ssh ubse ls /
