@@ -8,7 +8,7 @@ touch mintempfil
 
 # Utan exit kan vi blockera avstängningen
 # EXIT gäller alla avslut
-trap 'rm -v mintempfil; exit 0' EXIT
+trap 'rm -v mintempfil' EXIT
 
 for ((count = 0; count < 5; count++)); do
     echo "$RANDOM" >>mintempfil
