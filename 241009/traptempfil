@@ -2,6 +2,13 @@
 
 # trap fångar "signaler" till processen
 
+# Vi använder en temporär fil
+
 touch mintempfil
 
-echo Hej
+while true; do
+    echo "$RANDOM" >>mintempfil
+    sleep 1
+done
+
+sort -n tempfil | head
