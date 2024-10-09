@@ -104,4 +104,92 @@ Connection to 100.73.12.100 closed.
 [34ml1-live/241009[0m [90m241009[36m [33m16s[0m 
 [35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [7m/home/kent/.ssh/config[27m[C[C/home/kent/.ssh/config  ^C[?2004l[?2004h[?2004l
 [?2004h
-[34ml1-live/241009[0m [90m241009[38;5;218m*�
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m ls ~/.ssh/
+[?2004lconfig				id_ed25519_ubse
+id_ed25519			id_ed25519_ubse.pub
+id_ed25519_github_personal	known_hosts
+id_ed25519_github_personal.pub	known_hosts.old
+id_ed25519.pub
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m cd
+[?2004l[?2004h
+[34m~[0m 
+[35m❯[0m cd .ssh
+[?2004l[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m ls
+[?2004lconfig				id_ed25519_ubse
+id_ed25519			id_ed25519_ubse.pub
+id_ed25519_github_personal	known_hosts
+id_ed25519_github_personal.pub	known_hosts.old
+id_ed25519.pub
+[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   [K[35m❯[0m code config   ^C[?2004l[?2004h[?2004l
+[?2004h
+[34m~/.ssh[0m 
+[31m❯[0m [H[2J
+[34m~/.ssh[0m 
+[31m❯[0m ssh ubse
+[?2004l@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ED25519 key sent by the remote host is
+SHA256:jziFwe1oRAsMyRkdfX2U2TWD/XMBXTyMAjOJcVNpjT0.
+Please contact your system administrator.
+Add correct host key in /home/kent/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/kent/.ssh/known_hosts:3
+  remove with:
+  ssh-keygen -f "/home/kent/.ssh/known_hosts" -R "[localhost]:3322"
+Host key for [localhost]:3322 has changed and you have requested strict checking.
+Host key verification failed.
+[?2004h
+[34m~/.ssh[0m 
+[31m❯[0m rm -[K.kn[K[K[Kknw[Kown_hosts
+[?2004l[?2004h
+[34m~/.ssh[0m 
+[35m❯[0m rm known_hosts[C[C[6Pssh ubse
+[?2004lThe authenticity of host '[localhost]:3322 ([127.0.0.1]:3322)' can't be established.
+ED25519 key fingerprint is SHA256:jziFwe1oRAsMyRkdfX2U2TWD/XMBXTyMAjOJcVNpjT0.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[localhost]:3322' (ED25519) to the list of known hosts.
+Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 07:28:40 AM UTC 2024
+
+  System load:  0.0                Processes:               111
+  Usage of /:   14.9% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 07:13:47 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~/.ssh[0m [33m9s[0m 
+[35m❯[0m ssh ubse[K[K[K[K[K[K[K[Kssh ser[K[K[Kubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https
