@@ -779,4 +779,97 @@ recordings	   ssh_olika_satt
 Killed
 [?2004h
 [34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m6m47s[0m 
-[31m❯[0m [K
+[31m❯[0m [K[31m❯[0m ./traptempfil [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m6m47s[0m 
+[31m❯[0m ./traptempfil 
+[?2004l^Cremoved 'mintempfil'
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m4s[0m 
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m4s[0m 
+[35m❯[0m ls mintempfil
+[?2004lls: cannot access 'mintempfil': No such file or directory
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m ls mintempfil[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m ls mintempfil[C[C./traptempfil 
+[?2004lbash: ./traptempfil: No such file or directory
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m ./traptempfil [K[K[K[K[K[K[K[Ktempfilsigint [K[K[K[Kexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m ./traptempfilsigexit 
+[?2004lsort: cannot read: tempfil: No such file or directory
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m5s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit 
+[?2004l428
+1298
+10522
+12948
+13958
+19280
+24239
+26366
+27128
+32106
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​​[36m [33m5s[0m 
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​​[36m [33m5s[0m 
+[35m❯[0m ls mintempfil
+[?2004lmintempfil
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​​[36m [0m
+[35m❯[0m ls mintempfil[C[C./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​​[36m [0m
+[35m❯[0m ./traptempfilsigexit 
+[?2004l428
+509
+1298
+9724
+10522
+12948
+13958
+19280
+19763
+21450
+removed 'mintempfil'
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit 
+[?2004l^Cremoved 'mintempfil'
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m ./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m ./traptempfilsigexit 
+[?2004l2670
+11441
+15787
+16364
+20819
+removed 'mintempfil'
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit 
+[?2004l^Cremoved 'mintempfil'
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m2s[0m 
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m .-[K/traptempfilsigexitd[Kfn [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m2s[0m 
+[31m❯[0m ./traptempfilsigexitfn 
+[?2004l^Cremoved 'mintempfil'
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K

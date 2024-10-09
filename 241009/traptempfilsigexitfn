@@ -6,10 +6,12 @@
 
 touch mintempfil
 
-# Utan exit kan vi blockera avstängningen
-# EXIT gäller alla avslut
-# då behövs inte ;exit i strängen
-trap 'rm -v mintempfil' EXIT
+cleanup() {
+    rm -v mintempfil
+}
+
+# Uppstädningen lämnas med fördel åt en funktion
+trap 'cleanup' EXIT
 
 for ((count = 0; count < 5; count++)); do
     echo "$RANDOM" >>mintempfil
