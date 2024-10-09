@@ -1968,4 +1968,85 @@ Last login: Wed Oct  9 10:52:58 2024 from 10.0.2.2
                       name  in this variable.  It is accessi‐[m
                       ble only to the current  user,  but  is[m
                       easily  abused  by  root or another in‐[m
-[7m Manual page ssh-agent(1) line 134 (press h for help or q to quit
+[7m Manual page ssh-agent(1) line 134 (press h for help or q to quit)[27m[K[K                      stance of the same user.[m
+[m
+       In Debian, [1mssh-agent [22mis installed with the  set-group-[m
+       id  bit  set,  to prevent [4mptrace[24m(2) attacks retrieving[m
+       private key material.  This  has  the  side-effect  of[m
+       causing the run-time linker to remove certain environ‐[m
+       ment  variables which might have security implications[m
+       for    set-id    programs,    including    LD_PRELOAD,[m
+       LD_LIBRARY_PATH,  and  TMPDIR.  If you need to set any[m
+       of these environment variables, you will need to do so[m
+       in the program executed by ssh-agent.[m
+[m
+[1mFILES[0m[m
+       [4m$TMPDIR/ssh-XXXXXXXXXX/agent.<ppid>[0m[m
+               Unix-domain sockets used to contain  the  con‐[m
+               nection  to  the  authentication agent.  These[m
+               sockets should only be readable by the  owner.[m
+[7m Manual page ssh-agent(1) line 151 (press h for help or q to quit)[27m[K[K               The  sockets  should get automatically removed[m
+               when the agent exits.[m
+[m
+[1mSEE ALSO[0m[m
+       [4mssh[24m(1),  [4mssh-add[24m(1),   [4mssh-keygen[24m(1),   [4mssh_config[24m(5),[m
+       [4msshd[24m(8)[m
+[m
+[1mAUTHORS[0m[m
+       OpenSSH  is  a derivative of the original and free ssh[m
+       1.2.12 release by Tatu Ylonen.   Aaron  Campbell,  Bob[m
+       Beck,  Markus  Friedl, Niels Provos, Theo de Raadt and[m
+       Dug Song removed many bugs,  re-added  newer  features[m
+       and  created  OpenSSH.   Markus Friedl contributed the[m
+       support for SSH protocol versions 1.5 and 2.0.[m
+[m
+Debian                 August 10, 2023           [4mSSH-AGENT[24m(1)[m
+[7m Manual page ssh-agent(1) line 167/183 (END) (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-add .
+./                         .bashrc                    .profile
+../                        .cache/                    .ssh/
+.bash_history              .lesshst                   .sudo_as_admin_successful
+.bash_logout               .local/                    
+]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-add .[K.ssh/
+authorized_keys  known_hosts      known_hosts.old  
+]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-add .ssh/[K[K[K[K[K[K[K[K[K[K[K[K[K[H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m28m17s[0m 
+[35m❯[0m [H[2J
+[34m~[0m [33m28m17s[0m 
+[35m❯[0m ss-[Kh-add [K[K[K[K[K[K[K[Kssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 11:26:20 AM UTC 2024
+
+  System load:  0.0                Processes:               114
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 10:54:40 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34m~[0m [33m5s[0m 
+[35m❯[0m [K[35m❯[0m 
