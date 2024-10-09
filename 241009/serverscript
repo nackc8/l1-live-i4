@@ -2,4 +2,4 @@
 
 cat /etc/hostname
 echo 'users:'
-cat /etc/passwd
+cat /etc/passwd | cut -f1 -d: | sort

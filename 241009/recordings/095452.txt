@@ -393,4 +393,133 @@ man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
 lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
 mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
 news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
-uu
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+tss:x:100:107:TPM software stack,,,:/var/lib/tpm:/bin/false
+systemd-timesync:x:997:997:systemd Time Synchronization:/:/usr/sbin/nologin
+messagebus:x:101:108::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:102:111:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:103:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:104:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+avahi:x:105:113:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+speech-dispatcher:x:106:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+fwupd-refresh:x:107:116:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+saned:x:108:118::/var/lib/saned:/usr/sbin/nologin
+geoclue:x:109:119::/var/lib/geoclue:/usr/sbin/nologin
+polkitd:x:996:996:polkit:/nonexistent:/usr/sbin/nologin
+rtkit:x:110:120:RealtimeKit,,,:/proc:/usr/sbin/nologin
+colord:x:111:121:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+gnome-initial-setup:x:112:65534::/run/gnome-initial-setup/:/bin/false
+Debian-gdm:x:113:122:Gnome Display Manager:/var/lib/gdm3:/bin/false
+kent:x:1000:1000:Kent Larsson,,,:/home/kent:/bin/bash
+_rpc:x:114:65534::/run/rpcbind:/usr/sbin/nologin
+Debian-exim:x:115:125::/var/spool/exim4:/usr/sbin/nologin
+uuidd:x:116:126::/run/uuidd:/usr/sbin/nologin
+statd:x:117:65534::/var/lib/nfs:/usr/sbin/nologin
+libvirt-qemu:x:64055:104:Libvirt Qemu,,,:/var/lib/libvirt:/usr/sbin/nologin
+lightdm:x:118:128:Light Display Manager:/var/lib/lightdm:/bin/false
+sshd:x:119:65534::/run/sshd:/usr/sbin/nologin
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m cat /etc/passwd | cut -f1 -d:[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m cat /etc/passwd | cut -f1 -d:
+[?2004lroot
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+_apt
+nobody
+systemd-network
+tss
+systemd-timesync
+messagebus
+avahi-autoipd
+usbmux
+dnsmasq
+avahi
+speech-dispatcher
+fwupd-refresh
+saned
+geoclue
+polkitd
+rtkit
+colord
+gnome-initial-setup
+Debian-gdm
+kent
+_rpc
+Debian-exim
+uuidd
+statd
+libvirt-qemu
+lightdm
+sshd
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m ⇡[0m
+[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort
+[?2004l_apt
+avahi
+avahi-autoipd
+backup
+bin
+colord
+daemon
+Debian-exim
+Debian-gdm
+dnsmasq
+fwupd-refresh
+games
+geoclue
+gnome-initial-setup
+irc
+kent
+libvirt-qemu
+lightdm
+list
+lp
+mail
+man
+messagebus
+news
+nobody
+polkitd
+proxy
+root
+_rpc
+rtkit
+saned
+speech-dispatcher
+sshd
+statd
+sync
+sys
+systemd-network
+systemd-timesync
+tss
+usbmux
+uucp
+uuidd
+www-data
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m�
