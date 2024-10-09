@@ -713,4 +713,94 @@ See https://ubuntu.com/esm or run: sudo pro status
 
 
 Last login: Wed Oct  9 08:33:26 2024 from 10.0.2.2
-[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;ken
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo [K[K[K[K[Ksdu[K[Kudo -io[K
+[?2004l[sudo] password for kent: 
+[?2004h]0;root@ubse: ~root@ubse:~# sshd -T | grep root[C[C[C[C[C[C[C[C[C[C[C[C[C[Ksshd -T | grep root
+[?2004lpermit[01;31m[Kroot[m[Klogin no
+ch[01;31m[Kroot[m[Kdirectory none
+[?2004h]0;root@ubse: ~root@ubse:~# sshd -T | grep root[K[K[K[Kport
+[?2004l[01;31m[Kport[m[K 2024
+gateway[01;31m[Kport[m[Ks no
+[?2004h]0;root@ubse: ~root@ubse:~# sshd -T | grep port[K[K[K[K22
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# sudo reboot
+[?2004l
+Broadcast message from root@ubse on pts/2 (Wed 2024-10-09 08:38:35 UTC):
+
+The system will reboot now!
+
+
+Broadcast message from root@ubse on pts/2 (Wed 2024-10-09 08:38:35 UTC):
+
+The system will reboot now!
+
+[?2004h]0;root@ubse: ~root@ubse:~# Connection to localhost closed by remote host.
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [33m1m42s[0m 
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m ssh ubse
+[?2004lkex_exchange_identification: read: Connection reset by peer
+Connection reset by 127.0.0.1 port 3322
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m ssh ubse
+[?2004lkex_exchange_identification: read: Connection reset by peer
+Connection reset by 127.0.0.1 port 3322
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m ssh -p 3321[K2 localhost
+[?2004lkex_exchange_identification: read: Connection reset by peer
+Connection reset by 127.0.0.1 port 3322
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m ssh -p 3322 localhost[C[C[C[C[C[C[C[C[C[1P[1P
+[?2004lWarning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [33m29s[0m 
+[31m❯[0m JIJI[K[K[K[Kssh -p 22 localhost
+[?2004lWarning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m13s[0m 
+[31m❯[0m ssh -p 22 localhost[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lWarning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+Permission denied, please try again.
+kent@localhost's password: 
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [33m17s[0m 
+[31m❯[0m ssh -p 22 localhost[C[C[C[C[C[C[C[C[C[C localhost- localhosti localhost[C localhost/ localhosth localhosto localhostm localhoste localhost/ localhostkent/ localhost
+.ansible/                   .local/
+.backups/                   .mozilla/
+.bash_history               Music/
+.bash_logout                nano
+.bashrc                     .packages
+.bashrc.d/                  Pictures/
+bin/                        .pki/
+bokforing/                  pres/
+.cache/                     present/
+.config/                    .profile
+Desktop/                    Public/
+--More--[K.docker/                    .python_history
+Documents/                  .redhat/
+.dotnet/                    .selected_editor
+Downloads/                  shared_desktop/
+.dropbox/                   .shellcheckrc
+Dropbox/                    .ssh/
+.elinks/                    .sshubse/
+.face                       .sudo_as_admin_successful
+.face.icon                  Templates/
+.gitconfig          
