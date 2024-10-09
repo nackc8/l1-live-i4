@@ -6,6 +6,9 @@
 
 touch mintempfil
 
+# Utan exit kan vi blockera avstängningen
+trap 'rm -v mintempfil; exit 0' SIGINT
+
 for ((count = 0; count < 10000; count++)); do
     echo "$RANDOM" >>mintempfil
     sleep 1

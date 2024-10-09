@@ -697,4 +697,86 @@ Connection to localhost closed.
 [?2004lscp_kopiera_filer              0%    0     0.0KB/s   --:-- ETAscp_kopiera_filer            100%  241   969.3KB/s   00:00    
 [?2004h
 [34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
-[35m❯[0m scp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2[C[C[C[31Psh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[
+[35m❯[0m scp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2[C[C[C[31Psh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ssh ubse tree /home/kent/
+[?2004l/home/kent/
+├── minkatalog
+│   └── hej
+│       └── a
+│           └── b
+│               └── c
+│                   └── mer
+│                       ├── fil2
+│                       └── scp_kopiera_filer
+└── scp_kopiera_filer
+
+7 directories, 3 files
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp ubse:minkatalog/hej/a/b/c/mer/
+minkatalog/hej/a/b/c/mer/fil2 
+minkatalog/hej/a/b/c/mer/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp ubse:minkatalog/hej/a/b/c/mer/
+minkatalog/hej/a/b/c/mer/fil2 
+minkatalog/hej/a/b/c/mer/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp ubse:minkatalog/hej/a/b/c/mer/fil2 [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp ubse:minkatalog/hej/a/b/c/mer/fil2 .
+[?2004lfil2                           0%    0     0.0KB/s   --:-- ETAfil2                         100%    7    11.5KB/s   00:00    
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m less fil2 
+[?2004l[?1049h[22;0;0t[?1h=hejsan
+[7mfil2 (END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m2s[0m 
+[35m❯[0m less fil2 [C[Cscp ubse:minkatalog/hej/a/b/c/mer/fil2 .^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m [K[31m❯[0m 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m l[K[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m chmod U[K+x traptempfil 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m cp tr[K[K[K[K[K./traptempfil [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil 
+[?2004l^C
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m1m9s[0m 
+[31m❯[0m ls
+[?2004lexempel-sshconfig  scp_kopiera_filer	    traptempfil
+fil2		   serverscript		    tusenfil
+mintempfil	   sshd_config_changes.txt
+recordings	   ssh_olika_satt
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./traptempfil 
+[?2004l^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+Killed
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m6m47s[0m 
+[31m❯[0m [K
