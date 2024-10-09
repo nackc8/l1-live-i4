@@ -6,7 +6,7 @@
 
 touch mintempfil
 
-while true; do
+for ((count = 0; count < 10000; count++)); do
     echo "$RANDOM" >>mintempfil
     sleep 1
 done
