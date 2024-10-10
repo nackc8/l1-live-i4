@@ -1125,4 +1125,192 @@ Test Testsson
       3 /bin/false
       1 /bin/sh
       1 /bin/sync
-     28 /u
+     28 /usr/sbin/nologin
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 7 | sort | uniq -c[H[2J]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 7 | sort | uniq -c[1@1[1@,[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004lroot:/bin/bash
+daemon:/usr/sbin/nologin
+bin:/usr/sbin/nologin
+sys:/usr/sbin/nologin
+sync:/bin/sync
+games:/usr/sbin/nologin
+man:/usr/sbin/nologin
+lp:/usr/sbin/nologin
+mail:/usr/sbin/nologin
+news:/usr/sbin/nologin
+uucp:/usr/sbin/nologin
+proxy:/usr/sbin/nologin
+www-data:/usr/sbin/nologin
+backup:/usr/sbin/nologin
+list:/usr/sbin/nologin
+irc:/usr/sbin/nologin
+_apt:/usr/sbin/nologin
+nobody:/usr/sbin/nologin
+systemd-network:/usr/sbin/nologin
+systemd-timesync:/usr/sbin/nologin
+dhcpcd:/bin/false
+messagebus:/usr/sbin/nologin
+systemd-resolve:/usr/sbin/nologin
+pollinate:/bin/false
+polkitd:/usr/sbin/nologin
+syslog:/usr/sbin/nologin
+uuidd:/usr/sbin/nologin
+tcpdump:/usr/sbin/nologin
+tss:/bin/false
+landscape:/usr/sbin/nologin
+fwupd-refresh:/usr/sbin/nologin
+usbmux:/usr/sbin/nologin
+kent:/bin/bash
+sshd:/usr/sbin/nologin
+bill:/bin/sh
+testuser:/bin/bash
+[?2004h]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 1,7 | hdhdhd[K[K[K[K[K[Ktr ' [K:' ' '[C[C[C[C[C[C[H[2J]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 1,7 | tr ':' ' '
+[?2004lroot /bin/bash
+daemon /usr/sbin/nologin
+bin /usr/sbin/nologin
+sys /usr/sbin/nologin
+sync /bin/sync
+games /usr/sbin/nologin
+man /usr/sbin/nologin
+lp /usr/sbin/nologin
+mail /usr/sbin/nologin
+news /usr/sbin/nologin
+uucp /usr/sbin/nologin
+proxy /usr/sbin/nologin
+www-data /usr/sbin/nologin
+backup /usr/sbin/nologin
+list /usr/sbin/nologin
+irc /usr/sbin/nologin
+_apt /usr/sbin/nologin
+nobody /usr/sbin/nologin
+systemd-network /usr/sbin/nologin
+systemd-timesync /usr/sbin/nologin
+dhcpcd /bin/false
+messagebus /usr/sbin/nologin
+systemd-resolve /usr/sbin/nologin
+pollinate /bin/false
+polkitd /usr/sbin/nologin
+syslog /usr/sbin/nologin
+uuidd /usr/sbin/nologin
+tcpdump /usr/sbin/nologin
+tss /bin/false
+landscape /usr/sbin/nologin
+fwupd-refresh /usr/sbin/nologin
+usbmux /usr/sbin/nologin
+kent /bin/bash
+sshd /usr/sbin/nologin
+bill /bin/sh
+testuser /bin/bash
+[?2004h]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 1,7 | tr ':' ' ' | colu mn 
+[?2004lroot /bin/bash
+daemon /usr/sbin/nologin
+bin /usr/sbin/nologin
+sys /usr/sbin/nologin
+sync /bin/sync
+games /usr/sbin/nologin
+man /usr/sbin/nologin
+lp /usr/sbin/nologin
+mail /usr/sbin/nologin
+news /usr/sbin/nologin
+uucp /usr/sbin/nologin
+proxy /usr/sbin/nologin
+www-data /usr/sbin/nologin
+backup /usr/sbin/nologin
+list /usr/sbin/nologin
+irc /usr/sbin/nologin
+_apt /usr/sbin/nologin
+nobody /usr/sbin/nologin
+systemd-network /usr/sbin/nologin
+systemd-timesync /usr/sbin/nologin
+dhcpcd /bin/false
+messagebus /usr/sbin/nologin
+systemd-resolve /usr/sbin/nologin
+pollinate /bin/false
+polkitd /usr/sbin/nologin
+syslog /usr/sbin/nologin
+uuidd /usr/sbin/nologin
+tcpdump /usr/sbin/nologin
+tss /bin/false
+landscape /usr/sbin/nologin
+fwupd-refresh /usr/sbin/nologin
+usbmux /usr/sbin/nologin
+kent /bin/bash
+sshd /usr/sbin/nologin
+bill /bin/sh
+testuser /bin/bash
+[?2004h]0;root@ubse: ~root@ubse:~# man column
+[?2004l[?1049h[22;0;0t[?1h=[4mCOLUMN[24m(1)                 User Commands                [4mCOLUMN[24m(1)[m
+[m
+[1mNAME[0m[m
+       column - columnate lists[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mcolumn [22m[options] [[4mfile[24m ...][m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mcolumn [22mutility formats its input into multiple[m
+       columns. The util support three modes:[m
+[m
+       [1mcolumns are filled before rows[0m[m
+           This is the default mode (required by backward[m
+[7m Manual page column(1) line 1 (press h for help or q to quit)[27m[K[K           compatibility).[m
+[m
+       [1mrows are filled before columns[0m[m
+           This mode is enabled by option [1m-x, --fillrows[0m[m
+[m
+       [1mtable[0m[m
+           Determine the number of columns the input contains[m
+           and create a table. This mode is enabled by option[m
+           [1m-t, --table [22mand columns formatting is possible to[m
+           modify by [1m--table-[22m* options. Use this mode if not[m
+           sure. The output is aligned to the terminal width in[m
+           interactive mode and the 80 columns in[m
+           non-interactive mode (see [1m--output-width [22mfor more[m
+           details).[m
+[7m Manual page column(1) line 15 (press h for help or q to quit)[27m[K[K[m
+       Input is taken from [4mfile[24m, or otherwise from standard[m
+       input. Empty lines are ignored and all invalid multibyte[m
+       sequences are encoded by x<hex> convention.[m
+[m
+[1mOPTIONS[0m[m
+       The argument [4mcolumns[24m for [1m--table-[22m* options is a comma[m
+       separated list of the column names as defined by[m
+       [1m--table-columns[22m, or names defined by [1m--table-column [22mor[m
+       it’s column number in order as specified by input. It’s[m
+       possible to mix names and numbers. The special[m
+       placeholder '0' (e.g. -R0) may be used to specify all[m
+       columns and '-1' (e.g. -R -1) to specify the last visible[m
+       column. It’s possible to use ranges like '1-5' when[m
+[7m Manual page column(1) line 29 (press h for help or q to quit)[27m[K[K       addressing columns by numbers.[m
+[m
+       [1m-J, --json[0m[m
+           Use JSON output format to print the table, the option[m
+           [1m--table-columns [22mis required and the option[m
+           [1m--table-name [22mis recommended.[m
+[m
+       [1m-c, --output-width [4m[22mwidth[0m[m
+           Output is formatted to a width specified as number of[m
+           characters. The original name of this option is[m
+           [1m--columns[22m; this name is deprecated since v2.30. Note[m
+           that input longer than [4mwidth[24m is not truncated by[m
+           default. The default is a terminal width and the 80[m
+           columns in non-interactive mode. The column headers[m
+[7m Manual page column(1) line 43 (press h for help or q to quit)[27m[K[K           are never truncated.[m
+[m
+           The placeholder "unlimited" (or 0) is possible to use[m
+           to not restrict output width. This is recommended for[m
+           example when output to the files rather than on[m
+           terminal.[m
+[m
+       [1m-d, --table-noheadings[0m[m
+           Do not print header. This option allows the use of[m
+           logical column names on the command line, but keeps[m
+           the header hidden when printing the table.[m
+[m
+       [1m-o, --output-separator [4m[22mstring[0m[m
+           Specify the columns delimiter for table output[m
+[7m Manual page column(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           (default is two spaces).[m
+[7m Manual page column(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page column(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s, --separator [4m[22mseparators[0m[m
+[7m Manual page column(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Specify the possible input item delimiters (default[m
+[7m Manual page column(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           is whitespace).[m
+[7m Manual page column(1) line 62 (press h for help or q to quit)[27
