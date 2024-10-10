@@ -1,0 +1,68 @@
+Script started on 2024-10-10 09:31:24+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="55" LINES="18"]
+[?2004h
+[34ml1-live/241010[0m [90m241010[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241010[0m [90m241010[38;5;218m*​​[36m [0m
+[35m❯[0m sudo -i
+[?2004l[sudo] password for kent: 
+sudo: a password is required
+[?2004h
+[34ml1-live/241010[0m [90m241010[38;5;218m*​​[36m [33m3s[0m 
+[31m❯[0m ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241010[0m [90m241010[38;5;218m*​​[36m [0m
+[31m❯[0m sudo [K[K[K[K[Kssh s[Kubse[H[2J
+[34ml1-live/241010[0m [90m241010[38;5;218m*​​[36m [0m
+[31m❯[0m ssh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu Oct 10 07:31:38 AM UTC 2024
+
+  System load:  0.06               Processes:               114
+  Usage of /:   15.1% of 29.36GB   Users logged in:         0
+  Memory usage: 9%                 IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Thu Oct 10 07:17:08 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh [K[K[K[Ksudo -i
+[?2004l[sudo] password for kent: 
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd[K]0;root@ubse: ~root@ubse:~# less /etc/passwd
+[?2004l[?1049h[22;0;0t[?1h=root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+[7m/etc/passwd[27m[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KAA[K[K:[K[K [KESCESC[KOO[KBB[Knobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+:[K[K [KESCESC[KOO[KBB[Ksystemd-network:x:998:998:systemd Network Management:/:/usr/sbin/n :[K[K [KESCESC[KOO[KBB[Kologin
+:[K[K [KESCESC[KOO[KBB[Ksystemd-timesync:x:997:997:systemd Time Synchronization:/:/usr/sbi :[K[K [KESCESC[KOO[KBB[Kn/nologin
+:[K[K [KESCESC[KOO[KBB[Kdhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/fals :[K[K [KESCESC[KO
