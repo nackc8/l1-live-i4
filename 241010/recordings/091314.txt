@@ -672,4 +672,25 @@ January 2023          version 7.2               [4mNANO[24m(1)[m
 [18;1H[K[7mano(1) line 450/541 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              when [1m--stateflags [22mis used.[m
 [18;1H[K[7mano(1) line 449/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [1mM-C[22m.   The state flags are displayed only[m
 [18;1H[K[7mano(1) line 448/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              used, and can be toggled on and off  with[m
-[18;1H[K[7mano(1) line 447/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              displayed  only  
+[18;1H[K[7mano(1) line 447/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              displayed  only  when  [1m--constantshow  [22mis[m
+[18;1H[K[7mano(1) line 446/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              umn numbers and the  character  code  are[m
+[18;1H[K[7mano(1) line 445/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ple buffers are open.  The line plus col‐[m
+[18;1H[K[7mano(1) line 444/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              placed  with an [i/n] counter when multi‐[m
+[18;1H[K[7mano(1) line 443/541 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              cleared upon the next keystroke,  or  re‐[m
+[18;1H[K[7mano(1) line 442/541 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              after   the  filename.   This  number  is[m
+[18;1H[K[7mano(1) line 441/541 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ber of lines in the buffer  is  displayed[m
+[18;1H[K[7mano(1) line 440/541 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              when  switching between buffers, the num‐[m
+[18;1H[K[7mano(1) line 439/541 85% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              When a file is loaded or saved, and  also[m
+[18;1H[K[7mano(1) line 438/541 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              the  cursor  is into the file (linewise).[m
+[18;1H[K[7mano(1) line 437/541 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              and a percentage that expresses  how  far[m
+[18;1H[K[7mano(1) line 436/541 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              same  flags as are shown by [1m--stateflags[22m,[m
+[18;1H[K[7mano(1) line 435/541 84% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              cursor (in Unicode format:  U+xxxx),  the[m
+[18;1H[K[7mano(1) line 434/541 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              ber,  the code of the character under the[m
+[18;1H[K[7mano(1) line 433/541 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              played the current line and  column  num‐[m
+[18;1H[K[7mano(1) line 432/541 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              been  modified.   On  the  right are dis‐[m
+[18;1H[K[7mano(1) line 431/541 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              lowed by an asterisk if  the  buffer  has[m
+[18;1H[K[7mano(1) line 430/541 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              the  filename  is shown on the left, fol‐[m
+[18;1H[K[7mano(1) line 429/541 83% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              for the status bar.   In  this  "minibar"[m
+[18;1H[K[7mano(1) line 428/541 82% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ nano[K[K[K[Ksew[Kq 1 1000 >lg[Kamng[K[K[Kngfl[Kil
+[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ nano langfil 
+[?2004l[?2004h[?1049h[22;0;0t[1;18r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[16;22H(B[0;7m[ Reading... ](B[m[16;20H(B[0;7m[ Read 1000 lines ](B[m[H(B[0;7m  GNU nano 7.2             langfil                       [1;56H(B[m[17d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[18d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[2d1[3d2[4d3[5d4[6d5[7d6[8d7[9
