@@ -592,4 +592,100 @@ yo
 yo
 yo
 yo
-[?2004h]0;roo
+[?2004h]0;root@ubse: /etc/skel[01;32mroot@ubse[00m:[01;34m/etc/skel[00m# cd
+[?2004l[?2004h]0;root@ubse: ~[01;32mroot@ubse[00m:[01;34m~[00m# [H[2J]0;root@ubse: ~[01;32mroot@ubse[00m:[01;34m~[00m# pwd
+[?2004l/root
+[?2004h]0;root@ubse: ~[01;32mroot@ubse[00m:[01;34m~[00m# useradd -m -s /bin/bash user15
+[?2004l[?2004h]0;root@ubse: ~[01;32mroot@ubse[00m:[01;34m~[00m# ls /home/uis[K[Kser15[C /home/user15- /home/user15a /home/user15
+[?2004l[0m[01;34m.[0m  [01;34m..[0m  .bash_logout  .bashrc  .profile
+[?2004h]0;root@ubse: ~[01;32mroot@ubse[00m:[01;34m~[00m# passwd uswer[K[K[Ker15
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@ubse: ~[01;32mroot@ubse[00m:[01;34m~[00m# exit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su user15
+[?2004lPassword: 
+[?2004h]0;user15@ubse: /home/kent[01;32muser15@ubse[00m:[01;34m/home/kent[00m$ [H[2J]0;user15@ubse: /home/kent[01;32muser15@ubse[00m:[01;34m/home/kent[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;user15@ubse: /home/kent[01;32muser15@ubse[00m:[01;34m/home/kent[00m$ cd
+[?2004l[?2004h]0;user15@ubse: ~[01;32muser15@ubse[00m:[01;34m~[00m$ [H[2J]0;user15@ubse: ~[01;32muser15@ubse[00m:[01;34m~[00m$ ls
+[?2004l[?2004h]0;user15@ubse: ~[01;32muser15@ubse[00m:[01;34m~[00m$ cat .bashrc
+[?2004l# ~/.bashrc: executed by bash(1) for non-login shells.
+# see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
+# for examples
+
+# If not running interactively, don't do anything
+case $- in
+    *i*) ;;
+      *) return;;
+esac
+
+# don't put duplicate lines or lines starting with space in the history.
+# See bash(1) for more options
+HISTCONTROL=ignoreboth
+
+# append to the history file, don't overwrite it
+shopt -s histappend
+
+# for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
+# update the values of LINES and COLUMNS.
+shopt -s checkwinsize
+
+# If set, the pattern "**" used in a pathname expansion context will
+# match all files and zero or more directories and subdirectories.
+#shopt -s globstar
+
+# make less more friendly for non-text input files, see lesspipe(1)
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# set variable identifying the chroot you work in (used in the prompt below)
+if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/debian_chroot)
+fi
+
+# set a fancy prompt (non-color, unless we know we "want" color)
+case "$TERM" in
+    xterm-color|*-256color) color_prompt=yes;;
+esac
+
+# uncomment for a colored prompt, if the terminal has the capability; turned
+# off by default to not distract the user: the focus in a terminal window
+# should be on the output of commands, not on the prompt
+#force_color_prompt=yes
+
+if [ -n "$force_color_prompt" ]; then
+    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+	# We have color support; assume it's compliant with Ecma-48
+	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+	# a case would tend to support setf rather than setaf.)
+	color_prompt=yes
+    else
+	color_prompt=
+    fi
+fi
+
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+fi
+unset color_prompt force_color_prompt
+
+# If this is an xterm set the title to user@host:dir
+case "$TERM" in
+xterm*|rxvt*)
+    PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
+    ;;
+*)
+    ;;
+esac
+
+# enable color support of ls and also add handy aliases
+if [ -x /usr/bin/dircolors ]; then
+    test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+    alias ls='ls --color=aut
