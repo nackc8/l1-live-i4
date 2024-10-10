@@ -7,3 +7,4 @@ groupadd grupp2 -U user5
 # Skapa grupp3 med två användare på en gång
 groupadd grupp3 -U user5,user6
 
+
