@@ -1010,4 +1010,54 @@ Options:
 [4mGROUPMOD[24m(8)        System Management Commands        [4mGROUPMOD[24m(8)[m
 [m
 [1mNAME[0m[m
-       gro
+       groupmod - modify a group definition on the system[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupmod [22m[[4moptions[24m] [4mGROUP[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mgroupmod [22mcommand modifies the definition of the[m
+[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mGROUPMOD[24m(8)        System Management Commands        [4mGROUPMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       groupmod - modify a group definition on the system[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupmod [22m[[4moptions[24m] [4mGROUP[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mgroupmod [22mcommand modifies the definition of the[m
+       specified [4mGROUP[24m by modifying the appropriate entry in the[m
+[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mGROUPMOD[24m(8)        System Management Commands        [4mGROUPMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       groupmod - modify a group definition on the system[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupmod [22m[[4moptions[24m] [4mGROUP[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mgroupmod [22mcommand modifies the definition of the[m
+       specified [4mGROUP[24m by modifying the appropriate entry in the[m
+       group database.[m
+[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page groupmod(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1mgroupmod [22mcommand are:[m
+[7m Manual page groupmod(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If group members are specified with -U, append them[m
+[7m Manual page groupmod(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to the existing member list, rather than replacing[m
+[7m Manual page groupmod(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           it.[m
+[7m Manual page groupmod(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The group ID of the given [4mGROUP[24m will be changed to[m
+[7m Manual page groupmod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mGID[24m.[m
+[7m Manual page groupmod(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The value of [4mGID[24m must be a non-negative decimal[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           integer. This value must be unique, unless the [1m-o[0m[m
+[7m Manual page groupmod(8) line 16 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# groumod +[K-U [K]0;root@
