@@ -22,7 +22,9 @@ groupmod -U user13,user14 grupp1
 # Ta bort grupp
 groupdel grupp3
 
-# Sätt lösenornd
+# Sätt eller byt lösenord
 passwd user10
 # Disable
 passwd -l user10
+# Enable
+passwd -u user10
