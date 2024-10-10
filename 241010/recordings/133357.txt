@@ -920,4 +920,34 @@ Last login: Thu Oct 10 09:08:27 2024 from 10.0.2.2
 [7m Manual page groupmod(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[22m, [1m--non-unique[0m[m
 [7m Manual page groupmod(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           When used with the [1m-g [22moption, allow to change the[m
 [7m Manual page groupmod(8) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           group [4mGID[24m to a non-unique value.[m
-[7m Manual page groupmod(8) line 44 (press h for help 
+[7m Manual page groupmod(8) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[22m, [1m--password [4m[22mPASSWORD[0m[m
+[7m Manual page groupmod(8) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The encrypted password, as returned by [1mcrypt[22m(3).[m
+[7m Manual page groupmod(8) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mNote: [22mThis option is not recommended because the[m
+[7m Manual page groupmod(8) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           password (or encrypted password) will be visible by[m
+[7m Manual page groupmod(8) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           users listing the processes.[m
+[7m Manual page groupmod(8) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           You should make sure the password respects the[m
+[7m Manual page groupmod(8) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system's password policy.[m
+[7m Manual page groupmod(8) line 54 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# [7mgroupmod -a -U user1 grupp1[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[Cgroupmod -a -U user1 grupp1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# grep grupp /etc/gor[K[Kroup[[K
+[?2004l[01;31m[Kgrupp[m[K1:x:1009:user1
+[01;31m[Kgrupp[m[K2:x:1010:user5
+[01;31m[Kgrupp[m[K3:x:1011:user5,user6
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# echo user{3[K10..15}[1P}4}[C
+[?2004luser10 user11 user12 user13 user14
+[?2004h]0;root@ubse: ~root@ubse:~# echo user{10..14},
+[?2004luser10, user11, user12, user13, user14,
+[?2004h]0;root@ubse: ~root@ubse:~# echo user{10..14},[K
+[?2004luser10 user11 user12 user13 user14
+[?2004h]0;root@ubse: ~root@ubse:~# echo user{10..14} | tr ''[K [K ' '' '[C[C[C[C[C[C[1P','[C[H[2J]0;root@ubse: ~root@ubse:~# echo user{10..14} | tr ' ' ','
+[?2004luser10,user11,user12,user13,user14
+[?2004h]0;root@ubse: ~root@ubse:~# [7mgroupmod -a -U user1 grupp1[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[Cgroupmod -a -U user1 grupp1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P grupp1[1P grupp1[1P grupp1[1P grupp1[1P grupp1@ grupp1[1P grupp1! grupp1! grupp1[1P grupp1[1P grupp1! grupp1! grupp1[1P grupp1[1P grupp1$ grupp1( grupp1) grupp1[7mgroupmod -a -U user1 grupp1[27m
+) grupp1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgroupmod -a -U user1 grupp1
+[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C) grupp1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[7mecho user{10..14} | tr ' ' ','[27m) grupp1[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
