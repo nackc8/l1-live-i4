@@ -22,3 +22,6 @@ usermod --remove -G staff user1
 
 # Tar INTE bort hemkatalogen
 userdel user3
+
+# Tar bort hemkatalogen också
+userdel -r user4
