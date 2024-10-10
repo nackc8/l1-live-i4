@@ -5,3 +5,5 @@ useradd -m user3 # hemkatalog skapas
 useradd -m -s /bin/bash user4 # med bash som kommandoskal
 
 adduser user5 # standard var att skapa hemkatalog används bash
+
+adduser --shell
