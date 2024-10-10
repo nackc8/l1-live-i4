@@ -3529,4 +3529,22 @@ user1  user2  user3  user4  user5  user6
 [?2004l[?2004h]0;root@ubse: ~root@ubse:~# ls -[K/home/
 [?2004l[0m[01;34mkent[0m  [01;34mtestuser[0m  [01;34muser3[0m  [01;34muser4[0m  [01;34muser5[0m  [01;34muser6[0m
 [?2004h]0;root@ubse: ~root@ubse:~# usef[Krdel user4[K3
-[?2004l[?2004h]0;root@ubse: ~root@ubse:~# ls[K[Kls /home[K[K[K[K[K[K[K[Kps -u user43[K[K3[K[K[K[K[K[K[K[K[K[K[Kkill -9 73737373[K[K[K[K[K[K[K[K
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# ls[K[Kls /home[K[K[K[K[K[K[K[Kps -u user43[K[K3[K[K[K[K[K[K[K[K[K[K[Kkill -9 73737373[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kkill -0[K9 21002[K[K[K[K[K[K[K[K[K[K[K[K[K ;s[K[K[Kls /home
+[?2004l[0m[01;34mkent[0m  [01;34mtestuser[0m  [01;34muser3[0m  [01;34muser4[0m  [01;34muser5[0m  [01;34muser6[0m
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# ls /home[H[2J]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[K]0;root@ubse: ~root@ubse:~# ls /home[Ke/
+[?2004l[0m[01;34mkent[0m  [01;34mtestuser[0m  [01;34muser3[0m  [01;34muser4[0m  [01;34muser5[0m  [01;34muser6[0m
+[?2004h]0;root@ubse: ~root@ubse:~# userdel -r user4
+[?2004luserdel: user4 mail spool (/var/mail/user4) not found
+[?2004h]0;root@ubse: ~root@ubse:~# ls /home
+[?2004l[0m[01;34mkent[0m  [01;34mtestuser[0m  [01;34muser3[0m  [01;34muser5[0m  [01;34muser6[0m
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [?2004l
+logout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [?2004l
+logout
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241010[0m [90m241010[36m [33m2h13m11s[0m 
+[35m❯[0m [?2004l
+exit
+
+Script done on 2024-10-10 13:21:38+02:00 [COMMAND_EXIT_CODE="0"]
