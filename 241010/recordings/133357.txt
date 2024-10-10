@@ -186,4 +186,59 @@ GROUPADD(8)        System Management Commands        GROUPADD(8)[m
 [7m Manual page groupadd(8) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           variable in /etc/login.defs.[m
 [7m Manual page groupadd(8) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
 [7m Manual page groupadd(8) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCONFIGURATION[0m[m
-[7m Manual page groupadd(8) line 96 (pres
+[7m Manual page groupadd(8) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following configuration variables in /etc/login.defs[m
+[7m Manual page groupadd(8) line 97 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241010[0m [90m241010[38;5;218m*​[36m [33m1m44s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m su[K[Ksu[Ksh ubse
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Thu Oct 10 11:36:11 AM UTC 2024
+
+  System load:  0.0                Processes:               112
+  Usage of /:   15.2% of 29.36GB   Users logged in:         0
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+114 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Thu Oct 10 09:08:27 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo +i[K[K-i
+[?2004l[sudo] password for kent: 
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# groupadd grupp1
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# grep grupp /etc/grpo[K[Koup[[K
+[?2004l[01;31m[Kgrupp[m[K1:x:1009:
+[?2004h]0;root@ubse: ~root@ubse:~# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@ubse: ~root@ubse:~# groupadd [K[K[K[K[K[K[K[K[Kasd[K[Kddgroup
+[?2004lfatal: Only one or two names allowed.
+[?2004h]0;root@ubse: ~root@ubse:~# addgroupgrep grupp /etc/group[C[C[C[C[C[C[C[C[C[C[C[C[C[13Paddgroup[Kgroupadd grupp2 ub[K[K-U[K[K[K[C[C[C[C[C[C[C -U user4
+[?2004lInvalid member username user4
+[?2004h]0;root@ubse: ~root@ubse:~# groupadd grupp2 -U user4[K5
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# (reverse-i-search)`': [Kg': groupadd [7mg[27mrupp2 -U user5[1@r': groupadd [7mgr[27m[2Pe': [7mgre[27mp grupp /etc/group[12P]0;root@ubse: ~root@ubse:~# gre[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[01;31m[Kgrupp[m[K1:x:1009:
+[01;31m[Kgrupp[m[K2:x:1010:user5
+[?2004h]0;root@ubse: ~root@ubse:~# grep grupp /etc/group[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Coupadd grupp2 -U user5[3Pep grupp /etc/group[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# grep uisr[K[K[Kser /etc/passwd
+[?2004ltest[01;31m[Kuser[m[K:x:1002:1002:,,,:/home/test[01;31m[Kuser[m[K:/bin/bash
+[01;31m[Kuser[m[K1:x:1003:1003::/home/[01;31m[Kuser[m[K1:/bin/sh
+[01;31m[Kuser[m[K5:x:1007:1007:Carnivore:/home/[01;31m[Kuser[m[K5:/bin/bash
+[01;31m[Kuser[m[K6:x:1008:1008:Bananen,123,08998,665,Hej hej:/home/[01;31m[Kuser[m[K6:/usr/bin/fish
+[?2004h]0;root@ubse: ~root@ubse:~# man u[Kgroupadd
+[?2004l[?1049h[22;0;0t[?1h=[4mGROUPADD[24m(8)        System Management Commands        [4mGROUPADD[24m(8)[m
+[m
+[1mNAME[0m[m
+       groupa
