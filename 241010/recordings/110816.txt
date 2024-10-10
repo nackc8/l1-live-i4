@@ -3427,4 +3427,80 @@ useradd  userdel  usermod  users
        Debian, administrators should usually use [1mdeluser[22m(8)[m
        instead.[m
 [m
-[7m Manual page userdel(8) line 1 (press h for he
+[7m Manual page userdel(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The [1muserdel [22mcommand modifies the system account files,[m
+[7m Manual page userdel(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       deleting all entries that refer to the user name [4mLOGIN[24m.[m
+[7m Manual page userdel(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The named user must exist.[m
+[7m Manual page userdel(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page userdel(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1muserdel [22mcommand are:[m
+[7m Manual page userdel(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[22m, [1m--force[0m[m
+[7m Manual page userdel(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option forces the removal of the user account,[m
+[7m Manual page userdel(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           even if the user is still logged in. It also forces[m
+[7m Manual page userdel(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1muserdel [22mto remove the user's home directory and mail[m
+[7m Manual page userdel(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           spool, even if another user uses the same home[m
+[7m Manual page userdel(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           directory or if the mail spool is not owned by the[m
+[7m Manual page userdel(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified user. If [1mUSERGROUPS_ENAB [22mis defined to [4myes[0m[m
+[7m Manual page userdel(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           in /etc/login.defs and if a group exists with the[m
+[7m Manual page userdel(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           same name as the deleted user, then this group will[m
+[7m Manual page userdel(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           be removed, even if it is still the primary group of[m
+[7m Manual page userdel(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           another user.[m
+[7m Manual page userdel(8) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mNote:[24m This option is dangerous and may leave your[m
+[7m Manual page userdel(8) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system in an inconsistent state.[m
+[7m Manual page userdel(8) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[22m, [1m--help[0m[m
+[7m Manual page userdel(8) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display help message and exit.[m
+[7m Manual page userdel(8) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[22m, [1m--remove[0m[m
+[7m Manual page userdel(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Files in the user's home directory will be removed[m
+[7m Manual page userdel(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           along with the home directory itself and the user's[m
+[7m Manual page userdel(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           mail spool. Files located in other file systems will[m
+[7m Manual page userdel(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           have to be searched for and deleted manually.[m
+[7m Manual page userdel(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The mail spool is defined by the [1mMAIL_DIR [22mvariable in[m
+[7m Manual page userdel(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the login.defs file.[m
+[7m Manual page userdel(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[22m, [1m--root [4m[22mCHROOT_DIR[0m[m
+[7m Manual page userdel(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes in the [4mCHROOT_DIR[24m directory and use the[m
+[7m Manual page userdel(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           configuration files from the [4mCHROOT_DIR[24m directory.[m
+[7m Manual page userdel(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Only absolute paths are supported.[m
+[7m Manual page userdel(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[22m, [1m--prefix [4m[22mPREFIX_DIR[0m[m
+[7m Manual page userdel(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes in the [4mPREFIX_DIR[24m directory and use the[m
+[7m Manual page userdel(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           configuration files from the [4mPREFIX_DIR[24m directory.[m
+[7m Manual page userdel(8) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option does not chroot and is intended for[m
+[7m Manual page userdel(8) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           preparing a cross-compilation target. Some[m
+[7m Manual page userdel(8) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           limitations: NIS and LDAP users/groups are not[m
+[7m Manual page userdel(8) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           verified. PAM authentication is using the host files.[m
+[7m Manual page userdel(8) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           No SELINUX support.[m
+[7m Manual page userdel(8) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-Z[22m, [1m--selinux-user[0m[m
+[7m Manual page userdel(8) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Remove any SELinux user mapping for the user's login.[m
+[7m Manual page userdel(8) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCONFIGURATION[0m[m
+[7m Manual page userdel(8) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following configuration variables in /etc/login.defs[m
+[7m Manual page userdel(8) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       change the behavior of this tool:[m
+[7m Manual page userdel(8) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page userdel(8) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMAIL_DIR [22m(string)[m
+[7m Manual page userdel(8) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           configuration files from the [4mPREFIX_DIR[24m directory.[m
+[15;1H[K[7m Manual page userdel(8) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           Apply changes in the [4mPREFIX_DIR[24m directory and use the[m
+[15;1H[K[7m Manual page userdel(8) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-P[22m, [1m--prefix [4m[22mPREFIX_DIR[0m[m
+[15;1H[K[7m Manual page userdel(8) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page userdel(8) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           Only absolute paths are supported.[m
+[15;1H[K[7m Manual page userdel(8) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           configuration files from the [4mCHROOT_DIR[24m directory.[m
+[15;1H[K[7m Manual page userdel(8) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           Apply changes in the [4mCHROOT_DIR[24m directory and use the[m
+[15;1H[K[7m Manual page userdel(8) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-R[22m, [1m--root [4m[22mCHROOT_DIR[0m[m
+[15;1H[K[7m Manual page userdel(8) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page userdel(8) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           the login.defs file.[m
+[15;1H[K[7m Manual page userdel(8) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           The mail spool is defined by the [1mMAIL_DIR [22mvariable in[m
+[15;1H[K[7m Manual page userdel(8) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page userdel(8) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           have to be searched for and deleted manually.[m
+[15;1H[K[7m Manual page userdel(8) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           mail spool. Files located in other file systems will[m
+[15;1H[K[7m Manual page userdel(8) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           along with the home directory itself and the user's[m
+[15;1H[K[7m Manual page userdel(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           Files in the user's home directory will be removed[m
+[15;1H[K[7m Manual page userdel(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-r[22m, [1m--remove[0m[m
+[15;1H[K[7m Manual page userdel(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page userdel(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           Display help message and exit.[m
+[15;1H[K[7m Manual page userdel(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-h[22m, [1m--help[0m[m
+[15;1H[K[7m Manual page userdel(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[H
