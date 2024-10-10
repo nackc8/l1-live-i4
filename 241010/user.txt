@@ -4,6 +4,10 @@ useradd -m user3 # hemkatalog skapas
 
 useradd -m -s /bin/bash user4 # med bash som kommandoskal
 
+# Skapa user7 .. user14
+for ((n=7; n < 15 ; n++)); do useradd -m -s /bin/bash
+ user$n; done
+
 adduser user5 # standard var att skapa hemkatalog används bash
 
 adduser --shell /usr/bin/fish user6
