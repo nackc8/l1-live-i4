@@ -1,0 +1,10 @@
+Host ubse
+HostName localhost
+User dittkontonamn
+Port 2024
+IdentityFile /home/dittkonto/.ssh/id_ed25519_ubse.pub
+
+Host localhost
+HostName localhost
+StrictHostKeyChecking no
+UserKnownHostsFile /dev/null

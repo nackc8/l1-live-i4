@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# trap fångar "signaler" till processen
+
+# Vi använder en temporär fil
+
+touch mintempfil
+
+# Utan exit kan vi blockera avstängningen
+trap 'rm -v mintempfil; exit 0' SIGINT
+
+for ((count = 0; count < 10000; count++)); do
+    echo "$RANDOM" >>mintempfil
+    sleep 1
+done
+
+sort -n mintempfil | head

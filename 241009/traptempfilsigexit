@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# trap fångar "signaler" till processen
+
+# Vi använder en temporär fil
+
+touch mintempfil
+
+# Utan exit kan vi blockera avstängningen
+# EXIT gäller alla avslut
+# då behövs inte ;exit i strängen
+trap 'rm -v mintempfil' EXIT
+
+for ((count = 0; count < 5; count++)); do
+    echo "$RANDOM" >>mintempfil
+    sleep 1
+done
+
+sort -n mintempfil | head

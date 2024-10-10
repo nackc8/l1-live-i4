@@ -1,0 +1,198 @@
+Script started on 2024-10-09 14:21:15+02:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="55" LINES="15"]
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004lexempel-sshconfig  serverscript
+fil2		   sshd_config_changes.txt
+mintempfil	   ssh_olika_satt
+recordings	   traptempfil
+scp_kopiera_filer  tusenfil
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m cat tr[KR[Kraptempfil [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m cat traptempfil 
+[?2004l#!/bin/bash
+
+# trap fångar "signaler" till processen
+
+# Vi använder en temporär fil
+
+touch mintempfil
+
+for ((count = 0; count < 10000; count++)); do
+    echo "$RANDOM" >>mintempfil
+    sleep 1
+done
+
+sort -n tempfil | head
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m ls
+[?2004lexempel-sshconfig  serverscript
+fil2		   sshd_config_changes.txt
+mintempfil	   ssh_olika_satt
+recordings	   traptempfil
+scp_kopiera_filer  tusenfil
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m cat mintempfil [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m cat mintempfil 
+[?2004l11448
+22777
+12625
+18988
+14104
+3469
+9724
+25184
+27155
+23312
+5554
+27158
+7318
+23837
+9760
+22385
+2242
+4500
+6445
+10865
+1534
+18565
+8395
+27719
+22362
+28065
+19592
+15314
+7149
+25277
+25229
+10257
+12230
+17478
+21372
+11712
+24678
+14853
+3254
+29745
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m ps
+[?2004l    PID TTY          TIME CMD
+ 127198 pts/7    00:00:00 bash
+ 130167 pts/7    00:00:00 ps
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ps aux | grep trap
+[?2004lkent      129338  0.0  0.0   6932  3340 pts/5    S+   14:24   0:00 /bin/bash ./traptempfil
+kent      130392  0.0  0.0   6332  2040 pts/7    S+   14:25   0:00 grep trap
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m kill [K[K[K[K[K[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m man trap
+[?2004lNo manual entry for trap
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m help[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m help trap
+[?2004ltrap: trap [-lp] [[arg] signal_spec ...]
+    Trap signals and other events.
+    
+    Defines and activates handlers to be run when the shell receives signals
+    or other conditions.
+    
+    ARG is a command to be read and executed when the shell receives the
+    signal(s) SIGNAL_SPEC.  If ARG is absent (and a single SIGNAL_SPEC
+    is supplied) or `-', each specified signal is reset to its original
+    value.  If ARG is the null string each SIGNAL_SPEC is ignored by the
+    shell and by the commands it invokes.
+    
+    If a SIGNAL_SPEC is EXIT (0) ARG is executed on exit from the shell.  If
+    a SIGNAL_SPEC is DEBUG, ARG is executed before every simple command.  If
+    a SIGNAL_SPEC is RETURN, ARG is executed each time a shell function or a
+    script run by the . or source builtins finishes executing.  A SIGNAL_SPEC
+    of ERR means to execute ARG each time a command's failure would cause the
+    shell to exit when the -e option is enabled.
+    
+    If no arguments are supplied, trap prints the list of commands associated
+    with each signal.
+    
+    Options:
+      -l	print a list of signal names and their corresponding numbers
+      -p	display the trap commands associated with each SIGNAL_SPEC
+    
+    Each SIGNAL_SPEC is either a signal name in <signal.h> or a signal number.
+    Signal names are case insensitive and the SIG prefix is optional.  A
+    signal may be sent to the shell with "kill -signal $$".
+    
+    Exit Status:
+    Returns success unless a SIGSPEC is invalid or an invalid option is given.
+][?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ]help trap[K[K[K[K[K[K[K[K[Khelp [K[K[K[K[Ktrap 0[K-l[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m trap -l
+[?2004l 1) SIGHUP	 2) SIGINT	 3) SIGQUIT	 4) SIGILL	 5) SIGTRAP
+ 6) SIGABRT	 7) SIGBUS	 8) SIGFPE	 9) SIGKILL	10) SIGUSR1
+11) SIGSEGV	12) SIGUSR2	13) SIGPIPE	14) SIGALRM	15) SIGTERM
+16) SIGSTKFLT	17) SIGCHLD	18) SIGCONT	19) SIGSTOP	20) SIGTSTP
+21) SIGTTIN	22) SIGTTOU	23) SIGURG	24) SIGXCPU	25) SIGXFSZ
+26) SIGVTALRM	27) SIGPROF	28) SIGWINCH	29) SIGIO	30) SIGPWR
+31) SIGSYS	34) SIGRTMIN	35) SIGRTMIN+1	36) SIGRTMIN+2	37) SIGRTMIN+3
+38) SIGRTMIN+4	39) SIGRTMIN+5	40) SIGRTMIN+6	41) SIGRTMIN+7	42) SIGRTMIN+8
+43) SIGRTMIN+9	44) SIGRTMIN+10	45) SIGRTMIN+11	46) SIGRTMIN+12	47) SIGRTMIN+13
+48) SIGRTMIN+14	49) SIGRTMIN+15	50) SIGRTMAX-14	51) SIGRTMAX-13	52) SIGRTMAX-12
+53) SIGRTMAX-11	54) SIGRTMAX-10	55) SIGRTMAX-9	56) SIGRTMAX-8	57) SIGRTMAX-7
+58) SIGRTMAX-6	59) SIGRTMAX-5	60) SIGRTMAX-4	61) SIGRTMAX-3	62) SIGRTMAX-2
+63) SIGRTMAX-1	64) SIGRTMAX	
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m trap -l[K9 ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m tr[K[Kps aux | grep trap[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m ps aux | grep trap
+[?2004lkent      129338  0.0  0.0   6932  3340 pts/5    S+   14:24   0:00 /bin/bash ./traptempfil
+kent      132385  0.0  0.0   6332  2120 pts/7    S+   14:29   0:00 grep trap
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [7m129338[27m[C[C129338t129338[C[C[Cr129338[C[C[C[Ca129338p129338 1293380129338[1P129338/129338[1P129338-1293389129338 129338[C[C[C[C[C[C
+[?2004lbash: trap: -9: invalid option
+trap: usage: trap [-lp] [[arg] signal_spec ...]
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m trap -9 129338[1P129338[1P129338[1P129338[C[C[C[C[C[C -9
+[?2004lbash: trap: -9: invalid signal specification
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m tldr trap
+[?2004lDownloading tldr pages to /home/kent/.local/share/tldr
+trap
+
+[0m[0mExecute a command upon an event.
+More information: https://manned.org/trap.1posix.
+
+ - [0m[32;23;22;24;25mList the commands and the names of the expected events:
+   [33;23;22;24;25mtrap[0m
+[0m
+ - [0m[32;23;22;24;25mExecute a command when a signal is received:
+   [33;23;22;24;25mtrap 'echo "Caught signal [0mSIGHUP[33;23;22;24;25m"' [0mHUP
+[0m
+ - [0m[32;23;22

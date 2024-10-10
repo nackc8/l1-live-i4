@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cat <<-eom | tr -d $'\n' | fold -s -w 80
+cat <<-eom | tr $'\n' ' ' | sed 's/  / /g' | fold -s -w 80
 	Utbildarläget skriver över filer och inställningar som då går
 	förlorade. Det gör det även svårare att hänga med "live" eftersom
 	det blir möjligt att ändra filer, vilka kan orsaka konflikter

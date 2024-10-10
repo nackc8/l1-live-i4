@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# trap fångar "signaler" till processen
+
+# Vi använder en temporär fil
+
+touch mintempfil
+
+cleanup() {
+    rm -v mintempfil
+}
+
+# Uppstädningen lämnas med fördel åt en funktion
+trap 'cleanup' EXIT
+
+for ((count = 0; count < 5; count++)); do
+    echo "$RANDOM" >>mintempfil
+    sleep 1
+done
+
+sort -n mintempfil | head

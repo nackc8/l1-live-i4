@@ -1,0 +1,875 @@
+Script started on 2024-10-09 09:54:52+02:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="66" LINES="12"]
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[0m
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[0m
+[35m❯[0m man 5 sshd_config
+[?2004l[?1049h[22;0;0t[?1h=SSHD_CONFIG(5)       BSD File Formats Manual      SSHD_CONFIG(5)[m
+[m
+[1mNAME[0m[m
+     [1msshd_config[0m — OpenSSH daemon configuration file[m
+[m
+[1mDESCRIPTION[0m[m
+     sshd(8) reads configuration data from [4m/etc/ssh/sshd_config[24m[m
+     (or the file specified with [1m-f[0m on the command line).  The[m
+     file contains keyword-argument pairs, one per line.  For[m
+     each keyword, the first obtained value will be used.  Lines[m
+     starting with ‘#’ and empty lines are interpreted as com‐[m
+[7manual page sshd_config(5) line 1 (press h for help or q to quit)[27m[K[K     ments.  Arguments may optionally be enclosed in double[m
+     quotes (") in order to represent arguments containing spa‐[m
+     ces.[m
+[m
+     Note that the Debian [1mopenssh-server[0m package sets several[m
+     options as standard in [4m/etc/ssh/sshd_config[24m which are not[m
+     the default in sshd(8):[m
+[m
+           [1m•[0m   [1mInclude[0m [1m/etc/ssh/sshd_config.d/*.conf[0m[m
+           [1m•[0m   [1mKbdInteractiveAuthentication[0m no[m
+           [1m•[0m   [1mX11Forwarding[0m yes[m
+[7mnual page sshd_config(5) line 12 (press h for help or q to quit)[27m[K[K           [1m•[0m   [1mPrintMotd[0m no[m
+           [1m•[0m   [1mAcceptEnv[0m LANG LC_*[m
+           [1m•[0m   [1mSubsystem[0m sftp /usr/lib/openssh/sftp-server[m
+           [1m•[0m   [1mUsePAM[0m yes[m
+[m
+     [4m/etc/ssh/sshd_config.d/*.conf[24m files are included at the[m
+     start of the configuration file, so options set there will[m
+     override those in [4m/etc/ssh/sshd_config.[24m[m
+[m
+     The possible keywords and their meanings are as follows[m
+     (note that keywords are case-insensitive and arguments are[m
+[7mnual page sshd_config(5) line 23 (press h for help or q to quit)[27m[K[K     case-sensitive):[m
+[m
+     [1mAcceptEnv[0m[m
+             Specifies what environment variables sent by the[m
+             client will be copied into the session's[m
+             environ(7).  See [1mSendEnv[0m and [1mSetEnv[0m in[m
+             ssh_config(5) for how to configure the client.  The[m
+             TERM environment variable is always accepted when‐[m
+             ever the client requests a pseudo-terminal as it is[m
+             required by the protocol.  Variables are specified[m
+             by name, which may contain the wildcard characters[m
+[7mnual page sshd_config(5) line 34 (press h for help or q to quit)[27m[K[K             ‘*’ and ‘?’.  Multiple environment variables may be[m
+             separated by whitespace or spread across multiple[m
+             [1mAcceptEnv[0m directives.  Be warned that some environ‐[m
+             ment variables could be used to bypass restricted[m
+             user environments.  For this reason, care should be[m
+             taken in the use of this directive.  The default is[m
+             not to accept any environment variables.[m
+[m
+     [1mAddressFamily[0m[m
+             Specifies which address family should be used by[m
+             sshd(8).  Valid arguments are [1many[0m (the default),[m
+[7mnual page sshd_config(5) line 45 (press h for help or q to quit)[27m[K[K             [1minet[0m (use IPv4 only), or [1minet6[0m (use IPv6 only).[m
+[m
+     [1mAllowAgentForwarding[0m[m
+             Specifies whether ssh-agent(1) forwarding is per‐[m
+             mitted.  The default is [1myes[0m.  Note that disabling[m
+             agent forwarding does not improve security unless[m
+             users are also denied shell access, as they can al‐[m
+             ways install their own forwarders.[m
+[m
+     [1mAllowGroups[0m[m
+             This keyword can be followed by a list of group[m
+[7mnual page sshd_config(5) line 56 (press h for help or q to quit)[27m[K[K             name patterns, separated by spaces.  If specified,[m
+             login is allowed only for users whose primary group[m
+             or supplementary group list matches one of the pat‐[m
+             terns.  Only group names are valid; a numerical[m
+             group ID is not recognized.  By default, login is[m
+             allowed for all groups.  The allow/deny groups di‐[m
+             rectives are processed in the following order:[m
+             [1mDenyGroups[0m, [1mAllowGroups[0m.[m
+[m
+             See PATTERNS in ssh_config(5) for more information[m
+             on patterns.[m
+[7mnual page sshd_config(5) line 67 (press h for help or q to quit)[27m[K[K[m
+     [1mAllowStreamLocalForwarding[0m[m
+             Specifies whether StreamLocal (Unix-domain socket)[m
+             forwarding is permitted.  The available options are[m
+             [1myes[0m (the default) or [1mall[0m to allow StreamLocal for‐[m
+             warding, [1mno[0m to prevent all StreamLocal forwarding,[m
+             [1mlocal[0m to allow local (from the perspective of[m
+             ssh(1)) forwarding only or [1mremote[0m to allow remote[m
+             forwarding only.  Note that disabling StreamLocal[m
+             forwarding does not improve security unless users[m
+             are also denied shell access, as they can always[m
+[7mnual page sshd_config(5) line 78 (press h for help or q to quit)[27m[K[K             install their own forwarders.[m
+[m
+     [1mAllowTcpForwarding[0m[m
+             Specifies whether TCP forwarding is permitted.  The[m
+             available options are [1myes[0m (the default) or [1mall[0m to[m
+             allow TCP forwarding, [1mno[0m to prevent all TCP for‐[m
+             warding, [1mlocal[0m to allow local (from the perspective[m
+             of ssh(1)) forwarding only or [1mremote[0m to allow re‐[m
+             mote forwarding only.  Note that disabling TCP for‐[m
+             warding does not improve security unless users are[m
+             also denied shell access, as they can always in‐[m
+[7mnual page sshd_config(5) line 89 (press h for help or q to quit)[27m[K[K             stall their own forwarders.[m
+[m
+     [1mAllowUsers[0m[m
+             This keyword can be followed by a list of user name[m
+             patterns, separated by spaces.  If specified, login[m
+             is allowed only for user names that match one of[m
+             the patterns.  Only user names are valid; a numeri‐[m
+             cal user ID is not recognized.  By default, login[m
+             is allowed for all users.  If the pattern takes the[m
+             form USER@HOST then USER and HOST are separately[m
+             checked, restricting logins to particular users[m
+[7mual page sshd_config(5) line 100 (press h for help or q to quit)[27m[K[K             from particular hosts.  HOST criteria may addition‐[m
+             ally contain addresses to match in CIDR ad‐[m
+             dress/masklen format.  The allow/deny users direc‐[m
+             tives are processed in the following order:[m
+             [1mDenyUsers[0m, [1mAllowUsers[0m.[m
+[m
+             See PATTERNS in ssh_config(5) for more information[m
+             on patterns.[m
+[m
+     [1mAuthenticationMethods[0m[m
+             Specifies the authentication methods that must be[m
+[7mual page sshd_config(5) line 111 (press h for help or q to quit)[27m[K[K/[KPP[Kee[Krr[Kmm[Kii[Ktt[KRR[Koo[Koo[Ktt[K[1;1H             from particular hosts.  HOST criteria may addition‐[m
+[2;1H             ally contain addresses to match in CIDR ad‐[m
+[3;1H             dress/masklen format.  The allow/deny users direc‐[m
+[4;1H             tives are processed in the following order:[m
+[5;1H             [1mDenyUsers[0m, [1mAllowUsers[0m.[m
+[6;1H[m
+[7;1H             See PATTERNS in ssh_config(5) for more information[m
+[8;1H             on patterns.[m
+[9;1H[m
+[10;1H     [1mAuthenticationMethods[0m[m
+[11;1H             Specifies the authentication methods that must be[m
+[12;1H[1;1H             from particular hosts.  HOST criteria may addition‐[m
+[2;1H             ally contain addresses to match in CIDR ad‐[m
+[3;1H             dress/masklen format.  The allow/deny users direc‐[m
+[4;1H             tives are processed in the following order:[m
+[5;1H             [1mDenyUsers[0m, [1mAllowUsers[0m.[m
+[6;1H[m
+[7;1H             See PATTERNS in ssh_config(5) for more information[m
+[8;1H             on patterns.[m
+[9;1H[m
+[10;1H     [1mAuthenticationMethods[0m[m
+[11;1H             Specifies the authentication methods that must be[m
+[12;1H...skipping...
+             [1m[7mPermitRoot[27m[0m[1mLogin[0m, [1mPermitTTY[0m, [1mPermitTunnel[0m,[m
+             [1mPermitUserRC[0m, [1mPubkeyAcceptedAlgorithms[0m,[m
+             [1mPubkeyAuthentication[0m, [1mPubkeyAuthOptions[0m,[m
+             [1mRekeyLimit[0m, [1mRevokedKeys[0m, [1mSetEnv[0m,[m
+             [1mStreamLocalBindMask[0m, [1mStreamLocalBindUnlink[0m,[m
+             [1mTrustedUserCAKeys[0m, [1mUnusedConnectionTimeout[0m,[m
+             [1mX11DisplayOffset[0m, [1mX11Forwarding[0m and[m
+             [1mX11UseLocalhost[0m.[m
+[m
+     [1mMaxAuthTries[0m[m
+             Specifies the maximum number of authentication at‐[m
+[7mual page sshd_config(5) line 953 (press h for help or q to quit)[27m[K[K/[K...skipping...
+     [1m[7mPermitRoot[27m[0m[1mLogin[0m[m
+             Specifies whether root can log in using ssh(1).[m
+             The argument must be [1myes[0m, [1mprohibit-password[0m,[m
+             [1mforced-commands-only[0m, or [1mno[0m.  The default is[m
+             [1mprohibit-password[0m.[m
+[m
+             If this option is set to [1mprohibit-password[0m (or its[m
+             deprecated alias, [1mwithout-password[0m), password and[m
+             keyboard-interactive authentication are disabled[m
+             for root.[m
+[m
+[7mal page sshd_config(5) line 1057 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             If this option is set to [1mforced-commands-only[0m, root[m
+[7mal page sshd_config(5) line 1058 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             login with public key authentication will be al‐[m
+[7mal page sshd_config(5) line 1059 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K             lowed, but only if the [4mcommand[24m option has been[m
+[7mal page sshd_config(5) line 1060 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM             The argument must be [1myes[0m, [1mprohibit-password[0m,[m
+[12;1H[K[7mal page sshd_config(5) line 1059 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[33m1m4s[0m 
+[35m❯[0m man 5 sshd_config
+[?2004l[?1049h[22;0;0t[?1h=SSHD_CONFIG(5)       BSD File Formats Manual      SSHD_CONFIG(5)[m
+[m
+[1mNAME[0m[m
+     [1msshd_config[0m — OpenSSH daemon configuration file[m
+[m
+[1mDESCRIPTION[0m[m
+     sshd(8) reads configuration data from [4m/etc/ssh/sshd_config[24m[m
+     (or the file specified with [1m-f[0m on the command line).  The[m
+     file contains keyword-argument pairs, one per line.  For[m
+     each keyword, the first obtained value will be used.  Lines[m
+     starting with ‘#’ and empty lines are interpreted as com‐[m
+[7manual page sshd_config(5) line 1 (press h for help or q to quit)[27m[K[K/[Kpp[Kee[K[K[KPP[Kee[Krr[Kmm[Kii[Ktt[K[K[K[K[K[Kaa[Kss[Kss[Kww[Koo[Krr[Kdd[KAA[Kuu[Ktt[Khh[Kee[Knn[Ktt[Kii[Kcc[Kaa[Ktt[Kii[Koo[Knn[K[1;1HSSHD_CONFIG(5)       BSD File Formats Manual      SSHD_CONFIG(5)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H     [1msshd_config[0m — OpenSSH daemon configuration file[m
+[5;1H[m
+[6;1H[1mDESCRIPTION[0m[m
+[7;1H     sshd(8) reads configuration data from [4m/etc/ssh/sshd_config[24m[m
+[8;1H     (or the file specified with [1m-f[0m on the command line).  The[m
+[9;1H     file contains keyword-argument pairs, one per line.  For[m
+[10;1H     each keyword, the first obtained value will be used.  Lines[m
+[11;1H     starting with ‘#’ and empty lines are interpreted as com‐[m
+[12;1H[1;1HSSHD_CONFIG(5)       BSD File Formats Manual      SSHD_CONFIG(5)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H     [1msshd_config[0m — OpenSSH daemon configuration file[m
+[5;1H[m
+[6;1H[1mDESCRIPTION[0m[m
+[7;1H     sshd(8) reads configuration data from [4m/etc/ssh/sshd_config[24m[m
+[8;1H     (or the file specified with [1m-f[0m on the command line).  The[m
+[9;1H     file contains keyword-argument pairs, one per line.  For[m
+[10;1H     each keyword, the first obtained value will be used.  Lines[m
+[11;1H     starting with ‘#’ and empty lines are interpreted as com‐[m
+[12;1H...skipping...
+             for [1m[7mPasswordAuthentication[27m[0m will be validated[m
+             through the Kerberos KDC.  To use this option, the[m
+             server needs a Kerberos servtab which allows the[m
+             verification of the KDC's identity.  The default is[m
+             [1mno[0m.[m
+[m
+     [1mKerberosGetAFSToken[0m[m
+             If AFS is active and the user has a Kerberos 5 TGT,[m
+             attempt to acquire an AFS token before accessing[m
+             the user's home directory.  The default is [1mno[0m.[m
+[m
+[7mual page sshd_config(5) line 748 (press h for help or q to quit)[27m[K[K/[K...skipping...
+             [1mMaxSessions[0m, [1m[7mPasswordAuthentication[27m[0m,[m
+             [1mPermitEmptyPasswords[0m, [1mPermitListen[0m, [1mPermitOpen[0m,[m
+             [1mPermitRootLogin[0m, [1mPermitTTY[0m, [1mPermitTunnel[0m,[m
+             [1mPermitUserRC[0m, [1mPubkeyAcceptedAlgorithms[0m,[m
+             [1mPubkeyAuthentication[0m, [1mPubkeyAuthOptions[0m,[m
+             [1mRekeyLimit[0m, [1mRevokedKeys[0m, [1mSetEnv[0m,[m
+             [1mStreamLocalBindMask[0m, [1mStreamLocalBindUnlink[0m,[m
+             [1mTrustedUserCAKeys[0m, [1mUnusedConnectionTimeout[0m,[m
+             [1mX11DisplayOffset[0m, [1mX11Forwarding[0m and[m
+             [1mX11UseLocalhost[0m.[m
+[m
+[7mual page sshd_config(5) line 951 (press h for help or q to quit)[27m[K[K/[K...skipping...
+     [1m[7mPasswordAuthentication[27m[0m[m
+             Specifies whether password authentication is al‐[m
+             lowed.  The default is [1myes[0m.[m
+[m
+     [1mPermitEmptyPasswords[0m[m
+             When password authentication is allowed, it speci‐[m
+             fies whether the server allows login to accounts[m
+             with empty password strings.  The default is [1mno[0m.[m
+[m
+     [1mPermitListen[0m[m
+             Specifies the addresses/ports on which a remote TCP[m
+[7mal page sshd_config(5) line 1003 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[33m33s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[33m33s[0m 
+[35m❯[0m cat /etc/[K[K[K[K[K~/.ssh/knowN[Kn_hostsN[K[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m ⇡[33m33s[0m 
+[35m❯[0m cat ~/.ssh/known_hosts
+[?2004l|1|THftUPhOkhpGu07bbnNrU9HJirU=|dTU2PkiJ9bcEoNbAzgCHtOUHHs0= ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJXChHAdpS2gf3ToPcWmKIk35+/4tcyNKcdKtJFDJdLR
+|1|zortIwAPQnZBVS1bCQWOirgzgKI=|7Njsjjr/XvLUqTcuJQCWEVkAvWE= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC9l3UiLWIx8WfzXC6XMqYMjlTPMQxVPEinHzxlK8BB81VR36iczp7lSV1NaV4Ic0H7A7awl6brIgELkvKJ+LygWzY2XPYCzRY261wClbWiVmDnmVY7mGpamqpkh7wN1FhUX4+KMw4R4q84vH0rCLpSaDCYiuIDgzluAiofLW6JZEy+k4SfEljOi0H+uT0w/DHSwQKeh7YnznDmIW35ZUJpB3kneGuA1kfKxu/FtVEhA5lUCiEv02T/9nXwps8pu0OiJPQqPdt+HmjnZOI4uuqjvGV/BuO+nH9Na3Uwe/ZXTHRpy9z9DOEy6EFfTogSrODHBMZjEaeDjrAQ3Nfzs1WD7GbjuQKeh3SBryn+K3tjgBdRl+KoIFp519y0jaZPHIKIbmb4mXET5QISDRMbuh0Lhohfl2IqBOWc3LZj9QEiUx5uT/zhT+PnzVODx1OEc83IbhEAMfZ5YjWhkYMoTd39HGz9nnJd/502uY5SCM18OLwMNm6s4t3Pk9tB2rQPGls=
+|1|A2lz7IIzqW3k6rUlBQtf1TbT4cE=|WvbU5UEIWGyDL+MOIz+qW5brFcQ= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJ27dZGIDJPmZM/kkPPxKYL5Y7DK3UiT3ebUDHmYqLbfEEqZorZLhAR2V0CSUzcUhswQGJWpj7UtHdLspos3DNM=
+|1|vpJnOKY/Y8IFdZqqgfA2gLr7cIc=|EnIxhoKP0ZXTMIVAFnGwLzLEmks= ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
+|1|QLhgm8xLt1+maWpTyZhS2nGT2y0=|Cte2kibSRLNMfZUrX0bBW5Yg8Lo= ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCj7ndNxQowgcQnjshcLrqPEiiphnt+VTTvDP6mHBL9j1aNUkY4Ue1gvwnGLVlOhGeYrnZaMgRK6+PKCUXaDbC7qtbW8gIkhL7aGCsOr/C56SJMy/BCZfxd1nWzAOxSDPgVsmerOBYfNqltV9/hWCqBywINIR+5dIg6JTJ72pcEpEjcYgXkE2YEFXV1JHnsKgbLWNlhScqb2UmyRkQyytRLtL+38TGxkxCflmO+5Z8CSSNY7GidjMIZ7Q4zMjA2n1nGrlTDkzwDCsw+wqFPGQA179cnfGWOWRVruj16z6XyvxvjJwbz0wQZ75XK5tKSb7FNyeIEs4TT4jk+S4dhPeAUC5y+bDYirYgM4GC7uEnztnZyaVWQ7B381AK4Qdrwt51ZqExKbQpTUNn+EjqoTwvqNj4kqx5QUCI0ThS/YkOxJCXmPUWZbhjpCg56i+2aB6CmK2JGhn57K5mj0MNdBXA4/WnwH6XoPWJzK5Nyu2zB3nAZp+S5hpQs+p1vN1/wsjk=
+|1|opILewwORbGfEZpDdVavrycc5P8=|2pTpt+jQ14pRA+26jxuUies4/Mo= ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBEmKSENjQEezOmxkZMy7opKgwFB9nkt5YRrYMjNuG5N87uRgg6CLrbo5wAdT/y6v0mKV0U2w0WZ2YB/++Tpockg=
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m (reverse-i-search)`': s': cat ~/.ssh/known_host[7ms[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs': cat ~/.[7mss[27mh/known_hostsh': cat ~/.[7mssh[27m/known_hosts[16P ': [7mssh [27mxu': [7mssh u[27mbseb': [7mssh ub[27mses': [7mssh ubs[27mee': [7mssh ubse[27m[28P[35m❯[0m ssh ubse[C[C
+[?2004lThe authenticity of host '[localhost]:3322 ([127.0.0.1]:3322)' can't be established.
+ED25519 key fingerprint is SHA256:jziFwe1oRAsMyRkdfX2U2TWD/XMBXTyMAjOJcVNpjT0.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[localhost]:3322' (ED25519) to the list of known hosts.
+Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 11:38:22 AM UTC 2024
+
+  System load:  0.0                Processes:               116
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 9%                 IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 11:32:34 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub
+[?2004l256 SHA256:jziFwe1oRAsMyRkdfX2U2TWD/XMBXTyMAjOJcVNpjT0 root@ubse (ED25519)
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m3m26s[0m 
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m3m26s[0m 
+[35m❯[0m ssh ubse ls 
+[?2004l-[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m -^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m ssh ubse ls .[K-[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m ssh ubse ls -[K/
+[?2004lbin
+bin.usr-is-merged
+boot
+cdrom
+dev
+etc
+home
+lib
+lib64
+lib.usr-is-merged
+lost+found
+media
+mnt
+opt
+proc
+root
+run
+sbin
+sbin.usr-is-merged
+snap
+srv
+swap.img
+sys
+tmp
+usr
+var
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ssh ubse ls /[K[K[K[Kcat /etc/hostname[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ssh ubse cat /etc/hostname
+[?2004lubse
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m [7mcat /etc/hostname[27m[C[Ccat /etc/hostname
+[?2004lklad
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m [7mfor srv in ubse; do echo "$srv:" && ssh "$srv" cat /etc/hostn[27m[7ma[27m[7mme; done [27m
+[A[A[C[Cfor srv in ubse; do echo "$srv:" && ssh "$srv" cat /etc/hostname; done
+[H[2J
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m for srv in ubse; do echo "$srv:" && ssh "$srv" cat /etc/hostname; done 
+[A
+[?2004lubse:
+ubse
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [7mfor srv in ubse; do ssh "$srv" apt update; done[27m
+[A[C[Cfor srv in ubse; do ssh "$srv" apt update; done
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m for srv in ubse; do ssh "$srv" apt update; done
+[?2004l
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m cat e[K/etc/passwd
+[?2004lroot:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/nologin
+tss:x:100:107:TPM software stack,,,:/var/lib/tpm:/bin/false
+systemd-timesync:x:997:997:systemd Time Synchronization:/:/usr/sbin/nologin
+messagebus:x:101:108::/nonexistent:/usr/sbin/nologin
+avahi-autoipd:x:102:111:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:103:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:104:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+avahi:x:105:113:Avahi mDNS daemon,,,:/run/avahi-daemon:/usr/sbin/nologin
+speech-dispatcher:x:106:29:Speech Dispatcher,,,:/run/speech-dispatcher:/bin/false
+fwupd-refresh:x:107:116:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+saned:x:108:118::/var/lib/saned:/usr/sbin/nologin
+geoclue:x:109:119::/var/lib/geoclue:/usr/sbin/nologin
+polkitd:x:996:996:polkit:/nonexistent:/usr/sbin/nologin
+rtkit:x:110:120:RealtimeKit,,,:/proc:/usr/sbin/nologin
+colord:x:111:121:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+gnome-initial-setup:x:112:65534::/run/gnome-initial-setup/:/bin/false
+Debian-gdm:x:113:122:Gnome Display Manager:/var/lib/gdm3:/bin/false
+kent:x:1000:1000:Kent Larsson,,,:/home/kent:/bin/bash
+_rpc:x:114:65534::/run/rpcbind:/usr/sbin/nologin
+Debian-exim:x:115:125::/var/spool/exim4:/usr/sbin/nologin
+uuidd:x:116:126::/run/uuidd:/usr/sbin/nologin
+statd:x:117:65534::/var/lib/nfs:/usr/sbin/nologin
+libvirt-qemu:x:64055:104:Libvirt Qemu,,,:/var/lib/libvirt:/usr/sbin/nologin
+lightdm:x:118:128:Light Display Manager:/var/lib/lightdm:/bin/false
+sshd:x:119:65534::/run/sshd:/usr/sbin/nologin
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m cat /etc/passwd | cut -f1 -d:[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m cat /etc/passwd | cut -f1 -d:
+[?2004lroot
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+_apt
+nobody
+systemd-network
+tss
+systemd-timesync
+messagebus
+avahi-autoipd
+usbmux
+dnsmasq
+avahi
+speech-dispatcher
+fwupd-refresh
+saned
+geoclue
+polkitd
+rtkit
+colord
+gnome-initial-setup
+Debian-gdm
+kent
+_rpc
+Debian-exim
+uuidd
+statd
+libvirt-qemu
+lightdm
+sshd
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m ⇡[0m
+[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort
+[?2004l_apt
+avahi
+avahi-autoipd
+backup
+bin
+colord
+daemon
+Debian-exim
+Debian-gdm
+dnsmasq
+fwupd-refresh
+games
+geoclue
+gnome-initial-setup
+irc
+kent
+libvirt-qemu
+lightdm
+list
+lp
+mail
+man
+messagebus
+news
+nobody
+polkitd
+proxy
+root
+_rpc
+rtkit
+saned
+speech-dispatcher
+sshd
+statd
+sync
+sys
+systemd-network
+systemd-timesync
+tss
+usbmux
+uucp
+uuidd
+www-data
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort[K[35m❯[0m cat /etc/passwd | cut -f1 -d: | sort^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m chmod u[K+x serverscript 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ./[K[K[K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ssh ubse [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ssh ubse ./serverscript [1@<[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004lPseudo-terminal will not be allocated because stdin is not a terminal.
+Welcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 11:49:54 AM UTC 2024
+
+  System load:  0.0                Processes:               114
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 9%                 IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+ubse
+users:
+_apt
+backup
+bin
+daemon
+dhcpcd
+fwupd-refresh
+games
+irc
+kent
+landscape
+list
+lp
+mail
+man
+messagebus
+news
+nobody
+polkitd
+pollinate
+proxy
+root
+sshd
+sync
+sys
+syslog
+systemd-network
+systemd-resolve
+systemd-timesync
+tcpdump
+tss
+usbmux
+uucp
+uuidd
+www-data
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ssh ubse < ./serverscript [C[C[K[K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ssh ubse < ./serverscript ^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m seq 1 1000 > tusenfil
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m cp scp_kopiera_filer /[K.[K~/[K[K[1@s[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ubse:
+[?2004lscp_kopiera_filer            100%    0     0.0KB/s   00:00    
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m ssh us[Kbse [H[2J
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m ssh ubse 
+[?2004lWelcome to Ubuntu 24.04 LTS (GNU/Linux 6.8.0-45-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+
+ System information as of Wed Oct  9 11:52:47 AM UTC 2024
+
+  System load:  0.08               Processes:               115
+  Usage of /:   15.1% of 29.36GB   Users logged in:         1
+  Memory usage: 10%                IPv4 address for enp0s3: 10.0.2.15
+  Swap usage:   0%
+
+ * Strictly confined Kubernetes makes edge and IoT secure. Learn how MicroK8s
+   just raised the bar for easy, resilient and secure K8s cluster deployment.
+
+   https://ubuntu.com/engage/secure-kubernetes-at-the-edge
+
+Expanded Security Maintenance for Applications is not enabled.
+
+115 updates can be applied immediately.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Wed Oct  9 11:38:22 2024 from 10.0.2.2
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ ls
+[?2004lscp_kopiera_filer
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m ssh ubse [C[C[Ccp scp_kopiera_filer ubse:[C/home/kent/[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m scp scp_kopiera_filer ubse:/home/kent/
+/home/kent/minkatalog/         /home/kent/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m scp scp_kopiera_filer ubse:/home/kent/
+/home/kent/minkatalog/         /home/kent/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m scp scp_kopiera_filer ubse:/home/kent/
+/home/kent/minkatalog/         /home/kent/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m11s[0m 
+[35m❯[0m scp scp_kopiera_filer ubse:/home/kent/minkatalog/hej/a/b/c/mer/
+[?2004lscp_kopiera_filer              0%    0     0.0KB/s   --:-- ETAscp_kopiera_filer            100%   58   182.5KB/s   00:00    
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[36m [0m
+[35m❯[0m ssh ubse tree /j[Khome/klent[K[K[K[Kent/
+[?2004lbash: line 1: tree: command not found
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m ssh ubse tree /home/kent/
+[?2004l/home/kent/
+├── minkatalog
+│   └── hej
+│       └── a
+│           └── b
+│               └── c
+│                   └── mer
+│                       └── scp_kopiera_filer
+└── scp_kopiera_filer
+
+7 directories, 2 files
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [7mscp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2[27m
+[A[C[Cscp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2
+[?2004lscp_kopiera_filer              0%    0     0.0KB/s   --:-- ETAscp_kopiera_filer            100%  241   969.3KB/s   00:00    
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp scp_kopiera_filer ubse:minkatalog/hej/a/b/c/mer/fil2[C[C[C[31Psh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[K[35m❯[0m ssh ubse tree /home/kent/[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ssh ubse tree /home/kent/
+[?2004l/home/kent/
+├── minkatalog
+│   └── hej
+│       └── a
+│           └── b
+│               └── c
+│                   └── mer
+│                       ├── fil2
+│                       └── scp_kopiera_filer
+└── scp_kopiera_filer
+
+7 directories, 3 files
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp ubse:minkatalog/hej/a/b/c/mer/
+minkatalog/hej/a/b/c/mer/fil2 
+minkatalog/hej/a/b/c/mer/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp ubse:minkatalog/hej/a/b/c/mer/
+minkatalog/hej/a/b/c/mer/fil2 
+minkatalog/hej/a/b/c/mer/scp_kopiera_filer 
+
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp ubse:minkatalog/hej/a/b/c/mer/fil2 [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m scp ubse:minkatalog/hej/a/b/c/mer/fil2 .
+[?2004lfil2                           0%    0     0.0KB/s   --:-- ETAfil2                         100%    7    11.5KB/s   00:00    
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m less fil2 
+[?2004l[?1049h[22;0;0t[?1h=hejsan
+[7mfil2 (END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m2s[0m 
+[35m❯[0m less fil2 [C[Cscp ubse:minkatalog/hej/a/b/c/mer/fil2 .^C[?2004l[?2004h[?2004l
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m [K[31m❯[0m 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m l[K[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m chmod U[K+x traptempfil 
+[?2004l[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m cp tr[K[K[K[K[K./traptempfil [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil [K[35m❯[0m ./traptempfil 
+[?2004l^C
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m1m9s[0m 
+[31m❯[0m ls
+[?2004lexempel-sshconfig  scp_kopiera_filer	    traptempfil
+fil2		   serverscript		    tusenfil
+mintempfil	   sshd_config_changes.txt
+recordings	   ssh_olika_satt
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./traptempfil 
+[?2004l^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+^Cremoved 'mintempfil'
+Killed
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m6m47s[0m 
+[31m❯[0m [K[31m❯[0m ./traptempfil [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m6m47s[0m 
+[31m❯[0m ./traptempfil 
+[?2004l^Cremoved 'mintempfil'
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m4s[0m 
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m4s[0m 
+[35m❯[0m ls mintempfil
+[?2004lls: cannot access 'mintempfil': No such file or directory
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m ls mintempfil[H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m ls mintempfil[C[C./traptempfil 
+[?2004lbash: ./traptempfil: No such file or directory
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m ./traptempfil [K[K[K[K[K[K[K[Ktempfilsigint [K[K[K[Kexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [0m
+[31m❯[0m ./traptempfilsigexit 
+[?2004lsort: cannot read: tempfil: No such file or directory
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m5s[0m 
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m ./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit 
+[?2004l428
+1298
+10522
+12948
+13958
+19280
+24239
+26366
+27128
+32106
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​​[36m [33m5s[0m 
+[35m❯[0m [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​​[36m [33m5s[0m 
+[35m❯[0m ls mintempfil
+[?2004lmintempfil
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​​[36m [0m
+[35m❯[0m ls mintempfil[C[C./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​​[36m [0m
+[35m❯[0m ./traptempfilsigexit 
+[?2004l428
+509
+1298
+9724
+10522
+12948
+13958
+19280
+19763
+21450
+removed 'mintempfil'
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit 
+[?2004l^Cremoved 'mintempfil'
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m ./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[36m [0m
+[31m❯[0m ./traptempfilsigexit 
+[?2004l2670
+11441
+15787
+16364
+20819
+removed 'mintempfil'
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m5s[0m 
+[35m❯[0m ./traptempfilsigexit 
+[?2004l^Cremoved 'mintempfil'
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m2s[0m 
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m .-[K/traptempfilsigexitd[Kfn [H[2J
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [33m2s[0m 
+[31m❯[0m ./traptempfilsigexitfn 
+[?2004l^Cremoved 'mintempfil'
+
+[?2004h
+[34ml1-live/241009[0m [90m241009[38;5;218m*​[36m [0m
+[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K[31m❯[0m [K
