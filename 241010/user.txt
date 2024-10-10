@@ -19,3 +19,6 @@ usermod -c "Carnivore" user5
 
 # Ta bort en användare från en grupp
 usermod --remove -G staff user1
+
+# Tar INTE bort hemkatalogen
+userdel user3
