@@ -278,4 +278,83 @@ Last login: Thu Oct 10 07:41:49 2024 from 10.0.2.2
 [7m Manual page useradd(8) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If this option is not specified, [1museradd [22mwill also[m
 [7m Manual page useradd(8) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           consult the variable [1mLOG_INIT [22min the[m
 [7m Manual page useradd(8) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/default/useradd if set to no the user will not[m
-[7m Manual page useradd(8) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           be added to
+[7m Manual page useradd(8) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           be added to the lastlog and faillog databases.[m
+[7m Manual page useradd(8) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page useradd(8) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[22m, [1m--create-home[0m[m
+[7m Manual page useradd(8) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Create the user's home directory if it does not[m
+[7m Manual page useradd(8) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           exist. The files and directories contained in the[m
+[7m Manual page useradd(8) line 143 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# useradd user1
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# el[K[Kless /etc/passwd
+[?2004l[?1049h[22;0;0t[?1h=root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+[7m/etc/passwd[27m[K[K...skipping...
+messagebus:x:101:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:992:992:systemd Resolver:/:/usr/sbin/nologin
+pollinate:x:102:1::/var/cache/pollinate:/bin/false
+polkitd:x:991:991:User for polkitd:/:/usr/sbin/nologin
+syslog:x:103:104::/nonexistent:/usr/sbin/nologin
+uuidd:x:104:105::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:105:107::/nonexistent:/usr/sbin/nologin
+tss:x:106:108:TPM software stack,,,:/var/lib/tpm:/bin/false
+landscape:x:107:109::/var/lib/landscape:/usr/sbin/nologin
+fwupd-refresh:x:989:989:Firmware update daemon:/var/lib/fwupd:/usr /sbin/nologin
+usbmux:x:108:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+kent:x:1000:1000:Test Testsson:/home/kent:/bin/bash
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+bill:x:1001:1001::/home/bill:/bin/sh
+testuser:x:1002:1002:,,,:/home/testuser:/bin/bash
+user1:x:1003:1003::/home/user1:/bin/sh
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# less /etc/passwd[K[K[K[K[K[Kshadow
+[?2004l[?1049h[22;0;0t[?1h=root:*:19836:0:99999:7:::
+daemon:*:19836:0:99999:7:::
+bin:*:19836:0:99999:7:::
+sys:*:19836:0:99999:7:::
+sync:*:19836:0:99999:7:::
+games:*:19836:0:99999:7:::
+man:*:19836:0:99999:7:::
+lp:*:19836:0:99999:7:::
+mail:*:19836:0:99999:7:::
+news:*:19836:0:99999:7:::
+uucp:*:19836:0:99999:7:::
+proxy:*:19836:0:99999:7:::
+www-data:*:19836:0:99999:7:::
+backup:*:19836:0:99999:7:::
+list:*:19836:0:99999:7:::
+irc:*:19836:0:99999:7:::
+_apt:*:19836:0:99999:7:::
+[7m/etc/shadow[27m[K[K...skipping...
+systemd-resolve:!*:19836::::::
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+sshd:!:20003::::::
+bill:$y$j9T$/BGW/x3ikUnJaJCVz08TL0$YX3YgQzrWNuHFhRTks.90Uv14M/uWyY BQ0AMAoC8Wh3:20006:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+user1:!:20006:0:99999:7:::
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# q[Kpasswd user1
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@ubse: ~root@ubse:~# pas
