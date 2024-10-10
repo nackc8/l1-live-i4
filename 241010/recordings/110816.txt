@@ -1319,4 +1319,31 @@ exit
 [7m Manual page adduser(8) line 163 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--lastgid [22moptions.[m
 [7m Manual page adduser(8) line 164 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
 [7m Manual page adduser(8) line 165 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The group is created with no members.[m
-[7m Manual page adduser(8) line 166 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB
+[7m Manual page adduser(8) line 166 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 167 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mAdd an existing user to an existing group[0m[m
+[7m Manual page adduser(8) line 168 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If called with two non-option arguments, [1madduser [22mwill add[m
+[7m Manual page adduser(8) line 169 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       an existing user to an existing group.[m
+[7m Manual page adduser(8) line 170 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 171 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page adduser(8) line 172 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Different modes of [1madduser [22mallow different  options.   If[m
+[7m Manual page adduser(8) line 173 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       no valid modes are listed for a option, it is accepted in[m
+[7m Manual page adduser(8) line 174 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       all modes.[m
+[7m Manual page adduser(8) line 175 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 176 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Short versions for certain options may exist for histori‐[m
+[7m Manual page adduser(8) line 177 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       cal  reasons.   They are going to stay supported, but are[m
+[7m Manual page adduser(8) line 178 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       removed from the documentation.  Users are advised to mi‐[m
+[7m Manual page adduser(8) line 179 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       grate to the long version of options.[m
+[7m Manual page adduser(8) line 180 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 181 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--add-extra-groups[0m[m
+[7m Manual page adduser(8) line 182 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Add new user to extra groups defined in  the  con‐[m
+[7m Manual page adduser(8) line 183 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              figuration  files'  [1mEXTRA_GROUPS [22msetting.  The old[m
+[7m Manual page adduser(8) line 184 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              spelling [1m--add_extra_groups [22mis deprecated and will[m
+[7m Manual page adduser(8) line 185 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              be  supported  in  Debian  bookworm  only.   Valid[m
+[7m Manual page adduser(8) line 186 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              Modes: [1madduser[22m, [1madduser --system[22m.[m
+[7m Manual page adduser(8) line 187 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo +i[K[K-i
+[?2004l[sudo] password for kent: 
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# grep -e[K[K/etc/passwd | ge[Krep user[H[2J]0;root@ubse: ~root@ubse:~# grep /etc/passwd | grep user
+[?2004l^C
+[?2004h]0;root@ubse: ~root@ubse:~# grep /etc/passwd | grep user[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kuser
+[?2004lgrep: user: No such file or directory
+[?2004h]0;root@ubse: ~root@ubse:~# grep /etc/passwd user[K[K[K
