@@ -4,4 +4,5 @@ usermod -e 1 user13
 ps -u user13 # anv hade endast PID 4462 som var bash
 kill -9 4462
 # Killed, kan ej logga in igen
-
+# Ta bort user13s hemkatalog
+rm -rf /home/user13
