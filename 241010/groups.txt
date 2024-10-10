@@ -42,3 +42,5 @@ id user10
 # Se info om inloggade med dessa två kommandon
 w
 who
+
+# disable user13

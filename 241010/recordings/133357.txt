@@ -1604,4 +1604,86 @@ Retype new password:
 [?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ id
 [?2004luid=1000(kent) gid=1000(kent) groups=1000(kent),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),101(lxd)
 [?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo +i[K[K-i
-[?2004l[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: 
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# man id
+[?2004l[?1049h[22;0;0t[?1h=[4mID[24m(1)                     User Commands                    [4mID[24m(1)[m
+[m
+[1mNAME[0m[m
+       id - print real and effective user and group IDs[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mid [22m[[4mOPTION[24m]... [[4mUSER[24m]...[m
+[m
+[1mDESCRIPTION[0m[m
+       Print user and group information for each specified USER,[m
+[7m Manual page id(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or (when USER omitted) for the current process.[m
+[7m Manual page id(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page id(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a     [22mignore, for compatibility with other versions[m
+[7m Manual page id(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page id(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-Z[22m, [1m--context[0m[m
+[7m Manual page id(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K              print only the security context of the process[m
+[7m Manual page id(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page id(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--group[0m[m
+[7m Manual page id(1) line 9 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# id user10
+[?2004luid=1012(user10) gid=1015(user10) groups=1015(user10),1009(grupp1)
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# w
+[?2004l 12:24:47 up  5:07,  1 user,  load average: 0.00, 0.00, 0.00
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+kent              10.0.2.2         11:36    5:07m  0.00s   ?    sshd: k
+[?2004h]0;root@ubse: ~root@ubse:~# who
+[?2004lkent     pts/0        2024-10-10 11:36 (10.0.2.2)
+kent     pts/1        2024-10-10 12:23 (10.0.2.2)
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# w
+[?2004l 12:27:40 up  5:10,  2 users,  load average: 0.22, 0.05, 0.02
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+kent              10.0.2.2         11:36    5:10m  0.00s   ?    sshd: k
+kent              10.0.2.2         12:25    5:10m  0.00s   ?    sshd: k
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# whu[Ko
+[?2004lkent     pts/0        2024-10-10 11:36 (10.0.2.2)
+kent     pts/1        2024-10-10 12:23 (10.0.2.2)
+kent     pts/2        2024-10-10 12:25 (10.0.2.2)
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# [7mps --user green[27m[C[C[C[C[C[C[C[C[C[C[C[C[Cps --user green[K[K[K[K[Kuser13
+[?2004l    PID TTY          TIME CMD
+   4462 pts/2    00:00:53 bash
+[?2004h]0;root@ubse: ~root@ubse:~# top
+[?2004l[?1h=[?25l[H[2J(B[mtop - 12:28:30 up  5:11,  2 users,  load average: 0.74, 0.21, 0.08(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 118 (B[m[39;49mtotal,(B[m[39;49m[1m   2 (B[m[39;49mrunning,(B[m[39;49m[1m 116 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzomb(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  7.7 (B[m[39;49mus,(B[m[39;49m[1m 15.4 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 76.9 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   1951.9 (B[m[39;49mtotal,(B[m[39;49m[1m   1301.0 (B[m[39;49mfree,(B[m[39;49m[1m    333.2 (B[m[39;49mused,(B[m[39;49m[1m    476.0 (B[m[39;49mb(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   2048.0 (B[m[39;49mtotal,(B[m[39;49m[1m   2048.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   1618.7 (B[m[39;49ma(B[m[39;49m(B[m[39;49m[K
+[K
+[7m    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM (B[m[39;49m[K
+(B[m[1m   4462 user13    20   0    8652   5376   3840 R 100.0   0.3 (B[m[39;49m[K
+(B[m      1 root      20   0   22004  13184   9472 S   0.0   0.7 (B[m[39;49m[K
+(B[m      2 root      20   0       0      0      0 S   0.0   0.0 (B[m[39;49m[K
+(B[m      3 root      20   0       0      0      0 S   0.0   0.0 (B[m[39;49m[K[H(B[mtop - 12:28:33 up  5:11,  2 users,  load average: 0.74, 0.21, 0.08(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 21.6 (B[m[39;49mus,(B[m[39;49m[1m 17.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 61.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   1951.9 (B[m[39;49mtotal,(B[m[39;49m[1m   1301.0 (B[m[39;49mfree,(B[m[39;49m[1m    332.5 (B[m[39;49mused,(B[m[39;49m[1m    476.6 (B[m[39;49mb(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   2048.0 (B[m[39;49mtotal,(B[m[39;49m[1m   2048.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   1619.4 (B[m[39;49ma(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m   4462 user13    20   0    8652   5376   3840 R  99.7   0.3 (B[m[39;49m[K
+
+
+[H(B[mtop - 12:28:36 up  5:11,  2 users,  load average: 0.76, 0.23, 0.08(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 11.3 (B[m[39;49mus,(B[m[39;49m[1m  7.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 80.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   1951.9 (B[m[39;49mtotal,(B[m[39;49m[1m   1301.0 (B[m[39;49mfree,(B[m[39;49m[1m    332.0 (B[m[39;49mused,(B[m[39;49m[1m    477.2 (B[m[39;49mb(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   2048.0 (B[m[39;49mtotal,(B[m[39;49m[1m   2048.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   1619.9 (B[m[39;49ma(B[m[39;49m(B[m[39;49m[K
+[K
+
+
+
+
+[H(B[mtop - 12:28:39 up  5:11,  2 users,  load average: 0.76, 0.23, 0.08(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 20.1 (B[m[39;49mus,(B[m[39;49m[1m 13.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 66.2 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.(B[m[39;49m(B[m[39;49m[K
+MiB Mem :(B[m[39;49m[1m   1951.9 (B[m[39;49mtotal,(B[m[39;49m[1m   1301.0 (B[m[39;49mfree,(B[m[39;49m[1m    331.4 (B[m[39;49mused,(B[m[39;49m[1m    477.8 (B[m[39;49mb(B[m[39;49m(B[m[39;49m[K
+MiB Swap:(B[m[39;49m[1m   2048.0 (B[m[39;49mtotal,(B[m[39;49m[1m   2048.0 (B[m[39;49mfree,(B[m[39;49m[1m      0.0 (B[m[39;49mused.(B[m[39;49m[1m   1620.5 (B[m[39;49ma(B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m   4462 user13    20   0    8652   5376   3840 R 100.0   0.3 (B[m[39;49m[K
+
+
+[6;1H[7m Command disabled, 'A' mode required [?25l(B[m[39;49m[K[?25l[H(B[mtop - 12:28:41 up  5:11,  2 users,  load average: 0.78, 0.24, 0.09(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 120 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 117 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1
