@@ -38,3 +38,7 @@ chage -d 0 user10
 id
 # Se info om annat konto
 id user10
+
+# Se info om inloggade med dessa två kommandon
+w
+who
