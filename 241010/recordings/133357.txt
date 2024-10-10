@@ -241,4 +241,227 @@ Last login: Thu Oct 10 09:08:27 2024 from 10.0.2.2
 [?2004l[?1049h[22;0;0t[?1h=[4mGROUPADD[24m(8)        System Management Commands        [4mGROUPADD[24m(8)[m
 [m
 [1mNAME[0m[m
-       groupa
+       groupadd - create a new group[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupadd [22m[[4mOPTIONS[24m] [4mNEWGROUP[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mgroupadd [22mcommand creates a new group account using[m
+       the values specified on the command line plus the default[m
+[7m Manual page groupadd(8) line 1 (press h for help or q to quit)[27m[K[K/[K--[KUU[K[1;1H[4mGROUPADD[24m(8)        System Management Commands        [4mGROUPADD[24m(8)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       groupadd - create a new group[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H[m
+[8;1H       [1mgroupadd [22m[[4mOPTIONS[24m] [4mNEWGROUP[0m[m
+[9;1H[m
+[10;1H[1mDESCRIPTION[0m[m
+[11;1H       The [1mgroupadd [22mcommand creates a new group account using[m
+[12;1H       the values specified on the command line plus the default[m
+[13;1H[1;1H[4mGROUPADD[24m(8)        System Management Commands        [4mGROUPADD[24m(8)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       groupadd - create a new group[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H[m
+[8;1H       [1mgroupadd [22m[[4mOPTIONS[24m] [4mNEWGROUP[0m[m
+[9;1H[m
+[10;1H[1mDESCRIPTION[0m[m
+[11;1H       The [1mgroupadd [22mcommand creates a new group account using[m
+[12;1H       the values specified on the command line plus the default[m
+[13;1H...skipping...
+       [1m[7m-U[27m[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m[7m-U[27m[1m [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+       The following configuration variables in /etc/login.defs[m
+       change the behavior of this tool:[m
+[m
+       [1mGID_MAX [22m(number), [1mGID_MIN [22m(number)[m
+[7mage groupadd(8) line 108/197 66% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# [7mgroupadd grupp3 -U user5,user6[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[Cgroupadd grupp3 -U user5,user6
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# groupadd grupp3 -U user5,user6[C[C[C[C[C[C[C[C[C[C[C[C[C[18Pman groupaddgrep user /etc/passwdgrupp /etc/group
+[?2004l[01;31m[Kgrupp[m[K1:x:1009:
+[01;31m[Kgrupp[m[K2:x:1010:user5
+[01;31m[Kgrupp[m[K3:x:1011:user5,user6
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# man groupadd
+[?2004l[?1049h[22;0;0t[?1h=[4mGROUPADD[24m(8)        System Management Commands        [4mGROUPADD[24m(8)[m
+[m
+[1mNAME[0m[m
+       groupadd - create a new group[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupadd [22m[[4mOPTIONS[24m] [4mNEWGROUP[0m[m
+[m
+[7m Manual page groupadd(8) line 1 (press h for help or q to quit)[27m[K[K-[K[7m Manual page groupadd(8) line 1 (press h for help or q to quit)[27m[K[K/[K++[K[K--[KUU[K[1;1H[4mGROUPADD[24m(8)        System Management Commands        [4mGROUPADD[24m(8)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       groupadd - create a new group[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H[m
+[8;1H       [1mgroupadd [22m[[4mOPTIONS[24m] [4mNEWGROUP[0m[m
+[9;1H[m
+[10;1H[1;1H[4mGROUPADD[24m(8)        System Management Commands        [4mGROUPADD[24m(8)[m
+[2;1H[m
+[3;1H[1mNAME[0m[m
+[4;1H       groupadd - create a new group[m
+[5;1H[m
+[6;1H[1mSYNOPSIS[0m[m
+[7;1H[m
+[8;1H       [1mgroupadd [22m[[4mOPTIONS[24m] [4mNEWGROUP[0m[m
+[9;1H[m
+[10;1H...skipping...
+       [1m[7m-U[27m[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m[7m-U[27m[1m [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+       The following configuration variables in /etc/login.defs[m
+[7mage groupadd(8) line 108/197 64% (press h for help or q to quit)[27m[K[K[H[2J[HM[m
+[HM       [1mgroupadd [22m[[4mOPTIONS[24m] [4mNEWGROUP[0m[m
+[HM[m
+[HM[1mSYNOPSIS[0m[m
+[HM[m
+[HM       groupadd - create a new group[m
+[HM[1mNAME[0m[m
+[HM[m
+[HM[4mGROUPADD[24m(8)        System Management Commands        [4mGROUPADD[24m(8)[m
+[10;1H[K[7ml page groupadd(8) line 1/197 3% (press h for help or q to quit)[27m[K[K[K[7ml page groupadd(8) line 1/197 3% (press h for help or q to quit)[27m[K[K[K[7ml page groupadd(8) line 1/197 3% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDESCRIPTION[0m[m
+[7ml page groupadd(8) line 2/197 3% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The [1mgroupadd [22mcommand creates a new group account using[m
+[7ml page groupadd(8) line 3/197 4% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the values specified on the command line plus the default[m
+[7ml page groupadd(8) line 4/197 5% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       values from the system. The new group will be entered[m
+[7ml page groupadd(8) line 5/197 6% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       into the system files as needed.[m
+[7ml page groupadd(8) line 6/197 6% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7ml page groupadd(8) line 7/197 6% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Groupnames may contain only lower and upper case letters,[m
+[7ml page groupadd(8) line 8/197 7% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       digits, underscores, or dashes. They can end with a[m
+[7ml page groupadd(8) line 9/197 8% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       dollar sign. Dashes are not allowed at the beginning of[m
+[7m page groupadd(8) line 10/197 9% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the groupname. Fully numeric groupnames and groupnames .[m
+[7m page groupadd(8) line 11/197 9% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or .. are also disallowed.[m
+[7mpage groupadd(8) line 12/197 10% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 13/197 10% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       On Debian, the only constraints are that groupnames must[m
+[7mpage groupadd(8) line 14/197 11% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       neither start with a dash ('-') nor plus ('+') nor tilde[m
+[7mpage groupadd(8) line 15/197 11% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ('~') nor contain a colon (':'), a comma (','), or a[m
+[7mpage groupadd(8) line 16/197 12% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       whitespace (space:' ', end of line: '\n', tabulation:[m
+[7mpage groupadd(8) line 17/197 13% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       '\t', etc.).[m
+[7mpage groupadd(8) line 18/197 13% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 19/197 13% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       On Ubuntu, the same constraints as Debian are in place,[m
+[7mpage groupadd(8) line 20/197 14% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       with the additional constraint that the groupname cannot[m
+[7mpage groupadd(8) line 21/197 15% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       be fully numeric. This includes octal and hexadecimal[m
+[7mpage groupadd(8) line 22/197 16% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       syntax.[m
+[7mpage groupadd(8) line 23/197 16% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 24/197 16% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Groupnames may only be up to 32 characters long.[m
+[7mpage groupadd(8) line 25/197 17% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 26/197 17% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7mpage groupadd(8) line 27/197 17% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1mgroupadd [22mcommand are:[m
+[7mpage groupadd(8) line 28/197 18% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 29/197 18% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[22m, [1m--force[0m[m
+[7mpage groupadd(8) line 30/197 18% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option causes the command to simply exit with[m
+[7mpage groupadd(8) line 31/197 19% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           success status if the specified group already exists.[m
+[7mpage groupadd(8) line 32/197 20% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           When used with [1m-g[22m, and the specified GID already[m
+[7mpage groupadd(8) line 33/197 21% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           exists, another (unique) GID is chosen (i.e.  [1m-g [22mis[m
+[7mpage groupadd(8) line 34/197 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           turned off).[m
+[7mpage groupadd(8) line 35/197 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 36/197 22% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+[7mpage groupadd(8) line 37/197 23% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The numerical value of the group's ID.  [4mGID[24m must be[m
+[7mpage groupadd(8) line 38/197 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           unique, unless the [1m-o [22moption is used. The value must[m
+[7mpage groupadd(8) line 39/197 24% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           be non-negative. The default is to use the smallest[m
+[7mpage groupadd(8) line 40/197 25% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           ID value greater than or equal to [1mGID_MIN [22mand greater[m
+[7mpage groupadd(8) line 41/197 26% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           than every other group.[m
+[7mpage groupadd(8) line 42/197 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 43/197 27% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           See also the [1m-r [22moption and the [1mGID_MAX [22mdescription.[m
+[7mpage groupadd(8) line 44/197 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 45/197 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[22m, [1m--help[0m[m
+[7mpage groupadd(8) line 46/197 28% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display help message and exit.[m
+[7mpage groupadd(8) line 47/197 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 48/197 29% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-K[22m, [1m--key [4m[22mKEY[24m=[4mVALUE[0m[m
+[7mpage groupadd(8) line 49/197 30% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Overrides /etc/login.defs defaults (GID_MIN, GID_MAX[m
+[7mpage groupadd(8) line 50/197 30% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and others). Multiple [1m-K [22moptions can be specified.[m
+[7mpage groupadd(8) line 51/197 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 52/197 31% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Example: [1m-K [4m[22mGID_MIN[24m=[4m100[24m  [1m-K [4m[22mGID_MAX[24m=[4m499[0m[m
+[7mpage groupadd(8) line 53/197 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 54/197 33% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Note: [1m-K [4m[22mGID_MIN[24m=[4m10[24m,[4mGID_MAX[24m=[4m499[24m doesn't work yet.[m
+[7mpage groupadd(8) line 55/197 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 56/197 34% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[22m, [1m--non-unique[0m[m
+[7mpage groupadd(8) line 57/197 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           permits the creation of a group with an already used[m
+[7mpage groupadd(8) line 58/197 35% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           numerical ID. As a result, for this [4mGID[24m, the mapping[m
+[7mpage groupadd(8) line 59/197 36% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           towards group [4mNEWGROUP[24m may not be unique.[m
+[7mpage groupadd(8) line 60/197 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 61/197 37% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[22m, [1m--password [4m[22mPASSWORD[0m[m
+[7mpage groupadd(8) line 62/197 38% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           defines an initial password for the group account.[m
+[7mpage groupadd(8) line 63/197 39% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           PASSWORD is expected to be encrypted, as returned by[m
+[7mpage groupadd(8) line 64/197 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mcrypt [22m(3).[m
+[7mpage groupadd(8) line 65/197 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 66/197 40% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Without this option, the group account will be locked[m
+[7mpage groupadd(8) line 67/197 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and with no password defined, i.e. a single[m
+[7mpage groupadd(8) line 68/197 41% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           exclamation mark in the respective field of ths[m
+[7mpage groupadd(8) line 69/197 42% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system account file /etc/group or /etc/gshadow.[m
+[7mpage groupadd(8) line 70/197 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 71/197 43% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mNote: [22mThis option is not recommended because the[m
+[7mpage groupadd(8) line 72/197 44% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           password (or encrypted password) will be visible by[m
+[7mpage groupadd(8) line 73/197 45% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           users listing the processes.[m
+[7mpage groupadd(8) line 74/197 45% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 75/197 45% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           You should make sure the password respects the[m
+[7mpage groupadd(8) line 76/197 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system's password policy.[m
+[7mpage groupadd(8) line 77/197 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 78/197 46% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[22m, [1m--system[0m[m
+[7mpage groupadd(8) line 79/197 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Create a system group.[m
+[7mpage groupadd(8) line 80/197 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 81/197 47% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The numeric identifiers of new system groups are[m
+[7mpage groupadd(8) line 82/197 48% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           chosen in the [1mSYS_GID_MIN[22m-[1mSYS_GID_MAX [22mrange, defined[m
+[7mpage groupadd(8) line 83/197 49% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           in login.defs, instead of [1mGID_MIN[22m-[1mGID_MAX[22m.[m
+[7mpage groupadd(8) line 84/197 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 85/197 50% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[22m, [1m--root [4m[22mCHROOT_DIR[0m[m
+[7mpage groupadd(8) line 86/197 51% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes in the [4mCHROOT_DIR[24m directory and use the[m
+[7mpage groupadd(8) line 87/197 52% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           configuration files from the [4mCHROOT_DIR[24m directory.[m
+[7mpage groupadd(8) line 88/197 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Only absolute paths are supported.[m
+[7mpage groupadd(8) line 89/197 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 90/197 53% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[22m, [1m--prefix [4m[22mPREFIX_DIR[0m[m
+[7mpage groupadd(8) line 91/197 54% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes to configuration files under the root[m
+[7mpage groupadd(8) line 92/197 55% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           filesystem found under the directory [4mPREFIX_DIR[24m. This[m
+[7mpage groupadd(8) line 93/197 56% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           option does not chroot and is intended for preparing[m
+[7mpage groupadd(8) line 94/197 57% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           a cross-compilation target. Some limitations: NIS and[m
+[7mpage groupadd(8) line 95/197 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           LDAP users/groups are not verified. PAM[m
+[7mpage groupadd(8) line 96/197 58% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           authentication is using the host files. No SELINUX[m
+[7mpage groupadd(8) line 97/197 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           support.[m
+[7mpage groupadd(8) line 98/197 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mpage groupadd(8) line 99/197 59% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m[7m-U[27m[22m, [1m--users[0m[m
+[7mage groupadd(8) line 100/197 60% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           A list of usernames to add as members of the group.[m
+[7mage groupadd(8) line 101/197 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mage groupadd(8) line 102/197 61% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m[7m-U[27m[1m [22moptions[m
+[7mage groupadd(8) line 103/197 62% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+[7mage groupadd(8) line 104/197 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           variable in /etc/login.defs.[m
+[7mage groupadd(8) line 105/197 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mage groupadd(8) line 106/197 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCONFIGURATION[0m[m
+[7mage groupadd(8) line 107/197 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following configuration variables in /etc/login.defs[m
+[7mage groupadd(8) line 108/197 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       change the behavior of this tool:[m
+[7mage groupadd(8) line 109/197 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mage groupadd(8) line 110/197 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mGID_MAX [22m(number), [1mGID_MIN [22m(number)[m
+[7mage groupadd(8) line 111/197 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Range of group IDs used for the creation of regular[m
+[7mage groupadd(8) line 112/197 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           groups by [1museradd[22m, [1mgroupadd[22m, or [1mnewusers[22m.[m
+[7mage groupadd(8) line 113/197 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mage groupadd(8) line 114/197 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The default value for [1mGID_MIN [22m(resp.  [1mGID_MAX[22m) is[m
+[7mage groupadd(8) line 115/197 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           1000 (resp. 60000).[m
+[7mage groupadd(8) line 116/197 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7mage groupadd(8) line 117/197 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mMAX_MEMBERS_PER_GROUP [22m(number)[m
+[7mage groupadd(8) line 118/197 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       change the behavior of this tool:[m
+[10;1H[K[7mage groupadd(8) line 117/197 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The following configuration variables in /etc/login.defs[m
+[10;1H[K[7mage groupadd(8) line 116/197 69% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mCONFIGURATION[0m[m
+[10;1H[K[7mage groupadd(8) line 115/197 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[10;1H[K[7mage groupadd(8) line 114/197 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           variable in /etc/login.defs.[m
+[10;1H[K[7mage groupadd(8) line 113/197 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+[10;1H[K[7mage groupadd(8) line 112/197 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           The default behavior (if the [1m-g[22m, [
