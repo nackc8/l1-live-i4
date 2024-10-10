@@ -18,5 +18,4 @@ ENCRYPT_METHOD SHA512
 Inneghåller de filer som nya kontonts hemkataloger får en
 kopia på
 
-
 /etc/sudoers
