@@ -2,3 +2,4 @@ useradd user1 # ingen hemkatalog skapas
 
 useradd -m user3 # hemkatalog skapas
 
+useradd -m -s /bin/bash user4 # med bash som kommandoskal
