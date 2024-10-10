@@ -2120,4 +2120,52 @@ No VM guests are running outdated hypervisor (qemu) binaries on
 [7m Manual page useradd(8) line 233 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           filesystem found under the directory [4mPREFIX_DIR[24m. This[m
 [7m Manual page useradd(8) line 234 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           option does not chroot and is intended for preparing[m
 [7m Manual page useradd(8) line 235 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           a cross-compilation target. Some limitations: NIS and[m
-[7m Manual page useradd(8) line 236 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           LDAP users/gro
+[7m Manual page useradd(8) line 236 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           LDAP users/groups are not verified. PAM[m
+[7m Manual page useradd(8) line 237 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           authentication is using the host files. No SELINUX[m
+[7m Manual page useradd(8) line 238 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           support.[m
+[7m Manual page useradd(8) line 239 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page useradd(8) line 240 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s[22m, [1m--shell [4m[22mSHELL[0m[m
+[7m Manual page useradd(8) line 241 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           sets the path to the user's login shell. Without this[m
+[7m Manual page useradd(8) line 242 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           option, the system will use the [1mSHELL [22mvariable[m
+[7m Manual page useradd(8) line 243 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           specified in /etc/default/useradd, or, if that is as[m
+[7m Manual page useradd(8) line 244 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           well not set, the field for the login shell in[m
+[7m Manual page useradd(8) line 245 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/passwd remains empty.[m
+[7m Manual page useradd(8) line 246 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page useradd(8) line 247 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-u[22m, [1m--uid [4m[22mUID[0m[m
+[7m Manual page useradd(8) line 248 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The numerical value of the user's ID. This value must[m
+[7m Manual page useradd(8) line 249 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# which fish
+[?2004l/usr/bin/fish
+[?2004h]0;root@ubse: ~root@ubse:~# [7madduser --shell /usr/bin/fish user6[27m[C[C[C[C[C[C[C[C[C[C[C[C[Cadduser --shell /usr/bin/fish user6
+[?2004linfo: Adding user `user6' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `user6' (1008) ...
+info: Adding new user `user6' (1008) with group `user6 (1008)' ...
+info: Creating home directory `/home/user6' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+Sorry, passwords do not match.
+passwd: Authentication token manipulation error
+passwd: password unchanged
+Try again? [y/N] y
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for user6
+Enter the new value, or press ENTER for the default
+	Full Name []: Bananen
+	Room Number []: 123
+	Work Phone []: 08998
+	Home Phone []: 665
+	Other []: Hej hej
+Is the information correct? [Y/n] 
+info: Adding new user `user6' to supplemental / extra groups `users' ...
+info: Adding user `user6' to group `users' ...
+[?2004h]0;root@ubse: ~root@ubse:~# exit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su user6
+[?2004lPassword: 
+Unable to open the current working directory: Permission denied
+Welcome to fish, the friendly interactive shell
+Type [32mhelp(B[m for instructions on how to use fish
+[?2004h]0;[ubse] /h/kent[30m(B[m[92muser6(B[m@[33mubse(B[m [32m/h/kent(B[m(B[m> [K[20Cc[21C[91mc[30m(B[m[21C[90machestat-bpfcc [30m(B[m[21C[91md[30m(B[m[K[22C[34mcd[30m(B[m[22C[90m [30m(B[m[22C[K[22
