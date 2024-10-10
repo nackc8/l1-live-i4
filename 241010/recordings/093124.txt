@@ -1313,4 +1313,62 @@ testuser /bin/bash
 [7m Manual page column(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-s, --separator [4m[22mseparators[0m[m
 [7m Manual page column(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Specify the possible input item delimiters (default[m
 [7m Manual page column(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           is whitespace).[m
-[7m Manual page column(1) line 62 (press h for help or q to quit)[27
+[7m Manual page column(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page column(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-t, --table[0m[m
+[7m Manual page column(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Determine the number of columns the input contains[m
+[7m Manual page column(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and create a table. Columns are delimited with[m
+[7m Manual page column(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           whitespace, by default, or with the characters[m
+[7m Manual page column(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           supplied using the [1m--output-separator [22moption. Table[m
+[7m Manual page column(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           output is useful for pretty-printing.[m
+[7m Manual page column(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page column(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-C, --table-column [4m[22mproperties[0m[m
+[7m Manual page column(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Define one column by comma separated list of column[m
+[7m Manual page column(1) line 72 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# man columncat /etc/passwd | cut -d : -f 1,7 | tr ':' ' ' | column -t
+[?2004lroot              /bin/bash
+daemon            /usr/sbin/nologin
+bin               /usr/sbin/nologin
+sys               /usr/sbin/nologin
+sync              /bin/sync
+games             /usr/sbin/nologin
+man               /usr/sbin/nologin
+lp                /usr/sbin/nologin
+mail              /usr/sbin/nologin
+news              /usr/sbin/nologin
+uucp              /usr/sbin/nologin
+proxy             /usr/sbin/nologin
+www-data          /usr/sbin/nologin
+backup            /usr/sbin/nologin
+list              /usr/sbin/nologin
+irc               /usr/sbin/nologin
+_apt              /usr/sbin/nologin
+nobody            /usr/sbin/nologin
+systemd-network   /usr/sbin/nologin
+systemd-timesync  /usr/sbin/nologin
+dhcpcd            /bin/false
+messagebus        /usr/sbin/nologin
+systemd-resolve   /usr/sbin/nologin
+pollinate         /bin/false
+polkitd           /usr/sbin/nologin
+syslog            /usr/sbin/nologin
+uuidd             /usr/sbin/nologin
+tcpdump           /usr/sbin/nologin
+tss               /bin/false
+landscape         /usr/sbin/nologin
+fwupd-refresh     /usr/sbin/nologin
+usbmux            /usr/sbin/nologin
+kent              /bin/bash
+sshd              /usr/sbin/nologin
+bill              /bin/sh
+testuser          /bin/bash
+[?2004h]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 1,7 | tr ':' ' ' | column -t ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@ubse: ~root@ubse:~# exit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit
+[?2004llogout
+Connection to localhost closed.
+[?2004h
+[34ml1-live/241010[0m [90m241010[36m [33m1h23m6s[0m 
+[31m❯[0m exit
+[?2004lexit
+
+Script done on 2024-10-10 10:54:46+02:00 [COMMAND_EXIT_CODE="130"]
