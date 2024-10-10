@@ -1101,4 +1101,222 @@ $ exit
 [7m Manual page useradd(8) line 249 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           must be non-negative. The default is to use the[m
 [7m Manual page useradd(8) line 250 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           smallest ID value greater than or equal to [1mUID_MIN[0m[m
 [7m Manual page useradd(8) line 251 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and greater than every other user.[m
-[7m Manual page useradd(8) line 252 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# man useradd[7Pexitpasswd user3[8Pexitman u
+[7m Manual page useradd(8) line 252 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# man useradd[7Pexitpasswd user3[8Pexitman useradd[Kuseradd user4[C user4- user4m user4[C user4- user4s user4[C user4/ user4b user4i user4n user4/ user4b user4a user4s user4h user4[C[C[C[C[C[C
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# passwd user45[K
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# us[K[Kexit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su user4
+[?2004lPassword: 
+[?2004h]0;user4@ubse: /home/kent[01;32muser4@ubse[00m:[01;34m/home/kent[00m$ [H[2J]0;user4@ubse: /home/kent[01;32muser4@ubse[00m:[01;34m/home/kent[00m$ cd
+[?2004l[?2004h]0;user4@ubse: ~[01;32muser4@ubse[00m:[01;34m~[00m$ [H[2J]0;user4@ubse: ~[01;32muser4@ubse[00m:[01;34m~[00m$ ls
+[?2004l[?2004h]0;user4@ubse: ~[01;32muser4@ubse[00m:[01;34m~[00m$ ls
+[?2004l[?2004h]0;user4@ubse: ~[01;32muser4@ubse[00m:[01;34m~[00m$ ls /
+bin/                lib.usr-is-merged/  sbin.usr-is-merged/
+bin.usr-is-merged/  lost+found/         snap/
+boot/               media/              srv/
+cdrom/              mnt/                swap.img
+dev/                opt/                sys/
+etc/                proc/               tmp/
+home/               root/               usr/
+lib/                run/                var/
+lib64/              sbin/               
+]0;user4@ubse: ~[01;32muser4@ubse[00m:[01;34m~[00m$ ls /[K[K[K[K[?2004l
+exit
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ man u[Kadduser
+[?2004l[?1049h[22;0;0t[?1h=[4mADDUSER[24m(8)           System Manager's Manual          [4mADDUSER[24m(8)[m
+[m
+[1mNAME[0m[m
+       adduser, addgroup - add or manipulate users or groups[m
+[m
+[1mSYNOPSIS[0m[m
+       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+               [[1m--disabled-password[22m] [[1m--encrypt-home[22m][m
+               [[1m--firstgid [4m[22mid[24m] [[1m--firstuid [4m[22mid[24m] [[1m--gid [4m[22mid[24m][m
+               [[1m--home [4m[22mdir[24m] [[1m--ingroup [4m[22mgroup[24m] [[1m--lastgid [4m[22mid[24m][m
+               [[1m--lastuid [4m[22mid[24m] [[1m--no-create-home[22m] [[1m--shell [4m[22mshell[24m][m
+[7m Manual page adduser(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mADDUSER[24m(8)           System Manager's Manual          [4mADDUSER[24m(8)[m
+[m
+[1mNAME[0m[m
+       adduser, addgroup - add or manipulate users or groups[m
+[m
+[1mSYNOPSIS[0m[m
+       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+               [[1m--disabled-password[22m] [[1m--encrypt-home[22m][m
+               [[1m--firstgid [4m[22mid[24m] [[1m--firstuid [4m[22mid[24m] [[1m--gid [4m[22mid[24m][m
+               [[1m--home [4m[22mdir[24m] [[1m--ingroup [4m[22mgroup[24m] [[1m--lastgid [4m[22mid[24m][m
+               [[1m--lastuid [4m[22mid[24m] [[1m--no-create-home[22m] [[1m--shell [4m[22mshell[24m][m
+               [[1m--quiet[22m] [[1m--uid [4m[22mid[24m] [[1m--verbose[22m][m
+[7m Manual page adduser(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+[7m Manual page adduser(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--logmsglevel [4m[22mprio[24m] [1muser[0m[m
+[7m Manual page adduser(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser --system [22m[[1m--comment [4m[22mcomment[24m] [[1m--conf [4m[22mfile[24m][m
+[7m Manual page adduser(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--debug[22m] [[1m--gid [4m[22mid[24m] [[1m--group[22m] [[1m--home [4m[22mdir[24m][m
+[7m Manual page adduser(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--ingroup [4m[22mgroup[24m] [[1m--no-create-home[22m][m
+[7m Manual page adduser(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--shell [4m[22mshell[24m] [[1m--uid [4m[22mid[24m] [[1m--quiet[22m] [[1m--verbose[22m][m
+[7m Manual page adduser(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+[7m Manual page adduser(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--logmsglevel [4m[22mprio[24m] [1muser[0m[m
+[7m Manual page adduser(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser --group [22m[[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--firstgid [4m[22mid[24m][m
+[7m Manual page adduser(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--gid [4m[22mID[24m] [[1m--lastgid [4m[22mid[24m] [[1m--quiet[22m] [[1m--verbose[22m][m
+[7m Manual page adduser(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+[7m Manual page adduser(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--logmsglevel [4m[22mprio[24m] [1mgroup[0m[m
+[7m Manual page adduser(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1maddgroup [22m[[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--firstgid [4m[22mid[24m][m
+[7m Manual page adduser(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                [[1m--gid [4m[22mID[24m] [[1m--lastgid [4m[22mid[24m] [[1m--quiet[22m] [[1m--verbose[22m][m
+[7m Manual page adduser(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+[7m Manual page adduser(8) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                [[1m--logmsglevel [4m[22mprio[24m] [1mgroup[0m[m
+[7m Manual page adduser(8) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1maddgroup --system [22m[[1m--gid [4m[22mid[24m] [[1m--conf [4m[22mfile[24m] [[1m--quiet[22m][m
+[7m Manual page adduser(8) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                [[1m--verbose[22m] [[1m--stdoutmsglevel [4m[22mprio[24m][m
+[7m Manual page adduser(8) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                [[1m--stderrmsglevel [4m[22mprio[24m] [[1m--logmsglevel [4m[22mprio[24m][m
+[7m Manual page adduser(8) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K                [1mgroup[0m[m
+[7m Manual page adduser(8) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser [22m[[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--quiet[22m] [[1m--verbose[22m][m
+[7m Manual page adduser(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+[7m Manual page adduser(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--logmsglevel [4m[22mprio[24m] [1muser group[0m[m
+[7m Manual page adduser(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser --help[0m[m
+[7m Manual page adduser(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser --version[0m[m
+[7m Manual page adduser(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDESCRIPTION[0m[m
+[7m Manual page adduser(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser  [22mand  [1maddgroup [22madd users and groups to the system[m
+[7m Manual page adduser(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       according to command line options and  configuration  in‐[m
+[7m Manual page adduser(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       formation  in  [4m/etc/adduser.conf[24m.   They  are  friendlier[m
+[7m Manual page adduser(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       front ends to the low level tools like [1museradd[22m,  [1mgroupadd[0m[m
+[7m Manual page adduser(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       and  [1musermod  [22mprograms, by default choosing Debian policy[m
+[7m Manual page adduser(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       conformant UID and GID values, creating a home  directory[m
+[7m Manual page adduser(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       with skeletal configuration, running a custom script, and[m
+[7m Manual page adduser(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       other features.[m
+[7m Manual page adduser(8) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser [22mand [1maddgroup [22mare intended as a policy layer, mak‐[m
+[7m Manual page adduser(8) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ing  it easier for package maintainers and local adminis‐[m
+[7m Manual page adduser(8) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       trators to create local system accounts in the way Debian[m
+[7m Manual page adduser(8) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       expects them to be created, taking the burden to adapt to[m
+[7m Manual page adduser(8) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the probably changing specifications  of  Debian  policy.[m
+[7m Manual page adduser(8) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser  --system [22mtakes special attention on just needing[m
+[7m Manual page adduser(8) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       a single call in the package maintainer  scripts  without[m
+[7m Manual page adduser(8) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       any  conditional  wrappers,  error  suppression  or other[m
+[7m Manual page adduser(8) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       scaffolding.[m
+[7m Manual page adduser(8) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser [22mhonors the distinction between [4mdynamically[24m  [4mallo‐[0m[m
+[7m Manual page adduser(8) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4mcated[24m  [4msystem[24m  [4musers[24m [4mand[24m [4mgroups[24m and [4mdynamically[24m [4mallocated[0m[m
+[7m Manual page adduser(8) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4muser[24m [4maccounts[24m that is documented in Debian Policy,  Chap‐[m
+[7m Manual page adduser(8) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ter 9.2.2.[m
+[7m Manual page adduser(8) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       For  a full list and explanations of all options, see the[m
+[7m Manual page adduser(8) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       OPTIONS section.[m
+[7m Manual page adduser(8) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser [22mand [1maddgroup [22mcan be run in one of five modes:[m
+[7m Manual page adduser(8) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mAdd a normal user[0m[m
+[7m Manual page adduser(8) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If called with one non-option argument  and  without  the[m
+[7m Manual page adduser(8) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--system  [22mor  [1m--group  [22moptions, [1madduser [22mwill add a normal[m
+[7m Manual page adduser(8) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       user, that means a [4mdynamically[24m [4mallocated[24m [4muser[24m [4maccount[24m  in[m
+[7m Manual page adduser(8) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the sense of Debian Policy.  This is commonly referred to[m
+[7m Manual page adduser(8) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       in [1madduser [22mas a [4mnon-system[24m [4muser.[0m[m
+[7m Manual page adduser(8) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser  [22mwill  choose  the  first  available UID from the[m
+[7m Manual page adduser(8) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       range specified by [1mFIRST_UID [22mand [1mLAST_UID [22min the configu‐[m
+[7m Manual page adduser(8) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ration file.   The  range  may  be  overridden  with  the[m
+[7m Manual page adduser(8) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--firstuid  [22mand  [1m--lastuid [22moptions.  Finally, the UID can[m
+[7m Manual page adduser(8) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       be set fully manually with the [1m--uid [22moption.[m
+[7m Manual page adduser(8) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       By default, each user is given a corresponding group with[m
+[7m Manual page adduser(8) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the same name.  This is commonly  called  [4mUsergroups[24m  and[m
+[7m Manual page adduser(8) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       allows group writable directories to be easily maintained[m
+[7m Manual page adduser(8) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       by  placing  the appropriate users in the new group, set‐[m
+[7m Manual page adduser(8) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ting the set-group-ID bit in the directory, and  ensuring[m
+[7m Manual page adduser(8) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       that all users use a umask of 002.[m
+[7m Manual page adduser(8) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       For  a usergroup, [1madduser [22mwill choose the first available[m
+[7m Manual page adduser(8) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       GID from the range specified by [1mFIRST_GID [22mand [1mLAST_GID [22min[m
+[7m Manual page adduser(8) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the configuration file.  The range may be overridden with[m
+[7m Manual page adduser(8) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [1m--firstgid [22mand [1m--lastgid [22moptions.  Finally,  the  GID[m
+[7m Manual page adduser(8) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       can be set fully manually with the [1m--gid [22moption.[m
+[7m Manual page adduser(8) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The interaction between [1mUSERS_GID[22m, [1mUSERS_GROUP[22m, and [1mUSER‐[0m[m
+[7m Manual page adduser(8) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mGROUPS [22mis explained in detail in [1madduser.conf[22m(5).[m
+[7m Manual page adduser(8) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Users'  primary  groups  can  also be overridden from the[m
+[7m Manual page adduser(8) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       command line with the [1m--gid  [22mor [1m--ingroup [22moptions to  set[m
+[7m Manual page adduser(8) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the  group  by id or name, respectively.  Also, users can[m
+[7m Manual page adduser(8) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       be added to one or more supplemental  groups  defined  as[m
+[7m Manual page adduser(8) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mEXTRA_GROUPS  [22min the configuration file either by setting[m
+[7m Manual page adduser(8) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mADD_EXTRA_GROUPS [22mto 1 in the configuration  file,  or  by[m
+[7m Manual page adduser(8) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       passing [1m--add-extra-groups [22mon the command line.[m
+[7m Manual page adduser(8) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser  [22mwill copy files from [4m/etc/skel[24m into the home di‐[m
+[7m Manual page adduser(8) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       rectory and prompt for the comment field and  a  password[m
+[7m Manual page adduser(8) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       if  those functions have not been turned off / overridden[m
+[7m Manual page adduser(8) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       from the command line.[m
+[7m Manual page adduser(8) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       UID, comment, home directory and shell might  be  pre-de‐[m
+[7m Manual page adduser(8) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       termined  with  the  [1mUID_POOL  [22mand [1mGID_POOL [22moption, docu‐[m
+[7m Manual page adduser(8) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mented in [1madduser.conf[22m(5).[m
+[7m Manual page adduser(8) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       To set up an encrypted home directory for the  new  user,[m
+[7m Manual page adduser(8) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       add the [1m--encrypt-home [22moption.  For more information, re‐[m
+[7m Manual page adduser(8) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       fer to the -b option of [1mecryptfs-setup-private(1).[0m[m
+[7m Manual page adduser(8) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mAdd a system user[0m[m
+[7m Manual page adduser(8) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If  called  with one non-option argument and the [1m--system[0m[m
+[7m Manual page adduser(8) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       option, [1madduser [22mwill add a [4mdynamically[24m  [4mallocated[24m  [4msystem[0m[m
+[7m Manual page adduser(8) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4muser,[24m  often abbreviated as [4msystem[24m [4muser[24m in the context of[m
+[7m Manual page adduser(8) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [1madduser [22mpackage.[m
+[7m Manual page adduser(8) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser [22mwill choose the  first  available  UID  from  the[m
+[7m Manual page adduser(8) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       range  specified  by [1mFIRST_SYSTEM_UID [22mand [1mLAST_SYSTEM_UID[0m[m
+[7m Manual page adduser(8) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       in the configuration file.  This can be  overridden  with[m
+[7m Manual page adduser(8) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [1m--uid [22moption.[m
+[7m Manual page adduser(8) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       By default, system users are placed in the [1mnogroup [22mgroup.[m
+[7m Manual page adduser(8) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       To  place  the  new  system  user  in an already existing[m
+[7m Manual page adduser(8) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       group, use  the  [1m--gid  [22mor  [1m--ingroup  [22moptions.   If  the[m
+[7m Manual page adduser(8) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--group [22mis given and the identically named group does not[m
+[7m Manual page adduser(8) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       already exist, it is created with the same ID.[m
+[7m Manual page adduser(8) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If  no  home directory is specified, the default home di‐[m
+[7m Manual page adduser(8) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       rectory for a new system user is [4m/nonexistent[24m.  This  di‐[m
+[7m Manual page adduser(8) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       rectory  should never exist on any Debian system, and [1mad‐[0m[m
+[7m Manual page adduser(8) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mduser [22mwill never create it automatically.[m
+[7m Manual page adduser(8) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Unless a shell is explicitly set with the [1m--shell [22moption,[m
+[7m Manual page adduser(8) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the  new  system  user  will  have  the  shell   set   to[m
+[7m Manual page adduser(8) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [4m/usr/sbin/nologin[24m.  [1madduser --system [22mdoes not set a pass‐[m
+[7m Manual page adduser(8) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       word  for  the new account.  Skeletal configuration files[m
+[7m Manual page adduser(8) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       are not copied.[m
+[7m Manual page adduser(8) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Other options will behave as for the creation of a normal[m
+[7m Manual page adduser(8) line 143 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       user.  The files referenced by [1mUID_POOL [22mand  [1mGID_POOL  [22mdo[m
+[7m Manual page adduser(8) line 144 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       also work.[m
+[7m Manual page adduser(8) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K   [1mAdd a group[0m[m
+[7m Manual page adduser(8) line 147 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If  [1madduser [22mis called with the [1m--group [22moption and without[m
+[7m Manual page adduser(8) line 148 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the [1m--system [22moption, or [1maddgroup [22mis called  respectively,[m
+[7m Manual page adduser(8) line 149 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       a user group will be added.[m
+[7m Manual page adduser(8) line 150 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 151 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A  [4mdynamically[24m  [4mallocated[24m [4msystem[24m [4mgroup,[24m often abbreviated[m
+[7m Manual page adduser(8) line 152 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       as [4msystem[24m [4mgroup[24m in the context of  the  [1madduser  [22mpackage,[m
+[7m Manual page adduser(8) line 153 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       will  be  created  if [1madduser [22mis called with the [1m--system[0m[m
+[7m Manual page adduser(8) line 154 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       option.[m
+[7m Manual page adduser(8) line 155 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 156 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A GID will be chosen from the respective range  specified[m
+[7m Manual page adduser(8) line 157 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       for  GIDs in the configuration file ([1mFIRST_GID[22m, [1mLAST_GID[22m,[m
+[7m Manual page adduser(8) line 158 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mFIRST_SYSTEM_GID[22m,  [1mLAST_SYSTEM_GID[22m).   To  override  that[m
+[7m Manual page adduser(8) line 159 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       mechanism, you can give the GID using the [1m--gid [22moption.[m
+[7m Manual page adduser(8) line 160 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 161 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       For non-system groups, the range specified in the config‐[m
+[7m Manual page adduser(8) line 162 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       uration  file  may  be overridden with the [1m--firstgid [22mand[m
+[7m Manual page adduser(8) line 163 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m--lastgid [22moptions.[m
+[7m Manual page adduser(8) line 164 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 165 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The group is created with no members.[m
+[7m Manual page adduser(8) line 166 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB
