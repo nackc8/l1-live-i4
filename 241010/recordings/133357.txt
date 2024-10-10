@@ -1567,4 +1567,41 @@ Retype new password:
 [m
                         chage -E $(date -d +180days +%Y-%m-%d)[m
 [m
-[7m Manual page chage(
+[7m Manual page chage(1) line 31 (press h for help or q to quit)[27m[K[K           Passing the number [4m-1[24m as the [4mEXPIRE_DATE[24m will remove[m
+           an account expiration date.[m
+[m
+       [1m-h[22m, [1m--help[0m[m
+           Display help message and exit.[m
+[m
+       [1m-i[22m, [1m--iso8601[0m[m
+           When printing dates, use YYYY-MM-DD format.[m
+[m
+       [1m-I[22m, [1m--inactive [4m[22mINACTIVE[0m[m
+[7m Manual page chage(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the number of days of inactivity after a password[m
+[7m Manual page chage(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           has expired before the account is locked. The[m
+[7m Manual page chage(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mINACTIVE[24m option is the number of days of inactivity.[m
+[7m Manual page chage(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           A user whose account is locked must contact the[m
+[7m Manual page chage(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system administrator before being able to use the[m
+[7m Manual page chage(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system again.[m
+[7m Manual page chage(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chage(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Passing the number [4m-1[24m as the [4mINACTIVE[24m will remove an[m
+[7m Manual page chage(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           account's inactivity.[m
+[7m Manual page chage(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chage(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-l[22m, [1m--list[0m[m
+[7m Manual page chage(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Show account aging information.[m
+[7m Manual page chage(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chage(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-m[22m, [1m--mindays [4m[22mMIN_DAYS[0m[m
+[7m Manual page chage(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the minimum number of days between password[m
+[7m Manual page chage(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           changes to [4mMIN_DAYS[24m. A value of zero for this field[m
+[7m Manual page chage(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           indicates that the user may change their password at[m
+[7m Manual page chage(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           any time.[m
+[7m Manual page chage(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chage(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-M[22m, [1m--maxdays [4m[22mMAX_DAYS[0m[m
+[7m Manual page chage(1) line 61 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# id
+[?2004luid=0(root) gid=0(root) groups=0(root)
+[?2004h]0;root@ubse: ~root@ubse:~# exit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ id
+[?2004luid=1000(kent) gid=1000(kent) groups=1000(kent),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),101(lxd)
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo +i[K[K-i
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: 

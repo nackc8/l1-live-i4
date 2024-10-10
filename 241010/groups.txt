@@ -33,3 +33,8 @@ passwd -u user10
 chage -d 0 user10
 
 # TODO: -d 1 ????
+
+# Skriv ut info om ditt konto, som grupp och uid gid
+id
+# Se info om annat konto
+id user10
