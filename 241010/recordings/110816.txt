@@ -2804,4 +2804,47 @@ Type [32mhelp(B[m for instructions on how to use fish
 [1m[4m[7m--(B[m[7msize                                       ([33m[3mPrint size of files[30m(B[m[7m)(B[m
 [1m[4m--(B[msort                                             ([33m[3mSort criteria[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--size[30m(B[m [24C[J[24C
 [30m(B[m[?2004l]0;[ubse] ls --size  ~[30m(B[mtotal 0
-[2m⏎(B[m                                                                 ⏎ [K[?2004h]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [K[14Ce[15C[90mxit[30m(B[m[15C[91me[90mxit[30m(B[m[15C[91mx[90mit[30m(B[m[16C[34mex[90mit[30m(B[m[16C[34mui[30m(B[m[18C[91mexui[30m(B[m[18C[91mt[30m(B[m[19C[K[18C[K[17C[K[16C[34mex[30m(B[m[16C[34mi[30m(B[m[17C[90mt[30m(B[m[17C[91mexi[90mt[3
+[2m⏎(B[m                                                                 ⏎ [K[?2004h]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [K[14Ce[15C[90mxit[30m(B[m[15C[91me[90mxit[30m(B[m[15C[91mx[90mit[30m(B[m[16C[34mex[90mit[30m(B[m[16C[34mui[30m(B[m[18C[91mexui[30m(B[m[18C[91mt[30m(B[m[19C[K[18C[K[17C[K[16C[34mex[30m(B[m[16C[34mi[30m(B[m[17C[90mt[30m(B[m[17C[91mexi[90mt[30m(B[m[17C[91mt[30m(B[m[18C[18C[34mexit[30m(B[m[18C[18C
+[30m(B[m[?2004l]0;[ubse] exit ~[30m(B[m[30m(B[m[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ usermodmusermodausermodnusermod usermod
+[?2004l[?1049h[22;0;0t[?1h=[4mUSERMOD[24m(8)         System Management Commands         [4mUSERMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       usermod - modify a user account[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1musermod [22m[[4moptions[24m] [4mLOGIN[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1musermod [22mcommand modifies the system account files.[m
+[m
+[1mOPTIONS[0m[m
+       The options which apply to the [1musermod [22mcommand are:[m
+[7m Manual page usermod(8) line 1 (press h for help or q to quit)[27m[K[K[m
+       [1m-a[22m, [1m--append[0m[m
+           Add the user to the supplementary group(s). Use only[m
+           with the [1m-G [22moption.[m
+[m
+       [1m-b[22m, [1m--badname[0m[m
+           Allow names that do not conform to standards.[m
+[m
+       [1m-c[22m, [1m--comment [4m[22mCOMMENT[0m[m
+           update the comment field of the user in /etc/passwd,[m
+           which is normally modified using the [1mchfn[22m(1) utility.[m
+[m
+       [1m-d[22m, [1m--home [4m[22mHOME_DIR[0m[m
+           The user's new login directory.[m
+[7m Manual page usermod(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The options which apply to the [1musermod [22mcommand are:[m
+[15;1H[K[7m Manual page usermod(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mOPTIONS[0m[m
+[15;1H[K[7m Manual page usermod(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page usermod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The [1musermod [22mcommand modifies the system account files.[m
+[15;1H[K[7m Manual page usermod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           which is normally modified using the [1mchfn[22m(1) utility.[m
+[7m Manual page usermod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The [1musermod [22mcommand modifies the system account files.[m
+[15;1H[K[7m Manual page usermod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           which is normally modified using the [1mchfn[22m(1) utility.[m
+[7m Manual page usermod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The [1musermod [22mcommand modifies the system account files.[m
+[15;1H[K[7m Manual page usermod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[15;1H[K[7m Manual page usermod(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page usermod(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1musermod [22m[[4moptions[24m] [4mLOGIN[0m[m
+[15;1H[K[7m Manual page usermod(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page usermod(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[15;1H[K[7m M
