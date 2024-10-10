@@ -262,4 +262,319 @@ tcpdump:!:19836::::::
 tss:!:19836::::::
 landscape:!:19836::::::
 fwupd-refresh:!*:19836::::::
-usbmux:
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+sshd:!:20003::::::
+bill:!:20005:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[H[2J[Hdhcpcd:!:19836::::::
+messagebus:!:19836::::::
+systemd-resolve:!*:19836::::::
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+sshd:!:20003::::::
+bill:!:20005:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+[7m(END)[27m[K[H[2J[Hdhcpcd:!:19836::::::
+messagebus:!:19836::::::
+systemd-resolve:!*:19836::::::
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+sshd:!:20003::::::
+bill:!:20005:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+[1m~[0m
+[1m~[0m
+[7m(END)[27m[K[H[2J[Hdhcpcd:!:19836::::::
+messagebus:!:19836::::::
+systemd-resolve:!*:19836::::::
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+sshd:!:20003::::::
+bill:!:20005:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# passwd bill
+[?2004lNew password: 
+Retype new password: 
+passwd: password updated successfully
+[?2004h]0;root@ubse: ~root@ubse:~# passwd billless /etc/shadow
+[?2004l[?1049h[22;0;0t[?1h=root:*:19836:0:99999:7:::
+daemon:*:19836:0:99999:7:::
+bin:*:19836:0:99999:7:::
+sys:*:19836:0:99999:7:::
+sync:*:19836:0:99999:7:::
+games:*:19836:0:99999:7:::
+man:*:19836:0:99999:7:::
+lp:*:19836:0:99999:7:::
+mail:*:19836:0:99999:7:::
+news:*:19836:0:99999:7:::
+uucp:*:19836:0:99999:7:::
+proxy:*:19836:0:99999:7:::
+www-data:*:19836:0:99999:7:::
+backup:*:19836:0:99999:7:::
+list:*:19836:0:99999:7:::
+irc:*:19836:0:99999:7:::
+_apt:*:19836:0:99999:7:::
+[7m/etc/shadow[27m[K[Knobody:*:19836:0:99999:7:::
+systemd-network:!*:19836::::::
+systemd-timesync:!*:19836::::::
+dhcpcd:!:19836::::::
+messagebus:!:19836::::::
+systemd-resolve:!*:19836::::::
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+:[K[Ksshd:!:20003::::::
+bill:$y$j9T$/BGW/x3ikUnJaJCVz08TL0$YX3YgQzrWNuHFhRTks.90Uv14M/uWyY BQ0AMAoC8Wh3:20006:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# su[K[Kexit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su bio[Klll[K
+[?2004lPassword: 
+$ ls
+ls: cannot open directory '.': Permission denied
+$ cd
+sh: 2: cd: can't cd to /home/bill
+$ ls  exit
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su billdo -iedit /etc/ssh/sshd_config[C[C[C[C[C[C[C[C[C[C[C[C[Cpwd[Ksudoedit /etc/ssh/sshd_config[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -i[K bill[K(reverse-i-search)`': [Kp': [7mp[27mwda': sudo [7mpa[27msswd -l testuser[1@s': sudo [7mpas[27m[1@s': sudo [7mpass[27madduser --disabled-[7mpass[27mword testuser[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C^C
+[?2004l[?2004h[?2004l
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ syd[K[Kudo bash [K[K[K[K[Kless /etc/passwd
+[?2004l[sudo] password for kent: 
+[?1049h[22;0;0t[?1h=root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+[7m/etc/passwd[27m[K[Knobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:998:998:systemd Network Management:/:/usr/sbin/n ologin
+systemd-timesync:x:997:997:systemd Time Synchronization:/:/usr/sbi n/nologin
+dhcpcd:x:100:65534:DHCP Client Daemon,,,:/usr/lib/dhcpcd:/bin/fals e
+messagebus:x:101:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:992:992:systemd Resolver:/:/usr/sbin/nologin
+pollinate:x:102:1::/var/cache/pollinate:/bin/false
+polkitd:x:991:991:User for polkitd:/:/usr/sbin/nologin
+syslog:x:103:104::/nonexistent:/usr/sbin/nologin
+uuidd:x:104:105::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:105:107::/nonexistent:/usr/sbin/nologin
+tss:x:106:108:TPM software stack,,,:/var/lib/tpm:/bin/false
+landscape:x:107:109::/var/lib/landscape:/usr/sbin/nologin
+fwupd-refresh:x:989:989:Firmware update daemon:/var/lib/fwupd:/usr :[K[K/sbin/nologin
+usbmux:x:108:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+kent:x:1000:1000:Test Testsson:/home/kent:/bin/bash
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+bill:x:1001:1001::/home/bill:/bin/sh
+testuser:x:1002:1002:,,,:/home/testuser:/bin/bash
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo less /etc/passwd[K[K[K[K[K[Kshadow[H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo less /etc/shadow
+[?2004l[?1049h[22;0;0t[?1h=root:*:19836:0:99999:7:::
+daemon:*:19836:0:99999:7:::
+bin:*:19836:0:99999:7:::
+sys:*:19836:0:99999:7:::
+sync:*:19836:0:99999:7:::
+games:*:19836:0:99999:7:::
+man:*:19836:0:99999:7:::
+lp:*:19836:0:99999:7:::
+mail:*:19836:0:99999:7:::
+news:*:19836:0:99999:7:::
+uucp:*:19836:0:99999:7:::
+proxy:*:19836:0:99999:7:::
+www-data:*:19836:0:99999:7:::
+backup:*:19836:0:99999:7:::
+list:*:19836:0:99999:7:::
+irc:*:19836:0:99999:7:::
+_apt:*:19836:0:99999:7:::
+[7m/etc/shadow[27m[K[Knobody:*:19836:0:99999:7:::
+systemd-network:!*:19836::::::
+systemd-timesync:!*:19836::::::
+dhcpcd:!:19836::::::
+messagebus:!:19836::::::
+systemd-resolve:!*:19836::::::
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+:[K[Ksshd:!:20003::::::
+bill:$y$j9T$/BGW/x3ikUnJaJCVz08TL0$YX3YgQzrWNuHFhRTks.90Uv14M/uWyY BQ0AMAoC8Wh3:20006:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo -i
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# p
+[?2004lp: command not found
+[?2004h]0;root@ubse: ~root@ubse:~# pexitp[K[Kpasswd -l [K[K[K[K[K[K[K[K[K[Kman passwd
+[?2004l[?1049h[22;0;0t[?1h=[4mPASSWD[24m(1)                 User Commands                [4mPASSWD[24m(1)[m
+[m
+[1mNAME[0m[m
+       passwd - change user password[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mpasswd [22m[[4moptions[24m] [[4mLOGIN[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mpasswd [22mcommand changes passwords for user accounts. A[m
+       normal user may only change the password for their own[m
+       account, while the superuser may change the password for[m
+       any account.  [1mpasswd [22malso changes the account or[m
+       associated password validity period.[m
+[m
+   [1mPassword Changes[0m[m
+[7m Manual page passwd(1) line 1 (press h for help or q to quit)[27m[K[K       The user is first prompted for their old password, if one[m
+       is present. This password is then encrypted and compared[m
+       against the stored password. The user has only one chance[m
+       to enter the correct password. The superuser is permitted[m
+       to bypass this step so that forgotten passwords may be[m
+       changed.[m
+[m
+       After the password has been entered, password aging[m
+       information is checked to see if the user is permitted to[m
+       change the password at this time. If not, [1mpasswd [22mrefuses[m
+       to change the password and exits.[m
+[m
+       The user is then prompted twice for a replacement[m
+       password. The second entry is compared against the first[m
+       and both are required to match in order for the password[m
+       to be changed.[m
+[m
+[7m Manual page passwd(1) line 18 (press h for help or q to quit)[27m[K[K       Then, the password is tested for complexity. As a general[m
+       guideline, passwords should consist of 6 to 8 characters[m
+       including one or more characters from each of the[m
+       following sets:[m
+[m
+       •   lower case alphabetics[m
+[m
+       •   digits 0 thru 9[m
+[m
+       •   punctuation marks[m
+[m
+       Care must be taken not to include the system default[m
+       erase or kill characters.  [1mpasswd [22mwill reject any[m
+       password which is not suitably complex.[m
+[m
+   [1mHints for user passwords[0m[m
+       The security of a password depends upon the strength of[m
+[7m Manual page passwd(1) line 35 (press h for help or q to quit)[27m[K[K       the encryption algorithm and the size of the key space.[m
+       The legacy [4mUNIX[24m System encryption method is based on the[m
+       NBS DES algorithm. More recent methods are now[m
+       recommended (see [1mENCRYPT_METHOD[22m). The size of the key[m
+       space depends upon the randomness of the password which[m
+       is selected.[m
+[m
+       Compromises in password security normally result from[m
+       careless password selection or handling. For this reason,[m
+       you should not select a password which appears in a[m
+       dictionary or which must be written down. The password[m
+       should also not be a proper name, your license number,[m
+       birth date, or street address. Any of these may be used[m
+       as guesses to violate system security.[m
+[m
+       You can find advice on how to choose a strong password on[m
+       http://en.wikipedia.org/wiki/Password_strength[m
+[7m Manual page passwd(1) line 52 (press h for help or q to quit)[27m[K[K[m
+[1mOPTIONS[0m[m
+       The options which apply to the [1mpasswd [22mcommand are:[m
+[m
+       [1m-a[22m, [1m--all[0m[m
+           This option can be used only with [1m-S [22mand causes show[m
+           status for all users.[m
+[m
+       [1m-d[22m, [1m--delete[0m[m
+           Delete a user's password (make it empty). This is a[m
+           quick way to disable a password for an account. It[m
+           will set the named account passwordless.[m
+[m
+       [1m-e[22m, [1m--expire[0m[m
+           Immediately expire an account's password. This in[m
+           effect can force a user to change their password at[m
+           the user's next login.[m
+[7m Manual page passwd(1) line 69 (press h for help or q to quit)[27m[K[K[m
+       [1m-h[22m, [1m--help[0m[m
+           Display help message and exit.[m
+[m
+       [1m-i[22m, [1m--inactive [4m[22mINACTIVE[0m[m
+           This option is used to disable an account after the[m
+           password has been expired for a number of days. After[m
+           a user account has had an expired password for[m
+           [4mINACTIVE[24m days, the user may no longer sign on to the[m
+           account.[m
+[m
+       [1m-k[22m, [1m--keep-tokens[0m[m
+           Indicate password change should be performed only for[m
+           expired authentication tokens (passwords). The user[m
+           wishes to keep their non-expired tokens as before.[m
+[m
+       [1m-l[22m, [1m--lock[0m[m
+[7m Manual page passwd(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Lock the password of the named account. This option[m
+[7m Manual page passwd(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           disables a password by changing it to a value which[m
+[7m Manual page passwd(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           matches no possible encrypted value (it adds a ´!´ at[m
+[7m Manual page passwd(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the beginning of the password).[m
+[7m Manual page passwd(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Note that this does not disable the account. The user[m
+[7m Manual page passwd(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           may still be able to login using another[m
+[7m Manual page passwd(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           authentication token (e.g. an SSH key). To disable[m
+[7m Manual page passwd(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the account, administrators should use [1musermod[0m[m
+[7m Manual page passwd(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1m--expiredate 1 [22m(this set the account's expire date to[m
+[7m Manual page passwd(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Jan 2, 1970).[m
+[7m Manual page passwd(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Users with a locked password are not allowed to[m
+[7m Manual page passwd(1) line 99 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# paswd[K[Kswd -l bio;[K[Kll
+[?2004lpasswd: password changed.
+[?2004h]0;root@ubse: ~root@ubse:~# (reverse-i-search)`': [Kl': passwd -l bil[7ml[27me': [7mle[27mss /etc/shadow[1@s': [7mles[27m[1@s': [7mless[27m[13P]0;root@ubse: ~root@ubse:~# less
+[?2004l[?1049h[22;0;0t[?1h=root:*:19836:0:99999:7:::
+daemon:*:19836:0:99999:7:::
+bin:*:19836:0:99999:7:::
+sys:*:19836:0:99999:7:::
+sync:*:19836:0:99999:7:::
+games:*:19836:0:99999:7:::
+man:*:19836:0:99999:7:::
+lp:*:19836:0:99999:7:::
+mail:*:19836:0:99999:7:::
+news:*:19836:0:99999
