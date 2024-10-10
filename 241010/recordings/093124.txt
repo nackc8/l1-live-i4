@@ -890,4 +890,239 @@ tss:x:106:108:TPM software stack,,,:/var/lib/tpm:/bin/false
 landscape:x:107:109::/var/lib/landscape:/usr/sbin/nologin
 fwupd-refresh:x:989:989:Firmware update daemon:/var/lib/fwupd:/usr/sbin/nologin
 usbmux:x:108:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
-kent:x:1000:1000:Test Testsson:/ho
+kent:x:1000:1000:Test Testsson:/home/kent:/bin/bash
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+bill:x:1001:1001::/home/bill:/bin/sh
+testuser:x:1002:1002:,,,:/home/testuser:/bin/bash
+[?2004h]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 1
+[?2004lroot
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+_apt
+nobody
+systemd-network
+systemd-timesync
+dhcpcd
+messagebus
+systemd-resolve
+pollinate
+polkitd
+syslog
+uuidd
+tcpdump
+tss
+landscape
+fwupd-refresh
+usbmux
+kent
+sshd
+bill
+testuser
+[?2004h]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 1[K3
+[?2004l0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+13
+33
+34
+38
+39
+42
+65534
+998
+997
+100
+101
+992
+102
+991
+103
+104
+105
+106
+107
+989
+108
+1000
+109
+1001
+1002
+[?2004h]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 3[K4
+[?2004l0
+1
+2
+3
+65534
+60
+12
+7
+8
+9
+10
+13
+33
+34
+38
+39
+65534
+65534
+998
+997
+65534
+102
+992
+1
+991
+104
+105
+107
+108
+109
+989
+46
+1000
+65534
+1001
+1002
+[?2004h]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 4[K5
+[?2004lroot
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+Mailing List Manager
+ircd
+
+nobody
+systemd Network Management
+systemd Time Synchronization
+DHCP Client Daemon,,,
+
+systemd Resolver
+
+User for polkitd
+
+
+
+TPM software stack,,,
+
+Firmware update daemon
+usbmux daemon,,,
+Test Testsson
+
+
+,,,
+[?2004h]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 5[K7
+[?2004l/bin/bash
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/bin/sync
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/bin/false
+/usr/sbin/nologin
+/usr/sbin/nologin
+/bin/false
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/bin/false
+/usr/sbin/nologin
+/usr/sbin/nologin
+/usr/sbin/nologin
+/bin/bash
+/usr/sbin/nologin
+/bin/sh
+/bin/bash
+[?2004h]0;root@ubse: ~root@ubse:~# cat /etc/passwd | cut -d : -f 7 | sort | uniq
+[?2004l/bin/bash
+/bin/false
+/bin/sh
+/bin/sync
+/usr/sbin/nologin
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# man ui[Kniq
+[?2004l[?1049h[22;0;0t[?1h=[4mUNIQ[24m(1)                   User Commands                  [4mUNIQ[24m(1)[m
+[m
+[1mNAME[0m[m
+       uniq - report or omit repeated lines[m
+[m
+[1mSYNOPSIS[0m[m
+       [1muniq [22m[[4mOPTION[24m]... [[4mINPUT[24m [[4mOUTPUT[24m]][m
+[m
+[1mDESCRIPTION[0m[m
+       Filter  adjacent  matching  lines from INPUT (or standard[m
+       input), writing to OUTPUT (or standard output).[m
+[m
+       With no options, matching lines are merged to  the  first[m
+       occurrence.[m
+[m
+       Mandatory  arguments  to  long  options are mandatory for[m
+       short options too.[m
+[7m Manual page uniq(1) line 1 (press h for help or q to quit)[27m[K[K[m
+       [1m-c[22m, [1m--count[0m[m
+              prefix lines by the number of occurrences[m
+[m
+       [1m-d[22m, [1m--repeated[0m[m
+              only print duplicate lines, one for each group[m
+[m
+       [1m-D     [22mprint all duplicate lines[m
+[m
+       [1m--all-repeated[22m[=[4mMETHOD[24m][m
+              like [1m-D[22m, but allow separating groups with an empty[m
+              line; METHOD={none(default),prepend,separate}[m
+[m
+       [1m-f[22m, [1m--skip-fields[22m=[4mN[0m[m
+              avoid comparing the first N fields[m
+[m
+       [1m--group[22m[=[4mMETHOD[24m][m
+[7m Manual page uniq(1) line 18 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# man uniq[37@cat /etc/passwd | cut -d : -f 7 | sort |[C[C[C[C[C -c
+[?2004l      3 /bin/bash
+      3 /bin/false
+      1 /bin/sh
+      1 /bin/sync
+     28 /u
