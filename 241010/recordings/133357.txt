@@ -1,0 +1,85 @@
+Script started on 2024-10-10 13:33:57+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="64" LINES="7"]
+[?2004h
+[34ml1-live/241010[0m [90m241010[38;5;218m*​[36m [0m
+[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [K[35m❯[0m [H[2J
+[34ml1-live/241010[0m [90m241010[38;5;218m*​[36m [0m
+[35m❯[0m man user[K[K[K[Kgroupadd
+[?2004l[?1049h[22;0;0t[?1h=GROUPADD(8)        System Management Commands        GROUPADD(8)[m
+[m
+[1mNAME[0m[m
+       groupadd - create a new group[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgroupadd[0m [[4mOPTIONS[24m] [4mNEWGROUP[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mgroupadd[0m command creates a new group account using[m
+       the values specified on the command line plus the default[m
+       values from the system. The new group will be entered[m
+[7m Manual page groupadd(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+GROUPADD(8)        System Management Commands        GROUPADD(8)[m
+[m
+[1mNAME[0m[m
+       groupadd - create a new group[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgroupadd[0m [[4mOPTIONS[24m] [4mNEWGROUP[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mgroupadd[0m command creates a new group account using[m
+       the values specified on the command line plus the default[m
+       values from the system. The new group will be entered[m
+       into the system files as needed.[m
+[7m Manual page groupadd(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+GROUPADD(8)        System Management Commands        GROUPADD(8)[m
+[m
+[1mNAME[0m[m
+       groupadd - create a new group[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mgroupadd[0m [[4mOPTIONS[24m] [4mNEWGROUP[24m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mgroupadd[0m command creates a new group account using[m
+       the values specified on the command line plus the default[m
+       values from the system. The new group will be entered[m
+       into the system files as needed.[m
+[m
+[7m Manual page groupadd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[K[7m Manual page groupadd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Groupnames may contain only lower and upper case letters,[m
+[7m Manual page groupadd(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       digits, underscores, or dashes. They can end with a[m
+[7m Manual page groupadd(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       dollar sign. Dashes are not allowed at the beginning of[m
+[7m Manual page groupadd(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the groupname. Fully numeric groupnames and groupnames .[m
+[7m Manual page groupadd(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       or .. are also disallowed.[m
+[7m Manual page groupadd(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupadd(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       On Debian, the only constraints are that groupnames must[m
+[7m Manual page groupadd(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       neither start with a dash ('-') nor plus ('+') nor tilde[m
+[7m Manual page groupadd(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ('~') nor contain a colon (':'), a comma (','), or a[m
+[7m Manual page groupadd(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       whitespace (space:' ', end of line: '\n', tabulation:[m
+[7m Manual page groupadd(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       '\t', etc.).[m
+[7m Manual page groupadd(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupadd(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Groupnames may only be up to 32 characters long.[m
+[7m Manual page groupadd(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupadd(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page groupadd(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1mgroupadd[0m command are:[m
+[7m Manual page groupadd(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupadd(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-f[0m, [1m--force[0m[m
+[7m Manual page groupadd(8) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the groupname. Fully numeric groupnames and groupnames .[m
+[15;1H[K[7m Manual page groupadd(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       dollar sign. Dashes are not allowed at the beginning of[m
+[15;1H[K[7m Manual page groupadd(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       digits, underscores, or dashes. They can end with a[m
+[15;1H[K[7m Manual page groupadd(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Groupnames may contain only lower and upper case letters,[m
+[15;1H[K[7m Manual page groupadd(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page groupadd(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       into the system files as needed.[m
+[15;1H[K[7m Manual page groupadd(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       values from the system. The new group will be entered[m
+[15;1H[K[7m Manual page groupadd(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the values specified on the command line plus the default[m
+[15;1H[K[7m Manual page groupadd(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The [1mgroupadd[0m command creates a new group account using[m
+[15;1H[K[7m Manual page groupadd(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[15;1H[K[7m Manual page groupadd(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ('~') nor contain a colon (':'), a comma (','), or a[m
+[7m Manual page groupadd(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       whitespace (space:' ', end of line: '\n', tabulation:[m
+[7m Manual page groupadd(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       '\t', etc.).[m
+[7m Manual page groupadd(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupadd(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Groupnames may only be up to 32 characters long.[m
+[7m Manual page groupadd(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupadd(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page groupadd(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1mgroupadd[0m command are:[m
+[7m Manual page groupadd(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupadd(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KO
