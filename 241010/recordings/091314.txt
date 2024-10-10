@@ -624,4 +624,52 @@ January 2023          version 7.2               [4mNANO[24m(1)[m
 [18;1H[K[7mano(1) line 498/541 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ified on the command line  nor  in  one  of  the[m
 [18;1H[K[7mano(1) line 497/541 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       If no alternative spell checker command is spec‐[m
 [18;1H[K[7mano(1) line 496/541 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
-[18;1H[K[7mano(1) line 495/541 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       add 
+[18;1H[K[7mano(1) line 495/541 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       add [1mbind ^Z suspend main [22mto your nanorc.)[m
+[18;1H[K[7mano(1) line 494/541 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m^T^Z[22m.   (If you want a plain [1m^Z [22mto suspend nano,[m
+[18;1H[K[7mano(1) line 493/541 96% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Suspension is enabled by default, reachable  via[m
+[18;1H[K[7mano(1) line 492/541 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Option  [1m-z  [22m([1m--suspendable[22m)  has  been  removed.[m
+[18;1H[K[7mano(1) line 491/541 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mNOTES[0m[m
+[18;1H[K[7mano(1) line 490/541 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7mano(1) line 489/541 95% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       for available syntax-coloring definitions.[m
+[18;1H[K[7mano(1) line 488/541 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       See [4m/usr/share/nano/[24m and  [4m/usr/share/nano/extra/[0m[m
+[18;1H[K[7mano(1) line 487/541 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7mano(1) line 486/541 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ble contents of those files.[m
+[18;1H[K[7mano(1) line 485/541 94% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       See [1mnanorc[22m(5) for more information on the possi‐[m
+[18;1H[K[7mano(1) line 484/541 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [4mfig/nano/nanorc[24m, whichever is encountered first.[m
+[18;1H[K[7mano(1) line 483/541 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       or   [4m$XDG_CONFIG_HOME/nano/nanorc[24m   or   [4m~/.con‐[0m[m
+[18;1H[K[7mano(1) line 482/541 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       user's [4mnanorc[24m (if it exists),  either  [4m~/.nanorc[0m[m
+[18;1H[K[7mano(1) line 481/541 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       the system's [4mnanorc[24m (if it exists), and then the[m
+[18;1H[K[7mano(1) line 480/541 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mnano  [22mwill  read  two configuration files: first[m
+[18;1H[K[7mano(1) line 479/541 93% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       taxes and key bindings.   Without  that  option,[m
+[18;1H[K[7mano(1) line 478/541 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       specified  file for setting its options and syn‐[m
+[18;1H[K[7mano(1) line 477/541 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       When [1m--rcfile [22mis given, [1mnano [22mwill read just  the[m
+[18;1H[K[7mano(1) line 476/541 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mFILES[0m[m
+[18;1H[K[7mano(1) line 475/541 92% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7mano(1) line 474/541 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       other toggles work in the main menu only.[m
+[18;1H[K[7mano(1) line 473/541 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       except  the  help  viewer  and  the linter.  All[m
+[18;1H[K[7mano(1) line 472/541 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The [1mM-X [22mtoggle is special: it works in all menus[m
+[18;1H[K[7mano(1) line 471/541 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7mano(1) line 470/541 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       end of the [1m^G [22mhelp text for a complete list.[m
+[18;1H[K[7mano(1) line 469/541 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       indentation, and [1mM-X [22mthe help lines.  See at the[m
+[18;1H[K[7mano(1) line 468/541 91% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       line numbers, [1mM-M [22mtoggles the mouse,  [1mM-I  [22mauto-[m
+[18;1H[K[7mano(1) line 467/541 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       lines,  [1mM-S  [22mtoggles  soft-wrapping, [1mM-N [22mtoggles[m
+[18;1H[K[7mano(1) line 466/541 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       ple,  [1mM-L  [22mtoggles  the  hard-wrapping  of  long[m
+[18;1H[K[7mano(1) line 465/541 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       and  off  also while [1mnano [22mis running.  For exam‐[m
+[18;1H[K[7mano(1) line 464/541 90% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       Several of the above options can be switched  on[m
+[18;1H[K[7mano(1) line 463/541 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mTOGGLES[0m[m
+[18;1H[K[7mano(1) line 462/541 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7mano(1) line 461/541 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              With [1mM-X [22mthe help lines.[m
+[18;1H[K[7mano(1) line 460/541 89% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              title bar plus status bar can be toggled.[m
+[18;1H[K[7mano(1) line 459/541 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              or upon the next keystroke.  With [1mM-Z [22mthe[m
+[18;1H[K[7mano(1) line 458/541 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              message, and disappears after 1.5 seconds[m
+[18;1H[K[7mano(1) line 457/541 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              appears  only when there is a significant[m
+[18;1H[K[7mano(1) line 456/541 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              contents of the buffer.  The  status  bar[m
+[18;1H[K[7mano(1) line 455/541 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              all  rows of the terminal for showing the[m
+[18;1H[K[7mano(1) line 454/541 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              bar, status bar, and help lines) and  use[m
+[18;1H[K[7mano(1) line 453/541 88% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Hide all elements of the interface (title[m
+[18;1H[K[7mano(1) line 452/541 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-0[22m, [1m--zero[0m[m
+[18;1H[K[7mano(1) line 451/541 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[18;1H[K[7mano(1) line 450/541 87% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              when [1m--stateflags [22mis used.[m
+[18;1H[K[7mano(1) line 449/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              [1mM-C[22m.   The state flags are displayed only[m
+[18;1H[K[7mano(1) line 448/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              used, and can be toggled on and off  with[m
+[18;1H[K[7mano(1) line 447/541 86% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              displayed  only  
