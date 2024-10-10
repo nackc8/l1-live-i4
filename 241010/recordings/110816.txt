@@ -3503,4 +3503,30 @@ useradd  userdel  usermod  users
 [15;1H[K[7m Manual page userdel(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
 [15;1H[K[7m Manual page userdel(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           Display help message and exit.[m
 [15;1H[K[7m Manual page userdel(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-h[22m, [1m--help[0m[m
-[15;1H[K[7m Manual page userdel(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[H
+[15;1H[K[7m Manual page userdel(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page userdel(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           system in an inconsistent state.[m
+[15;1H[K[7m Manual page userdel(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           [4mNote:[24m This option is dangerous and may leave your[m
+[15;1H[K[7m Manual page userdel(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page userdel(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           another user.[m
+[15;1H[K[7m Manual page userdel(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           be removed, even if it is still the primary group of[m
+[15;1H[K[7m Manual page userdel(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           same name as the deleted user, then this group will[m
+[15;1H[K[7m Manual page userdel(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           in /etc/login.defs and if a group exists with the[m
+[15;1H[K[7m Manual page userdel(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           specified user. If [1mUSERGROUPS_ENAB [22mis defined to [4myes[0m[m
+[15;1H[K[7m Manual page userdel(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           directory or if the mail spool is not owned by the[m
+[15;1H[K[7m Manual page userdel(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           spool, even if another user uses the same home[m
+[15;1H[K[7m Manual page userdel(8) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           [1muserdel [22mto remove the user's home directory and mail[m
+[15;1H[K[7m Manual page userdel(8) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           even if the user is still logged in. It also forces[m
+[15;1H[K[7m Manual page userdel(8) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           This option forces the removal of the user account,[m
+[15;1H[K[7m Manual page userdel(8) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m-f[22m, [1m--force[0m[m
+[15;1H[K[7m Manual page userdel(8) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page userdel(8) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The options which apply to the [1muserdel [22mcommand are:[m
+[15;1H[K[7m Manual page userdel(8) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mOPTIONS[0m[m
+[15;1H[K[7m Manual page userdel(8) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page userdel(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The named user must exist.[m
+[15;1H[K[7m Manual page userdel(8) line 17 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# userdel user
+user1  user2  user3  user4  user5  user6  
+]0;root@ubse: ~root@ubse:~# userdel user2
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# ls -[K/home/
+[?2004l[0m[01;34mkent[0m  [01;34mtestuser[0m  [01;34muser3[0m  [01;34muser4[0m  [01;34muser5[0m  [01;34muser6[0m
+[?2004h]0;root@ubse: ~root@ubse:~# usef[Krdel user4[K3
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# ls[K[Kls /home[K[K[K[K[K[K[K[Kps -u user43[K[K3[K[K[K[K[K[K[K[K[K[K[Kkill -9 73737373[K[K[K[K[K[K[K[K
