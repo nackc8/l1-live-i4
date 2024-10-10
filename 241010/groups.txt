@@ -16,5 +16,5 @@ groupmod -a -U user1 grupp1
 # groupmod -a -U $(echo user{10..14} | tr ' ' ',') grup
 p1
 
-# Kanske funkar? Ger "Segmentation fault"
+# Sätter user13 och user14 på
 groupmod -U user13,user14 grupp1
