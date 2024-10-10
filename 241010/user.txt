@@ -10,3 +10,7 @@ adduser --shell /usr/bin/fish user6
 
 # Se alla grupper med t.ex.
 cat /etc/group | cut -d : -f 1
+
+# lägg till user1 till gruppen staff
+usermod --append -G staff user1
+
