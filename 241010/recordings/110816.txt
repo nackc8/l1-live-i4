@@ -2175,4 +2175,633 @@ Type [32mhelp(B[m for instructions on how to use fish
 [1m[4muser(B[mmod                        ([33m[3mModify a user account[30m(B[m)
 [1m[4muser(B[ms    ([33m[3mPrint the user names of users currently ...[30m(B[m)[A[A[A[A[18Cuseradd [J[22C[34museradd[30m(B[m [22C[K[21C[34m [30m(B[m[22C [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[K[21Cuseradd [22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C[1m[100museradd (B[m[30m[30m(B[m[22C[34museradd[30m(B[m [22C-[23C[36m-[30m(B[m[23C[90mb [30m(B[m[23C[36mm[30m(B[m[K[24C[90mb [30m(B[m[24C[36m [30m(B[m[K[25C [25C-[26C[90mb [30m(B[m[26C[36m-[90mb [30m(B[m[26C[36m-[30m(B[m[K[27C[90mbase-dir [30m(B[m[27C[36m-[30m(B[m[K[28C[K[27C[K[26C[K[25C=[26C[36m=[30m(B[m[26C[36m=[30m(B[m[27C[K[26C[K[25C[K[24C[K[23C[K[22C[K[21C[K[20C[91muserad[30m(B[m[20C[K[19C[K[18C[K[17C[K[16C[K[15C[K[14Cw[15C[34mw[30m(B[m[15C[90m [30m(B[m[15C[34mz[30m(B[m[16C[91mwz[30m(B[m[16C[91mi[30m(B[m[17C[91mtr[30m(B[m[19C
 [30m(B[m[?2004l]0;[ubse] wzitr ~[30m(B[mwzitr: command not found
-[2m⏎(B[m                                                                 ⏎ 
+[2m⏎(B[m                                                                 ⏎ [K[?2004h]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m (B[m[31m[[1m[31m127(B[m[31m](B[m(B[m> [K[20Ce[21C[91me[30m(B[m[21C[90m2freefrag [30m(B[m[21C[91mx[30m(B[m[K[22C[34mex[30m(B[m[22C[90m [30m(B[m[22C[34mi[30m(B[m[23C[91mexi[30m(B[m[23C[90mt [30m(B[m[23C[91mt[90m [30m(B[m[24C[34mexit[90m [30m(B[m[24C[K[24C
+[30m(B[m[?2004l]0;[ubse] exit ~[30m(B[m[30m(B[m[?2004l[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su user6[Ksu user6
+[?2004lPassword: 
+Unable to open the current working directory: Permission denied
+Welcome to fish, the friendly interactive shell
+Type [32mhelp(B[m for instructions on how to use fish
+[?2004h]0;[ubse] /h/kent[30m(B[m[92muser6(B[m@[33mubse(B[m [32m/h/kent(B[m(B[m> [K[20C[H[2J[92muser6(B[m@[33mubse(B[m [32m/h/kent(B[m(B[m> [K[20C]0;[ubse] /h/kent[30m(B[m[92muser6(B[m@[33mubse(B[m [32m/h/kent(B[m(B[m> [K[20Cl[21C[91ml[30m(B[m[21C[90ma [30m(B[m[21C[91ms[30m(B[m[K[22C[34mls[30m(B[m[22C[90m [30m(B[m[22C[K[22C
+[30m(B[m[?2004l]0;[ubse] ls /h/kent[30m(B[mls: cannot open directory '.': Permission denied
+[2m⏎(B[m                                                                 ⏎ [K[?2004h]0;[ubse] /h/kent[30m(B[m[92muser6(B[m@[33mubse(B[m [32m/h/kent(B[m(B[m (B[m[31m[[1m[31m2(B[m[31m](B[m(B[m> [K[24Cc[25C[90md[30m(B[m[25C[91mc[90md[30m(B[m[25C[91md[30m(B[m[26C[26C[34mcd[30m(B[m[26C[K[25C[91mc[30m(B[m[25C[K[24Cc[25C[90md[30m(B[m[25C[91mc[90md[30m(B[m[25C[91md[30m(B[m[26C[26C[34mcd[30m(B[m[26C[26C
+[30m(B[m[?2004l]0;[ubse] cd /h/kent[30m(B[m[2m⏎(B[m                                                                 ⏎ [K[?2004h]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [K[14Cp[15C[91mp[30m(B[m[15C[90mager [30m(B[m[15C[91mw[30m(B[m[K[16C[90mck [30m(B[m[16C[91md[30m(B[m[K[17C[34mpwd[30m(B[m[17C[90m [30m(B[m[17C[K[17C
+[30m(B[m[?2004l]0;[ubse] pwd ~[30m(B[m/home/user6
+[2m⏎(B[m                                                                 ⏎ [K[?2004h]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [K[14Cr[15C[91mr[30m(B[m[15C[90mandom [30m(B[m[15C[K[14Cs[15C[91ms[30m(B[m[15C[90madf [30m(B[m[15C[91mc[30m(B[m[K[16C[90malar [30m(B[m[16C[91mr[30m(B[m[K[17C[90meen [30m(B[m[17C[91mi[30m(B[m[K[18C[90mpt [30m(B[m[18C[91mp[90mt [30m(B[m[19C[91mt[90m [30m(B[m[20C[34mscript[90m [30m(B[m[20C[34mr[30m(B[m[21C[91mscriptr[30m(B[m[21C[90meplay [30m(B[m[21C[91me[90mplay [30m(B[m[22Cscriptreplay [27C[13D[34mscriptreplay[30m(B[m [27C[13D[1m[100mscriptreplay (B[m[30m[30m(B[m[27C[13D[34mscriptreplay[30m(B[m [27C[13D[1m[100mscriptreplay (B[m[30m[30m(B[m[27C[13D[34mscriptreplay[30m(B[m [27C [28C[K[27C[K[26C[12Dscriptreplay [27C[13D[34mscriptreplay[30m(B[m [27C[13D[1m[100mscriptreplay (B[m[30m[30m(B[m[27C[13D[34mscriptreplay[30m(B[m [27C[13D[1m[100mscriptreplay (B[m[30m[30m(B[m[27C[13D[34mscriptreplay[30m(B[m [27C[13D[1m[100mscriptreplay (B[m[30m[30m(B[m[27C[13D[34mscriptreplay[30m(B[m [27C[13D[1m[100mscriptreplay (B[m[30m[30m(B[m[27C[13D[34mscriptreplay[30m(B[m [27C[K[26C[K[25C[11D[91mscriptrepla[30m(B[m[25C[11Dscriptreplay [27C[13D[34mscriptreplay[30m(B[m [27C[13D[1m[100mscriptreplay (B[m[30m[30m(B[m[27C[13D[34mscriptreplay[30m(B[m [27C[K[26C[K[25C[11D[91mscriptrepla[30m(B[m[25C[K[24C[K[23C[K[22C[K[21C[K[20C[34mscript[30m(B[m[20C[K[19C[91mscrip[30m(B[m[19C[K[18C[K[17C[K[16C[K[15C[K[14Cl[15C[90ms[30m(B[m[15C[91ml[90ms[30m(B[m[15C[91ms[30m(B[m[16C[16C[34mls[30m(B[m[16C[34m [30m(B[m[17C [17C-[18C[36m-[30m(B[m[18C[90m1 [30m(B[m[18C[36m-[30m(B[m[K[19C[90mall [30m(B[m[19C
+[1m[4m--(B[mall                                                ([33m[3mShow hidden[30m(B[m)
+[1m[4m--(B[malmost-all                         ([33m[3mShow hidden except . and ..[30m(B[m)
+[1m[4m--(B[mauthor                                            ([33m[3mPrint author[30m(B[m)
+[1m[4m--(B[mblock-size                                      ([33m[3mSet block size[30m(B[m)
+[1m[97m[46m…and 40 more rows(B[m[30m[30m(B[m[A[A[A[A[A[19C]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [34mls[30m(B[m [36m--[90mall [30m(B[m[K
+[1m[4m--(B[mall                                                ([33m[3mShow hidden[30m(B[m)
+[1m[4m--(B[malmost-all                         ([33m[3mShow hidden except . and ..[30m(B[m)
+[1m[4m--(B[mauthor                                            ([33m[3mPrint author[30m(B[m)
+[1m[4m--(B[mblock-size                                      ([33m[3mSet block size[30m(B[m)
+[1m[97m[46m…and 40 more rows(B[m[30m[30m(B[m[K[A[A[A[A[A[19C]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [34mls[30m(B[m [36m--[90mall [30m(B[m[K
+[1m[4m--(B[mall                                                ([33m[3mShow hidden[30m(B[m)
+[1m[4m--(B[malmost-all                         ([33m[3mShow hidden except . and ..[30m(B[m)
+[1m[4m--(B[mauthor                                            ([33m[3mPrint author[30m(B[m)
+[1m[4m--(B[mblock-size                                      ([33m[3mSet block size[30m(B[m)
+[1m[4m--(B[mclassify                    ([33m[3mAppend filetype indicator (*/=>@|)[30m(B[m)
+[1m[97m[46m…and 39 more rows(B[m[30m[30m(B[m[K[A[A[A[A[A[A[19C]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [34mls[30m(B[m [36m--[90mall [30m(B[m[K
+[1m[4m--(B[mall                                                ([33m[3mShow hidden[30m(B[m)
+[1m[4m--(B[malmost-all                         ([33m[3mShow hidden except . and ..[30m(B[m)
+[1m[4m--(B[mauthor                                            ([33m[3mPrint author[30m(B[m)
+[1m[4m--(B[mblock-size                                      ([33m[3mSet block size[30m(B[m)
+[1m[4m--(B[mclassify                    ([33m[3mAppend filetype indicator (*/=>@|)[30m(B[m)
+[1m[97m[46m…and 39 more rows(B[m[30m[30m(B[m[K[A[A[A[A[A[A[19C]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [34mls[30m(B[m [36m--[90mall [30m(B[m[K
+[1m[4m--(B[mall                                                ([33m[3mShow hidden[30m(B[m)
+[1m[4m--(B[malmost-all                         ([33m[3mShow hidden except . and ..[30m(B[m)
+[1m[4m--(B[mauthor                                            ([33m[3mPrint author[30m(B[m)
+[1m[4m--(B[mblock-size                                      ([33m[3mSet block size[30m(B[m)
+[1m[4m--(B[mclassify                    ([33m[3mAppend filetype indicator (*/=>@|)[30m(B[m)
+[1m[4m--(B[mcolor                                               ([33m[3mUse colors[30m(B[m)
+[1m[97m[46m…and 38 more rows(B[m[30m[30m(B[m[K[A[A[A[A[A[A[A[19C]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [34mls[30m(B[m [36m--[90mall [30m(B[m[K
+[1m[4m--(B[mall                                                ([33m[3mShow hidden[30m(B[m)
+[1m[4m--(B[malmost-all                         ([33m[3mShow hidden except . and ..[30m(B[m)
+[1m[4m--(B[mauthor                                            ([33m[3mPrint author[30m(B[m)
+[1m[4m--(B[mblock-size                                      ([33m[3mSet block size[30m(B[m)
+[1m[4m--(B[mclassify                    ([33m[3mAppend filetype indicator (*/=>@|)[30m(B[m)
+[1m[4m--(B[mcolor                                               ([33m[3mUse colors[30m(B[m)
+[1m[97m[46m…and 38 more rows(B[m[30m[30m(B[m[K[A[A[A[A[A[A[A[19C]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [34mls[30m(B[m [36m--[90mall [30m(B[m[K
+[1m[4m--(B[mall                                                ([33m[3mShow hidden[30m(B[m)
+[1m[4m--(B[malmost-all                         ([33m[3mShow hidden except . and ..[30m(B[m)
+[1m[4m--(B[mauthor                                            ([33m[3mPrint author[30m(B[m)
+[1m[4m--(B[mblock-size                                      ([33m[3mSet block size[30m(B[m)
+[1m[4m--(B[mclassify                    ([33m[3mAppend filetype indicator (*/=>@|)[30m(B[m)
+[1m[4m--(B[mcolor                                               ([33m[3mUse colors[30m(B[m)
+[1m[4m--(B[mcolor=                                              ([33m[3mUse colors[30m(B[m)
+[1m[4m--(B[mcontext   ([33m[3mDisplay security context so it fits on most displays[30m(B[m)
+[1m[97m[46m…and 36 more rows(B[m[30m[30m(B[m[K[A[A[A[A[A[A[A[A[A[19C[19C
+
+
+
+
+
+
+
+
+[1m[4m--(B[mdereference                                    ([33m[3mFollow symlinks[30m(B[m)
+[1m[4m--(B[mdereference-command-line                       ([33m[3mFollow symlinks[30m(B[m)
+[1m[4m--(B[mdereference-command-line-symlink-to-dir                         
+[1m[4m--(B[mdirectory                  ([33m[3mList directories, not their content[30m(B[m)
+[1m[4m--(B[mdired                                    ([33m[3mGenerate dired output[30m(B[m)
+[1m[4m--(B[mescape                ([33m[3mOctal escapes for non-graphic characters[30m(B[m)
+[1m[4m--(B[mfile-type                            ([33m[3mAppend filetype indicator[30m(B[m)
+[1m[4m--(B[mformat                                             ([33m[3mList format[30m(B[m)
+[1m[97m[46mrows 1 to 16 of 44(B[m[30m[30m(B[m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[19Cls --width 
+[C[Cno-group                         ([33m[3mDon't print group information[30m(B[m)
+[C[Cnumeric-uid-gid             ([33m[3mLong format, numeric UIDs and GIDs[30m(B[m)
+[C[Cquote-name                             ([33m[3mEnclose entry in quotes[30m(B[m)
+[C[Cquoting-style                             ([33m[3mSelect quoting style[30m(B[m)
+[C[Crecursive                        ([33m[3mList subdirectory recursively[30m(B[m)
+[C[Creverse                                     ([33m[3mReverse sort order[30m(B[m)
+[C[Cscontext           ([33m[3mDisplay only security context and file name[30m(B[m)
+[C[Cshow-control-chars        ([33m[3mNon-graphic characters printed as-is[30m(B[m)
+[C[Csi                        ([33m[3mHuman readable sizes, powers of 1000[30m(B[m)
+[C[Csize                                       ([33m[3mPrint size of files[30m(B[m)
+[C[Csort                                             ([33m[3mSort criteria[30m(B[m)
+[C[Ctabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m)
+[C[Ctime                                            ([33m[3mShow time type[30m(B[m)
+[C[Ctime-style                                   ([33m[3mSelect time style[30m(B[m)
+[C[Cversion                               ([33m[3mDisplay version and exit[30m(B[m)
+[1m[4m[7m--(B[m[7mwidth                                      ([33m[3mAssume screen width[30m(B[m[7m)(B[m
+[5C[1m[97m[46m29 to 44 of 44(B[m[30m[30m(B[m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[25C[11D[34mls[30m(B[m [36m--width[30m(B[m [25C[11Dls --version 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mversion                               ([33m[3mDisplay version and exit[30m(B[m[7m)(B[m
+[1m[4m--(B[mwidth                                      ([33m[3mAssume screen width[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[27C[13D[34mls[30m(B[m [36m--version[30m(B[m [27C[13Dls --time-style 
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mtime-style                                   ([33m[3mSelect time style[30m(B[m[7m)(B[m
+[1m[4m--(B[mversion                               ([33m[3mDisplay version and exit[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[30C[90mfull-iso [30m(B[m[30C[16D[34mls[30m(B[m [36m--time-style[30m(B[m [90mfull-iso [30m(B[m[30C[16Dls --time [K
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mtime                                            ([33m[3mShow time type[30m(B[m[7m)(B[m
+[1m[4m--(B[mtime-style                                   ([33m[3mSelect time style[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--time[30m(B[m [24C[90maccess [30m(B[m[24C[10Dls --tabsize [K
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m[7m)(B[m
+[1m[4m--(B[mtime                                            ([33m[3mShow time type[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[27C[13D[34mls[30m(B[m [36m--tabsize[30m(B[m [27C[90m1 [30m(B[m[27C[13Dls --sort [K
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7msort                                             ([33m[3mSort criteria[30m(B[m[7m)(B[m
+[1m[4m--(B[mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--sort[30m(B[m [24C[90maccess [30m(B[m[24C[10Dls --size [K
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7msize                                       ([33m[3mPrint size of files[30m(B[m[7m)(B[m
+[1m[4m--(B[msort                                             ([33m[3mSort criteria[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--size[30m(B[m [24C[10Dls --si [K
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7msi                        ([33m[3mHuman readable sizes, powers of 1000[30m(B[m[7m)(B[m
+[1m[4m--(B[msize                                       ([33m[3mPrint size of files[30m(B[m)[A[A[A[A[A[A[A[A[A[A[22C[34mls[30m(B[m [36m--si[30m(B[m [22Cls --show-control-chars 
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mshow-control-chars        ([33m[3mNon-graphic characters printed as-is[30m(B[m[7m)(B[m
+[1m[4m--(B[msi                        ([33m[3mHuman readable sizes, powers of 1000[30m(B[m)[A[A[A[A[A[A[A[A[A[38C[24D[34mls[30m(B[m [36m--show-control-chars[30m(B[m [38C[24Dls --scontext [K
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mscontext           ([33m[3mDisplay only security context and file name[30m(B[m[7m)(B[m
+[1m[4m--(B[mshow-control-chars        ([33m[3mNon-graphic characters printed as-is[30m(B[m)[A[A[A[A[A[A[A[A[28C[14D[34mls[30m(B[m [36m--scontext[30m(B[m [28C[14Dls --reverse [K
+
+
+
+
+
+[1m[4m[7m--(B[m[7mreverse                                     ([33m[3mReverse sort order[30m(B[m[7m)(B[m
+[1m[4m--(B[mscontext           ([33m[3mDisplay only security context and file name[30m(B[m)[A[A[A[A[A[A[A[27C[13D[34mls[30m(B[m [36m--reverse[30m(B[m [27C[13Dls --recursive 
+
+
+
+
+[1m[4m[7m--(B[m[7mrecursive                        ([33m[3mList subdirectory recursively[30m(B[m[7m)(B[m
+[1m[4m--(B[mreverse                                     ([33m[3mReverse sort order[30m(B[m)[A[A[A[A[A[A[29C[15D[34mls[30m(B[m [36m--recursive[30m(B[m [29C[15Dls --quoting-style 
+
+
+
+[1m[4m[7m--(B[m[7mquoting-style                             ([33m[3mSelect quoting style[30m(B[m[7m)(B[m
+[1m[4m--(B[mrecursive                        ([33m[3mList subdirectory recursively[30m(B[m)[A[A[A[A[A[33C[90mc [30m(B[m[33C[19D[34mls[30m(B[m [36m--quoting-style[30m(B[m [90mc [30m(B[m[33C[19Dls --quote-name [K
+
+
+[1m[4m[7m--(B[m[7mquote-name                             ([33m[3mEnclose entry in quotes[30m(B[m[7m)(B[m
+[1m[4m--(B[mquoting-style                             ([33m[3mSelect quoting style[30m(B[m)[A[A[A[A[30C[16D[34mls[30m(B[m [36m--quote-name[30m(B[m [30C[16Dls --numeric-uid-gid 
+
+[1m[4m[7m--(B[m[7mnumeric-uid-gid             ([33m[3mLong format, numeric UIDs and GIDs[30m(B[m[7m)(B[m
+[1m[4m--(B[mquote-name                             ([33m[3mEnclose entry in quotes[30m(B[m)[A[A[A[35C[21D[34mls[30m(B[m [36m--numeric-uid-gid[30m(B[m [35C[21Dls --quote-name [K
+
+[1m[4m--(B[mnumeric-uid-gid             ([33m[3mLong format, numeric UIDs and GIDs[30m(B[m)
+[1m[4m[7m--(B[m[7mquote-name                             ([33m[3mEnclose entry in quotes[30m(B[m[7m)(B[m[A[A[A[30C[16D[34mls[30m(B[m [36m--quote-name[30m(B[m [30C[16Dls --quoting-style 
+
+
+[1m[4m--(B[mquote-name                             ([33m[3mEnclose entry in quotes[30m(B[m)
+[1m[4m[7m--(B[m[7mquoting-style                             ([33m[3mSelect quoting style[30m(B[m[7m)(B[m[A[A[A[A[33C[90mc [30m(B[m[33C[19D[34mls[30m(B[m [36m--quoting-style[30m(B[m [90mc [30m(B[m[33C[19Dls --recursive [K
+
+
+
+[1m[4m--(B[mquoting-style                             ([33m[3mSelect quoting style[30m(B[m)
+[1m[4m[7m--(B[m[7mrecursive                        ([33m[3mList subdirectory recursively[30m(B[m[7m)(B[m[A[A[A[A[A[29C[15D[34mls[30m(B[m [36m--recursive[30m(B[m [29C[15Dls --reverse [K
+
+
+
+
+[1m[4m--(B[mrecursive                        ([33m[3mList subdirectory recursively[30m(B[m)
+[1m[4m[7m--(B[m[7mreverse                                     ([33m[3mReverse sort order[30m(B[m[7m)(B[m[A[A[A[A[A[A[27C[13D[34mls[30m(B[m [36m--reverse[30m(B[m [27C[13Dls --scontext 
+
+
+
+
+
+[1m[4m--(B[mreverse                                     ([33m[3mReverse sort order[30m(B[m)
+[1m[4m[7m--(B[m[7mscontext           ([33m[3mDisplay only security context and file name[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[28C[14D[34mls[30m(B[m [36m--scontext[30m(B[m [28C[14Dls --show-control-chars 
+
+
+
+
+
+
+[1m[4m--(B[mscontext           ([33m[3mDisplay only security context and file name[30m(B[m)
+[1m[4m[7m--(B[m[7mshow-control-chars        ([33m[3mNon-graphic characters printed as-is[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[38C[24D[34mls[30m(B[m [36m--show-control-chars[30m(B[m [38C[24Dls --si [K
+
+
+
+
+
+
+
+[1m[4m--(B[mshow-control-chars        ([33m[3mNon-graphic characters printed as-is[30m(B[m)
+[1m[4m[7m--(B[m[7msi                        ([33m[3mHuman readable sizes, powers of 1000[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[22C[34mls[30m(B[m [36m--si[30m(B[m [22Cls --size 
+
+
+
+
+
+
+
+
+[1m[4m--(B[msi                        ([33m[3mHuman readable sizes, powers of 1000[30m(B[m)
+[1m[4m[7m--(B[m[7msize                                       ([33m[3mPrint size of files[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--size[30m(B[m [24C[10Dls --sort 
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[msize                                       ([33m[3mPrint size of files[30m(B[m)
+[1m[4m[7m--(B[m[7msort                                             ([33m[3mSort criteria[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--sort[30m(B[m [24C[90maccess [30m(B[m[24C[10Dls --tabsize [K
+
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[msort                                             ([33m[3mSort criteria[30m(B[m)
+[1m[4m[7m--(B[m[7mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[A[27C[90m1 [30m(B[m[27C[13D[34mls[30m(B[m [36m--tabsize[30m(B[m [90m1 [30m(B[m[27C[13Dls --time [K
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m)
+[1m[4m[7m--(B[m[7mtime                                            ([33m[3mShow time type[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[A[A[24C[90maccess [30m(B[m[24C[10D[34mls[30m(B[m [36m--time[30m(B[m [90maccess [30m(B[m[24C[10Dls --time-style [K
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[mtime                                            ([33m[3mShow time type[30m(B[m)
+[1m[4m[7m--(B[m[7mtime-style                                   ([33m[3mSelect time style[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[30C[90mfull-iso [30m(B[m[30C[16D[34mls[30m(B[m [36m--time-style[30m(B[m [90mfull-iso [30m(B[m[30C[16Dls --time [K
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mtime                                            ([33m[3mShow time type[30m(B[m[7m)(B[m
+[1m[4m--(B[mtime-style                                   ([33m[3mSelect time style[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[A[24C[90maccess [30m(B[m[24C[10D[34mls[30m(B[m [36m--time[30m(B[m [90maccess [30m(B[m[24C[10Dls --tabsize [K
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m[7m)(B[m
+[1m[4m--(B[mtime                                            ([33m[3mShow time type[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[27C[90m1 [30m(B[m[27C[13D[34mls[30m(B[m [36m--tabsize[30m(B[m [90m1 [30m(B[m[27C[13Dls --sort [K
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7msort                                             ([33m[3mSort criteria[30m(B[m[7m)(B[m
+[1m[4m--(B[mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--sort[30m(B[m [24C[90maccess [30m(B[m[24C[10Dls --size [K
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7msize                                       ([33m[3mPrint size of files[30m(B[m[7m)(B[m
+[1m[4m--(B[msort                                             ([33m[3mSort criteria[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--size[30m(B[m [24C[10Dls --si [K
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7msi                        ([33m[3mHuman readable sizes, powers of 1000[30m(B[m[7m)(B[m
+[1m[4m--(B[msize                                       ([33m[3mPrint size of files[30m(B[m)[A[A[A[A[A[A[A[A[A[A[22C[34mls[30m(B[m [36m--si[30m(B[m [22Cls --show-control-chars 
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mshow-control-chars        ([33m[3mNon-graphic characters printed as-is[30m(B[m[7m)(B[m
+[1m[4m--(B[msi                        ([33m[3mHuman readable sizes, powers of 1000[30m(B[m)[A[A[A[A[A[A[A[A[A[38C[24D[34mls[30m(B[m [36m--show-control-chars[30m(B[m [38C[24Dls --scontext [K
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mscontext           ([33m[3mDisplay only security context and file name[30m(B[m[7m)(B[m
+[1m[4m--(B[mshow-control-chars        ([33m[3mNon-graphic characters printed as-is[30m(B[m)[A[A[A[A[A[A[A[A[28C[14D[34mls[30m(B[m [36m--scontext[30m(B[m [28C[14Dls --reverse [K
+
+
+
+
+
+[1m[4m[7m--(B[m[7mreverse                                     ([33m[3mReverse sort order[30m(B[m[7m)(B[m
+[1m[4m--(B[mscontext           ([33m[3mDisplay only security context and file name[30m(B[m)[A[A[A[A[A[A[A[27C[13D[34mls[30m(B[m [36m--reverse[30m(B[m [27C[13Dls --recursive 
+
+
+
+
+[1m[4m[7m--(B[m[7mrecursive                        ([33m[3mList subdirectory recursively[30m(B[m[7m)(B[m
+[1m[4m--(B[mreverse                                     ([33m[3mReverse sort order[30m(B[m)[A[A[A[A[A[A[29C[15D[34mls[30m(B[m [36m--recursive[30m(B[m [29C[15Dls --quoting-style 
+
+
+
+[1m[4m[7m--(B[m[7mquoting-style                             ([33m[3mSelect quoting style[30m(B[m[7m)(B[m
+[1m[4m--(B[mrecursive                        ([33m[3mList subdirectory recursively[30m(B[m)[A[A[A[A[A[33C[90mc [30m(B[m[33C[19D[34mls[30m(B[m [36m--quoting-style[30m(B[m [90mc [30m(B[m[33C[19Dls --recursive [K
+
+
+
+[1m[4m--(B[mquoting-style                             ([33m[3mSelect quoting style[30m(B[m)
+[1m[4m[7m--(B[m[7mrecursive                        ([33m[3mList subdirectory recursively[30m(B[m[7m)(B[m[A[A[A[A[A[29C[15D[34mls[30m(B[m [36m--recursive[30m(B[m [29C[15Dls --reverse [K
+
+
+
+
+[1m[4m--(B[mrecursive                        ([33m[3mList subdirectory recursively[30m(B[m)
+[1m[4m[7m--(B[m[7mreverse                                     ([33m[3mReverse sort order[30m(B[m[7m)(B[m[A[A[A[A[A[A[27C[13D[34mls[30m(B[m [36m--reverse[30m(B[m [27C[13Dls --scontext 
+
+
+
+
+
+[1m[4m--(B[mreverse                                     ([33m[3mReverse sort order[30m(B[m)
+[1m[4m[7m--(B[m[7mscontext           ([33m[3mDisplay only security context and file name[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[28C[14D[34mls[30m(B[m [36m--scontext[30m(B[m [28C[14Dls --show-control-chars 
+
+
+
+
+
+
+[1m[4m--(B[mscontext           ([33m[3mDisplay only security context and file name[30m(B[m)
+[1m[4m[7m--(B[m[7mshow-control-chars        ([33m[3mNon-graphic characters printed as-is[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[38C[24D[34mls[30m(B[m [36m--show-control-chars[30m(B[m [38C[24Dls --si [K
+
+
+
+
+
+
+
+[1m[4m--(B[mshow-control-chars        ([33m[3mNon-graphic characters printed as-is[30m(B[m)
+[1m[4m[7m--(B[m[7msi                        ([33m[3mHuman readable sizes, powers of 1000[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[22C[34mls[30m(B[m [36m--si[30m(B[m [22Cls --size 
+
+
+
+
+
+
+
+
+[1m[4m--(B[msi                        ([33m[3mHuman readable sizes, powers of 1000[30m(B[m)
+[1m[4m[7m--(B[m[7msize                                       ([33m[3mPrint size of files[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--size[30m(B[m [24C[10Dls --sort 
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[msize                                       ([33m[3mPrint size of files[30m(B[m)
+[1m[4m[7m--(B[m[7msort                                             ([33m[3mSort criteria[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[24C[90maccess [30m(B[m[24C[10D[34mls[30m(B[m [36m--sort[30m(B[m [90maccess [30m(B[m[24C[10Dls --tabsize [K
+
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[msort                                             ([33m[3mSort criteria[30m(B[m)
+[1m[4m[7m--(B[m[7mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[A[27C[90m1 [30m(B[m[27C[13D[34mls[30m(B[m [36m--tabsize[30m(B[m [90m1 [30m(B[m[27C[13Dls --time [K
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m)
+[1m[4m[7m--(B[m[7mtime                                            ([33m[3mShow time type[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--time[30m(B[m [24C[90maccess [30m(B[m[24C[10Dls --time-style [K
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[mtime                                            ([33m[3mShow time type[30m(B[m)
+[1m[4m[7m--(B[m[7mtime-style                                   ([33m[3mSelect time style[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[30C[16D[34mls[30m(B[m [36m--time-style[30m(B[m [30C[90mfull-iso [30m(B[m[30C[16Dls --version [K
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[mtime-style                                   ([33m[3mSelect time style[30m(B[m)
+[1m[4m[7m--(B[m[7mversion                               ([33m[3mDisplay version and exit[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[27C[13D[34mls[30m(B[m [36m--version[30m(B[m [27C[13Dls --width [K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m--(B[mversion                               ([33m[3mDisplay version and exit[30m(B[m)
+[1m[4m[7m--(B[m[7mwidth                                      ([33m[3mAssume screen width[30m(B[m[7m)(B[m[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[25C[11D[34mls[30m(B[m [36m--width[30m(B[m [25C[11Dls --version 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mversion                               ([33m[3mDisplay version and exit[30m(B[m[7m)(B[m
+[1m[4m--(B[mwidth                                      ([33m[3mAssume screen width[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[27C[13D[34mls[30m(B[m [36m--version[30m(B[m [27C[13Dls --time-style 
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mtime-style                                   ([33m[3mSelect time style[30m(B[m[7m)(B[m
+[1m[4m--(B[mversion                               ([33m[3mDisplay version and exit[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[30C[90mfull-iso [30m(B[m[30C[16D[34mls[30m(B[m [36m--time-style[30m(B[m [90mfull-iso [30m(B[m[30C[16Dls --time [K
+
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mtime                                            ([33m[3mShow time type[30m(B[m[7m)(B[m
+[1m[4m--(B[mtime-style                                   ([33m[3mSelect time style[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--time[30m(B[m [24C[90maccess [30m(B[m[24C[10Dls --tabsize [K
+
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m[7m)(B[m
+[1m[4m--(B[mtime                                            ([33m[3mShow time type[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[A[27C[13D[34mls[30m(B[m [36m--tabsize[30m(B[m [27C[90m1 [30m(B[m[27C[13Dls --sort [K
+
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7msort                                             ([33m[3mSort criteria[30m(B[m[7m)(B[m
+[1m[4m--(B[mtabsize                          ([33m[3mAssume tab stops at each COLS[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--sort[30m(B[m [24C[90maccess [30m(B[m[24C[10Dls --size [K
+
+
+
+
+
+
+
+
+
+[1m[4m[7m--(B[m[7msize                                       ([33m[3mPrint size of files[30m(B[m[7m)(B[m
+[1m[4m--(B[msort                                             ([33m[3mSort criteria[30m(B[m)[A[A[A[A[A[A[A[A[A[A[A[24C[10D[34mls[30m(B[m [36m--size[30m(B[m [24C[J[24C
+[30m(B[m[?2004l]0;[ubse] ls --size  ~[30m(B[mtotal 0
+[2m⏎(B[m                                                                 ⏎ [K[?2004h]0;[ubse] ~[30m(B[m[92muser6(B[m@[33mubse(B[m [32m~(B[m(B[m> [K[14Ce[15C[90mxit[30m(B[m[15C[91me[90mxit[30m(B[m[15C[91mx[90mit[30m(B[m[16C[34mex[90mit[30m(B[m[16C[34mui[30m(B[m[18C[91mexui[30m(B[m[18C[91mt[30m(B[m[19C[K[18C[K[17C[K[16C[34mex[30m(B[m[16C[34mi[30m(B[m[17C[90mt[30m(B[m[17C[91mexi[90mt[3
