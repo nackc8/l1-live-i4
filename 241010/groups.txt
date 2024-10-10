@@ -7,4 +7,11 @@ groupadd grupp2 -U user5
 # Skapa grupp3 med två användare på en gång
 groupadd grupp3 -U user5,user6
 
+# groupadd -a -U user1 skulle lägga in den direkt, men detta
+# kommando lägger in användaren till en befintligt grupp
 groupmod -a -U user1 grupp1
+
+# Uber-komplext exempel med en brace expansion i en pipeline
+# i en command substitution.
+# groupmod -a -U $(echo user{10..14} | tr ' ' ',') grup
+p1
