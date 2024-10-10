@@ -15,3 +15,6 @@ groupmod -a -U user1 grupp1
 # i en command substitution.
 # groupmod -a -U $(echo user{10..14} | tr ' ' ',') grup
 p1
+
+# Kanske funkar? Ger "Segmentation fault"
+groupmod -U user13,user14 grupp1
