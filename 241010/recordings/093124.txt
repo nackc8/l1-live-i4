@@ -713,4 +713,118 @@ kmem:x:15:
 dialout:x:20:
 fax:x:21:
 voice:x:22:
-:[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[Hroot:x:0:
+:[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[Hroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,kent
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+:[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# less /etc/group[1P/etc/group[1P/etc/group[1P/etc/group[1P/etc/group[1P/etc/group
+[?2004l-bash: /etc/group: Permission denied
+[?2004h]0;root@ubse: ~root@ubse:~# /etc/groupless /etc/group
+[?2004l[?1049h[22;0;0t[?1h=root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,kent
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+[7m/etc/group[27m[K[K [KESCESC[KOO[KBB[Kcdrom:x:24:kent
+:[K[K [KESCESC[KOO[KBB[Kfloppy:x:25:
+:[K[K [KESCESC[KOO[KBB[Ktape:x:26:
+:[K[K [KESCESC[KOO[KBB[Ksudo:x:27:kent
+:[K[K [KESCESC[KOO[KBB[Kaudio:x:29:
+:[K[K [KESCESC[KOO[KBB[Kdip:x:30:kent
+:[K[K [KESCESC[KOO[KBB[Kwww-data:x:33:
+:[K[K [KESCESC[KOO[KBB[Kbackup:x:34:
+:[K[Koperator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:kent
+staff:x:50:
+games:x:60:
+users:x:100:testuser
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+systemd-timesync:x:997:
+input:x:996:
+:[K[Ksgx:x:995:
+kvm:x:994:
+render:x:993:
+lxd:x:101:kent
+messagebus:x:102:
+systemd-resolve:x:992:
+_ssh:x:103:
+polkitd:x:991:
+crontab:x:990:
+syslog:x:104:
+uuidd:x:105:
+rdma:x:106:
+tcpdump:x:107:
+tss:x:108:
+landscape:x:109:
+fwupd-refresh:x:989:
+kent:x:1000:
+:[K[Kbill:x:1001:
+testuser:x:1002:
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HMkvm:x:994:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMsgx:x:995:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMinput:x:996:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMsystemd-timesync:x:997:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMsystemd-network:x:998:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMsystemd-journal:x:999:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMnogroup:x:65534:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMusers:x:100:testuser
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMgames:x:60:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMstaff:x:50:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMplugdev:x:46:kent
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMsasl:x:45:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMvideo:x:44:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMutmp:x:43:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMshadow:x:42:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMsrc:x:40:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMirc:x:39:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMlist:x:38:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMoperator:x:37:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMbackup:x:34:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMwww-data:x:33:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMdip:x:30:kent
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMaudio:x:29:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMsudo:x:27:kent
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMtape:x:26:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMfloppy:x:25:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMcdrom:x:24:kent
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMvoice:x:22:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMfax:x:21:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMdialout:x:20:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMkmem:x:15:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMproxy:x:13:
+[18;1H[K:[K[K [KESCESC[KOO[KAA[K[HMman:x:12:
+[18;1H[K:[K[K [K
