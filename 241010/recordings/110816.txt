@@ -1537,4 +1537,255 @@ Preparing to unpack .../7-lynx_2.9.0rel.0-2build2_amd64.deb ...
 7[9;0f[42m[30mProgress: [ 95%][49m[39m [#########################################...] 87[9;0f[42m[30mProgress: [ 97%][49m[39m [##########################################..] 8Processing triggers for man-db (2.12.0-4build2) ...
 Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
 
-7[0;9r8[1A[JScanning processes... [                                          ]Scanning processes... [                                          ]Scanning processes... [                                          ]Scanning processes... [=                                         ]Scanning processes... [=                                         ]Scanning processes... [=                                         ]Scanning processes... [==                                        ]Scanning processes... [==                                        ]Scanning processes... [==                                        ]Scanning processes... [===                                       ]Scanning processes... [===                                       ]Scanning processes... [===                                       ]Scanning processes... [====                                      ]Scanning processes... [====                                      ]Scanning processes... [====                                      ]Scanning processes... [=====                                     ]Scanning processes... [=====                                     ]Scanning processes... [======                                    ]Scanning processes... [======                                    ]Scanning processes... [======                                    ]Scanning processes... [=======                                   ]Scanning processes... [=======                                   ]Scanning processes... [=======                                   ]Scanning processes... [========                                  ]Scanning processes... [========                                  ]Scanning processes... [========                                  ]Scanning processes... [=========                                 ]Scanning processes... [=========                                 ]Scanning processes... [=========                                 ]Scanning processes... [==========                                ]Scanning processes... [==========                                ]Scanning processes... [===========                               ]Scanning processes... [===========                               ]Scanning processes... [===========                               ]Scanning processes... [============                              ]Scanning processes... [============                              ]Scanning processes... [============                              ]Scanning processes... [=============                             ]Scanning processes... [=============                             ]Scanning processes... [=============                             ]Scanning processes... [==============                            ]Scanning processes... [==============                            ]Scanning processes... [==============                            ]Scanning processes... [===============                           ]Scanning processes... [===============                           ]Scanning processes... [================                          ]Scanning processes... [================                          ]Scanning processes... [================                          ]Scanning processes... [=================                         ]Scanning processes... [=================                         ]Scanning processes... [=================                         ]Scanning processes... [==================                        ]Scanning processes... [==================                        ]Scanning processes... [==================                        ]Scanning processes... [===================                       ]Scanning processes... [===================                       ]Scanning processes... [===================                       ]Scanning processes... [====================                      ]Scanning processes... [====================                      ]Scanning processes... [=====================                     ]Scanning processes... [=====================                     ]Scanning processes... [=====================                     ]Scanning processes... [======================                    ]Scanning processes... [======================                    ]Scanning processes... [======================                    ]Scanning processes... [=======================                   ]Scanning processes... [=======================                   ]Scanning processes... [=======================                   ]Scanning processes... [========================                  ]Scanning processes... [========================                  ]Scanning processes... [========================                  ]Scanning processes... [=========================                 ]Scanning processes... [=========================                 ]Scanning processes... [=========================                 ]Scanning processes... [==========================                ]Scanning processes... [==========================                ]Scanning processes... [===========================               ]Scanning processes... [===========================               ]Scanning processes... [===========================               ]Scanning processes... [============================              ]Scanning processes... [============================              ]Scanning processes... [============================              ]Scanning processes... [=============================             ]Scanning processes... [=============================             ]Scanning processes... [=============================             ]Scanning processes... [==============================            ]Scanning processes... [==============================            ]Scanning processes... [==============================            ]Scanning processes... [===============================           ]Scanning processes... [===============================           ]Scanning processes... [================================          ]Scanning processes... [================================          ]Scanning processes... [================================          ]Scanning processes... [=================================         ]Scanning processes... [=================================         ]Scanning processes... [=================================         ]Scanning processes... [==================================        ]Scanning processes... [==================================        ]Scanning processes... [==================================        ]Scanning processes... [===================================       ]Scanning processes... [===================================       ]Scanning processes... [===================================       ]Scanning processes... [====================================      ]Scanning processes... [====================================      ]Scanning processes... [=====================================     ]Scanning processes... [=====================================     ]Scanning processes... [=====================================     ]Scanning processes... [======================================    ]Scanning processes... [======================================    ]Scanning processes... [======================================    ]Scanning processes... [=======================================   ]Scanning processes... [=======================================   ]Scanning processes... [=======================================   ]Scanning processes... [========================================  ]Scanning processes... [========================================  ]Scanning processes... [========================================  ]Scanning processes... [========================================= ]Scanning processes... [===================
+7[0;9r8[1A[JScanning processes... [                                          ]Scanning processes... [                                          ]Scanning processes... [                                          ]Scanning processes... [=                                         ]Scanning processes... [=                                         ]Scanning processes... [=                                         ]Scanning processes... [==                                        ]Scanning processes... [==                                        ]Scanning processes... [==                                        ]Scanning processes... [===                                       ]Scanning processes... [===                                       ]Scanning processes... [===                                       ]Scanning processes... [====                                      ]Scanning processes... [====                                      ]Scanning processes... [====                                      ]Scanning processes... [=====                                     ]Scanning processes... [=====                                     ]Scanning processes... [======                                    ]Scanning processes... [======                                    ]Scanning processes... [======                                    ]Scanning processes... [=======                                   ]Scanning processes... [=======                                   ]Scanning processes... [=======                                   ]Scanning processes... [========                                  ]Scanning processes... [========                                  ]Scanning processes... [========                                  ]Scanning processes... [=========                                 ]Scanning processes... [=========                                 ]Scanning processes... [=========                                 ]Scanning processes... [==========                                ]Scanning processes... [==========                                ]Scanning processes... [===========                               ]Scanning processes... [===========                               ]Scanning processes... [===========                               ]Scanning processes... [============                              ]Scanning processes... [============                              ]Scanning processes... [============                              ]Scanning processes... [=============                             ]Scanning processes... [=============                             ]Scanning processes... [=============                             ]Scanning processes... [==============                            ]Scanning processes... [==============                            ]Scanning processes... [==============                            ]Scanning processes... [===============                           ]Scanning processes... [===============                           ]Scanning processes... [================                          ]Scanning processes... [================                          ]Scanning processes... [================                          ]Scanning processes... [=================                         ]Scanning processes... [=================                         ]Scanning processes... [=================                         ]Scanning processes... [==================                        ]Scanning processes... [==================                        ]Scanning processes... [==================                        ]Scanning processes... [===================                       ]Scanning processes... [===================                       ]Scanning processes... [===================                       ]Scanning processes... [====================                      ]Scanning processes... [====================                      ]Scanning processes... [=====================                     ]Scanning processes... [=====================                     ]Scanning processes... [=====================                     ]Scanning processes... [======================                    ]Scanning processes... [======================                    ]Scanning processes... [======================                    ]Scanning processes... [=======================                   ]Scanning processes... [=======================                   ]Scanning processes... [=======================                   ]Scanning processes... [========================                  ]Scanning processes... [========================                  ]Scanning processes... [========================                  ]Scanning processes... [=========================                 ]Scanning processes... [=========================                 ]Scanning processes... [=========================                 ]Scanning processes... [==========================                ]Scanning processes... [==========================                ]Scanning processes... [===========================               ]Scanning processes... [===========================               ]Scanning processes... [===========================               ]Scanning processes... [============================              ]Scanning processes... [============================              ]Scanning processes... [============================              ]Scanning processes... [=============================             ]Scanning processes... [=============================             ]Scanning processes... [=============================             ]Scanning processes... [==============================            ]Scanning processes... [==============================            ]Scanning processes... [==============================            ]Scanning processes... [===============================           ]Scanning processes... [===============================           ]Scanning processes... [================================          ]Scanning processes... [================================          ]Scanning processes... [================================          ]Scanning processes... [=================================         ]Scanning processes... [=================================         ]Scanning processes... [=================================         ]Scanning processes... [==================================        ]Scanning processes... [==================================        ]Scanning processes... [==================================        ]Scanning processes... [===================================       ]Scanning processes... [===================================       ]Scanning processes... [===================================       ]Scanning processes... [====================================      ]Scanning processes... [====================================      ]Scanning processes... [=====================================     ]Scanning processes... [=====================================     ]Scanning processes... [=====================================     ]Scanning processes... [======================================    ]Scanning processes... [======================================    ]Scanning processes... [======================================    ]Scanning processes... [=======================================   ]Scanning processes... [=======================================   ]Scanning processes... [=======================================   ]Scanning processes... [========================================  ]Scanning processes... [========================================  ]Scanning processes... [========================================  ]Scanning processes... [========================================= ]Scanning processes... [========================================= ]Scanning processes... [==========================================]Scanning processes...                                             
+Scanning candidates... [                                         ]Scanning candidates... [=============                            ]Scanning candidates... [===========================              ]Scanning candidates... [=========================================]Scanning candidates...                                            
+Scanning linux images... [                                       ]Scanning linux images... [=============                          ]Scanning linux images... [==========================             ]Scanning linux images... [=======================================]Scanning linux images...                                          
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+
+Service restarts being deferred:
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+User sessions running outdated binaries:
+ kent @ session #18: apt[2730], bash[2719]
+
+No VM guests are running outdated hypervisor (qemu) binaries on
+ this host.
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# apt install fish ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@ubse: ~root@ubse:~# adduser +s[K[K-s[K[K--shell[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kman adduser
+[?2004l[?1049h[22;0;0t[?1h=[4mADDUSER[24m(8)           System Manager's Manual          [4mADDUSER[24m(8)[m
+[m
+[1mNAME[0m[m
+       adduser, addgroup - add or manipulate users or groups[m
+[m
+[1mSYNOPSIS[0m[m
+       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+[7m Manual page adduser(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mADDUSER[24m(8)           System Manager's Manual          [4mADDUSER[24m(8)[m
+[m
+[1mNAME[0m[m
+       adduser, addgroup - add or manipulate users or groups[m
+[m
+[1mSYNOPSIS[0m[m
+       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+[7m Manual page adduser(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mADDUSER[24m(8)           System Manager's Manual          [4mADDUSER[24m(8)[m
+[m
+[1mNAME[0m[m
+       adduser, addgroup - add or manipulate users or groups[m
+[m
+[1mSYNOPSIS[0m[m
+       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+               [[1m--disabled-password[22m] [[1m--encrypt-home[22m][m
+[7m Manual page adduser(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mADDUSER[24m(8)           System Manager's Manual          [4mADDUSER[24m(8)[m
+[m
+[1mNAME[0m[m
+       adduser, addgroup - add or manipulate users or groups[m
+[m
+[1mSYNOPSIS[0m[m
+       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+               [[1m--disabled-password[22m] [[1m--encrypt-home[22m][m
+               [[1m--firstgid [4m[22mid[24m] [[1m--firstuid [4m[22mid[24m] [[1m--gid [4m[22mid[24m][m
+[7m Manual page adduser(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mADDUSER[24m(8)           System Manager's Manual          [4mADDUSER[24m(8)[m
+[m
+[1mNAME[0m[m
+       adduser, addgroup - add or manipulate users or groups[m
+[m
+[1mSYNOPSIS[0m[m
+       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+               [[1m--disabled-password[22m] [[1m--encrypt-home[22m][m
+               [[1m--firstgid [4m[22mid[24m] [[1m--firstuid [4m[22mid[24m] [[1m--gid [4m[22mid[24m][m
+               [[1m--home [4m[22mdir[24m] [[1m--ingroup [4m[22mgroup[24m] [[1m--lastgid [4m[22mid[24m][m
+[7m Manual page adduser(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mADDUSER[24m(8)           System Manager's Manual          [4mADDUSER[24m(8)[m
+[m
+[1mNAME[0m[m
+       adduser, addgroup - add or manipulate users or groups[m
+[m
+[1mSYNOPSIS[0m[m
+       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+               [[1m--disabled-password[22m] [[1m--encrypt-home[22m][m
+               [[1m--firstgid [4m[22mid[24m] [[1m--firstuid [4m[22mid[24m] [[1m--gid [4m[22mid[24m][m
+               [[1m--home [4m[22mdir[24m] [[1m--ingroup [4m[22mgroup[24m] [[1m--lastgid [4m[22mid[24m][m
+               [[1m--lastuid [4m[22mid[24m] [[1m--no-create-home[22m] [[1m--shell [4m[22mshell[24m][m
+[7m Manual page adduser(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mADDUSER[24m(8)           System Manager's Manual          [4mADDUSER[24m(8)[m
+[m
+[1mNAME[0m[m
+       adduser, addgroup - add or manipulate users or groups[m
+[m
+[1mSYNOPSIS[0m[m
+       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+               [[1m--disabled-password[22m] [[1m--encrypt-home[22m][m
+               [[1m--firstgid [4m[22mid[24m] [[1m--firstuid [4m[22mid[24m] [[1m--gid [4m[22mid[24m][m
+               [[1m--home [4m[22mdir[24m] [[1m--ingroup [4m[22mgroup[24m] [[1m--lastgid [4m[22mid[24m][m
+               [[1m--lastuid [4m[22mid[24m] [[1m--no-create-home[22m] [[1m--shell [4m[22mshell[24m][m
+               [[1m--quiet[22m] [[1m--uid [4m[22mid[24m] [[1m--verbose[22m][m
+[7m Manual page adduser(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+[7m Manual page adduser(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--logmsglevel [4m[22mprio[24m] [1muser[0m[m
+[7m Manual page adduser(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page adduser(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1madduser --system [22m[[1m--comment [4m[22mcomment[24m] [[1m--conf [4m[22mfile[24m][m
+[7m Manual page adduser(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--debug[22m] [[1m--gid [4m[22mid[24m] [[1m--group[22m] [[1m--home [4m[22mdir[24m][m
+[7m Manual page adduser(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               [[1m--ingroup [4m[22mgroup[24m] [[1m--no-create-home[22m][m
+[7m Manual page adduser(8) line 7 (press h for help or q to quit)[27m[K[K-[K[7m Manual page adduser(8) line 7 (press h for help or q to quit)[27m[K[K/[K++[K++[K[K[K--[K--[Kss[Khh[Kee[K;;[Kll[K[K[K;;[K[Kll[Kll[K[1;1H       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+[2;1H               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+[3;1H               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+[4;1H               [[1m--disabled-password[22m] [[1m--encrypt-home[22m][m
+[5;1H               [[1m--firstgid [4m[22mid[24m] [[1m--firstuid [4m[22mid[24m] [[1m--gid [4m[22mid[24m][m
+[6;1H               [[1m--home [4m[22mdir[24m] [[1m--ingroup [4m[22mgroup[24m] [[1m--lastgid [4m[22mid[24m][m
+[7;1H               [[1m--lastuid [4m[22mid[24m] [[1m--no-create-home[22m] [[1m--shell [4m[22mshell[24m][m
+[8;1H               [[1m--quiet[22m] [[1m--uid [4m[22mid[24m] [[1m--verbose[22m][m
+[9;1H               [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+[10;1H               [[1m--logmsglevel [4m[22mprio[24m] [1muser[0m[m
+[11;1H[m
+[12;1H       [1madduser --system [22m[[1m--comment [4m[22mcomment[24m] [[1m--conf [4m[22mfile[24m][m
+[13;1H               [[1m--debug[22m] [[1m--gid [4m[22mid[24m] [[1m--group[22m] [[1m--home [4m[22mdir[24m][m
+[14;1H               [[1m--ingroup [4m[22mgroup[24m] [[1m--no-create-home[22m][m
+[15;1H[1;1H       [1madduser [22m[[1m--add-extra-groups[22m] [[1m--allow-all-names[22m][m
+[2;1H               [[1m--allow-bad-names[22m] [[1m--comment [4m[22mcomment[24m][m
+[3;1H               [[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--disabled-login[22m][m
+[4;1H               [[1m--disabled-password[22m] [[1m--encrypt-home[22m][m
+[5;1H               [[1m--firstgid [4m[22mid[24m] [[1m--firstuid [4m[22mid[24m] [[1m--gid [4m[22mid[24m][m
+[6;1H               [[1m--home [4m[22mdir[24m] [[1m--ingroup [4m[22mgroup[24m] [[1m--lastgid [4m[22mid[24m][m
+[7;1H               [[1m--lastuid [4m[22mid[24m] [[1m--no-create-home[22m] [[1m[7m--shell[27m[1m [4m[22mshell[24m][m
+[8;1H               [[1m--quiet[22m] [[1m--uid [4m[22mid[24m] [[1m--verbose[22m][m
+[9;1H               [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+[10;1H               [[1m--logmsglevel [4m[22mprio[24m] [1muser[0m[m
+[11;1H[m
+[12;1H       [1madduser --system [22m[[1m--comment [4m[22mcomment[24m] [[1m--conf [4m[22mfile[24m][m
+[13;1H               [[1m--debug[22m] [[1m--gid [4m[22mid[24m] [[1m--group[22m] [[1m--home [4m[22mdir[24m][m
+[14;1H               [[1m--ingroup [4m[22mgroup[24m] [[1m--no-create-home[22m][m
+[15;1H               [[1m[7m--shell[27m[1m [4m[22mshell[24m] [[1m--uid [4m[22mid[24m] [[1m--quiet[22m] [[1m--verbose[22m][m
+               [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+               [[1m--logmsglevel [4m[22mprio[24m] [1muser[0m[m
+[m
+       [1madduser --group [22m[[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--firstgid [4m[22mid[24m][m
+               [[1m--gid [4m[22mID[24m] [[1m--lastgid [4m[22mid[24m] [[1m--quiet[22m] [[1m--verbose[22m][m
+[7m Manual page adduser(8) line 13 (press h for help or q to quit)[27m[K[K/[K               [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+               [[1m--logmsglevel [4m[22mprio[24m] [1mgroup[0m[m
+[m
+       [1maddgroup [22m[[1m--conf [4m[22mfile[24m] [[1m--debug[22m] [[1m--firstgid [4m[22mid[24m][m
+                [[1m--gid [4m[22mID[24m] [[1m--lastgid [4m[22mid[24m] [[1m--quiet[22m] [[1m--verbose[22m][m
+                [[1m--stdoutmsglevel [4m[22mprio[24m] [[1m--stderrmsglevel [4m[22mprio[24m][m
+                [[1m--logmsglevel [4m[22mprio[24m] [1mgroup[0m[m
+[m
+[7m Manual page adduser(8) line 21 (press h for help or q to quit)[27m[K[K/[K...skipping...
+       Unless a shell is explicitly set with the [1m[7m--shell[27m[1m [22moption,[m
+       the  new  system  user  will  have  the  shell   set   to[m
+       [4m/usr/sbin/nologin[24m.  [1madduser --system [22mdoes not set a pass‐[m
+       word  for  the new account.  Skeletal configuration files[m
+       are not copied.[m
+[m
+       Other options will behave as for the creation of a normal[m
+       user.  The files referenced by [1mUID_POOL [22mand  [1mGID_POOL  [22mdo[m
+       also work.[m
+[m
+   [1mAdd a group[0m[m
+       If  [1madduser [22mis called with the [1m--group [22moption and without[m
+       the [1m--system [22moption, or [1maddgroup [22mis called  respectively,[m
+       a user group will be added.[m
+[7m Manual page adduser(8) line 150 (press h for help or q to quit)[27m[K[K/[K...skipping...
+       [1m[7m--shell[27m[1m [4m[22mshell[0m[m
+              Use  [4mshell[24m  as the user's login shell, rather than[m
+              the default specified by  the  configuration  file[m
+              (or   [4m/usr/sbin/nologin[24m  if  [1madduser  --system  [22mis[m
+              used).  Valid Modes: [1madduser[22m, [1madduser --system[22m.[m
+[m
+       [1m--system[0m[m
+              Nomally,  [1madduser  [22mcreates  [4mdynamically[24m  [4mallocated[0m[m
+              [4muser[24m [4maccounts[24m [4mand[24m [4mgroups[24m as defined in Debian Pol‐[m
+              icy,  Chapter  9.2.2.   With  this option, [1madduser[0m[m
+              creates a [4mdynamically[24m [4mallocated[24m  [4msystem[24m  [4muser[24m  [4mand[0m[m
+              [4mgroup[24m  and  changes  its mode respectively.  Valid[m
+              Modes: [1madduser[22m, [1maddgroup[22m.[m
+[m
+[7m Manual page adduser(8) line 319 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[15;1H[K[7m Manual page adduser(8) line 318 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM              Synonymous to --stdoutmsglevel=warn. Deprecated.[m
+[15;1H[K[7m Manual page adduser(8) line 317 (press h for help or q to quit)[27m[K[K/[K              Modes: [1madduser[22m, [1maddgroup[22m.[m
+[m
+[7m Manual page adduser(8) line 319 (press h for help or q to quit)[27m[K[K/[K[K[7mPattern not found  (press RETURN)[27m[15;1H[K[K/[K[K[7mPattern not found  (press RETURN)[27m[15;1H[K[K/[K[K[7mPattern not found  (press RETURN)[27m[15;1H[K[K/[K[K[7mPattern not found  (press RETURN)[27m[15;1H[K[K/[K--[Kss[K[1;1H       [1m--shell [4m[22mshell[0m[m
+[2;1H              Use  [4mshell[24m  as the user's login shell, rather than[m
+[3;1H              the default specified by  the  configuration  file[m
+[4;1H              (or   [4m/usr/sbin/nologin[24m  if  [1madduser  --system  [22mis[m
+[5;1H              used).  Valid Modes: [1madduser[22m, [1madduser --system[22m.[m
+[6;1H[m
+[7;1H       [1m--system[0m[m
+[8;1H              Nomally,  [1madduser  [22mcreates  [4mdynamically[24m  [4mallocated[0m[m
+[9;1H              [4muser[24m [4maccounts[24m [4mand[24m [4mgroups[24m as defined in Debian Pol‐[m
+[10;1H              icy,  Chapter  9.2.2.   With  this option, [1madduser[0m[m
+[11;1H              creates a [4mdynamically[24m [4mallocated[24m  [4msystem[24m  [4muser[24m  [4mand[0m[m
+[12;1H              [4mgroup[24m  and  changes  its mode respectively.  Valid[m
+[13;1H              Modes: [1madduser[22m, [1maddgroup[22m.[m
+[14;1H[m
+[15;1H[1;1H       [1m-[7m-s[27m[1mhell [4m[22mshell[0m[m
+[2;1H              Use  [4mshell[24m  as the user's login shell, rather than[m
+[3;1H              the default specified by  the  configuration  file[m
+[4;1H              (or   [4m/usr/sbin/nologin[24m  if  [1madduser  -[7m-s[27m[1mystem  [22mis[m
+[5;1H              used).  Valid Modes: [1madduser[22m, [1madduser -[7m-s[27m[1mystem[22m.[m
+[6;1H[m
+[7;1H       [1m-[7m-s[27m[1mystem[0m[m
+[8;1H              Nomally,  [1madduser  [22mcreates  [4mdynamically[24m  [4mallocated[0m[m
+[9;1H              [4muser[24m [4maccounts[24m [4mand[24m [4mgroups[24m as defined in Debian Pol‐[m
+[10;1H              icy,  Chapter  9.2.2.   With  this option, [1madduser[0m[m
+[11;1H              creates a [4mdynamically[24m [4mallocated[24m  [4msystem[24m  [4muser[24m  [4mand[0m[m
+[12;1H              [4mgroup[24m  and  changes  its mode respectively.  Valid[m
+[13;1H              Modes: [1madduser[22m, [1maddgroup[22m.[m
+[14;1H[m
+[15;1H[K[7mpage adduser(8) line 319/539 64% (press h for help or q to quit)[27m[K[K/[K       [1m--uid [4m[22mID[0m[m
+              Force the new userid to be the given number.   [1mad‐[0m[m
+              [1mduser  [22mwill  fail  if the userid is already taken.[m
+[7mpage adduser(8) line 322/539 65% (press h for help or q to quit)[27m[K[K/[K              Valid Modes: [1madduser[22m, [1madduser -[7m-s[27m[1mystem[22m.[m
+[7mpage adduser(8) line 323/539 65% (press h for help or q to quit)[27m[K[K/[K[m
+       [1m--verbose[0m[m
+[7mpage adduser(8) line 325/539 65% (press h for help or q to quit)[27m[K[K/[K              Synonymous to -[7m-s[27mtdoutmsglevel=info. Deprecated.[m
+[m
+       [1m-[7m-s[27m[1mtdoutmsglevel [4m[22mprio[0m[m
+       [1m-[7m-s[27m[1mtderrmsglevel [4m[22mprio[0m[m
+       [1m--logmsglevel [4m[22mprio[0m[m
+              Minimum  priority  for  messages  logged  to  sys‐[m
+              log/journal and the console, respectively.  Values[m
+              are  [4mtrace[24m,  [4mdebug[24m,  [4minfo[24m,  [4mwarn[24m,  [4merr[24m, and [4mfatal[24m.[m
+              Messages with the priority set here or higher  get[m
+              printed   to   the  respective  medium.   Messages[m
+              printed to stderr  are  not  repeated  on  stdout.[m
+[7mpage adduser(8) line 336/539 68% (press h for help or q to quit)[27m[K[K/[K              That  allows  the local admin to control [1madduser[22m's[m
+              chattiness on the console and in the log  indepen‐[m
+              dently,  keeping probably confusing information to[m
+[7mpage adduser(8) line 339/539 68% (press h for help or q to quit)[27m[K[K/[K              itself while still leaving helpful information  in[m
+              the log.[m
+[7mpage adduser(8) line 341/539 69% (press h for help or q to quit)[27m[K[K/[K[m
+[7mpage adduser(8) line 342/539 69% (press h for help or q to quit)[27m[K[K/[K...skipping...
+              fore  [1madduser [22mwas invoked.  If [1madduser -[7m-s[27m[1mystem [22mis[m
+              invoked for a user already existing with  the  re‐[m
+              quested or compatible attributes, it will also re‐[m
+              turn 0.[m
+[m
+       [1m11     [22mThe  object  that [1madduser [22mwas asked to create does[m
+              already exist.[m
+[m
+       [1m12     [22mThe object that [1madduser [22mor [1mdeluser  [22mwas  asked  to[m
+              operate on does not exist.[m
+[m
+       [1m13     [22mThe  object  that  [1madduser [22mor [1mdeluser [22mwas asked to[m
+              operate on does ont have the properties  that  are[m
+              required  to  complete  the  operation:  A user (a[m
+[7mpage adduser(8) line 364/539 72% (press h for help or q to quit)[27m[K[K/[K[K[7mPattern not found  (press RETURN)[27m[15;1H[K[K/[K[K[7mPattern not found  (press RETURN)[27m[15;1H[K[K/[K[K[7mPattern not found  (press RETURN)[27m[15;1H[K[K[7mpage adduser(8) line 364/539 72% (press h for help or q to quit)[27m[K[K[7mpage adduser(8) line 364/539 72% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@u
