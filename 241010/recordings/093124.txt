@@ -160,4 +160,106 @@ list:*:19836:0:99999:7:::
 irc:*:19836:0:99999:7:::
 _apt:*:19836:0:99999:7:::
 [7m/etc/shadow[27m[K[K [KESCESC[KOO[KBB[Knobody:*:19836:0:99999:7:::
-:
+:[K[K [KESCESC[KOO[KBB[Ksystemd-network:!*:19836::::::
+:[K[K [KESCESC[KOO[KBB[Ksystemd-timesync:!*:19836::::::
+:[K[K [KESCESC[KOO[KBB[Kdhcpcd:!:19836::::::
+:[K[K [KESCESC[KOO[KBB[Kmessagebus:!:19836::::::
+:[K[K [KESCESC[KOO[KBB[Ksystemd-resolve:!*:19836::::::
+:[K[K [KESCESC[KOO[KBB[Kpollinate:!:19836::::::
+:[K[K [KESCESC[KOO[KBB[Kpolkitd:!*:19836::::::
+:[K[K [KESCESC[KOO[KBB[Ksyslog:!:19836::::::
+:[K[K [KESCESC[KOO[KBB[Kuuidd:!:19836::::::
+:[K[K [KESCESC[KOO[KBB[Ktcpdump:!:19836::::::
+:[K[Ktss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+sshd:!:20003::::::
+bill:!:20005:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[H[2J[HM_apt:*:19836:0:99999:7:::
+[HMirc:*:19836:0:99999:7:::
+[HMlist:*:19836:0:99999:7:::
+[HMbackup:*:19836:0:99999:7:::
+[HMwww-data:*:19836:0:99999:7:::
+[HMproxy:*:19836:0:99999:7:::
+[HMuucp:*:19836:0:99999:7:::
+[HMnews:*:19836:0:99999:7:::
+[HMmail:*:19836:0:99999:7:::
+[HMlp:*:19836:0:99999:7:::
+[HMman:*:19836:0:99999:7:::
+[HMgames:*:19836:0:99999:7:::
+[HMsync:*:19836:0:99999:7:::
+[HMsys:*:19836:0:99999:7:::
+[HMbin:*:19836:0:99999:7:::
+[HMdaemon:*:19836:0:99999:7:::
+[HMroot:*:19836:0:99999:7:::
+[18;1H[K:[K[K [KESCESC[KOO[KBB[Knobody:*:19836:0:99999:7:::
+:[K[K [KESCESC[KOO[KBB[Ksystemd-network:!*:19836::::::
+:[K[K [KESCESC[KOO[KBB[Ksystemd-timesync:!*:19836::::::
+:[K[Kdhcpcd:!:19836::::::
+messagebus:!:19836::::::
+systemd-resolve:!*:19836::::::
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+sshd:!:20003::::::
+bill:!:20005:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# less /etc/shadow
+[?2004l[?1049h[22;0;0t[?1h=root:*:19836:0:99999:7:::
+daemon:*:19836:0:99999:7:::
+bin:*:19836:0:99999:7:::
+sys:*:19836:0:99999:7:::
+sync:*:19836:0:99999:7:::
+games:*:19836:0:99999:7:::
+man:*:19836:0:99999:7:::
+lp:*:19836:0:99999:7:::
+mail:*:19836:0:99999:7:::
+news:*:19836:0:99999:7:::
+uucp:*:19836:0:99999:7:::
+proxy:*:19836:0:99999:7:::
+www-data:*:19836:0:99999:7:::
+backup:*:19836:0:99999:7:::
+list:*:19836:0:99999:7:::
+irc:*:19836:0:99999:7:::
+_apt:*:19836:0:99999:7:::
+[7m/etc/shadow[27m[K[Knobody:*:19836:0:99999:7:::
+systemd-network:!*:19836::::::
+systemd-timesync:!*:19836::::::
+dhcpcd:!:19836::::::
+messagebus:!:19836::::::
+systemd-resolve:!*:19836::::::
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+:[K[Ksshd:!:20003::::::
+bill:!:20005:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[H[2J[Hdhcpcd:!:19836::::::
+messagebus:!:19836::::::
+systemd-resolve:!*:19836::::::
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:
