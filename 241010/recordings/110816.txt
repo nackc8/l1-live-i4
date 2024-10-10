@@ -1427,4 +1427,114 @@ uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
 usbmux:x:108:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
 kent:x:1000:1000:Test Testsson:/home/kent:/bin/bash
 sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
-bill:x:100
+bill:x:1001:1001::/home/bill:/bin/sh
+testuser:x:1002:1002:,,,:/home/testuser:/bin/bash
+user1:x:1003:1003::/home/user1:/bin/sh
+user2:x:1004:1004::/home/user2:/bin/sh
+user3:x:1005:1005::/home/user3:/bin/sh
+user4:x:1006:1006::/home/user4:/bin/bash
+user5:x:1007:1007:Bo Svansson,99,0703334445,022241716,Pesketarian: /home/user5:/bin/bash
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# ls -l? h[K[K[K -h[K[K/home/[H[2J]0;root@ubse: ~root@ubse:~# ls -l /home/
+[?2004ltotal 20
+drwxr-x--- 6 kent     kent     4096 Oct 10 10:41 [0m[01;34mkent[0m
+drwxr-x--- 2 testuser testuser 4096 Oct  9 20:22 [01;34mtestuser[0m
+drwxr-x--- 2 user3    user3    4096 Oct 10 09:23 [01;34muser3[0m
+drwxr-x--- 2 user4    user4    4096 Oct 10 09:28 [01;34muser4[0m
+drwxr-x--- 2 user5    user5    4096 Oct 10 10:44 [01;34muser5[0m
+[?2004h]0;root@ubse: ~root@ubse:~# ls -l /home/user6[K5
+[?2004ltotal 0
+[?2004h]0;root@ubse: ~root@ubse:~# ls -l /home/user5a /home/user5
+[?2004ltotal 20
+drwxr-x--- 2 user5 user5 4096 Oct 10 10:44 [0m[01;34m.[0m
+drwxr-xr-x 7 root  root  4096 Oct 10 10:44 [01;34m..[0m
+-rw-r--r-- 1 user5 user5  220 Oct 10 10:44 .bash_logout
+-rw-r--r-- 1 user5 user5 3771 Oct 10 10:44 .bashrc
+-rw-r--r-- 1 user5 user5  807 Oct 10 10:44 .profile
+[?2004h]0;root@ubse: ~root@ubse:~# exit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su user5
+[?2004lPassword: 
+[?2004h]0;user5@ubse: /home/kent[01;32muser5@ubse[00m:[01;34m/home/kent[00m$ [H[2J]0;user5@ubse: /home/kent[01;32muser5@ubse[00m:[01;34m/home/kent[00m$ ls
+[?2004lls: cannot open directory '.': Permission denied
+[?2004h]0;user5@ubse: /home/kent[01;32muser5@ubse[00m:[01;34m/home/kent[00m$ cd
+[?2004l[?2004h]0;user5@ubse: ~[01;32muser5@ubse[00m:[01;34m~[00m$ [H[2J]0;user5@ubse: ~[01;32muser5@ubse[00m:[01;34m~[00m$ ls
+[?2004l[?2004h]0;user5@ubse: ~[01;32muser5@ubse[00m:[01;34m~[00m$ ls -a
+[?2004l[0m[01;34m.[0m  [01;34m..[0m  .bash_logout  .bashrc  .profile
+[?2004h]0;user5@ubse: ~[01;32muser5@ubse[00m:[01;34m~[00m$ [?2004l
+exit
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ exit[K[K[K[Ksudop [K[K -i
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# exitls -la /home/user5[1P /home/user5[Kess /etc/passwd[C[C[C[C[C[C[C[C[C[C[C[C[C[3Padduser user5--help[1Puser5[K]0;root@ubse: ~root@ubse:~# adduser user5[K]0;root@ubse: ~root@ubse:~# adduser user5[K]0;root@ubse: ~root@ubse:~# adduser user5^C[?2004l[?2004h[?2004l
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# apt install fish
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+The following additional packages will be installed:
+  bzip2 fish-common libbz2-1.0 libpcre2-32-0 lynx lynx-common
+  mailcap xsel
+Suggested packages:
+  bzip2-doc doc-base
+The following NEW packages will be installed:
+  bzip2 fish fish-common libpcre2-32-0 lynx lynx-common mailcap
+  xsel
+The following packages will be upgraded:
+  libbz2-1.0
+1 upgraded, 8 newly installed, 0 to remove and 118 not upgraded.
+Need to get 5,598 kB of archives.
+After this operation, 22.7 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+[33m0% [Working][0m            Get:1 http://se.archive.ubuntu.com/ubuntu noble-updates/main amd64 libbz2-1.0 amd64 1.0.8-5.1build0.1 [34.4 kB]
+[33m0% [1 libbz2-1.0 4,148 B/34.4 kB 12%][0m[33m                                     3% [Working][0m            Get:2 http://se.archive.ubuntu.com/ubuntu noble-updates/main amd64 bzip2 amd64 1.0.8-5.1build0.1 [34.5 kB]
+[33m3% [2 bzip2 5,320 B/34.5 kB 15%][0m[33m                                5% [Waiting for headers][0m                        Get:3 http://se.archive.ubuntu.com/ubuntu noble/universe amd64 fish-common all 3.7.0-1 [2,261 kB]
+[33m5% [3 fish-common 3,875 B/2,261 kB 0%][0m[33m                                      40% [Waiting for headers][0m                         Get:4 http://se.archive.ubuntu.com/ubuntu noble/main amd64 libpcre2-32-0 amd64 10.42-4ubuntu2 [197 kB]
+[33m40% [4 libpcre2-32-0 10.9 kB/197 kB 6%][0m                                       Get:5 http://se.archive.ubuntu.com/ubuntu noble/universe amd64 fish amd64 3.7.0-1 [1,306 kB]
+[33m                                       45% [5 fish 27.4 kB/1,306 kB 2%][0m[33m                                66% [Waiting for headers][0m                         Get:6 http://se.archive.ubuntu.com/ubuntu noble/universe amd64 lynx-common all 2.9.0rel.0-2build2 [1,006 kB]
+[33m66% [6 lynx-common 32.3 kB/1,006 kB 3%][0m                                       Get:7 http://se.archive.ubuntu.com/ubuntu noble/main amd64 mailcap all 3.70+nmu1ubuntu1 [23.8 kB]
+                                       Get:8 http://se.archive.ubuntu.com/ubuntu noble/universe amd64 xsel amd64 1.2.1-1 [20.5 kB]
+                                       Get:9 http://se.archive.ubuntu.com/ubuntu noble/universe amd64 lynx amd64 2.9.0rel.0-2build2 [715 kB]
+[33m                                       89% [9 lynx 131 kB/715 kB 18%][0m[33m                              100% [Working][0m              Fetched 5,598 kB in 1s (7,660 kB/s)
+debconf: unable to initialize frontend: Dialog
+debconf: (Dialog frontend requires a screen at least 13 lines tall and 31 columns wide.)
+debconf: falling back to frontend: Readline
+
+7[0;8r8[1A(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 83462 files and directories currently installed.)
+Preparing to unpack .../libbz2-1.0_1.0.8-5.1build0.1_amd64.deb ...
+7[9;0f[42m[30mProgress: [  0%][49m[39m [............................................] 87[9;0f[42m[30mProgress: [  3%][49m[39m [#...........................................] 8Unpacking libbz2-1.0:amd64 (1.0.8-5.1build0.1) over (1.0.8-5.1) ...
+7[9;0f[42m[30mProgress: [  5%][49m[39m [##..........................................] 8Setting up libbz2-1.0:amd64 (1.0.8-5.1build0.1) ...
+7[9;0f[42m[30mProgress: [  8%][49m[39m [###.........................................] 87[9;0f[42m[30mProgress: [ 11%][49m[39m [####........................................] 8Selecting previously unselected package bzip2.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 83462 files and directories currently installed.)
+Preparing to unpack .../0-bzip2_1.0.8-5.1build0.1_amd64.deb ...
+7[9;0f[42m[30mProgress: [ 14%][49m[39m [#####.......................................] 8Unpacking bzip2 (1.0.8-5.1build0.1) ...
+7[9;0f[42m[30mProgress: [ 16%][49m[39m [#######.....................................] 8Selecting previously unselected package fish-common.
+Preparing to unpack .../1-fish-common_3.7.0-1_all.deb ...
+7[9;0f[42m[30mProgress: [ 19%][49m[39m [########....................................] 8Unpacking fish-common (3.7.0-1) ...
+7[9;0f[42m[30mProgress: [ 22%][49m[39m [#########...................................] 8Selecting previously unselected package libpcre2-32-0:amd64.
+Preparing to unpack .../2-libpcre2-32-0_10.42-4ubuntu2_amd64.deb ...
+7[9;0f[42m[30mProgress: [ 24%][49m[39m [##########..................................] 8Unpacking libpcre2-32-0:amd64 (10.42-4ubuntu2) ...
+7[9;0f[42m[30mProgress: [ 27%][49m[39m [###########.................................] 8Selecting previously unselected package fish.
+Preparing to unpack .../3-fish_3.7.0-1_amd64.deb ...
+7[9;0f[42m[30mProgress: [ 30%][49m[39m [#############...............................] 8Unpacking fish (3.7.0-1) ...
+7[9;0f[42m[30mProgress: [ 32%][49m[39m [##############..............................] 8Selecting previously unselected package lynx-common.
+Preparing to unpack .../4-lynx-common_2.9.0rel.0-2build2_all.deb ...
+7[9;0f[42m[30mProgress: [ 35%][49m[39m [###############.............................] 8Unpacking lynx-common (2.9.0rel.0-2build2) ...
+7[9;0f[42m[30mProgress: [ 38%][49m[39m [################............................] 8Selecting previously unselected package mailcap.
+Preparing to unpack .../5-mailcap_3.70+nmu1ubuntu1_all.deb ...
+7[9;0f[42m[30mProgress: [ 41%][49m[39m [#################...........................] 8Unpacking mailcap (3.70+nmu1ubuntu1) ...
+7[9;0f[42m[30mProgress: [ 43%][49m[39m [###################.........................] 8Selecting previously unselected package xsel.
+Preparing to unpack .../6-xsel_1.2.1-1_amd64.deb ...
+7[9;0f[42m[30mProgress: [ 46%][49m[39m [####################........................] 8Unpacking xsel (1.2.1-1) ...
+7[9;0f[42m[30mProgress: [ 49%][49m[39m [#####################.......................] 8Selecting previously unselected package lynx.
+Preparing to unpack .../7-lynx_2.9.0rel.0-2build2_amd64.deb ...
+7[9;0f[42m[30mProgress: [ 51%][49m[39m [######################......................] 8Unpacking lynx (2.9.0rel.0-2build2) ...
+7[9;0f[42m[30mProgress: [ 54%][49m[39m [#######################.....................] 8Setting up xsel (1.2.1-1) ...
+7[9;0f[42m[30mProgress: [ 57%][49m[39m [########################....................] 87[9;0f[42m[30mProgress: [ 59%][49m[39m [##########################..................] 8Setting up bzip2 (1.0.8-5.1build0.1) ...
+7[9;0f[42m[30mProgress: [ 62%][49m[39m [###########################.................] 87[9;0f[42m[30mProgress: [ 65%][49m[39m [############################................] 8Setting up libpcre2-32-0:amd64 (10.42-4ubuntu2) ...
+7[9;0f[42m[30mProgress: [ 68%][49m[39m [#############################...............] 87[9;0f[42m[30mProgress: [ 70%][49m[39m [##############################..............] 8Setting up lynx-common (2.9.0rel.0-2build2) ...
+7[9;0f[42m[30mProgress: [ 73%][49m[39m [################################............] 87[9;0f[42m[30mProgress: [ 76%][49m[39m [#################################...........] 8Setting up lynx (2.9.0rel.0-2build2) ...
+7[9;0f[42m[30mProgress: [ 78%][49m[39m [##################################..........] 8update-alternatives: using /usr/bin/lynx to provide /usr/bin/www-browser (www-browser) in auto mode
+7[9;0f[42m[30mProgress: [ 81%][49m[39m [###################################.........] 8Setting up fish-common (3.7.0-1) ...
+7[9;0f[42m[30mProgress: [ 84%][49m[39m [####################################........] 87[9;0f[42m[30mProgress: [ 86%][49m[39m [######################################......] 8Setting up mailcap (3.70+nmu1ubuntu1) ...
+7[9;0f[42m[30mProgress: [ 89%][49m[39m [#######################################.....] 87[9;0f[42m[30mProgress: [ 92%][49m[39m [########################################....] 8Setting up fish (3.7.0-1) ...
+7[9;0f[42m[30mProgress: [ 95%][49m[39m [#########################################...] 87[9;0f[42m[30mProgress: [ 97%][49m[39m [##########################################..] 8Processing triggers for man-db (2.12.0-4build2) ...
+Processing triggers for libc-bin (2.39-0ubuntu8.3) ...
+
+7[0;9r8[1A[JScanning processes... [                                          ]Scanning processes... [                                          ]Scanning processes... [                                          ]Scanning processes... [=                                         ]Scanning processes... [=                                         ]Scanning processes... [=                                         ]Scanning processes... [==                                        ]Scanning processes... [==                                        ]Scanning processes... [==                                        ]Scanning processes... [===                                       ]Scanning processes... [===                                       ]Scanning processes... [===                                       ]Scanning processes... [====                                      ]Scanning processes... [====                                      ]Scanning processes... [====                                      ]Scanning processes... [=====                                     ]Scanning processes... [=====                                     ]Scanning processes... [======                                    ]Scanning processes... [======                                    ]Scanning processes... [======                                    ]Scanning processes... [=======                                   ]Scanning processes... [=======                                   ]Scanning processes... [=======                                   ]Scanning processes... [========                                  ]Scanning processes... [========                                  ]Scanning processes... [========                                  ]Scanning processes... [=========                                 ]Scanning processes... [=========                                 ]Scanning processes... [=========                                 ]Scanning processes... [==========                                ]Scanning processes... [==========                                ]Scanning processes... [===========                               ]Scanning processes... [===========                               ]Scanning processes... [===========                               ]Scanning processes... [============                              ]Scanning processes... [============                              ]Scanning processes... [============                              ]Scanning processes... [=============                             ]Scanning processes... [=============                             ]Scanning processes... [=============                             ]Scanning processes... [==============                            ]Scanning processes... [==============                            ]Scanning processes... [==============                            ]Scanning processes... [===============                           ]Scanning processes... [===============                           ]Scanning processes... [================                          ]Scanning processes... [================                          ]Scanning processes... [================                          ]Scanning processes... [=================                         ]Scanning processes... [=================                         ]Scanning processes... [=================                         ]Scanning processes... [==================                        ]Scanning processes... [==================                        ]Scanning processes... [==================                        ]Scanning processes... [===================                       ]Scanning processes... [===================                       ]Scanning processes... [===================                       ]Scanning processes... [====================                      ]Scanning processes... [====================                      ]Scanning processes... [=====================                     ]Scanning processes... [=====================                     ]Scanning processes... [=====================                     ]Scanning processes... [======================                    ]Scanning processes... [======================                    ]Scanning processes... [======================                    ]Scanning processes... [=======================                   ]Scanning processes... [=======================                   ]Scanning processes... [=======================                   ]Scanning processes... [========================                  ]Scanning processes... [========================                  ]Scanning processes... [========================                  ]Scanning processes... [=========================                 ]Scanning processes... [=========================                 ]Scanning processes... [=========================                 ]Scanning processes... [==========================                ]Scanning processes... [==========================                ]Scanning processes... [===========================               ]Scanning processes... [===========================               ]Scanning processes... [===========================               ]Scanning processes... [============================              ]Scanning processes... [============================              ]Scanning processes... [============================              ]Scanning processes... [=============================             ]Scanning processes... [=============================             ]Scanning processes... [=============================             ]Scanning processes... [==============================            ]Scanning processes... [==============================            ]Scanning processes... [==============================            ]Scanning processes... [===============================           ]Scanning processes... [===============================           ]Scanning processes... [================================          ]Scanning processes... [================================          ]Scanning processes... [================================          ]Scanning processes... [=================================         ]Scanning processes... [=================================         ]Scanning processes... [=================================         ]Scanning processes... [==================================        ]Scanning processes... [==================================        ]Scanning processes... [==================================        ]Scanning processes... [===================================       ]Scanning processes... [===================================       ]Scanning processes... [===================================       ]Scanning processes... [====================================      ]Scanning processes... [====================================      ]Scanning processes... [=====================================     ]Scanning processes... [=====================================     ]Scanning processes... [=====================================     ]Scanning processes... [======================================    ]Scanning processes... [======================================    ]Scanning processes... [======================================    ]Scanning processes... [=======================================   ]Scanning processes... [=======================================   ]Scanning processes... [=======================================   ]Scanning processes... [========================================  ]Scanning processes... [========================================  ]Scanning processes... [========================================  ]Scanning processes... [========================================= ]Scanning processes... [===================
