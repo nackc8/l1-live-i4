@@ -1346,4 +1346,85 @@ exit
 [?2004l^C
 [?2004h]0;root@ubse: ~root@ubse:~# grep /etc/passwd | grep user[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[Kuser
 [?2004lgrep: user: No such file or directory
-[?2004h]0;root@ubse: ~root@ubse:~# grep /etc/passwd user[K[K[K
+[?2004h]0;root@ubse: ~root@ubse:~# grep /etc/passwd user[K[K[K[K[Ku/etc/passwds/etc/passwde/etc/passwdr/etc/passwd /etc/passwd[H[2J]0;root@ubse: ~root@ubse:~# grep user /etc/passwd
+[?2004ltest[01;31m[Kuser[m[K:x:1002:1002:,,,:/home/test[01;31m[Kuser[m[K:/bin/bash
+[01;31m[Kuser[m[K1:x:1003:1003::/home/[01;31m[Kuser[m[K1:/bin/sh
+[01;31m[Kuser[m[K2:x:1004:1004::/home/[01;31m[Kuser[m[K2:/bin/sh
+[01;31m[Kuser[m[K3:x:1005:1005::/home/[01;31m[Kuser[m[K3:/bin/sh
+[01;31m[Kuser[m[K4:x:1006:1006::/home/[01;31m[Kuser[m[K4:/bin/bash
+[?2004h]0;root@ubse: ~root@ubse:~# adduser [K
+[?2004lfatal: Only one or two names allowed.
+[?2004h]0;root@ubse: ~root@ubse:~# adduser --help[H[2J]0;root@ubse: ~root@ubse:~# adduser --help
+[?2004ladduser [--uid id] [--firstuid id] [--lastuid id]
+        [--gid id] [--firstgid id] [--lastgid id] [--ingroup group]
+        [--add-extra-groups] [--encrypt-home] [--shell shell]
+        [--comment comment] [--home dir] [--no-create-home]
+        [--allow-all-names] [--allow-bad-names]
+        [--disabled-password] [--disabled-login]
+        [--conf file] [--extrausers] [--quiet] [--verbose] [--debug]
+        user
+    Add a normal user
+
+adduser --system
+        [--uid id] [--group] [--ingroup group] [--gid id]
+        [--shell shell] [--comment comment] [--home dir] [--no-create-home]
+        [--conf file] [--extrausers] [--quiet] [--verbose] [--debug]
+        user
+   Add a system user
+
+adduser --group
+        [--gid ID] [--firstgid id] [--lastgid id]
+        [--conf file] [--extrausers] [--quiet] [--verbose] [--debug]
+        group
+addgroup
+        [--gid ID] [--firstgid id] [--lastgid id]
+        [--conf file] [--extrausers] [--quiet] [--verbose] [--debug]
+        group
+   Add a user group
+
+addgroup --system
+        [--gid id]
+        [--conf file] [--extrausers] [--quiet] [--verbose] [--debug]
+        group
+   Add a system group
+
+adduser [--extrausers] USER GROUP
+   Add an existing user to an existing group
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# 
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# us[K[Kadduser [K]0;root@ubse: ~root@ubse:~# adduser [K]0;root@ubse: ~root@ubse:~# adduser [K]0;root@ubse: ~root@ubse:~# adduser user5
+[?2004linfo: Adding user `user5' ...
+info: Selecting UID/GID from range 1000 to 59999 ...
+info: Adding new group `user5' (1007) ...
+info: Adding new user `user5' (1007) with group `user5 (1007)' ...
+info: Creating home directory `/home/user5' ...
+info: Copying files from `/etc/skel' ...
+New password: 
+Retype new password: 
+passwd: password updated successfully
+Changing the user information for user5
+Enter the new value, or press ENTER for the default
+	Full Name []: Bo Svansson
+	Room Number []: 99
+	Work Phone []: 0703334445
+	Home Phone []: 022241716
+	Other []: Pe  Pesketariua  an
+Is the information correct? [Y/n] 
+info: Adding new user `user5' to supplemental / extra groups `users' ...
+info: Adding user `user5' to group `users' ...
+[?2004h]0;root@ubse: ~root@ubse:~# less /etc/passwd
+[?2004l[?1049h[22;0;0t[?1h=root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+[7m/etc/passwd[27m[K[K...skipping...
+usbmux:x:108:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+kent:x:1000:1000:Test Testsson:/home/kent:/bin/bash
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+bill:x:100
