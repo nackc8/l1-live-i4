@@ -18,3 +18,7 @@ p1
 
 # Sätter user13 och user14 på
 groupmod -U user13,user14 grupp1
+
+# Ta bort grupp
+groupdel grupp3
+
