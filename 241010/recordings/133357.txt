@@ -950,4 +950,64 @@ Last login: Thu Oct 10 09:08:27 2024 from 10.0.2.2
 [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P grupp1[1P grupp1[1P grupp1[1P grupp1[1P grupp1@ grupp1[1P grupp1! grupp1! grupp1[1P grupp1[1P grupp1! grupp1! grupp1[1P grupp1[1P grupp1$ grupp1( grupp1) grupp1[7mgroupmod -a -U user1 grupp1[27m
 ) grupp1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgroupmod -a -U user1 grupp1
 [C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C) grupp1
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[7mecho user{10..14} | tr ' ' ','[27m) grupp1[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[7mecho user{10..14} | tr ' ' ','[27m) grupp1[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho user{10..14} | tr ' ' ','[C[C[C[C[C
+[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# (reverse-i-search)`': [Kg': groupmod -a -U $(echo user{10..14} | tr ' ' ',') [7mg[27mrupp1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr': groupmod -a -U $(echo user{10..14} | tr ' ' ',') [7mgr[27mupp1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Pe': [7mgre[27mp grupp /etc/group
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@p': [7mgrep[27m[13P]0;root@ubse: ~root@ubse:~# grep[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[K1
+[?2004lgrep: /etc/group1: No such file or directory
+[?2004h]0;root@ubse: ~root@ubse:~# grep grupp /etc/group1[K[C[C1 /etc/group
+[?2004l[01;31m[Kgrupp1[m[K:x:1009:user1,user10,user11,user12,user13,user14
+[?2004h]0;root@ubse: ~root@ubse:~# groupmod +r[K[K-r -U user11,user14[K3
+[?2004lgroupmod: invalid option -- 'r'
+Usage: groupmod [options] GROUP
+
+Options:
+  -a, --append                  append the users mentioned by -U option to the group 
+                                without removing existing user members
+  -g, --gid GID                 change the group ID to GID
+  -h, --help                    display this help message and exit
+  -n, --new-name NEW_GROUP      change the name to NEW_GROUP
+  -o, --non-unique              allow to use a duplicate (non-unique) GID
+  -p, --password PASSWORD       change the password to this (encrypted)
+                                PASSWORD
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -U, --users USERS             list of user members of this group
+
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# groupmod -r -U user11,user13^C[?2004l[?2004h[?2004l
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# man groupmod
+[?2004l[?1049h[22;0;0t[?1h=[4mGROUPMOD[24m(8)        System Management Commands        [4mGROUPMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       groupmod - modify a group definition on the system[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupmod [22m[[4moptions[24m] [4mGROUP[0m[m
+[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mGROUPMOD[24m(8)        System Management Commands        [4mGROUPMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       groupmod - modify a group definition on the system[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupmod [22m[[4moptions[24m] [4mGROUP[0m[m
+[m
+[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mGROUPMOD[24m(8)        System Management Commands        [4mGROUPMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       groupmod - modify a group definition on the system[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupmod [22m[[4moptions[24m] [4mGROUP[0m[m
+[m
+[1mDESCRIPTION[0m[m
+[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K...skipping...
+[4mGROUPMOD[24m(8)        System Management Commands        [4mGROUPMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       gro
