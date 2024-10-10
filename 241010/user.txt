@@ -1,3 +1,4 @@
 useradd user1 # ingen hemkatalog skapas
 
-useradd -d /home/user2 user2 # hemkatalog skapas
+useradd -m user3 # hemkatalog skapas
+
