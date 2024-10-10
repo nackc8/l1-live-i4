@@ -786,4 +786,50 @@ Defaults	use_pty
 
 # Host alias specification
 
-# User ali
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification
+root	ALL=(ALL:ALL) ALL
+
+# Members of the admin group may gain root privileges
+%admin ALL=(ALL) ALL
+
+# Allow members of group sudo to execute any command
+%sudo	ALL=(ALL:ALL) ALL
+
+# See sudoers(5) for more information on "@include" directives:
+
+@includedir /etc/sudoers.d
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# man visa[Kudo
+[?2004l[?1049h[22;0;0t[?1h=[4mVISUDO[24m(8)            System Manager's Manual           [4mVISUDO[24m(8)[m
+[m
+[1mNAME[0m[m
+       visudo — edit the sudoers file[m
+[m
+[1mSYNOPSIS[0m[m
+       [1mvisudo [22m[[1m-chIOPqsV[22m] [[[1m-f[22m] [4msudoers[24m][m
+[m
+[1mDESCRIPTION[0m[m
+       [1mvisudo  [22medits  the [4msudoers[24m file in a safe fashion, analo‐[m
+       gous to [4mvipw[24m(8).  [1mvisudo [22mlocks the [4msudoers[24m  file  against[m
+       multiple  simultaneous  edits,  performs  basic  validity[m
+       checks, and checks for syntax  errors  before  installing[m
+[7m Manual page visudo(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       the  edited file.  If the [4msudoers[24m file is currently being[m
+[7m Manual page visudo(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       edited you will receive a message to try again later.[m
+[7m Manual page visudo(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page visudo(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       If the [4msudoers[24m file does not exist, it  will  be  created[m
+[7m Manual page visudo(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       unless the editor exits without writing to the file.[m
+[7m Manual page visudo(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page visudo(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mvisudo [22mparses the [4msudoers[24m file after editing and will not[m
+[7m Manual page visudo(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       save  the changes if there is a syntax error.  Upon find‐[m
+[7m Manual page visudo(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ing an error, [1mvisudo [22mwill print  a  message  stating  the[m
+[7m Manual page visudo(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       line number(s) where the error occurred and the user will[m
+[7m Manual page visudo(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       receive  the  “What now?” prompt.  At this point the user[m
+[7m Manual page visudo(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       may enter ‘e’ to re-edit the [4msudoers[24m file,  ‘x’  to  exit[m
+[7m Manual page visudo(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       without  saving  the  changes,  or  ‘Q’  to quit and save[m
+[7m Manual page visudo(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       changes.  The ‘Q’ option should be used with extreme cau‐[m
+[7m Manual page visudo(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       tion because if [1mvisudo [22mbelieves there to be a syntax  er‐[m
+[7m Manual page visudo(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       ror,  so  will [1msudo[22m.  If ‘e’ is typed to edit the [4msudoers[0m[m
+[7m Manual page visudo(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       file after a syntax error has b
