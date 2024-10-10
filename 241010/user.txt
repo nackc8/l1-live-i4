@@ -14,7 +14,7 @@ cat /etc/group | cut -d : -f 1
 # lägg till user1 till gruppen staff
 usermod --append -G staff user1
 
-# skriv över kommentarsfältet (GECOS)
+# skriv över kommentarsqfältet (GECOS)
 usermod -c "Carnivore" user5
 
 # Ta bort en användare från en grupp

@@ -464,4 +464,279 @@ Last login: Thu Oct 10 09:08:27 2024 from 10.0.2.2
 [10;1H[K[7mage groupadd(8) line 115/197 68% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
 [10;1H[K[7mage groupadd(8) line 114/197 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           variable in /etc/login.defs.[m
 [10;1H[K[7mage groupadd(8) line 113/197 67% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
-[10;1H[K[7mage groupadd(8) line 112/197 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           The default behavior (if the [1m-g[22m, [
+[10;1H[K[7mage groupadd(8) line 112/197 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m[7m-U[27m[1m [22moptions[m
+[10;1H[K[7mage groupadd(8) line 111/197 66% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[10;1H[K[7mage groupadd(8) line 110/197 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           A list of usernames to add as members of the group.[m
+[10;1H[K[7mage groupadd(8) line 109/197 65% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1m[7m-U[27m[22m, [1m--users[0m[m
+[10;1H[K[7mage groupadd(8) line 108/197 64% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[10;1H[K[7mage groupadd(8) line 107/197 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           support.[m
+[10;1H[K[7mage groupadd(8) line 106/197 63% (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCONFIGURATION[0m[m
+[7mage groupadd(8) line 107/197 63% (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# apt update // [K[K[K&& apt u[Kfull-upgrade   ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# man groupmod
+[?2004l[?1049h[22;0;0t[?1h=[4mGROUPMOD[24m(8)        System Management Commands        [4mGROUPMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       groupmod - modify a group definition on the system[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupmod [22m[[4moptions[24m] [4mGROUP[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mgroupmod [22mcommand modifies the definition of the[m
+       specified [4mGROUP[24m by modifying the appropriate entry in the[m
+[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       group database.[m
+[7m Manual page groupmod(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page groupmod(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1mgroupmod [22mcommand are:[m
+[7m Manual page groupmod(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If group members are specified with -U, append them[m
+[7m Manual page groupmod(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to the existing member list, rather than replacing[m
+[7m Manual page groupmod(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           it.[m
+[7m Manual page groupmod(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The group ID of the given [4mGROUP[24m will be changed to[m
+[7m Manual page groupmod(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mGID[24m.[m
+[7m Manual page groupmod(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[13;1H[K[7m Manual page groupmod(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       group database.[m
+[13;1H[K[7m Manual page groupmod(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       specified [4mGROUP[24m by modifying the appropriate entry in the[m
+[13;1H[K[7m Manual page groupmod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The [1mgroupmod [22mcommand modifies the definition of the[m
+[13;1H[K[7m Manual page groupmod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[13;1H[K[7m Manual page groupmod(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[13;1H[K[7m Manual page groupmod(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mgroupmod [22m[[4moptions[24m] [4mGROUP[0m[m
+[13;1H[K[7m Manual page groupmod(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[13;1H[K[7m Manual page groupmod(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If group members are specified with -U, append them[m
+[7m Manual page groupmod(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to the existing member list, rather than replacing[m
+[7m Manual page groupmod(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           it.[m
+[7m Manual page groupmod(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The group ID of the given [4mGROUP[24m will be changed to[m
+[7m Manual page groupmod(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mGID[24m.[m
+[7m Manual page groupmod(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The value of [4mGID[24m must be a non-negative decimal[m
+[7m Manual page groupmod(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           integer. This value must be unique, unless the [1m-o[0m[m
+[7m Manual page groupmod(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           option is used.[m
+[7m Manual page groupmod(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Users who use the group as primary group will be[m
+[7m Manual page groupmod(8) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           updated to keep the group as their primary group.[m
+[7m Manual page groupmod(8) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Any files that have the old group ID and must[m
+[7m Manual page groupmod(8) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           continue to belong to [4mGROUP[24m, must have their group ID[m
+[7m Manual page groupmod(8) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           changed manually.[m
+[7m Manual page groupmod(8) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           No checks will be performed with regard to the[m
+[7m Manual page groupmod(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mGID_MIN[22m, [1mGID_MAX[22m, [1mSYS_GID_MIN[22m, or [1mSYS_GID_MAX [22mfrom[m
+[7m Manual page groupmod(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/login.defs.[m
+[7m Manual page groupmod(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[22m, [1m--help[0m[m
+[7m Manual page groupmod(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display help message and exit.[m
+[7m Manual page groupmod(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[22m, [1m--new-name [4m[22mNEW_GROUP[0m[m
+[7m Manual page groupmod(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The name of the group will be changed from [4mGROUP[24m to[m
+[7m Manual page groupmod(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mNEW_GROUP[24m name.[m
+[7m Manual page groupmod(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[22m, [1m--non-unique[0m[m
+[7m Manual page groupmod(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           When used with the [1m-g [22moption, allow to change the[m
+[7m Manual page groupmod(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           group [4mGID[24m to a non-unique value.[m
+[7m Manual page groupmod(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-p[22m, [1m--password [4m[22mPASSWORD[0m[m
+[7m Manual page groupmod(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The encrypted password, as returned by [1mcrypt[22m(3).[m
+[7m Manual page groupmod(8) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mNote: [22mThis option is not recommended because the[m
+[7m Manual page groupmod(8) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           password (or encrypted password) will be visible by[m
+[7m Manual page groupmod(8) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           users listing the processes.[m
+[7m Manual page groupmod(8) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           You should make sure the password respects the[m
+[7m Manual page groupmod(8) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system's password policy.[m
+[7m Manual page groupmod(8) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[22m, [1m--root [4m[22mCHROOT_DIR[0m[m
+[7m Manual page groupmod(8) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes in the [4mCHROOT_DIR[24m directory and use the[m
+[7m Manual page groupmod(8) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           configuration files from the [4mCHROOT_DIR[24m directory.[m
+[7m Manual page groupmod(8) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Only absolute paths are supported.[m
+[7m Manual page groupmod(8) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-P[22m, [1m--prefix [4m[22mPREFIX_DIR[0m[m
+[7m Manual page groupmod(8) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes in the [4mPREFIX_DIR[24m directory and use the[m
+[7m Manual page groupmod(8) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           configuration files from the [4mPREFIX_DIR[24m directory.[m
+[7m Manual page groupmod(8) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option does not chroot and is intended for[m
+[7m Manual page groupmod(8) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           preparing a cross-compilation target. Some[m
+[7m Manual page groupmod(8) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           limitations: NIS and LDAP users/groups are not[m
+[7m Manual page groupmod(8) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           verified. PAM authentication is using the host files.[m
+[7m Manual page groupmod(8) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           No SELINUX support.[m
+[7m Manual page groupmod(8) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-U[22m, [1m--users[0m[m
+[7m Manual page groupmod(8) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           A list of usernames to add as members of the group.[m
+[7m Manual page groupmod(8) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+[7m Manual page groupmod(8) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+[7m Manual page groupmod(8) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           variable in /etc/login.defs.[m
+[7m Manual page groupmod(8) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mCONFIGURATION[0m[m
+[7m Manual page groupmod(8) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The following configuration variables in /etc/login.defs[m
+[7m Manual page groupmod(8) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       change the behavior of this tool:[m
+[7m Manual page groupmod(8) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+       The following configuration variables in /etc/login.defs[m
+       change the behavior of this tool:[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+       The following configuration variables in /etc/login.defs[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+       The following configuration variables in /etc/login.defs[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+       The following configuration variables in /etc/login.defs[m
+       change the behavior of this tool:[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+       The following configuration variables in /etc/login.defs[m
+       change the behavior of this tool:[m
+[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+       The following configuration variables in /etc/login.defs[m
+       change the behavior of this tool:[m
+[m
+       [1mMAX_MEMBERS_PER_GROUP [22m(number)[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[H[2J[H[m
+       [1m-U[22m, [1m--users[0m[m
+           A list of usernames to add as members of the group.[m
+[m
+           The default behavior (if the [1m-g[22m, [1m-N[22m, and [1m-U [22moptions[m
+           are not specified) is defined by the [1mUSERGROUPS_ENAB[0m[m
+           variable in /etc/login.defs.[m
+[m
+[1mCONFIGURATION[0m[m
+       The following configuration variables in /etc/login.defs[m
+       change the behavior of this tool:[m
+[m
+       [1mMAX_MEMBERS_PER_GROUP [22m(number)[m
+           Maximum members per group entry. When the maximum is[m
+[7m Manual page groupmod(8) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           No SELINUX support.[m
+[15;1H[K[7m Manual page groupmod(8) line 75 (press h f
