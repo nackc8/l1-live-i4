@@ -44,3 +44,4 @@ w
 who
 
 # disable user13
+# passwd -l  # ej, eftersom användaren kan logga in via ssh-nyckel ändå
