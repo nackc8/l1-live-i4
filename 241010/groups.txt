@@ -1,2 +1,5 @@
 # Skapa en tom grupp
 groupadd grupp1
+
+# Skapa grupp2 med ett konto i sig
+groupadd grupp2 -U user5
