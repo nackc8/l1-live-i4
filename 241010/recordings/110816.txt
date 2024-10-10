@@ -3019,4 +3019,162 @@ Type [32mhelp(B[m for instructions on how to use fish
 [7m Manual page usermod(8) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           intended for preparing a cross-compilation target.[m
 [7m Manual page usermod(8) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Some limitations: NIS and LDAP users/groups are not[m
 [7m Manual page usermod(8) line 147 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           verified. PAM authentication is using the host files.[m
-[7m Manual page usermod(8) line 148 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h
+[7m Manual page usermod(8) line 148 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/gro[K
+groff/  group   group-  grub.d/ 
+]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,kent
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:kent
+floppy:x:25:
+tape:x:26:
+sudo:x:27:kent
+audio:x:29:
+dip:x:30:kent
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:kent
+staff:x:50:
+games:x:60:
+users:x:100:testuser,user5,user6
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+systemd-timesync:x:997:
+input:x:996:
+sgx:x:995:
+kvm:x:994:
+render:x:993:
+lxd:x:101:kent
+messagebus:x:102:
+systemd-resolve:x:992:
+_ssh:x:103:
+polkitd:x:991:
+crontab:x:990:
+syslog:x:104:
+uuidd:x:105:
+rdma:x:106:
+tcpdump:x:107:
+tss:x:108:
+landscape:x:109:
+fwupd-refresh:x:989:
+kent:x:1000:
+bill:x:1001:
+testuser:x:1002:
+user1:x:1003:
+user2:x:1004:
+user3:x:1005:
+user4:x:1006:
+user5:x:1007:
+user6:x:1008:
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | [H[2J]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1
+[?2004lroot
+daemon
+bin
+sys
+adm
+tty
+disk
+lp
+mail
+news
+uucp
+man
+proxy
+kmem
+dialout
+fax
+voice
+cdrom
+floppy
+tape
+sudo
+audio
+dip
+www-data
+backup
+operator
+list
+irc
+src
+shadow
+utmp
+video
+sasl
+plugdev
+staff
+games
+users
+nogroup
+systemd-journal
+systemd-network
+systemd-timesync
+input
+sgx
+kvm
+render
+lxd
+messagebus
+systemd-resolve
+_ssh
+polkitd
+crontab
+syslog
+uuidd
+rdma
+tcpdump
+tss
+landscape
+fwupd-refresh
+kent
+bill
+testuser
+user1
+user2
+user3
+user4
+user5
+user6
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ cat /etc/group | cut -d : -f 1[K[K[K[K[K[Kman usermod[2Pcat /etc/group | cut -d : -f 1[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat /etc/group | cut -d : -f 1[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcat /etc/group
+[?2004lroot:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,kent
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:kent
+floppy:x:25:
+ta
