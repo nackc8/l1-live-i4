@@ -1,0 +1,2 @@
+# Skapa en tom grupp
+groupadd grupp1
