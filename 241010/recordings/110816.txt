@@ -3391,4 +3391,40 @@ user5:x:1007:1007:Bo Svansson,99,0703334445,022241716,[01;31m[KPe[m[Ksketari
 [7m Manual page usermod(8) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mNote: [22mAvoid this option on the command line because[m
 [7m Manual page usermod(8) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the password (or encrypted password) will be visible[m
 [7m Manual page usermod(8) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           by users listing the processes.[m
-[7m Manual page usermod(8) line 127 (press h fo
+[7m Manual page usermod(8) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page usermod(8) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The password will be written in the local /etc/passwd[m
+[7m Manual page usermod(8) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           or /etc/shadow file. This might differ from the[m
+[7m Manual page usermod(8) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           password database configured in your PAM[m
+[7m Manual page usermod(8) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           configuration.[m
+[7m Manual page usermod(8) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page usermod(8) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           You should make sure the password respects the[m
+[7m Manual page usermod(8) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           system's password policy.[m
+[7m Manual page usermod(8) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page usermod(8) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-r[22m, [1m--remove[0m[m
+[7m Manual page usermod(8) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Remove the user from named supplementary group(s).[m
+[7m Manual page usermod(8) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Use only with the [1m-G [22moption.[m
+[7m Manual page usermod(8) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page usermod(8) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-R[22m, [1m--root [4m[22mCHROOT_DIR[0m[m
+[7m Manual page usermod(8) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Apply changes in the [4mCHROOT_DIR[24m directory and use the[m
+[7m Manual page usermod(8) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           configuration files from the [4mCHROOT_DIR[24m directory.[m
+[7m Manual page usermod(8) line 143 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [7musermod --append -G staff user1[27m[C[C[C[C[C[C[C[C[C[C[C[C[Cusermod --append -G staff user1[1P[1P[1P[1P[1P[1P[1@r[1@e[1@m[1@o[1@v[1@e
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# grep user1 -[K/etc/gorup[[K[K[K[K[Kroup
+[?2004l[01;31m[Kuser1[m[K:x:1003:
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# user
+useradd  userdel  usermod  users    
+]0;root@ubse: ~root@ubse:~# user[K[K[K[K[K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# man userdel
+[?2004l[?1049h[22;0;0t[?1h=[4mUSERDEL[24m(8)         System Management Commands         [4mUSERDEL[24m(8)[m
+[m
+[1mNAME[0m[m
+       userdel - delete a user account and related files[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1muserdel [22m[options] [4mLOGIN[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       [1muserdel [22mis a low level utility for removing users. On[m
+       Debian, administrators should usually use [1mdeluser[22m(8)[m
+       instead.[m
+[m
+[7m Manual page userdel(8) line 1 (press h for he
