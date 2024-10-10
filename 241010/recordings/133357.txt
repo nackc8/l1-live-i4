@@ -751,4 +751,173 @@ Last login: Thu Oct 10 09:08:27 2024 from 10.0.2.2
 [01;31m[Kuser[m[K1:x:1003:1003::/home/[01;31m[Kuser[m[K1:/bin/sh
 [01;31m[Kuser[m[K5:x:1007:1007:Carnivore:/home/[01;31m[Kuser[m[K5:/bin/bash
 [01;31m[Kuser[m[K6:x:1008:1008:Bananen,123,08998,665,Hej hej:/home/[01;31m[Kuser[m[K6:/usr/bin/fish
-[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [7museradd -m -s /bin/bash user4[27m[C[C[C[C[C[C[C[C[C[C[C[C[Cuseradd -m -s /bin/bash user4[K$n[1@f[1@o[1@r[1@ [1@([1@([1@)[1@)[1@ [1@n[1@=[1@7[1@;[1@ [1@n[1@ [1@<[1@ [1@1[1@5[1@ [1@; )) useradd -m -s /bin/bash user$n [A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn)) useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C+)) useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C+)) useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[
+[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [7museradd -m -s /bin/bash user4[27m[C[C[C[C[C[C[C[C[C[C[C[C[Cuseradd -m -s /bin/bash user4[K$n[1@f[1@o[1@r[1@ [1@([1@([1@)[1@)[1@ [1@n[1@=[1@7[1@;[1@ [1@n[1@ [1@<[1@ [1@1[1@5[1@ [1@; )) useradd -m -s /bin/bash user$n [A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cn)) useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C+)) useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C+)) useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C; useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co useradd -m -s /bin/bash user$n[A]0;root@ubse: ~root@ubse:~# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C; done
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# ls /home
+[?2004l[0m[01;34mkent[0m      [01;34muser10[0m  [01;34muser12[0m  [01;34muser14[0m  [01;34muser5[0m  [01;34muser7[0m  [01;34muser9[0m
+[01;34mtestuser[0m  [01;34muser11[0m  [01;34muser13[0m  [01;34muser3[0m   [01;34muser6[0m  [01;34muser8[0m
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# man usermod
+[?2004l[?1049h[22;0;0t[?1h=[4mUSERMOD[24m(8)         System Management Commands         [4mUSERMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       usermod - modify a user account[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1musermod [22m[[4moptions[24m] [4mLOGIN[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1musermod [22mcommand modifies the system account files.[m
+[m
+[7m Manual page usermod(8) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# man usermod
+[?2004l[?1049h[22;0;0t[?1h=[4mUSERMOD[24m(8)         System Management Commands         [4mUSERMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       usermod - modify a user account[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1musermod [22m[[4moptions[24m] [4mLOGIN[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1musermod [22mcommand modifies the system account files.[m
+[m
+[7m Manual page usermod(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page usermod(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1musermod [22mcommand are:[m
+[7m Manual page usermod(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page usermod(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[22m, [1m--append[0m[m
+[7m Manual page usermod(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Add the user to the supplementary group(s). Use only[m
+[7m Manual page usermod(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           with the [1m-G [22moption.[m
+[7m Manual page usermod(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page usermod(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-b[22m, [1m--badname[0m[m
+[7m Manual page usermod(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Allow names that do not conform to standards.[m
+[7m Manual page usermod(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page usermod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[22m, [1m--comment [4m[22mCOMMENT[0m[m
+[7m Manual page usermod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           update the comment field of the user in /etc/passwd,[m
+[7m Manual page usermod(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           which is normally modified using the [1mchfn[22m(1) utility.[m
+[7m Manual page usermod(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mOPTIONS[0m[m
+[13;1H[K[7m Manual page usermod(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[13;1H[K[7m Manual page usermod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The [1musermod [22mcommand modifies the system account files.[m
+[13;1H[K[7m Manual page usermod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[13;1H[K[7m Manual page usermod(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[13;1H[K[7m Manual page usermod(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1musermod [22m[[4moptions[24m] [4mLOGIN[0m[m
+[13;1H[K[7m Manual page usermod(8) line 8 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# man usermod[K[K[K[K[K[K[Kgroupa[Kmod[H[2J]0;root@ubse: ~root@ubse:~# man groupmod
+[?2004l[?1049h[22;0;0t[?1h=[4mGROUPMOD[24m(8)        System Management Commands        [4mGROUPMOD[24m(8)[m
+[m
+[1mNAME[0m[m
+       groupmod - modify a group definition on the system[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mgroupmod [22m[[4moptions[24m] [4mGROUP[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mgroupmod [22mcommand modifies the definition of the[m
+       specified [4mGROUP[24m by modifying the appropriate entry in the[m
+[7m Manual page groupmod(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       group database.[m
+[7m Manual page groupmod(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page groupmod(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1mgroupmod [22mcommand are:[m
+[7m Manual page groupmod(8) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mSYNOPSIS[0m[m
+[13;1H[K[7m Manual page groupmod(8) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If group members are specified with -U, append them[m
+[7m Manual page groupmod(8) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to the existing member list, rather than replacing[m
+[7m Manual page groupmod(8) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           it.[m
+[7m Manual page groupmod(8) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The group ID of the given [4mGROUP[24m will be changed to[m
+[7m Manual page groupmod(8) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mGID[24m.[m
+[7m Manual page groupmod(8) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The value of [4mGID[24m must be a non-negative decimal[m
+[7m Manual page groupmod(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mOPTIONS[0m[m
+[13;1H[K[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[H[2J[H[1mOPTIONS[0m[m
+       The options which apply to the [1mgroupmod [22mcommand are:[m
+[m
+       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+           If group members are specified with -U, append them[m
+           to the existing member list, rather than replacing[m
+           it.[m
+[m
+       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+           The group ID of the given [4mGROUP[24m will be changed to[m
+           [4mGID[24m.[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[H[2J[H[1mOPTIONS[0m[m
+       The options which apply to the [1mgroupmod [22mcommand are:[m
+[m
+       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+           If group members are specified with -U, append them[m
+           to the existing member list, rather than replacing[m
+           it.[m
+[m
+       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+           The group ID of the given [4mGROUP[24m will be changed to[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[H[2J[H[1mOPTIONS[0m[m
+       The options which apply to the [1mgroupmod [22mcommand are:[m
+[m
+       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+           If group members are specified with -U, append them[m
+           to the existing member list, rather than replacing[m
+           it.[m
+[m
+       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[H[2J[H[1mOPTIONS[0m[m
+       The options which apply to the [1mgroupmod [22mcommand are:[m
+[m
+       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+           If group members are specified with -U, append them[m
+           to the existing member list, rather than replacing[m
+           it.[m
+[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[H[2J[H[1mOPTIONS[0m[m
+       The options which apply to the [1mgroupmod [22mcommand are:[m
+[m
+       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+           If group members are specified with -U, append them[m
+           to the existing member list, rather than replacing[m
+           it.[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[H[2J[H[1mOPTIONS[0m[m
+       The options which apply to the [1mgroupmod [22mcommand are:[m
+[m
+       [1m-a[22m, [1m--append [4m[22mGID[0m[m
+           If group members are specified with -U, append them[m
+           to the existing member list, rather than replacing[m
+           it.[m
+[m
+[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The group ID of the given [4mGROUP[24m will be changed to[m
+[7m Manual page groupmod(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mGID[24m.[m
+[7m Manual page groupmod(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[9;1H[K[7m Manual page groupmod(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       The options which apply to the [1mgroupmod [22mcommand are:[m
+[9;1H[K[7m Manual page groupmod(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mOPTIONS[0m[m
+[9;1H[K[7m Manual page groupmod(8) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-g[22m, [1m--gid [4m[22mGID[0m[m
+[7m Manual page groupmod(8) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The group ID of the given [4mGROUP[24m will be changed to[m
+[7m Manual page groupmod(8) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mGID[24m.[m
+[7m Manual page groupmod(8) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The value of [4mGID[24m must be a non-negative decimal[m
+[7m Manual page groupmod(8) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           integer. This value must be unique, unless the [1m-o[0m[m
+[7m Manual page groupmod(8) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           option is used.[m
+[7m Manual page groupmod(8) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Users who use the group as primary group will be[m
+[7m Manual page groupmod(8) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           updated to keep the group as their primary group.[m
+[7m Manual page groupmod(8) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Any files that have the old group ID and must[m
+[7m Manual page groupmod(8) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           continue to belong to [4mGROUP[24m, must have their group ID[m
+[7m Manual page groupmod(8) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           changed manually.[m
+[7m Manual page groupmod(8) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           No checks will be performed with regard to the[m
+[7m Manual page groupmod(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mGID_MIN[22m, [1mGID_MAX[22m, [1mSYS_GID_MIN[22m, or [1mSYS_GID_MAX [22mfrom[m
+[7m Manual page groupmod(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/login.defs.[m
+[7m Manual page groupmod(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-h[22m, [1m--help[0m[m
+[7m Manual page groupmod(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Display help message and exit.[m
+[7m Manual page groupmod(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-n[22m, [1m--new-name [4m[22mNEW_GROUP[0m[m
+[7m Manual page groupmod(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The name of the group will be changed from [4mGROUP[24m to[m
+[7m Manual page groupmod(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [4mNEW_GROUP[24m name.[m
+[7m Manual page groupmod(8) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page groupmod(8) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-o[22m, [1m--non-unique[0m[m
+[7m Manual page groupmod(8) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           When used with the [1m-g [22moption, allow to change the[m
+[7m Manual page groupmod(8) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           group [4mGID[24m to a non-unique value.[m
+[7m Manual page groupmod(8) line 44 (press h for help 
