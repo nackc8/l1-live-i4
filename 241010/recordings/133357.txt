@@ -1301,4 +1301,29 @@ su: Authentication failure
 [7m Manual page chage(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1mchage [22mcommand are:[m
 [7m Manual page chage(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
 [7m Manual page chage(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[22m, [1m--lastday [4m[22mLAST_DAY[0m[m
-[7m Manual page chage(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the number of days since January 1st, 1970
+[7m Manual page chage(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the number of days since January 1st, 1970 when[m
+[7m Manual page chage(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the password was last changed. The date may also be[m
+[7m Manual page chage(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           expressed in the format YYYY-MM-DD (or the format[m
+[7m Manual page chage(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           more commonly used in your area). If the [4mLAST_DAY[24m is[m
+[7m Manual page chage(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[1mDESCRIPTION[0m[m
+[14;1H[K[7m Manual page chage(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM[m
+[14;1H[K[7m Manual page chage(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM       [1mchage [22m[[4moptions[24m] [4mLOGIN[0m[m
+[14;1H[K[7m Manual page chage(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the password was last changed. The date may also be[m
+[7m Manual page chage(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           expressed in the format YYYY-MM-DD (or the format[m
+[7m Manual page chage(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           more commonly used in your area). If the [4mLAST_DAY[24m is[m
+[7m Manual page chage(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           set to [4m0[24m the user is forced to change his password on[m
+[7m Manual page chage(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the next log on.[m
+[7m Manual page chage(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chage(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-E[22m, [1m--expiredate [4m[22mEXPIRE_DATE[0m[m
+[7m Manual page chage(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the date or number of days since January 1, 1970[m
+[7m Manual page chage(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           on which the user's account will no longer be[m
+[7m Manual page chage(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           accessible. The date may also be expressed in the[m
+[7m Manual page chage(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           format YYYY-MM-DD (or the format more commonly used[m
+[7m Manual page chage(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           in your area). A user whose account is locked must[m
+[7m Manual page chage(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           contact the system administrator before being able to[m
+[7m Manual page chage(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           use the system again.[m
+[7m Manual page chage(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chage(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           For example the following can be used to set an[m
+[7m Manual page chage(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           more commonly used in your area). If the [4mLAST_DAY[24m is[m
+[14;1H[K[7m Manual page chage(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           expressed in the format YYYY-MM-DD (or the format[m
+[14;1H[K[7m Manual page chage(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KAA[K[HM           the password wa
