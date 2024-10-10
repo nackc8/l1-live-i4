@@ -1259,4 +1259,46 @@ passwd: password updated successfully
 [7m Manual page passwd(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           re-enables a password by changing the password back[m
 [7m Manual page passwd(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           to its previous value (to the value before using the[m
 [7m Manual page passwd(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1m-l [22moption).[m
-[7m Manua
+[7m Manual page passwd(1) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page passwd(1) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-w[22m, [1m--warndays [4m[22mWARN_DAYS[0m[m
+[7m Manual page passwd(1) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the number of days of warning before a password[m
+[7m Manual page passwd(1) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           change is required. The [4mWARN_DAYS[24m option is the[m
+[7m Manual page passwd(1) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           number of days prior to the password expiring that a[m
+[7m Manual page passwd(1) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           user will be warned that their password is about to[m
+[7m Manual page passwd(1) line 143 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# exit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ use[K[K[Ksu user10
+[?2004lPassword: 
+su: Authentication failure
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo +i[K[K-i
+[?2004l[sudo] password for kent: 
+[?2004h]0;root@ubse: ~root@ubse:~# passwd +u[K[K-u user10
+[?2004lpasswd: password changed.
+[?2004h]0;root@ubse: ~root@ubse:~# exit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su usr[Ker10
+[?2004lPassword: 
+[?2004h]0;user10@ubse: /home/kent[01;32muser10@ubse[00m:[01;34m/home/kent[00m$ exit
+[?2004lexit
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ s[Ksudop[K +i[K[K-i
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# man us[K[Kchage
+[?2004l[?1049h[22;0;0t[?1h=[4mCHAGE[24m(1)                  User Commands                 [4mCHAGE[24m(1)[m
+[m
+[1mNAME[0m[m
+       chage - change user password expiry information[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mchage [22m[[4moptions[24m] [4mLOGIN[0m[m
+[m
+[1mDESCRIPTION[0m[m
+       The [1mchage [22mcommand changes the number of days between[m
+       password changes and the date of the last password[m
+       change. This information is used by the system to[m
+[7m Manual page chage(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       determine when a user must change their password.[m
+[7m Manual page chage(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chage(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page chage(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       The options which apply to the [1mchage [22mcommand are:[m
+[7m Manual page chage(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page chage(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[22m, [1m--lastday [4m[22mLAST_DAY[0m[m
+[7m Manual page chage(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the number of days since January 1st, 1970
