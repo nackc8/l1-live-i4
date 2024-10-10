@@ -1508,4 +1508,63 @@ su: Authentication failure
        [1m-E[22m, [1m--expiredate [4m[22mEXPIRE_DATE[0m[m
            Set the date or number of days since January 1, 1970[m
            on which the user's account will no longer be[m
-           accessible. The
+           accessible. The date may also be expressed in the[m
+[7m Manual page chage(1) line 18 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# man chage[5Pexitchage -d 1 user10[1P user100 user10
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# exit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su user10
+[?2004lPassword: 
+You are required to change your password immediately (administrator enforced).
+Changing password for user10.
+Current password: 
+New password: 
+Retype new password: 
+The password has not been changed.
+New password: 
+Retype new password: 
+[?2004h]0;user10@ubse: /home/kent[01;32muser10@ubse[00m:[01;34m/home/kent[00m$ exit
+[?2004lexit
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ (reverse-i-search)`': [Kr': su use[7mr[27m10(failed reverse-i-search)`': su user10[1@+[C[C[C[C[C[C[C[C[C[1@i[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C(failed reverse-i-search)`': su user10[K[C[8Preverse-i-search)`-': sudo [7m-[27mii': sudo [7m-i[27m[11P]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo -i
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# exitchage -d 0 user10  ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# man chage
+[?2004l[?1049h[22;0;0t[?1h=[4mCHAGE[24m(1)                  User Commands                 [4mCHAGE[24m(1)[m
+[m
+[1mNAME[0m[m
+       chage - change user password expiry information[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1mchage [22m[[4moptions[24m] [4mLOGIN[0m[m
+[m
+[1mDESCRIPTION[0m[m
+[7m Manual page chage(1) line 1 (press h for help or q to quit)[27m[K[K       The [1mchage [22mcommand changes the number of days between[m
+       password changes and the date of the last password[m
+       change. This information is used by the system to[m
+       determine when a user must change their password.[m
+[m
+[1mOPTIONS[0m[m
+       The options which apply to the [1mchage [22mcommand are:[m
+[m
+       [1m-d[22m, [1m--lastday [4m[22mLAST_DAY[0m[m
+           Set the number of days since January 1st, 1970 when[m
+[7m Manual page chage(1) line 11 (press h for help or q to quit)[27m[K[K           the password was last changed. The date may also be[m
+           expressed in the format YYYY-MM-DD (or the format[m
+           more commonly used in your area). If the [4mLAST_DAY[24m is[m
+           set to [4m0[24m the user is forced to change his password on[m
+           the next log on.[m
+[m
+       [1m-E[22m, [1m--expiredate [4m[22mEXPIRE_DATE[0m[m
+           Set the date or number of days since January 1, 1970[m
+           on which the user's account will no longer be[m
+           accessible. The date may also be expressed in the[m
+[7m Manual page chage(1) line 21 (press h for help or q to quit)[27m[K[K           format YYYY-MM-DD (or the format more commonly used[m
+           in your area). A user whose account is locked must[m
+           contact the system administrator before being able to[m
+           use the system again.[m
+[m
+           For example the following can be used to set an[m
+           account to expire in 180 days:[m
+[m
+                        chage -E $(date -d +180days +%Y-%m-%d)[m
+[m
+[7m Manual page chage(

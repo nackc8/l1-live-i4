@@ -29,3 +29,7 @@ passwd -l user10
 # Enable
 passwd -u user10
 
+# Kräv byte av lösenord vid nästa inloggning
+chage -d 0 user10
+
+# TODO: -d 1 ????
