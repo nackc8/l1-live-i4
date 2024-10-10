@@ -22,3 +22,4 @@ groupmod -U user13,user14 grupp1
 # Ta bort grupp
 groupdel grupp3
 
+passwd user10
