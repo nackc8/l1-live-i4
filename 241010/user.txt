@@ -1,0 +1,2 @@
+useradd user1 # ingen hemkatalog skapas
+

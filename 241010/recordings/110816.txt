@@ -357,4 +357,153 @@ user1:!:20006:0:99999:7:::
 [?2004lNew password: 
 Retype new password: 
 passwd: password updated successfully
-[?2004h]0;root@ubse: ~root@ubse:~# pas
+[?2004h]0;root@ubse: ~root@ubse:~# passwd user1less /etc/shadow
+[?2004l[?1049h[22;0;0t[?1h=root:*:19836:0:99999:7:::
+daemon:*:19836:0:99999:7:::
+bin:*:19836:0:99999:7:::
+sys:*:19836:0:99999:7:::
+sync:*:19836:0:99999:7:::
+games:*:19836:0:99999:7:::
+man:*:19836:0:99999:7:::
+lp:*:19836:0:99999:7:::
+mail:*:19836:0:99999:7:::
+news:*:19836:0:99999:7:::
+uucp:*:19836:0:99999:7:::
+proxy:*:19836:0:99999:7:::
+www-data:*:19836:0:99999:7:::
+backup:*:19836:0:99999:7:::
+list:*:19836:0:99999:7:::
+irc:*:19836:0:99999:7:::
+_apt:*:19836:0:99999:7:::
+[7m/etc/shadow[27m[K[K...skipping...
+pollinate:!:19836::::::
+polkitd:!*:19836::::::
+syslog:!:19836::::::
+uuidd:!:19836::::::
+tcpdump:!:19836::::::
+tss:!:19836::::::
+landscape:!:19836::::::
+fwupd-refresh:!*:19836::::::
+usbmux:!:20003::::::
+kent:$6$HlukeCaD1DU6sFm4$AzwSj/UbX56IbJkwqTXzKdGscxBTySezVs3aokJKR 5y.rNb239FEkCu8V90iyeKywNMkkgSwHO9jDk57jzkmM1:20003:0:99999:7:::
+sshd:!:20003::::::
+bill:$y$j9T$/BGW/x3ikUnJaJCVz08TL0$YX3YgQzrWNuHFhRTks.90Uv14M/uWyY BQ0AMAoC8Wh3:20006:0:99999:7:::
+testuser:!:20005:0:99999:7:::
+user1:$y$j9T$6v5R3X.WrqwnYBfmRf8dw/$T3YOn0V54ffa3dk7WzKPBE0.OuY3VR GtYJom3hBWjg4:20006:0:99999:7:::
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# su user1
+[?2004l$ exit
+[?2004h]0;root@ubse: ~root@ubse:~# exit
+[?2004llogout
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ su user1
+[?2004lPassword: 
+$ ls
+ls: cannot open directory '.': Permission denied
+$ cd /
+$ ls
+bin		   lib.usr-is-merged  sbin.usr-is-merged
+bin.usr-is-merged  lost+found	      snap
+boot		   media	      srv
+cdrom		   mnt		      swap.img
+dev		   opt		      sys
+etc		   proc		      tmp
+home		   root		      usr
+lib		   run		      var
+lib64		   sbin
+$ cd /ho	me/			user1
+sh: 4: cd: can't cd to /home/user1
+$ cd /home
+$ ls
+kent  testuser
+$ exit
+[?2004h]0;kent@ubse: ~[01;32mkent@ubse[00m:[01;34m~[00m$ sudo -i
+[?2004l[?2004h]0;root@ubse: ~root@ubse:~# less /etc/passwd
+[?2004l[?1049h[22;0;0t[?1h=root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+_apt:x:42:65534::/nonexistent:/usr/sbin/nologin
+[7m/etc/passwd[27m[K[K...skipping...
+messagebus:x:101:102::/nonexistent:/usr/sbin/nologin
+systemd-resolve:x:992:992:systemd Resolver:/:/usr/sbin/nologin
+pollinate:x:102:1::/var/cache/pollinate:/bin/false
+polkitd:x:991:991:User for polkitd:/:/usr/sbin/nologin
+syslog:x:103:104::/nonexistent:/usr/sbin/nologin
+uuidd:x:104:105::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:105:107::/nonexistent:/usr/sbin/nologin
+tss:x:106:108:TPM software stack,,,:/var/lib/tpm:/bin/false
+landscape:x:107:109::/var/lib/landscape:/usr/sbin/nologin
+fwupd-refresh:x:989:989:Firmware update daemon:/var/lib/fwupd:/usr /sbin/nologin
+usbmux:x:108:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+kent:x:1000:1000:Test Testsson:/home/kent:/bin/bash
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+bill:x:1001:1001::/home/bill:/bin/sh
+testuser:x:1002:1002:,,,:/home/testuser:/bin/bash
+user1:x:1003:1003::/home/user1:/bin/sh
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@ubse: ~root@ubse:~# ls /home
+[?2004l[0m[01;34mkent[0m  [01;34mtestuser[0m
+[?2004h]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [K]0;root@ubse: ~root@ubse:~# [H[2J]0;root@ubse: ~root@ubse:~# man useradd
+[?2004l[?1049h[22;0;0t[?1h=[4mUSERADD[24m(8)         System Management Commands         [4mUSERADD[24m(8)[m
+[m
+[1mNAME[0m[m
+       useradd - create a new user or update default new user[m
+       information[m
+[m
+[1mSYNOPSIS[0m[m
+[m
+       [1museradd [22m[[4moptions[24m] [4mLOGIN[0m[m
+[m
+       [1museradd [22m-D[m
+[m
+       [1museradd [22m-D [[4moptions[24m][m
+[7m Manual page useradd(8) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page useradd(8) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mDESCRIPTION[0m[m
+[7m Manual page useradd(8) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1museradd [22mis a low level utility for adding users. On[m
+[7m Manual page useradd(8) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Debian, administrators should usually use [1madduser[22m(8)[m
+[7m Manual page useradd(8) line 5 (press h for help or q to quit)[27m[K[K       instead.[m
+[m
+       When invoked without the [1m-D [22moption, the [1museradd [22mcommand[m
+       creates a new user account using the values specified on[m
+       the command line plus the default values from the system.[m
+       Depending on command line options, the [1museradd [22mcommand[m
+       will update system files and may also create the new[m
+       user's home directory and copy initial files.[m
+[m
+       By default, a group will also be created for the new user[m
+       (see [1m-g[22m, [1m-N[22m, [1m-U[22m, and [1mUSERGROUPS_ENAB[22m).[m
+[m
+[1mOPTIONS[0m[m
+[7m Manual page useradd(8) line 18 (press h for help or q to quit)[27m[K[K       The options which apply to the [1museradd [22mcommand are:[m
+[m
+       [1m--badname[0m[m
+           Allow names that do not conform to standards.[m
+[m
+       [1m-b[22m, [1m--base-dir [4m[22mBASE_DIR[0m[m
+           The default base directory for the system if[m
+           [1m-d [4m[22mHOME_DIR[24m is not specified.  [4mBASE_DIR[24m is[m
+           concatenated with the account name to define the home[m
+           directory.[m
+[m
+           If this option is not specified, [1museradd [22mwill use the[m
+           base directory specified by the [1mHOME [22mvariable in[m
+[7m Manual page useradd(8) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           /etc/default/useradd, or /home by default.[m
+[7m Manual page useradd(8) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page useradd(8) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-c[22m, [1m--comment [4m[22mCOMMENT[0m[m
+[7m Manual page useradd(8) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Any text string. It is generally a short description[m
+[7m Manual page useradd(8) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           of the account, and is currently used as the field[m
+[7m Manual page useradd(8) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           for the user's full name.[m
+[7m Manual page useradd(8) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page useradd(8) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1m-d[22m, [1m--home-dir [4m[22mHOME_DIR[0m[m
+[7m Manual page useradd(8) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           The new user will be created using [4mHOME_DIR[24m as the[m
+[7m Manual page useradd(8) line 40 (press h for help or q to quit)[27m[K[K [KESC
