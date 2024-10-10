@@ -17,3 +17,5 @@ usermod --append -G staff user1
 # skriv över kommentarsfältet (GECOS)
 usermod -c "Carnivore" user5
 
+# Ta bort en användare från en grupp
+usermod --remove -G staff user1
